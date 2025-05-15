@@ -1,0 +1,4 @@
+__pycache__
+.venv
+titles.txt
+prts.dict*
