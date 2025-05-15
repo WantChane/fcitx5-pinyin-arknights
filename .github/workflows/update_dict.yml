@@ -38,7 +38,7 @@ jobs:
           name: Release ${{ steps.date.outputs.date }}  
           files: |  
             prts.dict
-            prts.dict.yml  
+            prts.dict.yaml  
           draft: false  
           prerelease: false  
         env:  
