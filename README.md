@@ -14,7 +14,7 @@
 pip install -r requirements.txt
 ```
 
-2. 如果需要 fcitx-pinyin 字典，需要额外安装 libime，如果不需要，可以修改 prts.py 中的 generator。你也可以根据 [mw2fcitx](https://github.com/outloudvi/mw2fcitx) ，做出其他修改，有好的点子记得告诉我。😄
+2. 如果需要 fcitx-pinyin 字典，需要额外安装 [libime](https://github.com/fcitx/libime)，如果不需要，可以修改 prts.py 中的 generator。你也可以根据 [mw2fcitx](https://github.com/outloudvi/mw2fcitx) ，做出其他修改，有好的点子记得告诉我。😄
 
 ```shell
 # ubuntu
