@@ -60,7 +60,7 @@ exports = {
             "disable_instinct_pinyin": False,
             # Pinyin results to replace. (optional)
             # Format: { "汉字": "pin'yin" }
-            # "fixfile": "fixfile.json"
+            "fixfile": "fixfile.json",
         },
     },
     # Generator configurations.
