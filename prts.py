@@ -8,11 +8,13 @@ from mw2fcitx.tweaks.moegirl import *
 tweaks = [
     tweak_remove_word_includes(["○", "〇"]),
     tweak_split_word_with(
-        [":", "/", "(", ")", "（", "）", "【", "】", "『", "』", "／", " ", "!", "！"]),
+        [":", "/", "(", ")", "（", "）", "【", "】", "『", "』", "／", " ", "!", "！"]
+    ),
     tweak_len_more_than(1),
     tweak_remove_char("·"),
-    tweak_trim_suffix(["系列", "列表", "对照表","的信物","的中坚信物"]),
-    tweak_remove_regex(["^第.*(次|话)$"]), tweak_normalize
+    tweak_trim_suffix(["系列", "列表", "对照表", "的信物", "的中坚信物"]),
+    tweak_remove_regex(["^第.*(次|话)$"]),
+    tweak_normalize,
 ]
 
 
@@ -40,14 +42,13 @@ exports = {
             # Delay between MediaWiki API requests in seconds. (optional)
             "request_delay": 2,
             # Results per API request; same as `aplimit` in MediaWiki docs. (optional)
-            "aplimit": "max"
-        }
+            "aplimit": "max",
+        },
     },
     # Tweaks configurations as an list.
     # Every tweak function accepts a list of titles and return
     #     a list of title.
-    "tweaks":
-        tweaks,
+    "tweaks": tweaks,
     # Converter configurations.
     "converter": {
         # opencc is a built-in converter.
@@ -60,28 +61,29 @@ exports = {
             # Pinyin results to replace. (optional)
             # Format: { "汉字": "pin'yin" }
             # "fixfile": "fixfile.json"
-        }
+        },
     },
     # Generator configurations.
-    "generator": [{
-        # rime is a built-in generator.
-        # For custom generator functions, just give the function itself.
-        "use": "rime",
-        "kwargs": {
-            # Destination dictionary filename. (optional)
-            "name": "prts",
-            "version": datetime.datetime.now().strftime("%Y-%m-%d"),
-            "output": "prts.dict.yaml"
-        }
-    }, 
-    {
-        # pinyin is a built-in generator.
-        # This generator depends on `libime`.
-        "use": "pinyin",
-        "kwargs": {
-            # Destination dictionary filename. (mandatory)
-            "output": "prts.dict"
-        }
-    }
-    ]
+    "generator": [
+        {
+            # rime is a built-in generator.
+            # For custom generator functions, just give the function itself.
+            "use": "rime",
+            "kwargs": {
+                # Destination dictionary filename. (optional)
+                "name": "prts",
+                "version": datetime.datetime.now().strftime("%Y-%m-%d"),
+                "output": "prts.dict.yaml",
+            },
+        },
+        {
+            # pinyin is a built-in generator.
+            # This generator depends on `libime`.
+            "use": "pinyin",
+            "kwargs": {
+                # Destination dictionary filename. (mandatory)
+                "output": "prts.dict"
+            },
+        },
+    ],
 }
