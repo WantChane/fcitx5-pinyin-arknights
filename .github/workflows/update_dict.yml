@@ -52,7 +52,7 @@ jobs:
             - prts.dict: `${{ steps.checksums.outputs.dict_sha }}`
             - prts.dict.yaml: `${{ steps.checksums.outputs.yaml_sha }}`
 
-            > 本版本由GitHub Actions定时任务生成
+            > 该Release由GitHub Actions定时任务生成
           files: |  
             prts.dict
             prts.dict.yaml  
