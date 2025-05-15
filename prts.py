@@ -2,6 +2,7 @@
 #     called "exports".
 # You can change this with `-n any_name` in the CLI.
 
+import datetime
 from mw2fcitx.tweaks.moegirl import tweaks
 
 
@@ -23,7 +24,7 @@ exports = {
             # Overrides title_limit.
             # "file_title_limit": 60,
             # Partial session file on exception (optional)
-            # "partial": "partial.json",
+            "partial": "partial.json",
             # Title list export path. (optional)
             "output": "titles.txt",
             # Delay between MediaWiki API requests in seconds. (optional)
@@ -58,17 +59,19 @@ exports = {
         "use": "rime",
         "kwargs": {
             # Destination dictionary filename. (optional)
+            "name": "prts",
+            "version": datetime.datetime.now().strftime("%Y-%m-%d"),
             "output": "prts.dict.yaml"
         }
     }, 
-    # {
-    #     # pinyin is a built-in generator.
-    #     # This generator depends on `libime`.
-    #     "use": "pinyin",
-    #     "kwargs": {
-    #         # Destination dictionary filename. (mandatory)
-    #         "output": "prts.dict"
-    #     }
-    # }
+    {
+        # pinyin is a built-in generator.
+        # This generator depends on `libime`.
+        "use": "pinyin",
+        "kwargs": {
+            # Destination dictionary filename. (mandatory)
+            "output": "prts.dict"
+        }
+    }
     ]
 }
