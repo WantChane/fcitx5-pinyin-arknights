@@ -1,0 +1,45 @@
+name: update and release
+on:  
+  schedule:  
+    - cron: '0 20 14 * *'  
+  workflow_dispatch:
+
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - name: checkout@v4
+        uses: actions/checkout@v4  
+  
+      - name: setup-python@v5  
+        uses: actions/setup-python@v5  
+        with:  
+          python-version: '3.10'  
+            
+      - name: install libime  
+        run: sudo apt install -y libime-bin  
+          
+      - name: install requirements  
+        run: |  
+          pip install -r requirements.txt  
+            
+      - name: run mw2fcitx  
+        run: mw2fcitx -c prts.py  
+          
+      - name: get date str 
+        id: date  
+        run: echo "date=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT  
+          
+      - name: create Release  
+        id: create_release  
+        uses: softprops/action-gh-release@v2  
+        with:  
+          tag_name: v${{ steps.date.outputs.date }}  
+          name: Release ${{ steps.date.outputs.date }}  
+          files: |  
+            prts.dict
+            prts.dict.yml  
+          draft: false  
+          prerelease: false  
+        env:  
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
