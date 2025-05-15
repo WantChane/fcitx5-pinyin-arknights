@@ -6,7 +6,7 @@ on:
 
 permissions:
   contents: write
-  
+
 jobs:  
   build:  
     runs-on: ubuntu-latest  
@@ -28,7 +28,15 @@ jobs:
             
       - name: run mw2fcitx  
         run: mw2fcitx -c prts.py  
-          
+
+      - name: Generate checksums
+        id: checksums
+        run: |
+          DICT_SHA=$(sha256sum prts.dict | awk '{ print $1 }')
+          YAML_SHA=$(sha256sum prts.dict.yaml | awk '{ print $1 }')
+          echo "dict_sha=$DICT_SHA" >> $GITHUB_OUTPUT
+          echo "yaml_sha=$YAML_SHA" >> $GITHUB_OUTPUT
+
       - name: get date str 
         id: date  
         run: echo "date=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT  
@@ -39,6 +47,12 @@ jobs:
         with:  
           tag_name: v${{ steps.date.outputs.date }}  
           name: Release ${{ steps.date.outputs.date }}  
+          body: |
+            ### Checksums
+            - prts.dict: `${{ steps.checksums.outputs.dict_sha }}`
+            - prts.dict.yaml: `${{ steps.checksums.outputs.yaml_sha }}`
+
+            > 本版本由GitHub Actions定时任务生成
           files: |  
             prts.dict
             prts.dict.yaml  
