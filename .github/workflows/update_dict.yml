@@ -55,7 +55,8 @@ jobs:
             > 该Release由GitHub Actions定时任务生成
           files: |  
             prts.dict
-            prts.dict.yaml  
+            prts.dict.yaml
+            titles.txt 
           draft: false  
           prerelease: false  
         env:  

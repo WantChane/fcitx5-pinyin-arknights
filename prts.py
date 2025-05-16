@@ -8,7 +8,24 @@ from mw2fcitx.tweaks.moegirl import *
 tweaks = [
     tweak_remove_word_includes(["○", "〇"]),
     tweak_split_word_with(
-        [":", "/", "(", ")", "（", "）", "【", "】", "『", "』", "／", " ", "!", "！"]
+        [
+            ":",
+            "/",
+            "(",
+            ")",
+            "（",
+            "）",
+            "【",
+            "】",
+            "『",
+            "』",
+            "／",
+            " ",
+            "!",
+            "！",
+            "“",
+            "”",
+        ]
     ),
     tweak_len_more_than(1),
     tweak_remove_char("·"),
