@@ -3,4 +3,5 @@ __pycache__
 titles.txt
 prts.dict*
 .vscode
-output
+output/*
+!output/.gitkeep
