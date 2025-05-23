@@ -23,19 +23,17 @@ jobs:
         run: sudo apt install -y libime-bin  
           
       - name: install requirements  
-        run: |  
-          pip install -r requirements.txt  
+        run: pip install -r requirements.txt  
             
-      - name: run mw2fcitx  
-        run: mw2fcitx -c prts.py  
-
-      - name: Generate checksums
-        id: checksums
+      - name: run script/build.sh
         run: |
-          DICT_SHA=$(sha256sum prts.dict | awk '{ print $1 }')
-          YAML_SHA=$(sha256sum prts.dict.yaml | awk '{ print $1 }')
-          echo "dict_sha=$DICT_SHA" >> $GITHUB_OUTPUT
-          echo "yaml_sha=$YAML_SHA" >> $GITHUB_OUTPUT
+          chmod +x script/build.sh
+          ./script/build.sh
+
+      - name: Generate checksums file
+        run: |
+          cd output
+          find . -type f -exec sha256sum {} + > checksums.txt
 
       - name: get date str 
         id: date  
@@ -48,15 +46,9 @@ jobs:
           tag_name: v${{ steps.date.outputs.date }}  
           name: Release ${{ steps.date.outputs.date }}  
           body: |
-            ### Checksums
-            - prts.dict: `${{ steps.checksums.outputs.dict_sha }}`
-            - prts.dict.yaml: `${{ steps.checksums.outputs.yaml_sha }}`
-
-            > 该Release由GitHub Actions定时任务生成
-          files: |  
-            prts.dict
-            prts.dict.yaml
-            titles.txt 
+            该Release由GitHub Actions定时任务生成
+          files: |
+            output/*
           draft: false  
           prerelease: false  
         env:  

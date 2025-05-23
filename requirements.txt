@@ -1,1 +1,2 @@
 mw2fcitx
+regex
