@@ -41,8 +41,8 @@ sudo pacman -S libime
 3. Run
 
 ```shell
-# 单一词库生成
-mw2fcitx -c prts_*.py
+# 单一词库生成，例如prts_operator
+mw2fcitx -c prts_operator.py
 
 # 生成所有词库
 ./script/build.sh
