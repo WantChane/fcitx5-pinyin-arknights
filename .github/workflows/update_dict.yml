@@ -21,6 +21,9 @@ jobs:
             
       - name: install libime  
         run: sudo apt install -y libime-bin  
+
+      - name: install p7zip  
+        run: sudo apt install -y p7zip 
           
       - name: install requirements  
         run: pip install -r requirements.txt  
@@ -29,6 +32,12 @@ jobs:
         run: |
           chmod +x script/build.sh
           ./script/build.sh
+
+      - name: Package .dict.yaml files into 7z
+        run: |
+          cd output
+          rm -f cn_dicts.7z
+          find . -name "*.dict.yaml" -print0 | xargs -0 7z a cn_dicts.7z
 
       - name: Generate checksums file
         run: |
