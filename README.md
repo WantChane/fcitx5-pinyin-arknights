@@ -13,7 +13,7 @@
 | prts_enemy           | 敌人词库                               |
 | prts_material        | 材料词库                               |
 | prts_operator        | 干员词库                               |
-| prts_operator_extend | 干员真名                               |
+| prts_operator_extend | 干员真名词库                               |
 
 | 文件名（后缀） | 备注                 |
 | -------------- | -------------------- |
