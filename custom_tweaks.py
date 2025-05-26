@@ -78,13 +78,13 @@ if __name__ == "__main__":
         with open(output_path, "w", encoding="utf-8") as f_out:
             f_out.write("\n".join(processed))
 
-    input_file = "input/prts_operator_extend_titles.txt"
-    output_file = "output_default.txt"
+    input_file = "input/prts_character_titles.txt"
+
     tweaks = [
         tweak_remove_char("“"),
         tweak_remove_char("”"),
         tweak_chinese_with(["·", "-"]),
     ]
 
-    output_file_with_allowed = "output_allowed.txt"
-    _process_file(input_file, output_file_with_allowed, tweaks)
+    output_file = "output/test.txt"
+    _process_file(input_file, output_file, tweaks)

@@ -42,7 +42,7 @@ exports = {
         "kwargs": {
             "disable_instinct_pinyin": False,
             "fixfile": "input/fixfile.json",
-            "characters_to_omit": ["·"],
+            "characters_to_omit": ["·", "-"],
         },
     },
     "generator": [
