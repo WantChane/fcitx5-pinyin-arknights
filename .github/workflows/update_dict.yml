@@ -39,11 +39,14 @@ jobs:
           rm -f cn_dicts.7z
           find . -name "*.dict.yaml" -print0 | xargs -0 7z a cn_dicts.7z
 
-      - name: Generate checksums file
-        run: |
-          cd output
-          rm -f checksums.txt
-          find . -type f $$ -name "*dict*" -o -name "*titles*" $$ -exec sha256sum {} + | sed 's|\./||' > checksums.txt
+      - name: Generate checksum
+        uses: jmgilman/actions-generate-checksum@v1
+        with:
+          patterns: |
+            output/*_titles.txt
+            output/*.dict
+            output/*.dict.yaml
+            output/cn_dicts.7z
 
       - name: get date str 
         id: date  
@@ -58,7 +61,12 @@ jobs:
           body: |
             该Release由GitHub Actions定时任务生成
           files: |
-            output/*
+            checksum.txt
+            output/*_titles.txt
+            output/*.dict
+            output/*.dict.yaml
+            output/cn_dicts.7z
+
           draft: false  
           prerelease: false  
         env:  
