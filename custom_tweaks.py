@@ -4,8 +4,6 @@ import regex
 
 
 def tweak_trim_parentheses_suffix():
-    """生成去除字符串末尾括号及内容"""
-
     def cb(items: List[str]) -> List[str]:
         pattern = re.compile(r"\s*[（(][^（）)]*[）)]$")
         return [pattern.sub("", item) for item in items]
@@ -32,10 +30,61 @@ def tweak_remove_regex_anywhere(regexes):
 
 
 def tweak_remove_pure_chinese():
-    """生成去除列表中纯汉字的项（保留含非汉字的项）"""
-
     def cb(items: List[str]) -> List[str]:
         pattern = regex.compile(r"^\p{Han}+$", regex.UNICODE)
         return [item for item in items if not pattern.fullmatch(item)]
 
     return cb
+
+
+def tweak_chinese_with(allowed_chars=None):
+    if allowed_chars is None:
+        allowed_chars = []
+    allowed = re.escape("".join(allowed_chars))
+    pattern = re.compile(
+        f"([\\u4e00-\\u9fff{allowed}]+)|([^\\u4e00-\\u9fff{allowed}]+)"
+    )
+
+    def cb(items: List[str]) -> List[str]:
+        result = []
+        for item in items:
+            parts = []
+            for match in pattern.finditer(item):
+                chinese_part = match.group(1)
+                non_chinese_part = match.group(2)
+                if chinese_part:
+                    parts.append(chinese_part)
+                else:
+                    parts.append(non_chinese_part)
+            filtered = [p for p in parts if p]
+            result.extend(filtered)
+        return result
+
+    return cb
+
+
+if __name__ == "__main__":
+
+    from mw2fcitx.tweaks.moegirl import *  # type: ignore
+
+    def _process_file(input_path: str, output_path: str, tweaks):
+        with open(input_path, "r", encoding="utf-8") as f_in:
+            input_lines = [line.strip() for line in f_in.readlines()]
+
+        processed = input_lines
+        for tweak in tweaks:
+            processed = tweak(processed)
+
+        with open(output_path, "w", encoding="utf-8") as f_out:
+            f_out.write("\n".join(processed))
+
+    input_file = "input/prts_operator_extend_titles.txt"
+    output_file = "output_default.txt"
+    tweaks = [
+        tweak_remove_char("“"),
+        tweak_remove_char("”"),
+        tweak_chinese_with(["·", "-"]),
+    ]
+
+    output_file_with_allowed = "output_allowed.txt"
+    _process_file(input_file, output_file_with_allowed, tweaks)

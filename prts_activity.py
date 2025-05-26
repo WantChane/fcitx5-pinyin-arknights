@@ -19,12 +19,13 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # endregion
 
 tweaks = [
-    tweak_trim_parentheses_suffix(),
     tweak_remove_char("“"),
     tweak_remove_char("”"),
-    tweak_split_word_with(["/", "×", "："]),
+    tweak_chinese_with(),
     tweak_remove_regex_anywhere(
         [
+            "下载人数突破",
+            "端午",
             "限时",
             "签到",
             "登录",
