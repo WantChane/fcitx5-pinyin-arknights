@@ -9,7 +9,7 @@
 | 文件名（前缀） | 来源                                                                                                                                     |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | prts_activity  | [分类:有活动信息的页面](https://prts.wiki/w/%E5%88%86%E7%B1%BB:%E6%9C%89%E6%B4%BB%E5%8A%A8%E4%BF%A1%E6%81%AF%E7%9A%84%E9%A1%B5%E9%9D%A2) |
-| prts_all       | 全量词库，不建议使用，包含很多奇怪的词                                                                                                   |
+| prts_all       | 来自 PRTS 的所有词条，不建议使用，包含一些奇怪的词条                                                                                     |
 | prts_character | [剧情角色一览](https://prts.wiki/w/%E5%89%A7%E6%83%85%E8%A7%92%E8%89%B2%E4%B8%80%E8%A7%88)                                               |
 | prts_enemy     | [分类:敌人](https://prts.wiki/w/%E5%88%86%E7%B1%BB:%E6%95%8C%E4%BA%BA)                                                                   |
 | prts_material  | [分类:材料](https://prts.wiki/w/%E5%88%86%E7%B1%BB:%E6%9D%90%E6%96%99)                                                                   |
@@ -55,12 +55,12 @@ import_tables:
   - cn_dicts/ext      # 扩展词库
   - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
   - cn_dicts/others   # 一些杂项
-  
+
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - mydict1           # 挂载配置目录下的 mydict1.dict.yaml 词库文件
   # - cn_dicts/mydict2  # 挂载 cn_dicts 目录里的 mydict2.dict.yaml 词库文件
-  - cn_dicts/prts_operator
-  - cn_dicts/prts_activity
+  - cn_dicts/prts_operator
+  - cn_dicts/prts_activity
 ...
 ```
 
