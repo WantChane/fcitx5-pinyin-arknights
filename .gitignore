@@ -5,3 +5,5 @@ prts.dict*
 .vscode
 output/*
 !output/.gitkeep
+input/*
+!input/fixfile.json

@@ -23,6 +23,20 @@ tweaks = [
     tweak_remove_char("“"),
     tweak_remove_char("”"),
     tweak_split_word_with(["/", "×", "："]),
+    tweak_remove_regex_anywhere(
+        [
+            "限时",
+            "签到",
+            "登录",
+            "公测开服活动",
+            "周年",
+            "哗啦啦祈愿牌",
+            "纪念",
+            "预热",
+            "庆祝",
+            "合作活动",
+        ]
+    ),
 ]
 
 
