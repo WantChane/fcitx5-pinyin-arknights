@@ -95,8 +95,13 @@ sudo pacman -S libime
 3. Run
 
 ```shell
-# 单一词库生成，以operator为例
+# 单一词库生成，以prts_operator为例
 mw2fcitx -c prts_operator.py
+
+# 对于来自单个页面的词库，例如prts_real_name，需要先执行script/prts_real_name.py
+python script/prts_real_name.py
+cp -f output/prts_real_name_titles.txt input
+mw2fcitx -c prts_real_name.py
 
 # 生成所有词库
 ./script/build.sh
