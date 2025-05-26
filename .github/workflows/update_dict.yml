@@ -43,7 +43,7 @@ jobs:
         run: |
           cd output
           rm -f checksums.txt
-          find . -type f -name "prts_*" -exec sha256sum {} + | sed 's|\./||' > checksums.txt
+          find . -type f $$ -name "*dict*" -o -name "*titles*" $$ -exec sha256sum {} + | sed 's|\./||' > checksums.txt
 
       - name: get date str 
         id: date  
