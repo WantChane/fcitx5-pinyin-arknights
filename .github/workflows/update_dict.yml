@@ -50,7 +50,7 @@ jobs:
 
       - name: get date str 
         id: date  
-        run: echo "date=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT  
+        run: echo "date=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT  
           
       - name: create Release  
         id: create_release  
