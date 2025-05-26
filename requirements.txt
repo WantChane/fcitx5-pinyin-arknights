@@ -1,2 +1,4 @@
 mw2fcitx
 regex
+beautifulsoup4
+lxml
