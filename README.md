@@ -57,8 +57,8 @@ import_tables:
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - mydict1           # 挂载配置目录下的 mydict1.dict.yaml 词库文件
   # - cn_dicts/mydict2  # 挂载 cn_dicts 目录里的 mydict2.dict.yaml 词库文件
-- cn_dicts/prts_operator
-- cn_dicts/prts_activity
+  - cn_dicts/prts_operator
+  - cn_dicts/prts_activity
 ...
 ```
 
