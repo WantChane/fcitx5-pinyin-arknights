@@ -42,7 +42,8 @@ jobs:
       - name: Generate checksums file
         run: |
           cd output
-          find . -type f -exec sha256sum {} + > checksums.txt
+          rm -f checksums.txt
+          find . -type f -name "prts_*" -exec sha256sum {} + | sed 's|\./||' > checksums.txt
 
       - name: get date str 
         id: date  
