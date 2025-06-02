@@ -12,7 +12,7 @@ def parse_tables(
     recursive_text: bool = False,
 ):
     """
-    使用CSS选择器提取MediaWiki页面中表格的指定单元格数据并保存到文件
+    使用CSS选择器提取MediaWiki页面中的数据并保存到文件
 
     参数:
         page_title: 要抓取的页面标题
