@@ -18,28 +18,22 @@
 | prts_real_name         | [角色真名](https://prts.wiki/w/%E8%A7%92%E8%89%B2%E7%9C%9F%E5%90%8D)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | prts_terra             | [泰拉词库](https://prts.wiki/w/%E6%B3%B0%E6%8B%89%E8%AF%8D%E5%BA%93)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
-| 文件名（后缀） | 备注                 |
-| -------------- | -------------------- |
-| dict           | fcitx5 词库          |
-| dict.yaml      | rime 词库            |
-| _titles.txt    | 来自 PRTS 的原始数据 |
-
 ## 安装
 
 ### Weasel
 
 #### 通过 Scoop 自动安装
 
-1. 添加 doge bucket，或者将 [fcitx5-pinyin-prts_all_dicts.json](https://github.com/WantChane/doge_bucket/blob/master/bucket/fcitx5-pinyin-prts_all_dicts.json) 复制到您的个人 bucket 中
+1. 添加 doge bucket，或者将 [fcitx5-pinyin-prts_rime_dicts.json](https://github.com/WantChane/doge_bucket/blob/master/bucket/fcitx5-pinyin-prts_rime_dicts.json) 复制到您的个人 bucket 中
 
 ```shell
 scoop bucket add doge https://github.com/WantChane/doge_bucket.git
 ```
 
-2. 安装 fcitx5-pinyin-prts_all_dicts
+2. 安装 fcitx5-pinyin-prts_rime_dicts
 
 ```shell
-scoop install fcitx5-pinyin-prts_all_dicts
+scoop install fcitx5-pinyin-prts_rime_dicts
 ```
 
 3. 修改您的词库设置，以 rime-ice 为例，
@@ -99,8 +93,8 @@ sudo pacman -S libime
 # 单一词库生成，以prts_operator为例
 mw2fcitx -c prts_operator.py
 
-# 对于来自单个页面的词库，例如prts_real_name，需要先执行script/prts_real_name.py
-python script/prts_real_name.py
+## 对于来自页面内部数据的词库，需要先执行 script/extend_dictionaries.py，以获取 titles 文件
+python script/extend_dictionaries.py
 cp -f output/prts_real_name_titles.txt input
 mw2fcitx -c prts_real_name.py
 
