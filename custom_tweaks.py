@@ -11,12 +11,6 @@ def tweak_trim_parentheses_suffix():
     return cb
 
 
-import regex
-from typing import List
-
-from typing import List
-
-
 def tweak_remove_regex_anywhere(regexes):
     from re import compile as regex_compile
 
