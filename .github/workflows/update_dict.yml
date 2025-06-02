@@ -33,20 +33,30 @@ jobs:
           chmod +x script/build.sh
           ./script/build.sh
 
-      - name: Package .dict.yaml files into 7z
+      - name: Package files into 7z
         run: |
           cd output
-          rm -f cn_dicts.7z
-          find . -name "*.dict.yaml" -print0 | xargs -0 7z a cn_dicts.7z
+          find . -name "prts_*.dict.yaml" -print0 | xargs -0 7z a rime_dicts.7z
+          find . -name "prts_*.dict" -print0 | xargs -0 7z a fcitx5_dicts.7z
+          find . -name "prts_*_titles.txt" -print0 | xargs -0 7z a titles.7z
+
+      - name: Package files into tar.gz
+        run: |
+          cd output
+          find . -name "prts_*.dict.yaml" -print0 | tar -czvf rime_dicts.tar.gz --null -T -
+          find . -name "prts_*.dict" -print0 | tar -czvf fcitx5_dicts.tar.gz --null -T -
+          find . -name "prts_*_titles.txt" -print0 | tar -czvf titles.tar.gz --null -T -
 
       - name: Generate checksum
         uses: jmgilman/actions-generate-checksum@v1
         with:
           patterns: |
-            output/*_titles.txt
-            output/*.dict
-            output/*.dict.yaml
-            output/cn_dicts.7z
+            output/rime_dicts.7z
+            output/fcitx5_dicts.7z
+            output/titles.7z
+            output/rime_dicts.tar.gz
+            output/fcitx5_dicts.tar.gz
+            output/titles.tar.gz
 
       - name: get date str 
         id: date  
@@ -62,10 +72,12 @@ jobs:
             该Release由GitHub Actions定时任务生成
           files: |
             checksum.txt
-            output/*_titles.txt
-            output/*.dict
-            output/*.dict.yaml
-            output/cn_dicts.7z
+            output/rime_dicts.7z
+            output/fcitx5_dicts.7z
+            output/titles.7z
+            output/rime_dicts.tar.gz
+            output/fcitx5_dicts.tar.gz
+            output/titles.tar.gz
 
           draft: false  
           prerelease: false  
