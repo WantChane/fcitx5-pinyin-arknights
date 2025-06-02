@@ -23,7 +23,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 tweaks = [
     tweak_chinese_with(["·"]),
-    tweak_remove_regex_anywhere([r"\b医疗\b", r"\b代号\b", r"\b名称\b", r"\b的父亲\b"]),
+    tweak_remove_regex_anywhere([r"\b医疗\b", r"\b的父亲\b"]),
 ]
 
 

@@ -18,7 +18,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 tweaks = [
     tweak_chinese_with(["·", "B", "-"]),
-    tweak_remove_regex_anywhere([r"\b医疗\b", r"\b中文\b"]),
+    tweak_remove_regex_anywhere([r"\b医疗\b"]),
 ]
 
 

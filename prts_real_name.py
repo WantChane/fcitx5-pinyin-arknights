@@ -28,7 +28,7 @@ tweaks = [
     tweak_remove_char("“"),
     tweak_remove_char("”"),
     tweak_chinese_with(["·", "-"]),
-    tweak_remove_regex_anywhere([r"\b真名\b", r"\b安心院\b", r"\b真名遗失\b"]),
+    tweak_remove_regex_anywhere([r"\b安心院\b", r"\b真名遗失\b"]),
 ]
 
 
