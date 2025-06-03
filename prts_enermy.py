@@ -1,18 +1,7 @@
 from datetime import datetime
 from mw2fcitx.tweaks.moegirl import *  # type: ignore
 import os
-import re
-from typing import List
-
-
-def tweak_trim_parentheses_suffix():
-    """生成去除字符串末尾括号及内容"""
-
-    def cb(items: List[str]) -> List[str]:
-        pattern = re.compile(r"\s*[（(][^（）)]*[）)]$")
-        return [pattern.sub("", item) for item in items]
-
-    return cb
+from custom_tweaks import *
 
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
@@ -31,7 +20,8 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 tweaks = [
     tweak_trim_parentheses_suffix(),
-    tweak_split_word_with(["“", "”", "，", "!", "-"]),
+    tweak_split_word_with(["“", "”", "，"]),
+    tweak_chinese_with(["·", "-"]),
 ]
 
 
@@ -57,7 +47,7 @@ exports = {
         "kwargs": {
             "disable_instinct_pinyin": False,
             "fixfile": "input/fixfile.json",
-            "characters_to_omit": ["·"],
+            "characters_to_omit": ["·", "-"],
         },
     },
     "generator": [

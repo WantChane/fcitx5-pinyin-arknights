@@ -57,6 +57,15 @@ def tweak_chinese_with(allowed_chars=None):
     return cb
 
 
+def tweak_remove_chars(chars):
+    trans_table = str.maketrans("", "", "".join(chars))
+
+    def cb(words):
+        return [word.translate(trans_table) for word in words]
+
+    return cb
+
+
 if __name__ == "__main__":
 
     from mw2fcitx.tweaks.moegirl import *  # type: ignore

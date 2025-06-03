@@ -10,9 +10,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # 20250603093114
 # endregion
 
-tweaks = [
-    # tweak_trim_parentheses_suffix(),
-]
+tweaks = []
 
 
 exports = {

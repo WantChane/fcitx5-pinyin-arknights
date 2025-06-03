@@ -12,9 +12,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # 字符 '·' (U+00B7) 出现次数：1
 # endregion
 
-tweaks = [
-    # tweak_trim_parentheses_suffix(),
-]
+tweaks = []
 
 
 exports = {

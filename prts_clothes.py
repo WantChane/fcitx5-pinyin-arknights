@@ -18,10 +18,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # endregion
 
 tweaks = [
-    # tweak_trim_parentheses_suffix(),
-    tweak_remove_char("“"),
-    tweak_remove_char("”"),
-    tweak_remove_char("/"),
+    tweak_remove_chars(["“", "”", "/"]),
     tweak_chinese_with(),
 ]
 

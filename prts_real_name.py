@@ -25,8 +25,12 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # endregion
 
 tweaks = [
-    tweak_remove_char("“"),
-    tweak_remove_char("”"),
+    tweak_remove_chars(
+        [
+            "“",
+            "”",
+        ]
+    ),
     tweak_chinese_with(["·", "-"]),
     tweak_remove_regex_anywhere([r"\b安心院\b", r"\b真名遗失\b"]),
 ]

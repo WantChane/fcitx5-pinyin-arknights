@@ -8,6 +8,7 @@ def parse_tables(
     page_title: str,
     output_path: str,
     selector: str,
+    attribute: str = "",
     base_url: str = "https://prts.wiki/api.php",
     recursive_text: bool = False,
 ):
@@ -18,13 +19,12 @@ def parse_tables(
         page_title: 要抓取的页面标题
         output_path: 输出文件路径
         selector: CSS选择器表达式,用于定位目标元素
+        attribute: 节点属性 (默认"", 此时获取节点文本内容)
         base_url: MediaWiki站点基础URL (默认"https://prts.wiki/api.php")
         recursive_text: 是否递归提取所有文本 (默认False)
     """
-    # 确保输出目录存在
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    # 构建API请求URL
     encoded_title = urllib.parse.quote(page_title)
     api_url = f"{base_url}?action=parse&page={encoded_title}&format=json&formatversion=2&utf8=1"
 
@@ -51,14 +51,18 @@ def parse_tables(
 
         texts = []
         for element in elements:
-            if recursive_text:
-                text = element.get_text(strip=True)
+            if attribute:
+                text = element.get(attribute, "").strip()  # type: ignore
+                texts.append(text + "\n")
             else:
-                text = "".join(
-                    element.find_all(string=True, recursive=False)  # type: ignore
-                ).strip()
+                if recursive_text:
+                    text = element.get_text(strip=True)
+                else:
+                    text = "".join(
+                        element.find_all(string=True, recursive=False)  # type: ignore
+                    ).strip()
 
-            texts.append(text + "\n")
+                texts.append(text + "\n")
 
         with open(output_path, "w", encoding="utf-8") as file:
             file.writelines(texts)
@@ -138,4 +142,17 @@ if __name__ == "__main__":
         page_title="分支一览",
         output_path="output/prts_branch_titles.txt",
         selector="font>strong",
+    )
+
+    parse_tables(
+        page_title="干员一览",
+        output_path="output/prts_operator_v2_titles.txt",
+        selector="#filter-data>div",
+        attribute="data-zh",
+    )
+
+    parse_tables(
+        page_title="道具一览",
+        output_path="output/prts_item_v2_titles.txt",
+        selector="div>table>tbody>tr>td:nth-child(2)>a",
     )

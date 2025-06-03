@@ -7,36 +7,24 @@ from custom_tweaks import *
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 # region
-# 20250523144651
-# 字符 '/' (U+002F) 出现次数：25
-# 字符 '“' (U+201C) 出现次数：4
-# 字符 '”' (U+201D) 出现次数：4
-# 字符 '×' (U+00D7) 出现次数：2
-# 字符 '（' (U+FF08) 出现次数：2
-# 字符 '.' (U+002E) 出现次数：2
-# 字符 '）' (U+FF09) 出现次数：2
-# 字符 '：' (U+FF1A) 出现次数：1
+# 20250603093114
+# 字符 '（' (U+FF08) 出现次数：47
+# 字符 '）' (U+FF09) 出现次数：47
+# 字符 '“' (U+201C) 出现次数：24
+# 字符 '”' (U+201D) 出现次数：24
+# 字符 '-' (U+002D) 出现次数：13
+# 字符 '·' (U+00B7) 出现次数：7
+# 字符 '《' (U+300A) 出现次数：5
+# 字符 '》' (U+300B) 出现次数：5
+# 字符 '★' (U+2605) 出现次数：2
+# 字符 '!' (U+0021) 出现次数：2
+# 字符 '！' (U+FF01) 出现次数：1
+# 字符 ':' (U+003A) 出现次数：1
 # endregion
 
 tweaks = [
-    tweak_remove_chars(["“", "”"]),
-    tweak_chinese_with(),
-    tweak_remove_regex_anywhere(
-        [
-            "下载人数突破",
-            "端午",
-            "限时",
-            "签到",
-            "登录",
-            "公测开服活动",
-            "周年",
-            "哗啦啦祈愿牌",
-            "纪念",
-            "预热",
-            "庆祝",
-            "合作活动",
-        ]
-    ),
+    tweak_remove_chars(["“", "”", "《", "》"]),
+    tweak_chinese_with(["·", "-"]),
 ]
 
 
@@ -50,7 +38,7 @@ exports = {
             "api_params": {
                 "action": "query",
                 "cmlimit": "100",
-                "cmtitle": "Category:有活动信息的页面",
+                "cmtitle": "Category:道具",
                 "list": "categorymembers",
             },
         },
@@ -61,7 +49,7 @@ exports = {
         "kwargs": {
             "disable_instinct_pinyin": False,
             "fixfile": "input/fixfile.json",
-            # "characters_to_omit": ["·"],
+            "characters_to_omit": ["·", "-"],
         },
     },
     "generator": [
