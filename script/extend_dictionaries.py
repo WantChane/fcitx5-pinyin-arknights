@@ -76,53 +76,66 @@ def parse_tables(
     return False
 
 
-parse_tables(
-    page_title="刻俄柏的灰蕈迷境/收藏品图鉴",
-    output_path="output/prts_collection_1_titles.txt",
-    selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
-)
+if __name__ == "__main__":
+    parse_tables(
+        page_title="刻俄柏的灰蕈迷境/收藏品图鉴",
+        output_path="output/prts_collection_1_titles.txt",
+        selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
+    )
 
-parse_tables(
-    page_title="傀影与猩红孤钻/长生者宝盒",
-    output_path="output/prts_collection_2_titles.txt",
-    selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
-)
+    parse_tables(
+        page_title="傀影与猩红孤钻/长生者宝盒",
+        output_path="output/prts_collection_2_titles.txt",
+        selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
+    )
 
-parse_tables(
-    page_title="水月与深蓝之树/生物制品陈设",
-    output_path="output/prts_collection_3_titles.txt",
-    selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
-)
+    parse_tables(
+        page_title="水月与深蓝之树/生物制品陈设",
+        output_path="output/prts_collection_3_titles.txt",
+        selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
+    )
 
-parse_tables(
-    page_title="探索者的银凇止境/仪式用品索引",
-    output_path="output/prts_collection_4_titles.txt",
-    selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
-)
+    parse_tables(
+        page_title="探索者的银凇止境/仪式用品索引",
+        output_path="output/prts_collection_4_titles.txt",
+        selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
+    )
 
-parse_tables(
-    page_title="萨卡兹的无终奇语/想象实体图鉴",
-    output_path="output/prts_collection_5_titles.txt",
-    selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
-)
+    parse_tables(
+        page_title="萨卡兹的无终奇语/想象实体图鉴",
+        output_path="output/prts_collection_5_titles.txt",
+        selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
+    )
 
-parse_tables(
-    page_title="剧情角色一览",
-    output_path="output/prts_character_titles.txt",
-    selector="div>table.wikitable>tbody>tr>td:first-child",
-    recursive_text=True,
-)
+    parse_tables(
+        page_title="剧情角色一览",
+        output_path="output/prts_character_titles.txt",
+        selector="div>table.wikitable>tbody>tr>td:first-child",
+        recursive_text=True,
+    )
 
-parse_tables(
-    page_title="角色真名",
-    output_path="output/prts_real_name_titles.txt",
-    selector="div>table.wikitable>tbody>tr>td:nth-child(3)",
-    recursive_text=True,
-)
+    parse_tables(
+        page_title="角色真名",
+        output_path="output/prts_real_name_titles.txt",
+        selector="div>table.wikitable>tbody>tr>td:nth-child(3)",
+        recursive_text=True,
+    )
 
-parse_tables(
-    page_title="泰拉词库",
-    output_path="output/prts_terra_titles.txt",
-    selector="div>table.wikitable>tbody>tr>td:first-child",
-    recursive_text=True,
-)
+    parse_tables(
+        page_title="泰拉词库",
+        output_path="output/prts_terra_titles.txt",
+        selector="div>table.wikitable>tbody>tr>td:first-child",
+        recursive_text=True,
+    )
+
+    parse_tables(
+        page_title="时装回廊",
+        output_path="output/prts_clothes_titles.txt",
+        selector=".charnameEn",
+    )
+
+    parse_tables(
+        page_title="分支一览",
+        output_path="output/prts_branch_titles.txt",
+        selector="font>strong",
+    )
