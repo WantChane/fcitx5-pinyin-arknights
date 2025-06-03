@@ -154,5 +154,6 @@ if __name__ == "__main__":
     parse_tables(
         page_title="道具一览",
         output_path="output/prts_item_v2_titles.txt",
-        selector="div>table>tbody>tr>td:nth-child(2)>a",
+        selector="div.smwdata",
+        attribute="data-name",
     )
