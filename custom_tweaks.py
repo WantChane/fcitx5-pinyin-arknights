@@ -66,6 +66,14 @@ def tweak_remove_chars(chars):
     return cb
 
 
+def tweak_lambda(processor):
+
+    def cb(words):
+        return processor(words)
+
+    return cb
+
+
 if __name__ == "__main__":
 
     from mw2fcitx.tweaks.moegirl import *  # type: ignore

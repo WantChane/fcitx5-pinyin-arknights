@@ -1,18 +1,19 @@
 import datetime
 import os
 from mw2fcitx.tweaks.moegirl import *  # type: ignore
+from custom_tweaks import *
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 # region
-# 20250523144739
-# 字符 '-' (U+002D) 出现次数：8441
-# 字符 ' ' (U+0020) 出现次数：7443
-# 字符 '/' (U+002F) 出现次数：6097
-# 字符 '“' (U+201C) 出现次数：1035
-# 字符 '”' (U+201D) 出现次数：1031
-# 字符 '(' (U+0028) 出现次数：376
-# 字符 ')' (U+0029) 出现次数：376
+# 20250603144541
+# 字符 '-' (U+002D) 出现次数：8466
+# 字符 ' ' (U+0020) 出现次数：7420
+# 字符 '/' (U+002F) 出现次数：6102
+# 字符 '“' (U+201C) 出现次数：1037
+# 字符 '”' (U+201D) 出现次数：1033
+# 字符 '(' (U+0028) 出现次数：358
+# 字符 ')' (U+0029) 出现次数：358
 # 字符 '·' (U+00B7) 出现次数：260
 # 字符 '.' (U+002E) 出现次数：226
 # 字符 '，' (U+FF0C) 出现次数：189
@@ -22,7 +23,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # 字符 '》' (U+300B) 出现次数：114
 # 字符 '！' (U+FF01) 出现次数：61
 # 字符 ':' (U+003A) 出现次数：58
-# 字符 '：' (U+FF1A) 出现次数：52
+# 字符 '：' (U+FF1A) 出现次数：53
 # 字符 '?' (U+003F) 出现次数：27
 # 字符 '？' (U+FF1F) 出现次数：25
 # 字符 '™' (U+2122) 出现次数：20
@@ -47,31 +48,9 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # endregion
 
 tweaks = [
-    tweak_remove_word_includes(["○", "〇"]),
-    tweak_split_word_with(
-        [
-            ":",
-            "/",
-            "(",
-            ")",
-            "（",
-            "）",
-            "【",
-            "】",
-            "『",
-            "』",
-            "／",
-            " ",
-            "!",
-            "！",
-            "“",
-            "”",
-        ]
-    ),
-    tweak_len_more_than(1),
-    tweak_remove_char("·"),
-    tweak_trim_suffix(["的信物", "的中坚信物"]),
-    tweak_normalize,
+    tweak_trim_parentheses_suffix(),
+    tweak_chinese_with(["·", "-"]),
+    tweak_trim_suffix(["·", "-"]),
 ]
 
 
@@ -83,6 +62,7 @@ exports = {
             "output": f"output/{dict_name}_titles.txt",
             "request_delay": 2,
         },
+        # "file_path": [f"input/{dict_name}_titles.txt"],
     },
     "tweaks": tweaks,
     "converter": {
@@ -90,6 +70,7 @@ exports = {
         "kwargs": {
             "disable_instinct_pinyin": False,
             "fixfile": f"input/fixfile.json",
+            "characters_to_omit": ["·", "-"],
         },
     },
     "generator": [
