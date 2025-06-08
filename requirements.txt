@@ -1,4 +1,4 @@
-mw2fcitx
+mw2fcitx==0.22.0
 regex
 beautifulsoup4
 lxml
