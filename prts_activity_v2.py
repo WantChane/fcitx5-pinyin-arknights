@@ -25,24 +25,22 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # endregion
 
 tweaks = [
-    tweak_lambda(
-        lambda words: [
-            parts[0]
-            for word in words
-            for parts in [word.split(",")]
-            if len(parts) > 1
-            and not any(
-                activity in parts[1]
-                for activity in [
-                    "复刻活动",
-                    "纪念活动",
-                    "登录活动",
-                    "合作活动",
-                    "愚人节活动",
-                ]
-            )
-        ]
-    ),
+    lambda words: [
+        parts[0]
+        for word in words
+        for parts in [word.split(",")]
+        if len(parts) > 1
+        and not any(
+            activity in parts[1]
+            for activity in [
+                "复刻活动",
+                "纪念活动",
+                "登录活动",
+                "合作活动",
+                "愚人节活动",
+            ]
+        )
+    ],
     tweak_split_word_with(["：", "「", "」"]),
     tweak_remove_regex(["^第.*章预热$"]),
     tweak_remove_regex_anywhere(["主线动画", "限时任务", "集成回顾"]),

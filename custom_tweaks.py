@@ -1,6 +1,7 @@
 import re
 from typing import List
 import regex
+import json
 
 
 def tweak_trim_parentheses_suffix():
@@ -66,10 +67,20 @@ def tweak_remove_chars(chars):
     return cb
 
 
-def tweak_lambda(processor):
-
+def tweak_from_mapping_dict(mapping_dict):
     def cb(words):
-        return processor(words)
+        result = []
+        append = result.append
+
+        for word in words:
+            if word in mapping_dict:
+                new_val = mapping_dict[word]
+                if new_val is not None:
+                    append(new_val)
+            else:
+                append(word)
+
+        return result
 
     return cb
 

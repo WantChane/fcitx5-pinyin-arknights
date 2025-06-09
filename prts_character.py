@@ -22,8 +22,10 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # endregion
 
 tweaks = [
+    tweak_trim_parentheses_suffix(),
+    tweak_remove_chars(["“", "”"]),
     tweak_chinese_with(["·"]),
-    tweak_remove_regex_anywhere([r"\b医疗\b", r"\b的父亲\b"]),
+    tweak_from_mapping_dict({"的父亲": None}),
 ]
 
 
@@ -46,7 +48,7 @@ exports = {
             "kwargs": {
                 "name": dict_name,
                 "version": datetime.now().strftime("%Y%m%d%H%M%S"),
-                "output": f"output/{dict_name}.dict.yaml",
+                "output": f"output/{dict_name}b.dict.yaml",
             },
         },
         {

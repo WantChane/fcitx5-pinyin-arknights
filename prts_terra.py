@@ -17,8 +17,8 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # endregion
 
 tweaks = [
+    tweak_trim_parentheses_suffix(),
     tweak_chinese_with(["·", "B", "-"]),
-    tweak_remove_regex_anywhere([r"\b医疗\b"]),
 ]
 
 

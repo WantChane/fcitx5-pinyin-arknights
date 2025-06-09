@@ -21,6 +21,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 tweaks = [
     tweak_remove_chars(["“", "”", "《", "》"]),
     tweak_chinese_with(["-", "·", "："]),
+    tweak_from_mapping_dict({"的狙击镜": "狙击镜", "御": None}),
 ]
 
 
