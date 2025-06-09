@@ -33,21 +33,21 @@ jobs:
           chmod +x script/build.sh
           ./script/build.sh
 
-      - name: Package files into 7z
+      - name: package files into 7z
         run: |
           cd output
           find . -name "prts_*.dict.yaml" -print0 | xargs -0 7z a rime_dicts.7z
           find . -name "prts_*.dict" -print0 | xargs -0 7z a fcitx5_dicts.7z
           find . -name "prts_*_titles.txt" -print0 | xargs -0 7z a titles.7z
 
-      - name: Package files into tar.gz
+      - name: package files into tar.gz
         run: |
           cd output
           find . -name "prts_*.dict.yaml" -print0 | tar -czvf rime_dicts.tar.gz --null -T -
           find . -name "prts_*.dict" -print0 | tar -czvf fcitx5_dicts.tar.gz --null -T -
           find . -name "prts_*_titles.txt" -print0 | tar -czvf titles.tar.gz --null -T -
 
-      - name: Generate checksum
+      - name: generate checksum
         uses: jmgilman/actions-generate-checksum@v1
         with:
           patterns: |
