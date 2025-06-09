@@ -3,6 +3,7 @@ import urllib.parse
 import requests
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
+from mw2fcitx.version import PKG_VERSION
 
 
 def fetch_page_content(page_title: str, base_url: str) -> BeautifulSoup:
@@ -11,9 +12,7 @@ def fetch_page_content(page_title: str, base_url: str) -> BeautifulSoup:
     api_url = f"{base_url}?action=parse&page={encoded_title}&format=json&formatversion=2&utf8=1"
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/119.0.0.0 Safari/537.36"
+        "User-Agent": f"MW2Fcitx/{PKG_VERSION}; github.com/WantChane/fcitx5-pinyin-prts",
     }
 
     response = requests.get(api_url, headers=headers)
@@ -165,11 +164,16 @@ if __name__ == "__main__":
         recursive_text=True,
     )
 
-    parse_page(
+    parse_structured_page(
         page_title="角色真名",
         output_path="output/prts_real_name_titles.txt",
-        selector="div>table.wikitable>tbody>tr>td:nth-child(3)",
-        recursive_text=True,
+        selectors={
+            "div>table.wikitable>tbody>tr:has(td)": [
+                "td:nth-child(2)",
+                "td:nth-child(3)",
+            ]
+        },
+        recursive_texts=[True, True],
     )
 
     parse_page(

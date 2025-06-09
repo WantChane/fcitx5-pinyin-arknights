@@ -25,6 +25,11 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # endregion
 
 tweaks = [
+    tweak_lambda(
+        lambda words: [
+            parts[1] for word in words for parts in [word.split(",")] if len(parts) > 1
+        ]
+    ),
     tweak_remove_chars(
         [
             "“",
