@@ -5,34 +5,26 @@ import json
 
 
 def tweak_trim_parentheses_suffix():
-    def cb(items: List[str]) -> List[str]:
+    def trim_parentheses_suffix(items: List[str]) -> List[str]:
         pattern = re.compile(r"\s*[（(][^（）)]*[）)]$")
         return [pattern.sub("", item) for item in items]
 
-    return cb
+    return trim_parentheses_suffix
 
 
-def tweak_remove_regex_anywhere(regexes):
+def tweak_delete_by_regex(regexes):
     from re import compile as regex_compile
 
     combined_pattern = r"(?:%s)" % "|".join(f"(?:{r})" for r in regexes)
     compiled = regex_compile(combined_pattern)
 
-    def cb(items: List[str]):
+    def delete_by_regex(items: List[str]):
         return [s for s in items if not compiled.search(s)]
 
-    return cb
+    return delete_by_regex
 
 
-def tweak_remove_pure_chinese():
-    def cb(items: List[str]) -> List[str]:
-        pattern = regex.compile(r"^\p{Han}+$", regex.UNICODE)
-        return [item for item in items if not pattern.fullmatch(item)]
-
-    return cb
-
-
-def tweak_chinese_with(allowed_chars=None):
+def tweak_find_chinese(allowed_chars=None):
     if allowed_chars is None:
         allowed_chars = []
     allowed = re.escape("".join(allowed_chars))
@@ -40,7 +32,7 @@ def tweak_chinese_with(allowed_chars=None):
         f"([\\u4e00-\\u9fff{allowed}]+)|([^\\u4e00-\\u9fff{allowed}]+)"
     )
 
-    def cb(items: List[str]) -> List[str]:
+    def find_chinese(items: List[str]) -> List[str]:
         result = []
         for item in items:
             parts = []
@@ -55,20 +47,20 @@ def tweak_chinese_with(allowed_chars=None):
             result.extend(filtered)
         return result
 
-    return cb
+    return find_chinese
 
 
 def tweak_remove_chars(chars):
     trans_table = str.maketrans("", "", "".join(chars))
 
-    def cb(words):
+    def remove_chars(words):
         return [word.translate(trans_table) for word in words]
 
-    return cb
+    return remove_chars
 
 
-def tweak_from_mapping_dict(mapping_dict):
-    def cb(words):
+def tweak_mapping(mapping_dict):
+    def mapping(words):
         result = []
         append = result.append
 
@@ -82,7 +74,14 @@ def tweak_from_mapping_dict(mapping_dict):
 
         return result
 
-    return cb
+    return mapping
+
+
+def tweak_ignore_comments():
+    def ignore_comments(words):
+        return [word for word in words if not word.startswith("#")]
+
+    return ignore_comments
 
 
 if __name__ == "__main__":
@@ -105,7 +104,7 @@ if __name__ == "__main__":
     tweaks = [
         tweak_remove_char("“"),
         tweak_remove_char("”"),
-        tweak_chinese_with(["·", "-"]),
+        tweak_find_chinese(["·", "-"]),
     ]
 
     output_file = "output/test.txt"

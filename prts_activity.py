@@ -20,8 +20,8 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 tweaks = [
     tweak_remove_chars(["“", "”"]),
-    tweak_chinese_with(),
-    tweak_remove_regex_anywhere(
+    tweak_find_chinese(),
+    tweak_delete_by_regex(
         [
             "下载人数突破",
             "端午",

@@ -21,7 +21,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 tweaks = [
     tweak_trim_parentheses_suffix(),
     tweak_split_word_with(["“", "”", "，"]),
-    tweak_chinese_with(["·", "-"]),
+    tweak_find_chinese(["·", "-"]),
 ]
 
 

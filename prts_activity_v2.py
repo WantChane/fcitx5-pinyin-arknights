@@ -43,9 +43,9 @@ tweaks = [
     ],
     tweak_split_word_with(["：", "「", "」"]),
     tweak_remove_regex(["^第.*章预热$"]),
-    tweak_remove_regex_anywhere(["主线动画", "限时任务", "集成回顾"]),
+    tweak_delete_by_regex(["主线动画", "限时任务", "集成回顾"]),
     tweak_remove_chars(["“", "”", "预热", "开放"]),
-    tweak_chinese_with("·"),
+    tweak_find_chinese("·"),
 ]
 
 

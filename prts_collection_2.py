@@ -20,8 +20,8 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 tweaks = [
     tweak_trim_parentheses_suffix(),
     tweak_remove_chars(["“", "”", "《", "》"]),
-    tweak_chinese_with(["-", "·", "："]),
-    tweak_from_mapping_dict({"的狙击镜": "狙击镜", "御": None, "号安全试剂": None}),
+    tweak_find_chinese(["-", "·", "："]),
+    tweak_mapping({"的狙击镜": "狙击镜", "御": None, "号安全试剂": None}),
 ]
 
 

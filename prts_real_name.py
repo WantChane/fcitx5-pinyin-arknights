@@ -34,8 +34,8 @@ tweaks = [
             "”",
         ]
     ),
-    tweak_chinese_with(["·", "-"]),
-    tweak_remove_regex_anywhere([r"\b安心院\b", r"\b真名遗失\b"]),
+    tweak_find_chinese(["·", "-"]),
+    tweak_delete_by_regex([r"\b安心院\b", r"\b真名遗失\b"]),
 ]
 
 

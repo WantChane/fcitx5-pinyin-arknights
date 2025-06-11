@@ -24,7 +24,7 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 tweaks = [
     tweak_remove_chars(["“", "”", "《", "》"]),
-    tweak_chinese_with(["·", "-"]),
+    tweak_find_chinese(["·", "-"]),
 ]
 
 
