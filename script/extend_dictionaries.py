@@ -220,3 +220,15 @@ if __name__ == "__main__":
         },
         recursive_texts=[True, True],
     )
+
+    parse_page(
+        page_title="术语释义",
+        output_path="output/prts_term_titles.txt",
+        selector="h2~p>b>span",
+    )
+
+    parse_page(
+        page_title="异常效果",
+        output_path="output/prts_abnormal_titles.txt",
+        selector="div>table>tbody>tr>td:nth-child(3)",
+    )
