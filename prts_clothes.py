@@ -29,7 +29,7 @@ exports = {
     },
     "tweaks": tweaks,
     "converter": {
-        "use": "opencc",
+        "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
             "fixfile": "input/fixfile.json",
