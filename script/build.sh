@@ -6,14 +6,12 @@ shopt -s nullglob
 
 echo "开始处理..."
 
-echo "清理input和output目录中的旧文件..."
-
-find input/ -maxdepth 1 -type f -not -name 'fixfile.json' -delete
-find output/ -maxdepth 1 -type f -not -name '.gitkeep' -delete
+./script/clean.sh
 
 python script/extend_dictionaries.py
 
-cp -v output/prts_* input/
+cp -vf input/prts_* output/
+cp -vf output/prts_* input/
 
 for py_file in prts_*.py; do
     echo "正在处理: ${py_file}"
