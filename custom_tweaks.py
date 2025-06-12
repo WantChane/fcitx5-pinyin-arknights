@@ -1,7 +1,5 @@
 import re
 from typing import List
-import regex
-import json
 
 
 def tweak_trim_parentheses_suffix():
