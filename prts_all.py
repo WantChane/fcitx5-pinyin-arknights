@@ -2,6 +2,7 @@ import datetime
 import os
 from mw2fcitx.tweaks.moegirl import *  # type: ignore
 from custom_tweaks import *
+from mw2fcitx.version import PKG_VERSION
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
@@ -61,6 +62,7 @@ exports = {
             "partial": f"output/{dict_name}_partial.json",
             "output": f"output/{dict_name}_titles.txt",
             "request_delay": 2,
+            "user_agent": f"MW2Fcitx/{PKG_VERSION}; github.com/WantChane/fcitx5-pinyin-prts",
         },
         # "file_path": [f"input/{dict_name}_titles.txt"],
     },

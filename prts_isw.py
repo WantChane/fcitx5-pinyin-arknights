@@ -2,7 +2,7 @@ from datetime import datetime
 from mw2fcitx.tweaks.moegirl import *  # type: ignore
 import os
 from custom_tweaks import *
-
+from mw2fcitx.version import PKG_VERSION
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
@@ -38,6 +38,7 @@ exports = {
                 "cmtitle": "Category:集成战略关卡",
                 "list": "categorymembers",
             },
+            "user_agent": f"MW2Fcitx/{PKG_VERSION}; github.com/WantChane/fcitx5-pinyin-prts",
         },
     },
     "tweaks": tweaks,
