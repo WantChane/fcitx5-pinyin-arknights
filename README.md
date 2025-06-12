@@ -109,3 +109,9 @@ mw2fcitx -c prts_real_name.py
 # 生成所有词库
 ./script/build.sh
 ```
+
+## 许可与致谢
+
+- 本词库使用 [MIT License](LICENSE)。
+- 生成工具：[mw2fcitx](https://github.com/outloudvi/mw2fcitx) ([MIT License](https://github.com/outloudvi/mw2fcitx/blob/master/LICENSE))。
+- 数据来源：[prts.wiki](https://prts.wiki)
