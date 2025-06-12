@@ -232,10 +232,3 @@ if __name__ == "__main__":
         output_path="output/prts_abnormal_titles.txt",
         selector="div>table>tbody>tr>td:nth-child(3)",
     )
-
-    parse_page(
-        page_title="PRTS:文件一览/技能",
-        output_path="output/prts_skill_v2_titles.txt",
-        selector="div>p>a>img",
-        attribute="alt",
-    )
