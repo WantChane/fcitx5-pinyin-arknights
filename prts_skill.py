@@ -1,6 +1,6 @@
 import datetime
 import os
-from mw2fcitx.tweaks.moegirl import *  # type: ignore
+from mw2fcitx.tweaks.moegirl import *
 from custom_tweaks import *
 from mw2fcitx.version import PKG_VERSION
 

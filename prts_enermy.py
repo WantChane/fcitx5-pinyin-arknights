@@ -1,5 +1,5 @@
 from datetime import datetime
-from mw2fcitx.tweaks.moegirl import *  # type: ignore
+from mw2fcitx.tweaks.moegirl import *
 import os
 from custom_tweaks import *
 from mw2fcitx.version import PKG_VERSION

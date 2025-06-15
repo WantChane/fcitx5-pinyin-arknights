@@ -84,7 +84,7 @@ def tweak_ignore_comments():
 
 if __name__ == "__main__":
 
-    from mw2fcitx.tweaks.moegirl import *  # type: ignore
+    from mw2fcitx.tweaks.moegirl import *
 
     def _process_file(input_path: str, output_path: str, tweaks):
         with open(input_path, "r", encoding="utf-8") as f_in:
