@@ -7,4 +7,4 @@ output/*
 !output/.gitkeep
 input/*
 !input/fixfile.json
-!input/prts_other_titles.txt
+!input/an_other_titles.txt

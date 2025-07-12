@@ -6,7 +6,7 @@ shopt -s extglob nullglob
 echo "进入目录: input"
 cd input || exit
 
-to_delete=( !(fixfile.json|prts_other_titles.txt) )
+to_delete=( !(fixfile.json|an_other_titles.txt) )
 
 if [ ${#to_delete[@]} -eq 0 ]; then
     echo "在input目录中没有可删除的文件。"

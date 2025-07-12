@@ -97,7 +97,7 @@ if __name__ == "__main__":
         with open(output_path, "w", encoding="utf-8") as f_out:
             f_out.write("\n".join(processed))
 
-    input_file = "input/prts_character_titles.txt"
+    input_file = "input/an_character_titles.txt"
 
     tweaks = [
         tweak_remove_char("“"),

@@ -129,44 +129,44 @@ def parse_structured_page(
 if __name__ == "__main__":
     parse_page(
         page_title="刻俄柏的灰蕈迷境/收藏品图鉴",
-        output_path="output/prts_collection_1_titles.txt",
+        output_path="output/an_collection_1_titles.txt",
         selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
     )
 
     parse_page(
         page_title="傀影与猩红孤钻/长生者宝盒",
-        output_path="output/prts_collection_2_titles.txt",
+        output_path="output/an_collection_2_titles.txt",
         selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
     )
 
     parse_page(
         page_title="水月与深蓝之树/生物制品陈设",
-        output_path="output/prts_collection_3_titles.txt",
+        output_path="output/an_collection_3_titles.txt",
         selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
     )
 
     parse_page(
         page_title="探索者的银凇止境/仪式用品索引",
-        output_path="output/prts_collection_4_titles.txt",
+        output_path="output/an_collection_4_titles.txt",
         selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
     )
 
     parse_page(
         page_title="萨卡兹的无终奇语/想象实体图鉴",
-        output_path="output/prts_collection_5_titles.txt",
+        output_path="output/an_collection_5_titles.txt",
         selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
     )
 
     parse_page(
         page_title="剧情角色一览",
-        output_path="output/prts_character_titles.txt",
+        output_path="output/an_character_titles.txt",
         selector="div>table.wikitable>tbody>tr>td:first-child",
         recursive_text=True,
     )
 
     parse_structured_page(
         page_title="角色真名",
-        output_path="output/prts_real_name_titles.txt",
+        output_path="output/an_real_name_titles.txt",
         selectors={
             "div>table.wikitable>tbody>tr:has(td)": [
                 "td:nth-child(2)",
@@ -178,40 +178,40 @@ if __name__ == "__main__":
 
     parse_page(
         page_title="泰拉词库",
-        output_path="output/prts_terra_titles.txt",
+        output_path="output/an_terra_titles.txt",
         selector="div>table.wikitable>tbody>tr>td:first-child",
         recursive_text=True,
     )
 
     parse_page(
         page_title="时装回廊",
-        output_path="output/prts_clothes_titles.txt",
+        output_path="output/an_clothes_titles.txt",
         selector=".charnameEn",
     )
 
     parse_page(
         page_title="分支一览",
-        output_path="output/prts_branch_titles.txt",
+        output_path="output/an_branch_titles.txt",
         selector="font>strong",
     )
 
     parse_page(
         page_title="干员一览",
-        output_path="output/prts_operator_v2_titles.txt",
+        output_path="output/an_operator_v2_titles.txt",
         selector="#filter-data>div",
         attribute="data-zh",
     )
 
     parse_page(
         page_title="道具一览",
-        output_path="output/prts_item_v2_titles.txt",
+        output_path="output/an_item_v2_titles.txt",
         selector="div.smwdata",
         attribute="data-name",
     )
 
     parse_structured_page(
         page_title="活动一览",
-        output_path="output/prts_activity_v2_titles.txt",
+        output_path="output/an_activity_v2_titles.txt",
         selectors={
             "div>table.wikitable>tbody>tr:has(td)": [
                 "td:nth-child(2)>a",
@@ -223,12 +223,12 @@ if __name__ == "__main__":
 
     parse_page(
         page_title="术语释义",
-        output_path="output/prts_term_titles.txt",
+        output_path="output/an_term_titles.txt",
         selector="h2~p>b>span",
     )
 
     parse_page(
         page_title="异常效果",
-        output_path="output/prts_abnormal_titles.txt",
+        output_path="output/an_abnormal_titles.txt",
         selector="div>table>tbody>tr>td:nth-child(3)",
     )

@@ -10,10 +10,10 @@ echo "开始处理..."
 
 python script/extend_dictionaries.py
 
-cp -vf input/prts_* output/
-cp -vf output/prts_* input/
+cp -vf input/an_* output/
+cp -vf output/an_* input/
 
-for py_file in prts_*.py; do
+for py_file in an_*.py; do
     echo "正在处理: ${py_file}"
     mw2fcitx -c "${py_file}"
 done
