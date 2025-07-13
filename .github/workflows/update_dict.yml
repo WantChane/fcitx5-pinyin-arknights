@@ -1,77 +1,134 @@
 name: update and release
-on:  
-  schedule:  
-    - cron: '0 20 14 * *'  
+on:
+  schedule:
+    - cron: '0 20 14 * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
 
-jobs:  
-  build:  
-    runs-on: ubuntu-latest  
-    steps:  
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check-version.outputs.changed }}
+      current_version: ${{ steps.check-version.outputs.current_version }}
+    steps:
+    - name: checkout@v4
+      uses: actions/checkout@v4
+
+    - name: setup-python@v5
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: install requirements
+      run: pip install -r requirements.txt
+
+    - name: check version
+      id: check-version
+      run: python script/check_version.py
+
+    - name: commit version update
+      if: steps.check-version.outputs.changed == 'true'
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: 'GitHub Actions'
+        author_email: 'actions@github.com'
+        message: 'chore(version): Auto-update VERSION file'
+        add: 'VERSION'
+        
+    - name: push changes
+      if: steps.check-version.outputs.changed == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+
+  build-and-package:
+    needs: check-version
+    runs-on: ubuntu-latest
+    if: needs.check-version.outputs.changed == 'true'
+    steps:
       - name: checkout@v4
-        uses: actions/checkout@v4  
-  
-      - name: setup-python@v5  
-        uses: actions/setup-python@v5  
-        with:  
-          python-version: '3.10'  
-            
-      - name: install libime  
-        run: sudo apt install -y libime-bin  
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }} 
 
-      - name: install p7zip  
-        run: sudo apt install -y p7zip 
-          
-      - name: install requirements  
-        run: pip install -r requirements.txt  
-            
+      - name: install system dependencies
+        run: sudo apt update && sudo apt install -y libime-bin p7zip
+
+      - name: setup-python@v5
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: install requirements
+        run: pip install -r requirements.txt
+
       - name: run script/build.sh
         run: |
           chmod +x script/build.sh
           ./script/build.sh
 
-      - name: package files into 7z
+      - name: Package files into 7z and tar.gz
         run: |
+          mkdir -p artifact
           cd output
-          find . -name "an_*.dict.yaml" -print0 | xargs -0 7z a rime_dicts.7z
-          find . -name "an_*.dict" -print0 | xargs -0 7z a fcitx5_dicts.7z
-          find . -name "an_*_titles.txt" -print0 | xargs -0 7z a titles.7z
 
-      - name: package files into tar.gz
-        run: |
-          cd output
-          find . -name "an_*.dict.yaml" -print0 | tar -czvf rime_dicts.tar.gz --null -T -
-          find . -name "an_*.dict" -print0 | tar -czvf fcitx5_dicts.tar.gz --null -T -
-          find . -name "an_*_titles.txt" -print0 | tar -czvf titles.tar.gz --null -T -
+          find . -name "an_*.dict.yaml" -print0 | xargs -0 7z a ../artifact/rime_dicts.7z
+          find . -name "an_*.dict" -print0 | xargs -0 7z a ../artifact/fcitx5_dicts.7z
+          find . -name "an_*_titles.txt" -print0 | xargs -0 7z a ../artifact/titles.7z
+          
+          find . -name "an_*.dict.yaml" -print0 | tar -czvf ../artifact/rime_dicts.tar.gz --null -T -
+          find . -name "an_*.dict" -print0 | tar -czvf ../artifact/fcitx5_dicts.tar.gz --null -T -
+          find . -name "an_*_titles.txt" -print0 | tar -czvf ../artifact/titles.tar.gz --null -T -
 
-      - name: generate checksum
+      - name: Generate checksum
         uses: jmgilman/actions-generate-checksum@v1
         with:
           patterns: |
-            output/*.7z
-            output/*.tar.gz
+            artifact/*.7z
+            artifact/*.tar.gz
+          output: artifact/checksum.txt
 
-      - name: get date str 
-        id: date  
-        run: echo "date=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT  
-          
-      - name: create Release  
-        id: create_release  
-        uses: softprops/action-gh-release@v2  
-        with:  
-          tag_name: v${{ steps.date.outputs.date }}  
-          name: Release ${{ steps.date.outputs.date }}  
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-assets
+          path: artifact/
+          retention-days: 7 
+
+  publish-release:
+    needs: 
+      - build-and-package
+      - check-version
+    if: needs.check-version.outputs.changed == 'true' 
+    runs-on: ubuntu-latest
+    steps:
+      - name: download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: release-assets
+          path: artifact/
+
+      - name: get date str
+        id: date
+        run: echo "date=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+
+      - name: create Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.date.outputs.date }}
+          name: Release ${{ steps.date.outputs.date }}
           body: |
+            词库版本: ${{ needs.check-version.outputs.current_version }}
+            构建时间: ${{ steps.date.outputs.date }}
             该Release由GitHub Actions定时任务生成
-          files: |
-            checksum.txt
-            output/*.7z
-            output/*.tar.gz
-
-          draft: false  
-          prerelease: false  
-        env:  
+          files: artifact/*
+          draft: false
+          prerelease: false
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
