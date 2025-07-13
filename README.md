@@ -2,7 +2,6 @@
 
 一个使用 [mw2fcitx](https://github.com/outloudvi/mw2fcitx) 制作的 [明日方舟](https://ak.hypergryph.com/) 词库，数据来源 [PRTS](https://prts.wiki)
 
-会在每月 14 日晚八点由 Github Actions 定时更新。
 
 ## 词库
 
