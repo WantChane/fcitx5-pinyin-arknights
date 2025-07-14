@@ -1,8 +1,12 @@
+import os
+import sys
+
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, parent_dir)
+
 import requests
 from constant import USER_AGENT
 from urllib.parse import urlencode
-import os
-import sys
 
 params = {
     "action": "cargoquery",
