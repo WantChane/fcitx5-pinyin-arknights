@@ -258,3 +258,10 @@ if __name__ == "__main__":
         selector="div>table>tbody>tr>td:nth-child(3)",
         request_delay=REQUEST_DELAY,
     )
+
+    parse_page(
+        page_title="召唤物一览",
+        output_path="output/an_summons_titles.txt",
+        selector="div>table>tbody>tr>td>a",
+        request_delay=REQUEST_DELAY,
+    )
