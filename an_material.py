@@ -1,6 +1,6 @@
 from mw2fcitx.tweaks.moegirl import *
 import os
-from constant import BUILD_DATE, USER_AGENT
+from constant import BUILD_DATE, MW_LIMIT, REQUEST_DELAY, USER_AGENT
 from custom_tweaks import *
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
@@ -20,10 +20,10 @@ exports = {
         "kwargs": {
             "partial": f"output/{dict_name}_partial.json",
             "output": f"output/{dict_name}_titles.txt",
-            "request_delay": 2,
+            "request_delay": REQUEST_DELAY,
             "api_params": {
                 "action": "query",
-                "cmlimit": "100",
+                "cmlimit": MW_LIMIT,
                 "cmtitle": "Category:材料",
                 "list": "categorymembers",
             },

@@ -1,6 +1,6 @@
 import os
 from mw2fcitx.tweaks.moegirl import *
-from constant import USER_AGENT, BUILD_DATE
+from constant import MW_LIMIT, REQUEST_DELAY, USER_AGENT, BUILD_DATE
 from custom_tweaks import *
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
@@ -60,8 +60,11 @@ exports = {
         "kwargs": {
             "partial": f"output/{dict_name}_partial.json",
             "output": f"output/{dict_name}_titles.txt",
-            "request_delay": 2,
+            "request_delay": REQUEST_DELAY,
             "user_agent": USER_AGENT,
+            "api_params": {
+                "aplimit": MW_LIMIT,
+            },
         },
     },
     "tweaks": tweaks,
