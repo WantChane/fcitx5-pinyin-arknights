@@ -1,12 +1,12 @@
 #!/bin/env python
 import sys
-import regex
+import re
 from collections import Counter
 
 
 def collect_special_characters(text):
-    pattern = r"[^\p{Han}\p{L}\p{N}]"
-    special_chars = regex.findall(pattern, text, regex.UNICODE)
+    pattern = r"[^\w\d]|_"
+    special_chars = re.findall(pattern, text, flags=re.UNICODE)
     return special_chars
 
 
