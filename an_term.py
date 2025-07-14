@@ -1,6 +1,6 @@
-from datetime import datetime
 from mw2fcitx.tweaks.moegirl import *
 import os
+from constant import BUILD_DATE
 from custom_tweaks import *
 
 
@@ -11,7 +11,6 @@ dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 # 字符 '\n' (U+000A) 出现次数：121
 # 字符 '·' (U+00B7) 出现次数：7
 # endregion
-import re
 
 
 tweaks = [
@@ -37,7 +36,7 @@ exports = {
             "use": "rime",
             "kwargs": {
                 "name": dict_name,
-                "version": datetime.now().strftime("%Y%m%d%H%M%S"),
+                "version": BUILD_DATE,
                 "output": f"output/{dict_name}.dict.yaml",
             },
         },

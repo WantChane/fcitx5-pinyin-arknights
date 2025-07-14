@@ -3,7 +3,7 @@ import urllib.parse
 import requests
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
-from mw2fcitx.version import PKG_VERSION
+from constant import USER_AGENT
 
 
 def fetch_page_content(page_title: str, base_url: str) -> BeautifulSoup:
@@ -12,7 +12,7 @@ def fetch_page_content(page_title: str, base_url: str) -> BeautifulSoup:
     api_url = f"{base_url}?action=parse&page={encoded_title}&format=json&formatversion=2&utf8=1"
 
     headers = {
-        "User-Agent": f"MW2Fcitx/{PKG_VERSION}; github.com/WantChane/fcitx5-pinyin-prts",
+        "User-Agent": USER_AGENT,
     }
 
     response = requests.get(api_url, headers=headers)

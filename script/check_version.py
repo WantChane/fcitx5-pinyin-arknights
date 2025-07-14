@@ -1,5 +1,5 @@
 import requests
-from mw2fcitx.version import PKG_VERSION
+from constant import USER_AGENT
 from urllib.parse import urlencode
 import os
 import sys
@@ -18,7 +18,7 @@ params = {
 }
 
 headers = {
-    "User-Agent": f"MW2Fcitx/{PKG_VERSION}; github.com/WantChane/fcitx5-pinyin-prts",
+    "User-Agent": USER_AGENT,
 }
 
 try:

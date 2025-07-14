@@ -1,6 +1,6 @@
-from datetime import datetime
 from mw2fcitx.tweaks.moegirl import *
 import os
+from constant import BUILD_DATE
 from custom_tweaks import *
 
 
@@ -43,7 +43,7 @@ exports = {
             "use": "rime",
             "kwargs": {
                 "name": dict_name,
-                "version": datetime.now().strftime("%Y%m%d%H%M%S"),
+                "version": BUILD_DATE,
                 "output": f"output/{dict_name}.dict.yaml",
             },
         },

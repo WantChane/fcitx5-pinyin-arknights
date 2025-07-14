@@ -1,8 +1,7 @@
-from datetime import datetime
 from mw2fcitx.tweaks.moegirl import *
 import os
+from constant import BUILD_DATE, USER_AGENT
 from custom_tweaks import *
-from mw2fcitx.version import PKG_VERSION
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
@@ -28,7 +27,7 @@ exports = {
                 "cmtitle": "Category:材料",
                 "list": "categorymembers",
             },
-            "user_agent": f"MW2Fcitx/{PKG_VERSION}; github.com/WantChane/fcitx5-pinyin-prts",
+            "user_agent": USER_AGENT,
         },
     },
     "tweaks": tweaks,
@@ -44,7 +43,7 @@ exports = {
             "use": "rime",
             "kwargs": {
                 "name": dict_name,
-                "version": datetime.now().strftime("%Y%m%d%H%M%S"),
+                "version": BUILD_DATE,
                 "output": f"output/{dict_name}.dict.yaml",
             },
         },
