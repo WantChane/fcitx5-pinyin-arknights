@@ -139,7 +139,39 @@ jobs:
 
       - name: get date str
         id: date
-        run: echo "date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
+        run: echo "date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT\
+
+      - name: build changelog
+        id: github_release
+        uses: mikepenz/release-changelog-builder-action@v5
+        with:
+          configurationJson: |
+            {
+              "template": "#{{CHANGELOG}}",
+              "categories": [
+                {
+                    "title": "## Feature",
+                    "labels": ["feat", "feature"]
+                },
+                {
+                    "title": "## Fix",
+                    "labels": ["fix", "bug"]
+                },
+                {
+                    "title": "## Other",
+                    "labels": []
+                }
+              ],
+              "label_extractor": [
+                {
+                  "pattern": "^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test){1}(\\([\\w\\-\\.]+\\))?(!)?: ([\\w ])+([\\s\\S]*)",
+                  "on_property": "title",
+                  "target": "$1"
+                }
+              ]
+            }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: create Release
         uses: softprops/action-gh-release@v2
@@ -149,8 +181,7 @@ jobs:
           target_commitish: ${{needs.check-version.outputs.commit_sha}}
           body: |
             词库版本: ${{ needs.check-version.outputs.current_version }}
-            构建时间: ${{ steps.date.outputs.date }}
-            该Release由GitHub Actions定时任务生成
+            ${{steps.github_release.outputs.changelog}}
           files: artifact/*
           draft: false
           prerelease: false
