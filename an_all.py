@@ -3,7 +3,7 @@ from mw2fcitx.tweaks.moegirl import *
 from constant import MW_LIMIT, REQUEST_DELAY, USER_AGENT, BUILD_DATE
 from custom_tweaks import *
 
-dict_name = os.path.splitext(os.path.basename(__file__))
+dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 tweaks = [
     tweak_trim_parentheses_suffix(),

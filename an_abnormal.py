@@ -4,7 +4,7 @@ from mw2fcitx.tweaks.moegirl import *
 from constant import BUILD_DATE
 from custom_tweaks import *
 
-dict_name = os.path.splitext(os.path.basename(__file__))
+dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
 
 def process_effects(effects):
