@@ -3,15 +3,9 @@ import os
 from constant import BUILD_DATE
 from custom_tweaks import *
 
-
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
-# region
-# 20250603093114
-# endregion
-
 tweaks = []
-
 
 exports = {
     "source": {

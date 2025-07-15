@@ -3,15 +3,7 @@ import os
 from constant import BUILD_DATE
 from custom_tweaks import *
 
-
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
-
-# region
-# 20250610124705
-# 字符 '\n' (U+000A) 出现次数：121
-# 字符 '·' (U+00B7) 出现次数：7
-# endregion
-
 
 tweaks = [
     tweak_split_word_with(["·"]),

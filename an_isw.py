@@ -5,24 +5,11 @@ from custom_tweaks import *
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
-# region
-# 20250523145024
-# 字符 '-' (U+002D) 出现次数：284
-# 字符 ' ' (U+0020) 出现次数：284
-# 字符 '\n' (U+000A) 出现次数：283
-# 字符 '(' (U+0028) 出现次数：5
-# 字符 ')' (U+0029) 出现次数：5
-# 字符 '“' (U+201C) 出现次数：5
-# 字符 '”' (U+201D) 出现次数：5
-# 字符 '?' (U+003F) 出现次数：3
-# endregion
-
 tweaks = [
     tweak_trim_parentheses_suffix(),
     tweak_remove_chars(["“", "”"]),
     tweak_find_chinese(),
 ]
-
 
 exports = {
     "source": {

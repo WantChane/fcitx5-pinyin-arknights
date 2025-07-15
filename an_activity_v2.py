@@ -3,26 +3,7 @@ import os
 from constant import BUILD_DATE
 from custom_tweaks import *
 
-
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
-
-# region
-# 20250523144651
-# 字符 '·' (U+00B7) 出现次数：33
-# 字符 ' ' (U+0020) 出现次数：9
-# 字符 '！' (U+FF01) 出现次数：7
-# 字符 '#' (U+0023) 出现次数：6
-# 字符 '：' (U+FF1A) 出现次数：4
-# 字符 '“' (U+201C) 出现次数：4
-# 字符 '”' (U+201D) 出现次数：4
-# 字符 '「' (U+300C) 出现次数：3
-# 字符 '」' (U+300D) 出现次数：3
-# 字符 '(' (U+0028) 出现次数：2
-# 字符 ')' (U+0029) 出现次数：2
-# 字符 '×' (U+00D7) 出现次数：2
-# 字符 '—' (U+2014) 出现次数：2
-# 字符 '.' (U+002E) 出现次数：2
-# endregion
 
 tweaks = [
     lambda words: [
