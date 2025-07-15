@@ -3,19 +3,7 @@ import os
 from constant import BUILD_DATE
 from custom_tweaks import *
 
-
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
-
-# region
-# 20250531220735
-# 字符 '-' (U+002D) 出现次数：56
-# 字符 '“' (U+201C) 出现次数：27
-# 字符 '”' (U+201D) 出现次数：27
-# 字符 '《' (U+300A) 出现次数：7
-# 字符 '》' (U+300B) 出现次数：7
-# 字符 '.' (U+002E) 出现次数：1
-# 字符 '·' (U+00B7) 出现次数：1
-# endregion
 
 tweaks = [
     tweak_trim_parentheses_suffix(),
@@ -23,7 +11,6 @@ tweaks = [
     tweak_find_chinese(["-", "·", "："]),
     tweak_mapping({"的狙击镜": "狙击镜", "御": None, "号安全试剂": None}),
 ]
-
 
 exports = {
     "source": {

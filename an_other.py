@@ -3,19 +3,9 @@ import os
 from constant import BUILD_DATE
 from custom_tweaks import *
 
-
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
-# region
-# 20250611103549
-# 字符 '\n' (U+000A) 出现次数：13
-# 字符 '#' (U+0023) 出现次数：3
-# 字符 ' ' (U+0020) 出现次数：3
-# endregion
-
-
 tweaks = [tweak_ignore_comments()]
-
 
 exports = {
     "source": {

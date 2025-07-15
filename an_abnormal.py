@@ -1,20 +1,10 @@
-from mw2fcitx.tweaks.moegirl import *
 import os
+import re
+from mw2fcitx.tweaks.moegirl import *
 from constant import BUILD_DATE
 from custom_tweaks import *
 
-
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
-
-# region
-# 20250610124705
-# 字符 '\n' (U+000A) 出现次数：53
-# 字符 '（' (U+FF08) 出现次数：9
-# 字符 '）' (U+FF09) 出现次数：9
-# 字符 '×' (U+00D7) 出现次数：2
-# 字符 '_' (U+005F) 出现次数：1
-# endregion
-import re
 
 
 def process_effects(effects):

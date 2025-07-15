@@ -5,14 +5,7 @@ from custom_tweaks import *
 
 dict_name, _ext = os.path.splitext(os.path.basename(__file__))
 
-# region
-# 20250523144937
-# 字符 '-' (U+002D) 出现次数：2
-# 字符 '·' (U+00B7) 出现次数：1
-# endregion
-
 tweaks = []
-
 
 exports = {
     "source": {
