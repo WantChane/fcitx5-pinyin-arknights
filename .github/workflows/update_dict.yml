@@ -131,6 +131,12 @@ jobs:
     if: needs.check-version.outputs.should_build == 'true'
     runs-on: ubuntu-latest
     steps:
+      - name: checkout@v4
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
       - name: download artifacts
         uses: actions/download-artifact@v4
         with:
