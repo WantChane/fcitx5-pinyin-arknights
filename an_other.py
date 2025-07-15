@@ -3,7 +3,7 @@ import os
 from constant import BUILD_DATE
 from custom_tweaks import *
 
-dict_name, _ext = os.path.splitext(os.path.basename(__file__))
+dict_name = os.path.splitext(os.path.basename(__file__))
 
 tweaks = [tweak_ignore_comments()]
 
