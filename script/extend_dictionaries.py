@@ -174,6 +174,13 @@ if __name__ == "__main__":
     )
 
     parse_page(
+        page_title="岁的界园志异/珍玩集册",
+        output_path="output/an_collection_6_titles.txt",
+        selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
+        request_delay=REQUEST_DELAY,
+    )
+
+    parse_page(
         page_title="剧情角色一览",
         output_path="output/an_character_titles.txt",
         selector="div>table.wikitable>tbody>tr>td:first-child",
