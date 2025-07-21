@@ -107,6 +107,9 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
 
+      - name: install requirements
+        run: pip install -r requirements.txt
+
       - name: run full build
         run: |
           chmod +x script/build.sh
@@ -147,6 +150,9 @@ jobs:
         with:
           name: base-dicts
           path: output
+
+      - name: install requirements
+        run: pip install -r requirements.txt
 
       - name: run incremental build
         run: |
