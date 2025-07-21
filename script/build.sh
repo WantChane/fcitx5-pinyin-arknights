@@ -7,21 +7,38 @@ shopt -s nullglob
 source ./script/log.sh
 
 targets=()
-process_all=true
+process_all=false
 
 while [[ $# -gt 0 ]]; do
     case "$1" in
-        --all)
+        -a|--all)
+            if [ ${#targets[@]} -gt 0 ]; then
+                error "--all 参数不能与 -d/--dictionaries 同时使用"
+                exit 1
+            fi
             process_all=true
             shift
             ;;
+        -d|--dictionaries)
+            if [ "$process_all" = true ]; then
+                error "-d/--dictionaries 参数不能与 --all 同时使用"
+                exit 1
+            fi
+            IFS=',' read -r -a tmp_targets <<< "$2"
+            targets+=("${tmp_targets[@]}")
+            shift 2
+            ;;
         *)
-            targets+=("$1")
-            process_all=false
-            shift
+            error "未知参数: $1"
+            exit 1
             ;;
     esac
 done
+
+if [ "$process_all" = false ] && [ ${#targets[@]} -eq 0 ]; then
+    warn "未指定参数，默认处理所有词库"
+    process_all=true
+fi
 
 info "开始处理..."
 
