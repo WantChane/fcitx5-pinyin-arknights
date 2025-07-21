@@ -120,14 +120,13 @@ jobs:
           ./script/build.sh -a
 
       - name: download base artifacts
-        uses: dawidd6/action-download-artifact@v11
+        uses: robinraju/release-downloader@v1
         if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         with:
-          name: base-dicts
-          path: output
-          workflow: ${{ github.workflow }}.yml
-          branch: main
-          workflow_conclusion: success 
+          latest: true
+          fileName: 'titles.tar.gz'
+          extract: true
+          out-file-path: 'output'
 
       - name: install requirements
         run: pip install -r requirements.txt
