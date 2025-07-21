@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       current_version: ${{ steps.check-version.outputs.current_version }}
-      incremental_dicts: ${{ steps.parse-commit.outputs.incremental_dicts }}
+      incremental_dicts: ${{ steps.determine-type.outputs.incremental_dicts }}
       build_type: ${{ steps.determine-type.outputs.type }}
 
     steps:
@@ -97,16 +97,18 @@ jobs:
         if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
           type="${{ inputs.build_type }}"
           incremental_dicts="${{ inputs.incremental_dicts }}"
-          echo "incremental_dicts=${DICTS}" >> $GITHUB_OUTPUT
         else
           if [ "${{ steps.check-version.outputs.changed }}" == 'true' ]; then
             type="full"
           elif [ -n "${{ steps.parse-commit.outputs.incremental_dicts }}" ]; then
             type="incremental"
+            incremental_dicts="${{ steps.parse-commit.outputs.incremental_dicts }}"
           fi
         fi
         echo "type=$type" >> $GITHUB_OUTPUT
         echo "Build type determined: $type"
+        echo "incremental_dicts=$incremental_dicts" >> $GITHUB_OUTPUT
+        echo "Build dicts: $incremental_dicts"
 
   build:
     needs: check-version
