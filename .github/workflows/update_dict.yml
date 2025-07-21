@@ -136,7 +136,7 @@ jobs:
         if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         run: |
           chmod +x script/build.sh
-          ./script/build.sh -d ${{ needs.check-version.outputs.incremental_dicts }}
+          ./script/build.sh -d ${{ needs.check-version.outputs.incremental_dicts }} -s
 
       - name: upload-artifact@v4
         uses: actions/upload-artifact@v4
