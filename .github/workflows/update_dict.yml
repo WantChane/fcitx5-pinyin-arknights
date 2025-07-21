@@ -18,7 +18,6 @@ jobs:
   check-version:
     runs-on: ubuntu-latest
     outputs:
-      changed: ${{ steps.check-version.outputs.changed }}
       current_version: ${{ steps.check-version.outputs.current_version }}
       incremental_dicts: ${{ steps.parse-commit.outputs.incremental_dicts }}
       build_type: ${{ steps.determine-type.outputs.type }}
@@ -40,6 +39,7 @@ jobs:
 
     - name: parse commit message
       id: parse-commit
+      if: ${{ github.event_name == 'push' }}
       run: |
         COMMIT_MSG=$(git log -1 --pretty=%B)
         FIRST_LINE=$(echo "$COMMIT_MSG" | head -n 1)
@@ -67,7 +67,7 @@ jobs:
       with:
         author_name: 'GitHub Actions'
         author_email: 'actions@github.com'
-        message: 'chore(version): Auto-update VERSION file'
+        message: 'chore(version): Auto-update VERSION file [skip ci]'
         add: 'VERSION'
 
     - name: push changes
@@ -80,18 +80,21 @@ jobs:
     - name: determine build type
       id: determine-type
       run: |
-        if [ -n "${{ steps.parse-commit.outputs.incremental_dicts }}" ]; then
-          type="incremental"
-        else
+        type="none"
+
+        if [ "${{ steps.check-version.outputs.changed }}" == 'true' ]; then
           type="full"
+        elif [ -n "${{ steps.parse-commit.outputs.incremental_dicts }}" ]; then
+          type="incremental"
         fi
+
         echo "type=$type" >> $GITHUB_OUTPUT
         echo "Build type determined: $type"
 
-  full-build:
+  build:
     needs: check-version
     runs-on: ubuntu-latest
-    if: needs.check-version.outputs.build_type == 'full'
+    if: needs.check-version.outputs.build_type != 'none'
     steps:
       - name: checkout@v4
         uses: actions/checkout@v4
@@ -111,42 +114,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: run full build
+        if: ${{ needs.check-version.outputs.build_type == 'full' }}
         run: |
           chmod +x script/build.sh
           ./script/build.sh -a
 
-      - name: upload-artifact@v4
-        uses: actions/upload-artifact@v4
-        with:
-          name: base-dicts
-          include-hidden-files: true
-          path: |
-            output
-            !output/.gitkeep
-          retention-days: 30
-          overwrite: true
-
-  incremental-build:
-    needs: check-version
-    runs-on: ubuntu-latest
-    if: needs.check-version.outputs.build_type == 'incremental'
-    steps:
-      - name: checkout@v4
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref }}
-
-      - name: install system dependencies
-        run: sudo apt install -y libime-bin
-
-      - name: setup-python@v5
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
-
       - name: download base artifacts
         uses: actions/download-artifact@v4
+        if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         with:
           name: base-dicts
           path: output
@@ -155,6 +130,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: run incremental build
+        if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         run: |
           chmod +x script/build.sh
           ./script/build.sh -d ${{ needs.check-version.outputs.incremental_dicts }}
@@ -173,8 +149,7 @@ jobs:
   package:
     needs: 
       - check-version
-      - incremental-build
-      - full-build
+      - build
     runs-on: ubuntu-latest
     outputs: 
       build-date: ${{steps.date.outputs.date}}
