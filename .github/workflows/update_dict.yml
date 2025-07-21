@@ -3,12 +3,9 @@ on:
   schedule:
     - cron: '0 8 * * *'
   workflow_dispatch:
-    inputs:
-      force:
-        description: 'Force update even if version unchanged'
-        required: false
-        type: boolean
-        default: false
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -23,12 +20,14 @@ jobs:
     outputs:
       changed: ${{ steps.check-version.outputs.changed }}
       current_version: ${{ steps.check-version.outputs.current_version }}
-      commit_sha: ${{ steps.get-sha.outputs.sha }}
-      should_build: ${{ steps.set-should-build.outputs.should_build }}
+      incremental_dicts: ${{ steps.parse-commit.outputs.incremental_dicts }}
+      build_type: ${{ steps.determine-type.outputs.type }}
 
     steps:
     - name: checkout@v4
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: setup-python@v5
       uses: actions/setup-python@v5
@@ -39,18 +38,27 @@ jobs:
     - name: install requirements
       run: pip install -r requirements.txt
 
+    - name: parse commit message
+      id: parse-commit
+      run: |
+        COMMIT_MSG=$(git log -1 --pretty=%B)
+        FIRST_LINE=$(echo "$COMMIT_MSG" | head -n 1)
+        SCOPE=$(echo "$FIRST_LINE" | awk -F'[()]' '{print $2}')
+
+        DICTS=""
+        for dic in $(echo "$SCOPE" | tr ',' ' '); do
+          if [[ $dic == an_* ]]; then
+            DICTS="${DICTS}${dic},"
+          fi
+        done
+
+        DICTS=${DICTS%,}
+        echo "incremental_dicts=${DICTS}" >> $GITHUB_OUTPUT
+        echo "Detected incremental dictionaries: ${DICTS}"
+
     - name: check version
       id: check-version
       run: python script/check_version.py
-
-    - name: set should_build flag
-      id: set-should-build
-      run: |
-        if [ "${{ steps.check-version.outputs.changed }}" == 'true' ] || [ "${{ inputs.force }}" == 'true' ]; then
-          echo "should_build=true" >> $GITHUB_OUTPUT
-        else
-          echo "should_build=false" >> $GITHUB_OUTPUT
-        fi
 
     - name: commit version update
       id: commit-version
@@ -61,7 +69,7 @@ jobs:
         author_email: 'actions@github.com'
         message: 'chore(version): Auto-update VERSION file'
         add: 'VERSION'
-        
+
     - name: push changes
       if: ${{ steps.check-version.outputs.changed == 'true' }}
       uses: ad-m/github-push-action@master
@@ -69,14 +77,21 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
 
-    - name: get current HEAD SHA
-      id: get-sha
-      run: echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+    - name: determine build type
+      id: determine-type
+      run: |
+        if [ -n "${{ steps.parse-commit.outputs.incremental_dicts }}" ]; then
+          type="incremental"
+        else
+          type="full"
+        fi
+        echo "type=$type" >> $GITHUB_OUTPUT
+        echo "Build type determined: $type"
 
-  build-and-package:
+  full-build:
     needs: check-version
     runs-on: ubuntu-latest
-    if: needs.check-version.outputs.should_build == 'true'
+    if: needs.check-version.outputs.build_type == 'full'
     steps:
       - name: checkout@v4
         uses: actions/checkout@v4
@@ -84,7 +99,7 @@ jobs:
           ref: ${{ github.ref }}
 
       - name: install system dependencies
-        run: sudo apt install -y libime-bin p7zip
+        run: sudo apt install -y libime-bin
 
       - name: setup-python@v5
         uses: actions/setup-python@v5
@@ -92,28 +107,99 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
 
-      - name: install requirements
-        run: pip install -r requirements.txt
-
-      - name: run script/build.sh
+      - name: run full build
         run: |
           chmod +x script/build.sh
-          ./script/build.sh
+          ./script/build.sh -a
 
-      - name: Package files into 7z and tar.gz
+      - name: upload-artifact@v4
+        uses: actions/upload-artifact@v4
+        with:
+          name: base-dicts
+          include-hidden-files: true
+          path: |
+            output
+            !output/.gitkeep
+          retention-days: 30
+          overwrite: true
+
+  incremental-build:
+    needs: check-version
+    runs-on: ubuntu-latest
+    if: needs.check-version.outputs.build_type == 'incremental'
+    steps:
+      - name: checkout@v4
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: install system dependencies
+        run: sudo apt install -y libime-bin
+
+      - name: setup-python@v5
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: download base artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: base-dicts
+          path: output
+
+      - name: run incremental build
         run: |
-          mkdir -p artifact
-          cd output
+          chmod +x script/build.sh
+          ./script/build.sh -d ${{ needs.check-version.outputs.incremental_dicts }}
 
-          find . -name "an_*.dict.yaml" -print0 | xargs -0 7z a ../artifact/rime_dicts.7z
-          find . -name "an_*.dict" -print0 | xargs -0 7z a ../artifact/fcitx5_dicts.7z
-          find . -name "an_*_titles.txt" -print0 | xargs -0 7z a ../artifact/titles.7z
-          
-          find . -name "an_*.dict.yaml" -print0 | tar -czvf ../artifact/rime_dicts.tar.gz --null -T -
-          find . -name "an_*.dict" -print0 | tar -czvf ../artifact/fcitx5_dicts.tar.gz --null -T -
-          find . -name "an_*_titles.txt" -print0 | tar -czvf ../artifact/titles.tar.gz --null -T -
+      - name: upload-artifact@v4
+        uses: actions/upload-artifact@v4
+        with:
+          name: base-dicts
+          include-hidden-files: true
+          path: |
+            output
+            !output/.gitkeep
+          retention-days: 30
+          overwrite: true
 
-      - name: Generate checksum
+  package:
+    needs: 
+      - check-version
+      - incremental-build
+      - full-build
+    runs-on: ubuntu-latest
+    outputs: 
+      build-date: ${{steps.date.outputs.date}}
+      artifact-name: release-assets-${{steps.date.outputs.date}}
+
+    steps:
+      - name: download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: base-dicts
+          path: artifact
+
+      - name: install system dependencies
+        run: sudo apt install -y p7zip
+
+      - name: get date str
+        id: date
+        run: echo "date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
+
+      - name: package files into 7z and tar.gz
+        run: |
+          cd artifact
+          find . -name "an_*.dict.yaml" -print0 | xargs -0 7z a rime_dicts.7z
+          find . -name "an_*.dict" -print0 | xargs -0 7z a fcitx5_dicts.7z
+          find . -name "an_*_titles.txt" -print0 | xargs -0 7z a titles.7z
+
+          find . -name "an_*.dict.yaml" -print0 | tar -czvf rime_dicts.tar.gz --null -T -
+          find . -name "an_*.dict" -print0 | tar -czvf fcitx5_dicts.tar.gz --null -T -
+          find . -name "an_*_titles.txt" -print0 | tar -czvf titles.tar.gz --null -T -
+
+      - name: actions-generate-checksum@v1
         uses: jmgilman/actions-generate-checksum@v1
         with:
           patterns: |
@@ -121,36 +207,35 @@ jobs:
             artifact/*.tar.gz
           output: artifact/checksum.txt
 
-      - name: Upload Artifacts
+      - name: upload-artifact@v4
+        id: upload-artifact
         uses: actions/upload-artifact@v4
         with:
-          name: release-assets
-          path: artifact/
-          retention-days: 7 
+          name: release-assets-${{steps.date.outputs.date}}
+          include-hidden-files: true
+          path: |
+            artifact/*.7z
+            artifact/*.tar.gz
+            !artifact/.gitkeep
+          retention-days: 1
 
-  publish-release:
-    needs: 
-      - build-and-package
+  release:
+    needs:
       - check-version
-    if: needs.check-version.outputs.should_build == 'true'
+      - package
     runs-on: ubuntu-latest
     steps:
       - name: download artifacts
         uses: actions/download-artifact@v4
         with:
-          name: release-assets
-          path: artifact/
+          name: ${{ needs.package.outputs.artifact-name }}
+          path: artifact
 
-      - name: get date str
-        id: date
-        run: echo "date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
-
-      - name: create Release
+      - name: action-gh-release@v2
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.date.outputs.date }}
-          name: Release ${{ steps.date.outputs.date }}
-          target_commitish: ${{ needs.check-version.outputs.commit_sha }}
+          tag_name: v${{ needs.package.outputs.build-date }}
+          name: Release ${{ needs.package.outputs.build-date }}
           body: |
             词库版本: ${{ needs.check-version.outputs.current_version }}
           files: artifact/*
