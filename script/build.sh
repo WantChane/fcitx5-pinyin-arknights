@@ -8,6 +8,7 @@ source ./script/log.sh
 
 targets=()
 process_all=false
+skip_clean=false
 
 while [[ $# -gt 0 ]]; do
     case "$1" in
@@ -28,6 +29,10 @@ while [[ $# -gt 0 ]]; do
             targets+=("${tmp_targets[@]}")
             shift 2
             ;;
+        -s|--skip-clean)
+            skip_clean=true
+            shift
+            ;;
         *)
             error "未知参数: $1"
             exit 1
@@ -42,7 +47,11 @@ fi
 
 info "开始处理..."
 
-./script/clean.sh
+if [ "$skip_clean" = false ]; then
+    ./script/clean.sh
+else
+    info "已跳过清理步骤"
+fi
 
 if [ "$process_all" = true ]; then
     python script/extend_dictionaries.py --all
