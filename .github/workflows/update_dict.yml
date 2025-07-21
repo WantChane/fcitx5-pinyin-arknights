@@ -143,7 +143,7 @@ jobs:
         if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         with:
           latest: true
-          fileName: 'titles.tar.gz'
+          fileName: '*.tar.gz'
           extract: true
           out-file-path: 'output'
 
@@ -163,6 +163,7 @@ jobs:
           include-hidden-files: true
           path: |
             output
+            !output/*.tar.gz
             !output/.gitkeep
           retention-days: 30
           overwrite: true
