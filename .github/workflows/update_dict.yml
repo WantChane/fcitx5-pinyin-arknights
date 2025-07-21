@@ -120,11 +120,14 @@ jobs:
           ./script/build.sh -a
 
       - name: download base artifacts
-        uses: actions/download-artifact@v4
+        uses: dawidd6/action-download-artifact@v11
         if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         with:
           name: base-dicts
           path: output
+          workflow: ${{ github.workflow }}.yml
+          branch: main
+          workflow_conclusion: success 
 
       - name: install requirements
         run: pip install -r requirements.txt
