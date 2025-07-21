@@ -30,7 +30,7 @@ exports = {
             "kwargs": {
                 "name": dict_name,
                 "version": BUILD_DATE,
-                "output": f"output/{dict_name}b.dict.yaml",
+                "output": f"output/{dict_name}.dict.yaml",
             },
         },
         {
