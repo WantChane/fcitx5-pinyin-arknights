@@ -3,6 +3,19 @@ on:
   schedule:
     - cron: '0 8 * * *'
   workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Build type (incremental or full)'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - incremental
+          - full
+      incremental_dicts:
+        description: 'Comma-separated dictionary names for incremental build'
+        required: false
+        type: string
   push:
     branches:
       - main
@@ -81,13 +94,17 @@ jobs:
       id: determine-type
       run: |
         type="none"
-
-        if [ "${{ steps.check-version.outputs.changed }}" == 'true' ]; then
-          type="full"
-        elif [ -n "${{ steps.parse-commit.outputs.incremental_dicts }}" ]; then
-          type="incremental"
+        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+          type="${{ inputs.build_type }}"
+          incremental_dicts="${{ inputs.incremental_dicts }}"
+          echo "incremental_dicts=${DICTS}" >> $GITHUB_OUTPUT
+        else
+          if [ "${{ steps.check-version.outputs.changed }}" == 'true' ]; then
+            type="full"
+          elif [ -n "${{ steps.parse-commit.outputs.incremental_dicts }}" ]; then
+            type="incremental"
+          fi
         fi
-
         echo "type=$type" >> $GITHUB_OUTPUT
         echo "Build type determined: $type"
 
