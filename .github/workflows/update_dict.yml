@@ -19,7 +19,8 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - main
+      - ci/incremental-updates
+      # - main
 
 permissions:
   contents: write
@@ -250,7 +251,7 @@ jobs:
           body: |
             词库版本: ${{ needs.check-version.outputs.current_version }}
           files: artifact/*
-          draft: false
+          draft: true
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
