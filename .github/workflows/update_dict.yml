@@ -16,13 +16,10 @@ on:
         description: 'Comma-separated dictionary names for incremental build'
         required: false
         type: string
-  push:
+  pull_request:
+    types: [closed]
     branches:
       - main
-
-permissions:
-  contents: write
-  pull-requests: write
 
 env:
   PYTHON_VERSION: "3.10"
@@ -30,6 +27,10 @@ env:
 jobs:
   check-version:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+      issues: write
     outputs:
       current_version: ${{ steps.check-version.outputs.current_version }}
       incremental_dicts: ${{ steps.determine-type.outputs.incremental_dicts }}
@@ -50,22 +51,22 @@ jobs:
     - name: install requirements
       run: pip install -r requirements.txt
 
-    - name: parse commit message
-      id: parse-commit
-      if: ${{ github.event_name == 'push' }}
+    - name: sync labels
       run: |
-        COMMIT_MSG=$(git log -1 --pretty=%B)
-        FIRST_LINE=$(echo "$COMMIT_MSG" | head -n 1)
-        SCOPE=$(echo "$FIRST_LINE" | awk -F'[()]' '{print $2}')
+        chmod +x script/label.sh
+        ./script/label.sh
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-        DICTS=""
-        for dic in $(echo "$SCOPE" | tr ',' ' '); do
-          if [[ $dic == an_* ]]; then
-            DICTS="${DICTS}${dic},"
-          fi
-        done
+    - name: install system dependencies
+      if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
+      run: sudo apt install -y jq
 
-        DICTS=${DICTS%,}
+    - name: parse PR labels
+      id: parse-pr-labels
+      if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
+      run: |
+        DICTS=$(echo '${{ toJson(github.event.pull_request.labels) }}' | jq -r '[ .[] | select(.name | startswith("incremental: ")) | .name | sub("^incremental: "; "") ] | join(",")')
         echo "incremental_dicts=${DICTS}" >> $GITHUB_OUTPUT
         echo "Detected incremental dictionaries: ${DICTS}"
 
@@ -100,9 +101,9 @@ jobs:
         else
           if [ "${{ steps.check-version.outputs.changed }}" == 'true' ]; then
             type="full"
-          elif [ -n "${{ steps.parse-commit.outputs.incremental_dicts }}" ]; then
+          elif [ -n "${{ steps.parse-pr-labels.outputs.incremental_dicts }}" ]; then
             type="incremental"
-            incremental_dicts="${{ steps.parse-commit.outputs.incremental_dicts }}"
+            incremental_dicts="${{ steps.parse-pr-labels.outputs.incremental_dicts }}"
           fi
         fi
         echo "type=$type" >> $GITHUB_OUTPUT
@@ -111,8 +112,10 @@ jobs:
         echo "Build dicts: $incremental_dicts"
 
   build:
-    needs: check-version
     runs-on: ubuntu-latest
+    needs: check-version
+    permissions:
+      contents: read
     if: needs.check-version.outputs.build_type != 'none'
     steps:
       - name: checkout@v4
@@ -138,7 +141,7 @@ jobs:
           chmod +x script/build.sh
           ./script/build.sh -a
 
-      - name: download base artifacts
+      - name: release-downloader@v1
         uses: robinraju/release-downloader@v1
         if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         with:
@@ -223,6 +226,8 @@ jobs:
           retention-days: 1
 
   release:
+    permissions:
+      contents: write
     needs:
       - check-version
       - package
@@ -242,7 +247,7 @@ jobs:
           body: |
             词库版本: ${{ needs.check-version.outputs.current_version }}
           files: artifact/*
-          draft: false
+          draft: true
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
