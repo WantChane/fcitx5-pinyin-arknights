@@ -22,16 +22,16 @@ on:
       - ci/incremental-updates
       # - main
 
-permissions:
-  contents: write
-  pull-requests: write
-
 env:
   PYTHON_VERSION: "3.10"
 
 jobs:
   check-version:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+      issues: write
     outputs:
       current_version: ${{ steps.check-version.outputs.current_version }}
       incremental_dicts: ${{ steps.determine-type.outputs.incremental_dicts }}
@@ -57,7 +57,7 @@ jobs:
         chmod +x script/label.sh
         ./script/label.sh
       env:
-        GH_TOKEN: ${{ github.token }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: install system dependencies
       if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
@@ -113,8 +113,10 @@ jobs:
         echo "Build dicts: $incremental_dicts"
 
   build:
-    needs: check-version
     runs-on: ubuntu-latest
+    needs: check-version
+    permissions:
+      contents: read
     if: needs.check-version.outputs.build_type != 'none'
     steps:
       - name: checkout@v4
@@ -225,6 +227,8 @@ jobs:
           retention-days: 1
 
   release:
+    permissions:
+      contents: write
     needs:
       - check-version
       - package
