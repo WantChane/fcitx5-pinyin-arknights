@@ -142,7 +142,7 @@ jobs:
           chmod +x script/build.sh
           ./script/build.sh -a
 
-      - name: download base artifacts
+      - name: release-downloader@v1
         uses: robinraju/release-downloader@v1
         if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         with:
