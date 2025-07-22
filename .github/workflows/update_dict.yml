@@ -65,7 +65,7 @@ jobs:
       id: parse-pr-labels
       if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
       run: |
-        DICTS=$(echo '${{ toJson(github.event.pull_request.labels) }}' | jq -r '[ .[] | select(.name | startswith("incremental: ")) | .name | sub("^incremental: "; "") ] | join(",")'
+        DICTS=$(echo '${{ toJson(github.event.pull_request.labels) }}' | jq -r '[ .[] | select(.name | startswith("incremental: ")) | .name | sub("^incremental: "; "") ] | join(",")')
         echo "incremental_dicts=${DICTS}" >> $GITHUB_OUTPUT
         echo "Detected incremental dictionaries: ${DICTS}"
 
