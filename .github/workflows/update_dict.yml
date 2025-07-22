@@ -19,8 +19,7 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - ci/incremental-updates
-      # - main
+      - main
 
 env:
   PYTHON_VERSION: "3.10"
