@@ -16,7 +16,8 @@ on:
         description: 'Comma-separated dictionary names for incremental build'
         required: false
         type: string
-  push:
+  pull_request:
+    types: [closed]
     branches:
       - main
 
@@ -50,22 +51,29 @@ jobs:
     - name: install requirements
       run: pip install -r requirements.txt
 
-    - name: parse commit message
-      id: parse-commit
-      if: ${{ github.event_name == 'push' }}
+    - name: sync labels
       run: |
-        COMMIT_MSG=$(git log -1 --pretty=%B)
-        FIRST_LINE=$(echo "$COMMIT_MSG" | head -n 1)
-        SCOPE=$(echo "$FIRST_LINE" | awk -F'[()]' '{print $2}')
+        chmod +x script/label.sh
+        ./script/label.sh
+
+    - name: install system dependencies
+      if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
+      run: sudo apt install -y jq
+
+    - name: parse PR labels
+      id: parse-pr-labels
+      if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
+      run: |
+        INCREMENTAL_LABELS=$(echo '${{ toJson(github.event.pull_request.labels) }}' | jq -r '.[] | select(.name | startswith("incremental: ")) | .name')
+        echo "INCREMENTAL_LABELS=$INCREMENTAL_LABELS"
 
         DICTS=""
-        for dic in $(echo "$SCOPE" | tr ',' ' '); do
-          if [[ $dic == an_* ]]; then
-            DICTS="${DICTS}${dic},"
-          fi
+        for label in $INCREMENTAL_LABELS; do
+          dict_name="${label#incremental: }"
+          DICTS="${DICTS}${dict_name},"
         done
-
         DICTS=${DICTS%,}
+
         echo "incremental_dicts=${DICTS}" >> $GITHUB_OUTPUT
         echo "Detected incremental dictionaries: ${DICTS}"
 
@@ -100,9 +108,9 @@ jobs:
         else
           if [ "${{ steps.check-version.outputs.changed }}" == 'true' ]; then
             type="full"
-          elif [ -n "${{ steps.parse-commit.outputs.incremental_dicts }}" ]; then
+          elif [ -n "${{ steps.parse-pr-labels.outputs.incremental_dicts }}" ]; then
             type="incremental"
-            incremental_dicts="${{ steps.parse-commit.outputs.incremental_dicts }}"
+            incremental_dicts="${{ steps.parse-pr-labels.outputs.incremental_dicts }}"
           fi
         fi
         echo "type=$type" >> $GITHUB_OUTPUT
