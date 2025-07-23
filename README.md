@@ -97,16 +97,11 @@ sudo pacman -S libime
 3. Run
 
 ```shell
-# 单一词库生成，以an_operator为例
-mw2fcitx -c an_operator.py
-
-## 对于来自页面内部数据的词库，需要先执行 script/extend_dictionaries.py，以获取 titles 文件
-python script/extend_dictionaries.py
-cp -f output/an_real_name_titles.txt input
-mw2fcitx -c an_real_name.py
+# 特定词库生成，以an_operator为例
+./script/build.sh -d an_operator
 
 # 生成所有词库
-./script/build.sh
+./script/build.sh -a
 ```
 
 ## 许可
