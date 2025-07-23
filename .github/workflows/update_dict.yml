@@ -200,8 +200,8 @@ jobs:
       - name: package files into 7z and tar.gz
         run: |
           cd artifact
-          find . -name "an_*.dict.yaml" -print0 | xargs -0 7z a titles.7z LICENSE ATTRIBUTION.md
-          find . -name "an_*.dict" -print0 | xargs -0 7z a titles.7z LICENSE ATTRIBUTION.md
+          find . -name "an_*.dict.yaml" -print0 | xargs -0 7z a rime_dicts.7z LICENSE ATTRIBUTION.md
+          find . -name "an_*.dict" -print0 | xargs -0 7z a fcitx5_dicts.7z LICENSE ATTRIBUTION.md
           find . -name "an_*_titles.txt" -print0 | xargs -0 7z a titles.7z LICENSE ATTRIBUTION.md
 
           (find . -name "an_*.dict.yaml" -print0; printf "LICENSE\0ATTRIBUTION.md\0") | tar -czvf rime_dicts.tar.gz --null -T -
