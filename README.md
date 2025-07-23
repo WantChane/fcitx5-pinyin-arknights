@@ -109,8 +109,13 @@ mw2fcitx -c an_real_name.py
 ./script/build.sh
 ```
 
-## 许可与致谢
+## 许可
 
-- 本词库使用 [MIT License](LICENSE)。
+本项目代码部分采用 [MIT License](LICENSE) 许可证。
+
+本项目生成的词库文件中包含来自 [prts.wiki](https://prts.wiki) 的衍生数据，其使用受 **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** 约束。用户需单独遵守此许可条款，禁止商业使用，且需保留原始署名。
+
+## 致谢
+
 - 生成工具：[mw2fcitx](https://github.com/outloudvi/mw2fcitx) ([MIT License](https://github.com/outloudvi/mw2fcitx/blob/master/LICENSE))。
-- 数据来源：[prts.wiki](https://prts.wiki)
+- 数据来源：[prts.wiki](https://prts.wiki)，该内容采用 **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** 许可。
