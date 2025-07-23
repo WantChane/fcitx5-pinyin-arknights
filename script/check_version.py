@@ -10,11 +10,10 @@ from urllib.parse import urlencode
 
 params = {
     "action": "cargoquery",
-    "tables": "char_obtain,chara",
-    "fields": "char_obtain._pageName=name",
+    "tables": "chara",
+    "fields": "chara._pageName=name",
     "where": 'chara.rarity="5"',
-    "join_on": "char_obtain._pageName=chara._pageName",
-    "order_by": "char_obtain.cnOnlineTime desc",
+    "order_by": "chara.charIndex desc",
     "limit": 1,
     "format": "json",
     "formatversion": 2,
