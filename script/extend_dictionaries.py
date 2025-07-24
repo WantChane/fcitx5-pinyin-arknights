@@ -138,6 +138,97 @@ def parse_structured_page(
         return False
 
 
+def parse_sequential_page(
+    page_title: str,
+    output_path: str,
+    selectors: List[str],
+    attributes: List[str] = [],
+    recursive_texts: List[bool] = [],
+    delimiter: str = ",",
+    base_url: str = "https://prts.wiki/api.php",
+    request_delay: int = 0,
+) -> bool:
+
+    num_selectors = len(selectors)
+    attributes = attributes or [""] * num_selectors
+    recursive_texts = recursive_texts or [False] * num_selectors
+
+    if len(attributes) != num_selectors or len(recursive_texts) != num_selectors:
+        raise ValueError("属性和递归标志的长度必须与选择器数量一致")
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    try:
+        soup = fetch_page_content(page_title, base_url, request_delay)
+
+        selector_elements = []
+        for selector in selectors:
+            elements = soup.select(selector)
+            selector_elements.append(elements)
+
+            if not elements:
+                print(f"警告: 选择器 '{selector}' 未匹配到元素")
+            else:
+                print(f"选择器 '{selector}' 匹配到 {len(elements)} 个元素")
+
+        all_matches = []
+        for selector_idx, elements in enumerate(selector_elements):
+            for element in elements:
+                sourceline = getattr(element, "sourceline", float("inf"))
+                sourcepos = getattr(element, "sourcepos", float("inf"))
+
+                all_matches.append(
+                    {
+                        "sourceline": sourceline,
+                        "sourcepos": sourcepos,
+                        "selector_idx": selector_idx,
+                        "element": element,
+                    }
+                )
+
+        if not all_matches:
+            print("错误: 没有任何选择器匹配到元素")
+            return False
+
+        all_matches.sort(key=lambda x: (x["sourceline"], x["sourcepos"]))
+
+        current_values = [""] * num_selectors
+        lines = []
+
+        for entry in all_matches:
+            selector_idx = entry["selector_idx"]
+            element = entry["element"]
+
+            text = (
+                extract_text(
+                    element, attributes[selector_idx], recursive_texts[selector_idx]
+                )
+                .replace("\n", " ")
+                .replace(delimiter, " ")
+            )
+
+            current_values[selector_idx] = text
+
+            for idx in range(selector_idx + 1, num_selectors):
+                current_values[idx] = ""
+
+            if selector_idx == num_selectors - 1:
+                lines.append(delimiter.join(current_values) + "\n")
+
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+
+        print(f"成功提取 {len(lines)} 行数据到: {output_path}")
+        return True
+
+    except Exception as e:
+        print(f"处理错误：{e}")
+        import traceback
+
+        traceback.print_exc()
+        return False
+
+
 TASKS = {
     "an_collection_1": {
         "function": parse_page,
@@ -190,15 +281,13 @@ TASKS = {
         },
     },
     "an_real_name": {
-        "function": parse_structured_page,
+        "function": parse_sequential_page,
         "args": ["角色真名", "output/an_real_name_titles.txt"],
         "kwargs": {
-            "selectors": {
-                "div>table.wikitable>tbody>tr:has(td)": [
-                    "td:nth-child(2)",
-                    "td:nth-child(3)",
-                ]
-            },
+            "selectors": [
+                "div>table.wikitable>tbody>tr>td:nth-child(2)",
+                "div>table.wikitable>tbody>tr>td:nth-child(3)",
+            ],
             "recursive_texts": [True, True],
         },
     },
@@ -231,15 +320,13 @@ TASKS = {
         "kwargs": {"selector": "div.smwdata", "attribute": "data-name"},
     },
     "an_activity_v2": {
-        "function": parse_structured_page,
+        "function": parse_sequential_page,
         "args": ["活动一览", "output/an_activity_v2_titles.txt"],
         "kwargs": {
-            "selectors": {
-                "div>table.wikitable>tbody>tr:has(td)": [
-                    "td:nth-child(2)>a",
-                    "td:nth-child(3)",
-                ]
-            },
+            "selectors": [
+                "div>table.wikitable>tbody>tr>td:nth-child(2)>a",
+                "div>table.wikitable>tbody>tr>td:nth-child(3)",
+            ],
             "recursive_texts": [True, True],
         },
     },
