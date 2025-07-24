@@ -69,7 +69,7 @@ import_tables:
 4. 更新
 
 ```shell
-scoop update fcitx5-pinyin-arknights_all_dicts
+scoop update fcitx5-pinyin-arknights_rime_dicts
 ```
 
 ### 其他发行版
