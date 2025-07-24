@@ -94,7 +94,7 @@ sudo apt install -y libime-bin
 sudo pacman -S libime
 ```
 
-3. Run build.py
+3. 执行 build.py
 
 ```shell
 # 特定词库生成，以an_operator为例
