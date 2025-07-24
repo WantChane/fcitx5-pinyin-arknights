@@ -84,7 +84,7 @@ scoop update fcitx5-pinyin-arknights_rime_dicts
 pip install -r requirements.txt
 ```
 
-1. 安装 [libime](https://github.com/fcitx/libime)。
+2. 安装 [libime](https://github.com/fcitx/libime)。
 
 ```shell
 # ubuntu
