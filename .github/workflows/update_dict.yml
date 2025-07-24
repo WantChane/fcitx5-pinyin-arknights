@@ -222,8 +222,6 @@ jobs:
           name: release-assets-${{steps.date.outputs.date}}
           include-hidden-files: true
           path: |
-            artifact/ATTRIBUTION.md
-            artifact/LICENSE
             artifact/*.7z
             artifact/*.tar.gz
             !artifact/.gitkeep
