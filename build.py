@@ -210,7 +210,7 @@ def main():
 
     if args.list:
         print("Available dictionaries:")
-        for i, name in enumerate(ALL_DICTS, 1):
+        for i, name in enumerate(sorted(ALL_DICTS), 1):
             print(f"{i:>2}. {name}")
         return
 
