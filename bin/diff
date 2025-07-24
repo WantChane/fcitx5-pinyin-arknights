@@ -13,8 +13,8 @@ def read_file_to_set(filename):
 
 def main():
     if len(sys.argv) != 3:
-        print("用法: python compare_dicts.py <文件1> <文件2>")
-        print("示例: python compare_dicts.py file1.txt file2.txt")
+        print("用法: python bin/diff <文件1> <文件2>")
+        print("示例: python bin/diff file1.txt file2.txt")
         sys.exit(1)
 
     file1 = sys.argv[1]
