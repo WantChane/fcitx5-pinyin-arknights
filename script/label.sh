@@ -7,8 +7,9 @@ source ./script/log.sh
 remote_labels=$(gh label list --json name -q '.[].name' --limit 100 | grep '^incremental: ')
 
 local_labels=()
-for file in an_*.py; do
-    dict_name="${file%.py}"
+for file in conf/an_*.py; do
+    dict_name="${file#conf/}"
+    dict_name="${dict_name%.py}"
     label_name="incremental: $dict_name"
     local_labels+=("$label_name")
 done
