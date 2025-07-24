@@ -78,13 +78,13 @@ scoop update fcitx5-pinyin-arknights_rime_dicts
 
 ## 手动构建
 
-1. 安装依赖。如果遇到了 opencc build 错误，可以尝试使用较早版本的 python，例如 3.10。
+1. 安装依赖。
 
 ```shell
 pip install -r requirements.txt
 ```
 
-2. 如果需要 fcitx 字典，需要额外安装 [libime](https://github.com/fcitx/libime)，如果不需要，可以修改配置中的 generator。你也可以根据 [mw2fcitx](https://github.com/outloudvi/mw2fcitx) ，做出其他修改，有好的点子记得告诉我。😄
+1. 安装 [libime](https://github.com/fcitx/libime)。
 
 ```shell
 # ubuntu
@@ -94,7 +94,7 @@ sudo apt install -y libime-bin
 sudo pacman -S libime
 ```
 
-3. Run
+3. Run build.py
 
 ```shell
 # 特定词库生成，以an_operator为例
