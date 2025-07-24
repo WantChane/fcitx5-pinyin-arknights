@@ -165,6 +165,8 @@ jobs:
           name: base-dicts
           include-hidden-files: true
           path: |
+            LICENSE
+            ATTRIBUTION.md
             output
             !output/*.tar.gz
             !output/.gitkeep
@@ -194,9 +196,6 @@ jobs:
         id: date
         run: echo "date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
 
-      - name: copy license/attribution to artifact
-        run: cp LICENSE ATTRIBUTION.md artifact/
-
       - name: package files into 7z and tar.gz
         run: |
           cd artifact
@@ -223,6 +222,8 @@ jobs:
           name: release-assets-${{steps.date.outputs.date}}
           include-hidden-files: true
           path: |
+            artifact/ATTRIBUTION.md
+            artifact/LICENSE
             artifact/*.7z
             artifact/*.tar.gz
             !artifact/.gitkeep
