@@ -146,7 +146,7 @@ def clean_folders(exclude_files=CLEAN_EXCLUDE_FILES):
                 print(f"\tDelete {rel_path} failed: {str(e)}")
 
 
-def copy_titles_to_input(target, reverse_list=MANUAL_DICTS):
+def copy_titles(target, reverse_list=MANUAL_DICTS):
 
     output_file = os.path.join("output", f"{target}_titles.txt")
     input_file = os.path.join("input", f"{target}_titles.txt")
@@ -251,7 +251,7 @@ def main():
             task = TASKS[target]
             task["function"](*task["args"], **task["kwargs"], **request_args)
         print(f"Building dictionary: {target}")
-        copy_titles_to_input(target)
+        copy_titles(target)
         try:
             inner_main(["-c", f"conf/{target}.py"])
             print(f"Successfully built {target}")
