@@ -98,10 +98,10 @@ sudo pacman -S libime
 
 ```shell
 # 特定词库生成，以an_operator为例
-./script/build.sh -d an_operator
+./build.py -d an_operator
 
 # 生成所有词库
-./script/build.sh -a
+./build.py -a
 ```
 
 ## 许可
