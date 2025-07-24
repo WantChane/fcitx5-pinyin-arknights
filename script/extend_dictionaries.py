@@ -1,16 +1,10 @@
-import argparse
 import os
-import sys
-
-parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, parent_dir)
-
 import time
 import urllib.parse
 import requests
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
-from constant import REQUEST_DELAY, USER_AGENT
+from constant import USER_AGENT
 
 
 def fetch_page_content(
@@ -59,7 +53,7 @@ def parse_page(
         elements = soup.select(selector)
 
         if not elements:
-            print(f"未找到匹配选择器 '{selector}' 的元素")
+            print(f"No elements found matching selector '{selector}'")
             return False
 
         texts = [extract_text(el, attribute, recursive_text) + "\n" for el in elements]
@@ -67,11 +61,11 @@ def parse_page(
         with open(output_path, "w", encoding="utf-8") as f:
             f.writelines(texts)
 
-        print(f"成功提取 {len(elements)} 个元素到: {output_path}")
+        print(f"Successfully extracted {len(elements)} elements to: {output_path}")
         return True
 
     except Exception as e:
-        print(f"处理错误：{e}")
+        print(f"Processing error: {e}")
         return False
 
 
@@ -87,7 +81,9 @@ def parse_structured_page(
 ) -> bool:
     """提取结构化页面数据"""
     if len(selectors) != 1:
-        raise ValueError("selectors 必须包含且仅包含一组根节点选择器")
+        raise ValueError(
+            "Selectors must contain and only contain a set of root node selectors"
+        )
 
     root_selector, child_selectors = next(iter(selectors.items()))
     num_children = len(child_selectors)
@@ -97,7 +93,9 @@ def parse_structured_page(
     recursive_texts = recursive_texts or [False] * num_children
 
     if len(attributes) != num_children or len(recursive_texts) != num_children:
-        raise ValueError("属性/递归标志长度需与子节点数一致")
+        raise ValueError(
+            "The length of the attributes and recursive_texts flag must match the number of selectors."
+        )
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
@@ -106,7 +104,7 @@ def parse_structured_page(
         root_elements = soup.select(root_selector)
 
         if not root_elements:
-            print(f"未找到匹配根选择器 '{root_selector}' 的元素")
+            print(f"No elements found matching root selector '{root_selector}'")
             return False
 
         lines = []
@@ -130,11 +128,11 @@ def parse_structured_page(
         with open(output_path, "w", encoding="utf-8") as f:
             f.writelines(lines)
 
-        print(f"成功提取 {len(root_elements)} 行数据到: {output_path}")
+        print(f"Successfully extracted {len(root_elements)} rows to: {output_path}")
         return True
 
     except Exception as e:
-        print(f"处理错误：{e}")
+        print(f"Processing error: {e}")
         return False
 
 
@@ -154,7 +152,9 @@ def parse_sequential_page(
     recursive_texts = recursive_texts or [False] * num_selectors
 
     if len(attributes) != num_selectors or len(recursive_texts) != num_selectors:
-        raise ValueError("属性和递归标志的长度必须与选择器数量一致")
+        raise ValueError(
+            "The length of the attributes and recursive_texts flag must match the number of selectors."
+        )
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
@@ -167,9 +167,9 @@ def parse_sequential_page(
             selector_elements.append(elements)
 
             if not elements:
-                print(f"警告: 选择器 '{selector}' 未匹配到元素")
+                print(f"No elements found for selector '{selector}'")
             else:
-                print(f"选择器 '{selector}' 匹配到 {len(elements)} 个元素")
+                print(f"Selector '{selector}' matched {len(elements)} elements")
 
         all_matches = []
         for selector_idx, elements in enumerate(selector_elements):
@@ -187,7 +187,7 @@ def parse_sequential_page(
                 )
 
         if not all_matches:
-            print("错误: 没有任何选择器匹配到元素")
+            print("No selectors matched any elements")
             return False
 
         all_matches.sort(key=lambda x: (x["sourceline"], x["sourcepos"]))
@@ -218,164 +218,9 @@ def parse_sequential_page(
         with open(output_path, "w", encoding="utf-8") as f:
             f.writelines(lines)
 
-        print(f"成功提取 {len(lines)} 行数据到: {output_path}")
+        print(f"Successfully extracted {len(lines)} rows to: {output_path}")
         return True
 
     except Exception as e:
-        print(f"处理错误：{e}")
-        import traceback
-
-        traceback.print_exc()
+        print(f"Processing error: {e}")
         return False
-
-
-TASKS = {
-    "an_collection_1": {
-        "function": parse_page,
-        "args": ["刻俄柏的灰蕈迷境/收藏品图鉴", "output/an_collection_1_titles.txt"],
-        "kwargs": {
-            "selector": "div>table.wikitable>tbody>tr:first-child>th:nth-child(2)"
-        },
-    },
-    "an_collection_2": {
-        "function": parse_page,
-        "args": ["傀影与猩红孤钻/长生者宝盒", "output/an_collection_2_titles.txt"],
-        "kwargs": {
-            "selector": "div>table.wikitable>tbody>tr:first-child>th:nth-child(2)"
-        },
-    },
-    "an_collection_3": {
-        "function": parse_page,
-        "args": ["水月与深蓝之树/生物制品陈设", "output/an_collection_3_titles.txt"],
-        "kwargs": {
-            "selector": "div>table.wikitable>tbody>tr:first-child>th:nth-child(2)"
-        },
-    },
-    "an_collection_4": {
-        "function": parse_page,
-        "args": ["探索者的银凇止境/仪式用品索引", "output/an_collection_4_titles.txt"],
-        "kwargs": {
-            "selector": "div>table.wikitable>tbody>tr:first-child>th:nth-child(2)"
-        },
-    },
-    "an_collection_5": {
-        "function": parse_page,
-        "args": ["萨卡兹的无终奇语/想象实体图鉴", "output/an_collection_5_titles.txt"],
-        "kwargs": {
-            "selector": "div>table.wikitable>tbody>tr:first-child>th:nth-child(2)"
-        },
-    },
-    "an_collection_6": {
-        "function": parse_page,
-        "args": ["岁的界园志异/珍玩集册", "output/an_collection_6_titles.txt"],
-        "kwargs": {
-            "selector": "div>table.wikitable>tbody>tr:first-child>th:nth-child(2)"
-        },
-    },
-    "an_character": {
-        "function": parse_page,
-        "args": ["剧情角色一览", "output/an_character_titles.txt"],
-        "kwargs": {
-            "selector": "div>table.wikitable>tbody>tr>td:first-child",
-            "recursive_text": True,
-        },
-    },
-    "an_real_name": {
-        "function": parse_sequential_page,
-        "args": ["角色真名", "output/an_real_name_titles.txt"],
-        "kwargs": {
-            "selectors": [
-                "div>table.wikitable>tbody>tr>td:nth-child(2)",
-                "div>table.wikitable>tbody>tr>td:nth-child(3)",
-            ],
-            "recursive_texts": [True, True],
-        },
-    },
-    "an_terra": {
-        "function": parse_page,
-        "args": ["泰拉词库", "output/an_terra_titles.txt"],
-        "kwargs": {
-            "selector": "div>table.wikitable>tbody>tr>td:first-child",
-            "recursive_text": True,
-        },
-    },
-    "an_clothes": {
-        "function": parse_page,
-        "args": ["时装回廊", "output/an_clothes_titles.txt"],
-        "kwargs": {"selector": ".charnameEn"},
-    },
-    "an_branch": {
-        "function": parse_page,
-        "args": ["分支一览", "output/an_branch_titles.txt"],
-        "kwargs": {"selector": "font>strong"},
-    },
-    "an_operator_v2": {
-        "function": parse_page,
-        "args": ["干员一览", "output/an_operator_v2_titles.txt"],
-        "kwargs": {"selector": "#filter-data>div", "attribute": "data-zh"},
-    },
-    "an_item_v2": {
-        "function": parse_page,
-        "args": ["道具一览", "output/an_item_v2_titles.txt"],
-        "kwargs": {"selector": "div.smwdata", "attribute": "data-name"},
-    },
-    "an_activity_v2": {
-        "function": parse_sequential_page,
-        "args": ["活动一览", "output/an_activity_v2_titles.txt"],
-        "kwargs": {
-            "selectors": [
-                "div>table.wikitable>tbody>tr>td:nth-child(2)>a",
-                "div>table.wikitable>tbody>tr>td:nth-child(3)",
-            ],
-            "recursive_texts": [True, True],
-        },
-    },
-    "an_term": {
-        "function": parse_page,
-        "args": ["术语释义", "output/an_term_titles.txt"],
-        "kwargs": {"selector": "h2~p>b>span"},
-    },
-    "an_abnormal": {
-        "function": parse_page,
-        "args": ["异常效果", "output/an_abnormal_titles.txt"],
-        "kwargs": {"selector": "div>table>tbody>tr>td:nth-child(3)"},
-    },
-    "an_summons": {
-        "function": parse_page,
-        "args": ["召唤物一览", "output/an_summons_titles.txt"],
-        "kwargs": {"selector": "div>table>tbody>tr>td>a"},
-    },
-}
-
-
-def main():
-    parser = argparse.ArgumentParser(description="爬取PRTS页面, 生成titles文件")
-    parser.add_argument("targets", nargs="*", help="要爬取的词库名 (例如: an_summons)")
-    parser.add_argument("--all", action="store_true", help="爬取所有词库")
-    args = parser.parse_args()
-
-    if not args.targets and not args.all:
-        parser.error("请指定要爬取的词库名或使用 --all 选项")
-
-    if args.all and args.targets:
-        parser.error("不能同时使用 --all 和指定词库名")
-
-    request_args = {"request_delay": REQUEST_DELAY}
-
-    if args.all:
-        targets = TASKS.keys()
-    else:
-        targets = args.targets
-
-    for target in targets:
-        if target not in TASKS:
-            print(f"错误: 未知目标 '{target}'")
-            continue
-
-        print(f"正在处理: {target}")
-        task = TASKS[target]
-        task["function"](*task["args"], **task["kwargs"], **request_args)
-
-
-if __name__ == "__main__":
-    main()

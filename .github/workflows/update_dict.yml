@@ -138,8 +138,8 @@ jobs:
       - name: run full build
         if: ${{ needs.check-version.outputs.build_type == 'full' }}
         run: |
-          chmod +x script/build.sh
-          ./script/build.sh -a
+          chmod +x ./build.py
+          ./build.py -a -c
 
       - name: release-downloader@v1
         uses: robinraju/release-downloader@v1
@@ -156,8 +156,8 @@ jobs:
       - name: run incremental build
         if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
         run: |
-          chmod +x script/build.sh
-          ./script/build.sh -d ${{ needs.check-version.outputs.incremental_dicts }} -s
+          chmod +x ./build.py
+          ./build.py -d ${{ needs.check-version.outputs.incremental_dicts }}
 
       - name: upload-artifact@v4
         uses: actions/upload-artifact@v4
@@ -165,6 +165,8 @@ jobs:
           name: base-dicts
           include-hidden-files: true
           path: |
+            LICENSE
+            ATTRIBUTION.md
             output
             !output/*.tar.gz
             !output/.gitkeep
@@ -193,9 +195,6 @@ jobs:
       - name: get date str
         id: date
         run: echo "date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
-
-      - name: copy license/attribution to artifact
-        run: cp LICENSE ATTRIBUTION.md artifact/
 
       - name: package files into 7z and tar.gz
         run: |
