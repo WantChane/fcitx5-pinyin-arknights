@@ -8,7 +8,7 @@ from constant import ALL_DICTS, CLEAN_EXCLUDE_FILES, MANUAL_DICTS, REQUEST_DELAY
 from mw2fcitx.main import inner_main
 
 
-TASKS = {
+PAGES = {
     "an_collection_1": {
         "function": parse_page,
         "args": ["刻俄柏的灰蕈迷境/收藏品图鉴", "output/an_collection_1_titles.txt"],
@@ -201,10 +201,10 @@ def main():
     )
     args = parser.parse_args()
 
-    if not set(TASKS.keys()).issubset(ALL_DICTS):
-        invalid_tasks = set(TASKS.keys()) - ALL_DICTS
+    if not set(PAGES.keys()).issubset(ALL_DICTS):
+        invalid_tasks = set(PAGES.keys()) - ALL_DICTS
         parser.error(
-            f"TASKS contains dictionaries not in ALL_DICTS: {', '.join(invalid_tasks)}\n"
+            f"PAGES contains dictionaries not in ALL_DICTS: {', '.join(invalid_tasks)}\n"
             f"Valid names: {', '.join(ALL_DICTS)}"
         )
 
@@ -229,34 +229,34 @@ def main():
         clean_folders()
         print("Cleaning completed")
 
-    targets = set()
+    dicts = set()
     if args.all:
-        targets = ALL_DICTS
+        dicts = ALL_DICTS
     elif args.dictionary:
         names = args.dictionary.split(",")
-        targets.update(name.strip() for name in names)
+        dicts.update(name.strip() for name in names)
 
-    invalid_targets = targets - ALL_DICTS
-    if invalid_targets:
+    invalid_dicts = dicts - ALL_DICTS
+    if invalid_dicts:
         parser.error(
-            f"Invalid dictionaries: {', '.join(invalid_targets)}\n"
+            f"Invalid dictionaries: {', '.join(invalid_dicts)}\n"
             f"Valid options: {', '.join(ALL_DICTS)}"
         )
 
     request_args = {"request_delay": REQUEST_DELAY}
-    for target in targets:
+    for d in dicts:
         print(f"{'='*50}")
-        if target in TASKS:
-            print(f"Generating titles file for {target}...")
-            task = TASKS[target]
-            task["function"](*task["args"], **task["kwargs"], **request_args)
-        print(f"Building dictionary: {target}")
-        copy_titles(target)
+        if d in PAGES:
+            print(f"Generating titles file for {d}...")
+            page = PAGES[d]
+            page["function"](*page["args"], **page["kwargs"], **request_args)
+        print(f"Building dictionary: {d}")
+        copy_titles(d)
         try:
-            inner_main(["-c", f"conf/{target}.py"])
-            print(f"Successfully built {target}")
+            inner_main(["-c", f"conf/{d}.py"])
+            print(f"Successfully built {d}")
         except Exception as e:
-            print(f"Failed to build {target}: {str(e)}")
+            print(f"Failed to build {d}: {str(e)}")
         print(f"{'='*50}")
 
 
