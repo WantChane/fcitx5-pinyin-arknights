@@ -1,3 +1,2 @@
 mw2fcitx==0.24.0
 beautifulsoup4==4.13.4
-lxml==5.4.0
