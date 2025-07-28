@@ -3,7 +3,7 @@ import time
 import urllib.parse
 import requests
 from bs4 import BeautifulSoup
-from typing import Dict, List, Optional
+from typing import Any, Callable, Dict, List, Optional
 from constant import USER_AGENT
 
 
@@ -219,6 +219,37 @@ def parse_sequential_page(
             f.writelines(lines)
 
         print(f"Successfully extracted {len(lines)} rows to: {output_path}")
+        return True
+
+    except Exception as e:
+        print(f"Processing error: {e}")
+        return False
+
+
+def get_json_from_github(
+    owner: str,
+    repo: str,
+    branch: str,
+    file_path: str,
+    output_path: str,
+    extractor: Callable[[Any], List[str]],
+) -> bool:
+
+    url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{file_path}"
+    headers = {"User-Agent": USER_AGENT}
+
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+
+        titles = extractor(data)
+
+        with open(output_path, "w", encoding="utf-8") as f:
+            for title in titles:
+                f.write(f"{title}\n")
+
+        print(f"Successfully wrote {len(titles)} rows to: {output_path}")
         return True
 
     except Exception as e:
