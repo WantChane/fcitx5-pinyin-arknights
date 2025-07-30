@@ -228,7 +228,7 @@ def main():
 
     if not set(PAGES.keys()).issubset(ALL_DICTS):
         invalid_tasks = set(PAGES.keys()) - ALL_DICTS
-        parser.error(
+        print(
             f"PAGES contains dictionaries not in ALL_DICTS: {', '.join(invalid_tasks)}\n"
             f"Valid names: {', '.join(ALL_DICTS)}"
         )
