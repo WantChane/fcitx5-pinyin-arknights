@@ -249,7 +249,7 @@ jobs:
           body: |
             词库版本: ${{ needs.check-version.outputs.current_version }}
           files: artifact/*
-          draft: true
+          draft: false
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
