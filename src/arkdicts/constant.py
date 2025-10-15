@@ -31,7 +31,9 @@ OUTPUT_DIR = str(ROOT_DIR) + "/data"
 ALL_DICTS = get_dict_set(CONF_DIR)
 PRESERVED_PATHS = [
     "fixfile.json",
-    "an_other_titles.txt",
+    "titles/an_other_titles.txt",
+    "rime_dicts/",
+    "fcitx5_dicts/",
 ]
 FIXFILE_FILE = OUTPUT_DIR + "/fixfile.json"
 
