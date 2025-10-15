@@ -19,14 +19,12 @@ def build_dictionary(dict_name):
     "all_flag",
     is_flag=True,
     default=False,
-    help="选择所有",
 )
 @click.option(
     "-s",
     "--select",
     "select_values",
     multiple=True,
-    help="多选项目",
 )
 def command(all_flag, select_values):
     if not all_flag and not select_values:
