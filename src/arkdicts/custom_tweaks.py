@@ -80,30 +80,3 @@ def tweak_ignore_comments():
         return [word for word in words if not word.startswith("#")]
 
     return ignore_comments
-
-
-if __name__ == "__main__":
-
-    from mw2fcitx.tweaks.moegirl import *
-
-    def _process_file(input_path: str, output_path: str, tweaks):
-        with open(input_path, "r", encoding="utf-8") as f_in:
-            input_lines = [line.strip() for line in f_in.readlines()]
-
-        processed = input_lines
-        for tweak in tweaks:
-            processed = tweak(processed)
-
-        with open(output_path, "w", encoding="utf-8") as f_out:
-            f_out.write("\n".join(processed))
-
-    input_file = "input/an_character_titles.txt"
-
-    tweaks = [
-        tweak_remove_char("“"),
-        tweak_remove_char("”"),
-        tweak_find_chinese(["·", "-"]),
-    ]
-
-    output_file = "output/test.txt"
-    _process_file(input_file, output_file, tweaks)
