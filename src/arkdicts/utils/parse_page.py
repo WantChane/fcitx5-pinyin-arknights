@@ -3,12 +3,12 @@ import time
 import urllib.parse
 import requests
 from bs4 import BeautifulSoup
-from typing import Any, Callable, Dict, List, Optional
-from constant import USER_AGENT
+from typing import Dict, List, Optional
+from arkdicts.constant import USER_AGENT, REQUEST_DELAY
 
 
 def fetch_page_content(
-    page_title: str, base_url: str, request_delay: int = 0
+    page_title: str, base_url: str, request_delay: int = REQUEST_DELAY
 ) -> BeautifulSoup:
     """获取页面内容并返回BeautifulSoup对象"""
     encoded_title = urllib.parse.quote(page_title)
@@ -43,7 +43,7 @@ def parse_page(
     attribute: str = "",
     base_url: str = "https://prts.wiki/api.php",
     recursive_text: bool = False,
-    request_delay: int = 0,
+    request_delay: int = REQUEST_DELAY,
 ) -> bool:
     """提取页面数据"""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -77,7 +77,7 @@ def parse_structured_page(
     recursive_texts: Optional[List[bool]] = None,
     delimiter: str = ",",
     base_url: str = "https://prts.wiki/api.php",
-    request_delay: int = 0,
+    request_delay: int = REQUEST_DELAY,
 ) -> bool:
     """提取结构化页面数据"""
     if len(selectors) != 1:
@@ -144,9 +144,8 @@ def parse_sequential_page(
     recursive_texts: List[bool] = [],
     delimiter: str = ",",
     base_url: str = "https://prts.wiki/api.php",
-    request_delay: int = 0,
+    request_delay: int = REQUEST_DELAY,
 ) -> bool:
-
     num_selectors = len(selectors)
     attributes = attributes or [""] * num_selectors
     recursive_texts = recursive_texts or [False] * num_selectors
@@ -219,37 +218,6 @@ def parse_sequential_page(
             f.writelines(lines)
 
         print(f"Successfully extracted {len(lines)} rows to: {output_path}")
-        return True
-
-    except Exception as e:
-        print(f"Processing error: {e}")
-        return False
-
-
-def get_json_from_github(
-    owner: str,
-    repo: str,
-    branch: str,
-    file_path: str,
-    output_path: str,
-    extractor: Callable[[Any], List[str]],
-) -> bool:
-
-    url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{file_path}"
-    headers = {"User-Agent": USER_AGENT}
-
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-
-        titles = extractor(data)
-
-        with open(output_path, "w", encoding="utf-8") as f:
-            for title in titles:
-                f.write(f"{title}\n")
-
-        print(f"Successfully wrote {len(titles)} rows to: {output_path}")
         return True
 
     except Exception as e:
