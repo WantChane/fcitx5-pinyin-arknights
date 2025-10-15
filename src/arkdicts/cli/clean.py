@@ -7,8 +7,13 @@ from arkdicts.constant import PRESERVED_PATHS, OUTPUT_DIR
 
 
 @click.command("clean")
+@click.option("--verbose", "-v", is_flag=True, help="Enable verbose output")
+@click.option("--quiet", "-q", is_flag=True, help="Enable quiet output")
 def command(
-    work_directory: str = OUTPUT_DIR, preserved_paths: List[str] = PRESERVED_PATHS
+    work_directory: str = OUTPUT_DIR,
+    preserved_paths: List[str] = PRESERVED_PATHS,
+    quiet: bool = False,
+    verbose: bool = False,
 ) -> None:
     work_dir = Path(work_directory).resolve()
 
@@ -48,10 +53,12 @@ def command(
         try:
             if path.is_file() or path.is_symlink():
                 path.unlink()
-                click.echo(f"Deleted file: {path.relative_to(work_dir)}")
+                if verbose and not quiet:
+                    click.echo(f"Deleted file: {path.relative_to(work_dir)}")
             elif path.is_dir():
                 shutil.rmtree(path)
-                click.echo(f"Deleted folder: {path.relative_to(work_dir)}")
+                if verbose and not quiet:
+                    click.echo(f"Deleted folder: {path.relative_to(work_dir)}")
         except Exception as e:
             click.echo(f"Failed to delete {path.relative_to(work_dir)}: {e}", err=True)
 
@@ -69,6 +76,18 @@ def command(
 
     items_to_process.sort(key=lambda x: len(str(x)), reverse=True)
 
+    deleted_count = 0
+    error_count = 0
+
     for item_path in items_to_process:
         if should_delete(item_path):
+            deleted_count += 1
             safe_delete(item_path)
+
+    if not quiet:
+        if verbose:
+            click.echo(f"\nCleanup complete: {deleted_count} items deleted")
+            if error_count > 0:
+                click.echo(f"Deletion of {error_count} items failed", err=True)
+        else:
+            click.echo(f"Cleanup complete: {deleted_count} items deleted")
