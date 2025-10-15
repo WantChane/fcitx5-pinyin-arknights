@@ -69,7 +69,7 @@ def diff_directory(dir1, dir2):
     files1 = get_relative_files(dir1)
     files2 = get_relative_files(dir2)
 
-    all_files = sorted(files1 | files2)
+    all_files = sorted(files1 | files2, key=lambda x: Path(x).name)
 
     for relative_file in all_files:
         file1_path = Path(dir1) / relative_file
