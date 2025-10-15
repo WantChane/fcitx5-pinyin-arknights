@@ -12,9 +12,10 @@ def regex_filter(pattern):
 def read_file_to_set(filename, filter=regex_filter(r"^version: ")):
     try:
         with open(filename, "r", encoding="utf-8") as f:
-            lines = (line.rstrip("\n") for line in f)
             if filter is not None:
-                lines = (line for line in lines if filter(line))
+                lines = (line.rstrip("\n") for line in f if filter(line))
+            else:
+                lines = (line.rstrip("\n") for line in f)
             return set(lines)
 
     except FileNotFoundError:
@@ -56,11 +57,13 @@ def diff_file(file1, file2, quiet=False):
 def get_relative_files(directory):
     relative_files = []
     directory_path = Path(directory)
+    ignored_extensions = {".dict", ".diff"}
 
-    for file_path in directory_path.rglob("*"):
-        if file_path.is_file():
-            relative_path = file_path.relative_to(directory_path)
-            relative_files.append(str(relative_path))
+    relative_files = [
+        str(file_path.relative_to(directory_path))
+        for file_path in directory_path.rglob("*")
+        if file_path.is_file() and file_path.suffix.lower() not in ignored_extensions
+    ]
 
     return set(relative_files)
 
