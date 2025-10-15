@@ -89,24 +89,25 @@ def check_version(version_file):
 @click.option(
     "-s",
     "--select",
-    "select_values",
+    "select_dictionaries",
     multiple=True,
+    envvar="SELECT_DICTIONARIES",
 )
 @click.pass_context
-def command(ctx, select_values):
+def command(ctx, select_dictionaries):
     if check_version(ROOT_DIR / "version"):
         click.echo("New version detected, rebuilding dictionaries...")
         ctx.invoke(
             build.command,
             all_flag=True,
         )
-    elif select_values:
+    elif select_dictionaries:
         click.echo(
             "No new version detected, but --select specified, rebuilding selected dictionaries..."
         )
         ctx.invoke(
             build.command,
-            select_values=select_values,
+            select_dictionaries=select_dictionaries,
         )
     else:
         click.echo("No new version detected, skipping rebuild.")
