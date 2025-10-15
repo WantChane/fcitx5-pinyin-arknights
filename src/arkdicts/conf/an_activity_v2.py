@@ -1,5 +1,5 @@
 import os
-from arkdicts.constant import BUILD_DATE, FIXFILE_PATH
+from arkdicts.constant import BUILD_DATE, FIXFILE_FILE
 from mw2fcitx.tweaks.moegirl import tweak_split_word_with, tweak_remove_regex
 from arkdicts.custom_tweaks import (
     tweak_delete_by_regex,
@@ -56,7 +56,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_PATH,
+            "fixfile": FIXFILE_FILE,
             "characters_to_omit": ["·"],
         },
     },

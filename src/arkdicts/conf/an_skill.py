@@ -4,7 +4,7 @@ from arkdicts.constant import (
     REQUEST_DELAY,
     USER_AGENT,
     BUILD_DATE,
-    FIXFILE_PATH,
+    FIXFILE_FILE,
 )
 from arkdicts.custom_tweaks import (
     tweak_find_chinese,
@@ -47,7 +47,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_PATH,
+            "fixfile": FIXFILE_FILE,
             "characters_to_omit": ["：", "·"],
         },
     },

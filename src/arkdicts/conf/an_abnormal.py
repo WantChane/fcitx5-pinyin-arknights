@@ -1,6 +1,6 @@
 import os
 import re
-from arkdicts.constant import BUILD_DATE, FIXFILE_PATH
+from arkdicts.constant import BUILD_DATE, FIXFILE_FILE
 from arkdicts.utils.parse_page import parse_page
 from arkdicts.utils.utils import generate_filepath
 
@@ -44,7 +44,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_PATH,
+            "fixfile": FIXFILE_FILE,
         },
     },
     "generator": [

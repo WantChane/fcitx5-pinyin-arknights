@@ -1,7 +1,7 @@
 import os
 from arkdicts.constant import (
     BUILD_DATE,
-    FIXFILE_PATH,
+    FIXFILE_FILE,
     MW_LIMIT,
     REQUEST_DELAY,
     USER_AGENT,
@@ -43,7 +43,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_PATH,
+            "fixfile": FIXFILE_FILE,
         },
     },
     "generator": [

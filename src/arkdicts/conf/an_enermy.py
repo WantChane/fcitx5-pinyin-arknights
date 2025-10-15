@@ -1,7 +1,7 @@
 import os
 from mw2fcitx.tweaks.moegirl import tweak_split_word_with
 from arkdicts.constant import (
-    FIXFILE_PATH,
+    FIXFILE_FILE,
     BUILD_DATE,
     MW_LIMIT,
     REQUEST_DELAY,
@@ -40,7 +40,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_PATH,
+            "fixfile": FIXFILE_FILE,
             "characters_to_omit": ["·", "-"],
         },
     },

@@ -1,5 +1,5 @@
 import os
-from arkdicts.constant import BUILD_DATE, FIXFILE_PATH
+from arkdicts.constant import BUILD_DATE, FIXFILE_FILE
 from arkdicts.custom_tweaks import (
     tweak_trim_parentheses_suffix,
     tweak_remove_chars,
@@ -34,7 +34,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_PATH,
+            "fixfile": FIXFILE_FILE,
             "characters_to_omit": ["-", "·", "："],
         },
     },

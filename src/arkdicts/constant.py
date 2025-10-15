@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from mw2fcitx.version import PKG_VERSION
 from datetime import datetime
 
@@ -21,15 +22,18 @@ def get_dict_set(conf_dir):
     return result
 
 
-ALL_DICTS = get_dict_set(os.path.dirname(os.path.abspath(__file__)) + "/conf")
-MANUAL_DICTS = ["an_other"]
+SCRIPT_DIR = Path(__file__).parent
+ROOT_DIR = SCRIPT_DIR.parent.parent
 
-OUTPUT_DIR = "./data"
-CLEAN_EXCLUDE_FILES = [
+CONF_DIR = str(SCRIPT_DIR) + "/conf"
+OUTPUT_DIR = str(ROOT_DIR) + "/data"
+
+ALL_DICTS = get_dict_set(CONF_DIR)
+PRESERVED_PATHS = [
     "fixfile.json",
     "an_other_titles.txt",
 ]
-FIXFILE_PATH = "./data/fixfile.json"
+FIXFILE_FILE = OUTPUT_DIR + "/fixfile.json"
 
 USER_AGENT = f"MW2Fcitx/{PKG_VERSION}; github.com/WantChane/fcitx5-pinyin-arknights"
 BUILD_DATE = datetime.now().strftime("%y.%m.%d")

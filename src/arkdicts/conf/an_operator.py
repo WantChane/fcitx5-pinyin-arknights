@@ -3,7 +3,7 @@ from arkdicts.constant import (
     BUILD_DATE,
     MW_LIMIT,
     REQUEST_DELAY,
-    FIXFILE_PATH,
+    FIXFILE_FILE,
     USER_AGENT,
 )
 from arkdicts.custom_tweaks import tweak_trim_parentheses_suffix
@@ -37,7 +37,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_PATH,
+            "fixfile": FIXFILE_FILE,
             "characters_to_omit": ["·"],
         },
     },

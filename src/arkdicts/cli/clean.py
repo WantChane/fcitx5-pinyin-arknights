@@ -3,12 +3,12 @@ import click
 import shutil
 from pathlib import Path
 from typing import List
-from arkdicts.constant import CLEAN_EXCLUDE_FILES, OUTPUT_DIR
+from arkdicts.constant import PRESERVED_PATHS, OUTPUT_DIR
 
 
 @click.command("clean")
 def command(
-    work_directory: str = OUTPUT_DIR, preserved_paths: List[str] = CLEAN_EXCLUDE_FILES
+    work_directory: str = OUTPUT_DIR, preserved_paths: List[str] = PRESERVED_PATHS
 ) -> None:
     work_dir = Path(work_directory).resolve()
 

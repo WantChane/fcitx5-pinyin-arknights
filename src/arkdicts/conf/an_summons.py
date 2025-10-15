@@ -1,6 +1,6 @@
 import os
 from mw2fcitx.tweaks.moegirl import tweak_remove_char
-from arkdicts.constant import BUILD_DATE, FIXFILE_PATH
+from arkdicts.constant import BUILD_DATE, FIXFILE_FILE
 from arkdicts.custom_tweaks import tweak_trim_parentheses_suffix, tweak_find_chinese
 from arkdicts.utils.parse_page import parse_page
 from arkdicts.utils.utils import generate_filepath
@@ -29,7 +29,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_PATH,
+            "fixfile": FIXFILE_FILE,
         },
     },
     "generator": [
