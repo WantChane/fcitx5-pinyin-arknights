@@ -12,11 +12,10 @@ from arkdicts.custom_tweaks import (
     tweak_remove_chars,
     tweak_find_chinese,
 )
+from arkdicts.utils.utils import generate_filepath
 
 dict_name = os.path.splitext(os.path.basename(__file__))[0]
-titles_path = f"{OUTPUT_DIR}/{dict_name}_titles.txt"
-rime_path = f"{OUTPUT_DIR}/{dict_name}.dict.yaml"
-fcitx_path = f"{OUTPUT_DIR}/{dict_name}.dict"
+titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
 partial_path = f"{OUTPUT_DIR}/{dict_name}_partial.json"
 
 tweaks = [

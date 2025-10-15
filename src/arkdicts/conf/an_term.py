@@ -1,13 +1,12 @@
 import os
 from mw2fcitx.tweaks.moegirl import tweak_split_word_with
-from arkdicts.constant import BUILD_DATE, OUTPUT_DIR, FIXFILE_PATH
+from arkdicts.constant import BUILD_DATE, FIXFILE_PATH
 from arkdicts.custom_tweaks import tweak_mapping
 from arkdicts.utils.parse_page import parse_page
+from arkdicts.utils.utils import generate_filepath
 
 dict_name = os.path.splitext(os.path.basename(__file__))[0]
-titles_path = f"{OUTPUT_DIR}/{dict_name}_titles.txt"
-rime_path = f"{OUTPUT_DIR}/{dict_name}.dict.yaml"
-fcitx_path = f"{OUTPUT_DIR}/{dict_name}.dict"
+titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
 
 parse_page(
     page_title="术语释义",

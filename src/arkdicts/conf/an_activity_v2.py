@@ -1,5 +1,5 @@
 import os
-from arkdicts.constant import BUILD_DATE, OUTPUT_DIR, FIXFILE_PATH
+from arkdicts.constant import BUILD_DATE, FIXFILE_PATH
 from mw2fcitx.tweaks.moegirl import tweak_split_word_with, tweak_remove_regex
 from arkdicts.custom_tweaks import (
     tweak_delete_by_regex,
@@ -7,11 +7,10 @@ from arkdicts.custom_tweaks import (
     tweak_remove_chars,
 )
 from arkdicts.utils.parse_page import parse_sequential_page
+from arkdicts.utils.utils import generate_filepath
 
 dict_name = os.path.splitext(os.path.basename(__file__))[0]
-titles_path = f"{OUTPUT_DIR}/{dict_name}_titles.txt"
-rime_path = f"{OUTPUT_DIR}/{dict_name}.dict.yaml"
-fcitx_path = f"{OUTPUT_DIR}/{dict_name}.dict"
+titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
 
 parse_sequential_page(
     page_title="活动一览",
