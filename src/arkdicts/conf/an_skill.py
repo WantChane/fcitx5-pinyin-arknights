@@ -4,7 +4,6 @@ from arkdicts.constant import (
     REQUEST_DELAY,
     USER_AGENT,
     BUILD_DATE,
-    OUTPUT_DIR,
     FIXFILE_PATH,
 )
 from arkdicts.custom_tweaks import (
@@ -17,7 +16,6 @@ from arkdicts.utils.utils import generate_filepath
 
 dict_name = os.path.splitext(os.path.basename(__file__))[0]
 titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
-partial_path = f"{OUTPUT_DIR}/{dict_name}_partial.json"
 
 tweaks = [
     lambda words: [word.lstrip("技能 ").rstrip(".png") for word in words],
@@ -32,7 +30,6 @@ exports = {
     "source": {
         "api_path": "https://prts.wiki/api.php",
         "kwargs": {
-            "partial": partial_path,
             "output": titles_path,
             "request_delay": REQUEST_DELAY,
             "user_agent": USER_AGENT,

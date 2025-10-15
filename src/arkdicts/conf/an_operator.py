@@ -1,7 +1,6 @@
 import os
 from arkdicts.constant import (
     BUILD_DATE,
-    OUTPUT_DIR,
     MW_LIMIT,
     REQUEST_DELAY,
     FIXFILE_PATH,
@@ -12,7 +11,6 @@ from arkdicts.utils.utils import generate_filepath
 
 dict_name = os.path.splitext(os.path.basename(__file__))[0]
 titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
-partial_path = f"{OUTPUT_DIR}/{dict_name}_partial.json"
 
 
 tweaks = [
@@ -23,7 +21,6 @@ exports = {
     "source": {
         "api_path": "https://prts.wiki/api.php",
         "kwargs": {
-            "partial": partial_path,
             "output": titles_path,
             "request_delay": REQUEST_DELAY,
             "api_params": {
