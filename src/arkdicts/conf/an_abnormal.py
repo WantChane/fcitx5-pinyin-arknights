@@ -1,10 +1,18 @@
 import os
 import re
-from mw2fcitx.tweaks.moegirl import *
-from constant import BUILD_DATE
-from custom_tweaks import *
+from arkdicts.constant import BUILD_DATE, OUTPUT_DIR, FIXFILE_PATH
+from arkdicts.utils.parse_page import parse_page
 
-dict_name, _ext = os.path.splitext(os.path.basename(__file__))
+dict_name = os.path.splitext(os.path.basename(__file__))[0]
+titles_path = f"{OUTPUT_DIR}/{dict_name}_titles.txt"
+rime_path = f"{OUTPUT_DIR}/{dict_name}.dict.yaml"
+fcitx_path = f"{OUTPUT_DIR}/{dict_name}.dict"
+
+parse_page(
+    page_title="异常效果",
+    output_path=titles_path,
+    selector="div>table>tbody>tr>td:nth-child(3)",
+)
 
 
 def process_effects(effects):
@@ -30,14 +38,14 @@ tweaks = [
 
 exports = {
     "source": {
-        "file_path": [f"input/{dict_name}_titles.txt"],
+        "file_path": [titles_path],
     },
     "tweaks": tweaks,
     "converter": {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": "input/fixfile.json",
+            "fixfile": FIXFILE_PATH,
         },
     },
     "generator": [
@@ -46,12 +54,12 @@ exports = {
             "kwargs": {
                 "name": dict_name,
                 "version": BUILD_DATE,
-                "output": f"output/{dict_name}.dict.yaml",
+                "output": rime_path,
             },
         },
         {
             "use": "pinyin",
-            "kwargs": {"output": f"output/{dict_name}.dict"},
+            "kwargs": {"output": fcitx_path},
         },
     ],
 }

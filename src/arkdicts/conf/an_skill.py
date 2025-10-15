@@ -1,9 +1,24 @@
 import os
-from mw2fcitx.tweaks.moegirl import *
-from constant import MW_LIMIT, REQUEST_DELAY, USER_AGENT, BUILD_DATE
-from custom_tweaks import *
+from arkdicts.constant import (
+    MW_LIMIT,
+    REQUEST_DELAY,
+    USER_AGENT,
+    BUILD_DATE,
+    OUTPUT_DIR,
+    FIXFILE_PATH,
+)
+from arkdicts.custom_tweaks import (
+    tweak_find_chinese,
+    tweak_trim_parentheses_suffix,
+    tweak_remove_chars,
+    tweak_mapping,
+)
 
-dict_name, _ext = os.path.splitext(os.path.basename(__file__))
+dict_name = os.path.splitext(os.path.basename(__file__))[0]
+titles_path = f"{OUTPUT_DIR}/{dict_name}_titles.txt"
+rime_path = f"{OUTPUT_DIR}/{dict_name}.dict.yaml"
+fcitx_path = f"{OUTPUT_DIR}/{dict_name}.dict"
+partial_path = f"{OUTPUT_DIR}/{dict_name}_partial.json"
 
 tweaks = [
     lambda words: [word.lstrip("技能 ").rstrip(".png") for word in words],
@@ -18,8 +33,8 @@ exports = {
     "source": {
         "api_path": "https://prts.wiki/api.php",
         "kwargs": {
-            "partial": f"output/{dict_name}_partial.json",
-            "output": f"output/{dict_name}_titles.txt",
+            "partial": partial_path,
+            "output": titles_path,
             "request_delay": REQUEST_DELAY,
             "user_agent": USER_AGENT,
             "api_params": {
@@ -30,14 +45,13 @@ exports = {
                 "aplimit": MW_LIMIT,
             },
         },
-        # "file_path": [f"input/{dict_name}_titles.txt"],
     },
     "tweaks": tweaks,
     "converter": {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": f"input/fixfile.json",
+            "fixfile": FIXFILE_PATH,
             "characters_to_omit": ["：", "·"],
         },
     },
@@ -47,12 +61,12 @@ exports = {
             "kwargs": {
                 "name": dict_name,
                 "version": BUILD_DATE,
-                "output": f"output/{dict_name}.dict.yaml",
+                "output": rime_path,
             },
         },
         {
             "use": "pinyin",
-            "kwargs": {"output": f"output/{dict_name}.dict"},
+            "kwargs": {"output": fcitx_path},
         },
     ],
 }

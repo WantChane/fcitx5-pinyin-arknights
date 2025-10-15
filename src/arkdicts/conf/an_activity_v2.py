@@ -1,9 +1,27 @@
-from mw2fcitx.tweaks.moegirl import *
 import os
-from constant import BUILD_DATE
-from custom_tweaks import *
+from arkdicts.constant import BUILD_DATE, OUTPUT_DIR, FIXFILE_PATH
+from mw2fcitx.tweaks.moegirl import tweak_split_word_with, tweak_remove_regex
+from arkdicts.custom_tweaks import (
+    tweak_delete_by_regex,
+    tweak_find_chinese,
+    tweak_remove_chars,
+)
+from arkdicts.utils.parse_page import parse_sequential_page
 
-dict_name, _ext = os.path.splitext(os.path.basename(__file__))
+dict_name = os.path.splitext(os.path.basename(__file__))[0]
+titles_path = f"{OUTPUT_DIR}/{dict_name}_titles.txt"
+rime_path = f"{OUTPUT_DIR}/{dict_name}.dict.yaml"
+fcitx_path = f"{OUTPUT_DIR}/{dict_name}.dict"
+
+parse_sequential_page(
+    page_title="活动一览",
+    output_path=titles_path,
+    selectors=[
+        "div>table.wikitable>tbody>tr>td:nth-child(2)>a",
+        "div>table.wikitable>tbody>tr>td:nth-child(3)",
+    ],
+    recursive_texts=[True, True],
+)
 
 tweaks = [
     lambda words: [
@@ -32,14 +50,14 @@ tweaks = [
 
 exports = {
     "source": {
-        "file_path": [f"input/{dict_name}_titles.txt"],
+        "file_path": [titles_path],
     },
     "tweaks": tweaks,
     "converter": {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": "input/fixfile.json",
+            "fixfile": FIXFILE_PATH,
             "characters_to_omit": ["·"],
         },
     },
@@ -49,12 +67,12 @@ exports = {
             "kwargs": {
                 "name": dict_name,
                 "version": BUILD_DATE,
-                "output": f"output/{dict_name}.dict.yaml",
+                "output": rime_path,
             },
         },
         {
             "use": "pinyin",
-            "kwargs": {"output": f"output/{dict_name}.dict"},
+            "kwargs": {"output": fcitx_path},
         },
     ],
 }

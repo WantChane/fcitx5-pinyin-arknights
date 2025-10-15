@@ -1,9 +1,18 @@
-from mw2fcitx.tweaks.moegirl import *
 import os
-from constant import BUILD_DATE, MW_LIMIT, REQUEST_DELAY, USER_AGENT
-from custom_tweaks import *
+from arkdicts.constant import (
+    FIXFILE_PATH,
+    BUILD_DATE,
+    OUTPUT_DIR,
+    MW_LIMIT,
+    REQUEST_DELAY,
+    USER_AGENT,
+)
 
-dict_name, _ext = os.path.splitext(os.path.basename(__file__))
+dict_name = os.path.splitext(os.path.basename(__file__))[0]
+titles_path = f"{OUTPUT_DIR}/{dict_name}_titles.txt"
+rime_path = f"{OUTPUT_DIR}/{dict_name}.dict.yaml"
+fcitx_path = f"{OUTPUT_DIR}/{dict_name}.dict"
+partial_path = f"{OUTPUT_DIR}/{dict_name}_partial.json"
 
 tweaks = []
 
@@ -11,8 +20,8 @@ exports = {
     "source": {
         "api_path": "https://prts.wiki/api.php",
         "kwargs": {
-            "partial": f"output/{dict_name}_partial.json",
-            "output": f"output/{dict_name}_titles.txt",
+            "partial": partial_path,
+            "output": titles_path,
             "request_delay": REQUEST_DELAY,
             "api_params": {
                 "action": "query",
@@ -28,7 +37,7 @@ exports = {
         "use": "pypinyin",
         "kwargs": {
             "disable_instinct_pinyin": False,
-            "fixfile": "input/fixfile.json",
+            "fixfile": FIXFILE_PATH,
         },
     },
     "generator": [
@@ -37,12 +46,12 @@ exports = {
             "kwargs": {
                 "name": dict_name,
                 "version": BUILD_DATE,
-                "output": f"output/{dict_name}.dict.yaml",
+                "output": rime_path,
             },
         },
         {
             "use": "pinyin",
-            "kwargs": {"output": f"output/{dict_name}.dict"},
+            "kwargs": {"output": fcitx_path},
         },
     ],
 }
