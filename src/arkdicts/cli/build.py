@@ -1,15 +1,17 @@
 import click
-from arkdicts.constant import ALL_DICTS
+from arkdicts.constant import ALL_DICTS, CONF_DIR
 from mw2fcitx.main import inner_main
 
 
 def build_dictionary(dict_name):
     if dict_name in ALL_DICTS:
         try:
-            inner_main(["-c", f"./src/arkdicts/conf/{dict_name}.py"])
-            click.echo(f"Successfully built {dict_name}")
+            inner_main(["-c", f"{CONF_DIR}/{dict_name}.py"])
+            click.echo(click.style(f"Successfully built {dict_name}", fg="green"))
         except Exception as e:
-            click.echo(f"Failed to build {dict_name}: {e}", err=True)
+            click.echo(
+                click.style(f"Failed to build {dict_name}: {e}", fg="red"), err=True
+            )
 
 
 @click.command(name="build")
@@ -29,13 +31,19 @@ def build_dictionary(dict_name):
 def command(all_flag, select_values):
     if not all_flag and not select_values:
         click.echo(
-            "Warning: No --select or --all specified, defaulting to --all", err=True
+            click.style(
+                "Warning: No --select or --all specified, defaulting to --all", fg="red"
+            ),
+            err=True,
         )
         all_flag = True
 
     if all_flag and select_values:
         click.echo(
-            "Warning: --select and --all exist at the same time, --select takes precedence",
+            click.style(
+                "Warning: --select and --all exist at the same time, --select takes precedence",
+                fg="red",
+            ),
             err=True,
         )
         all_flag = False
@@ -48,10 +56,17 @@ def command(all_flag, select_values):
         if not selected_set.issubset(ALL_DICTS):
             invalid_selections = selected_set - ALL_DICTS
             click.echo(
-                f"Error: The following dictionaies are invalid: {', '.join(invalid_selections)}",
+                click.style(
+                    f"Error: The following dictionaies are invalid: {', '.join(invalid_selections)}",
+                    fg="red",
+                ),
                 err=True,
             )
-            click.echo(f"Available dictionaries: {', '.join(sorted(ALL_DICTS))}")
+            click.echo(
+                click.style(
+                    f"Available dictionaries: {', '.join(sorted(ALL_DICTS))}", fg="red"
+                )
+            )
             raise click.Abort()
 
     for d in selected_set:

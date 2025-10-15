@@ -18,11 +18,21 @@ def command(
     work_dir = Path(work_directory).resolve()
 
     if not work_dir.exists():
-        click.echo(f"The working directory does not exist: {work_directory}", err=True)
+        click.echo(
+            click.style(
+                f"The working directory does not exist: {work_directory}", fg="red"
+            ),
+            err=True,
+        )
         raise click.Abort()
 
     if not work_dir.is_dir():
-        click.echo(f"The working directory is not a folder: {work_directory}", err=True)
+        click.echo(
+            click.style(
+                f"The working directory is not a folder: {work_directory}", fg="red"
+            ),
+            err=True,
+        )
         raise click.Abort()
 
     preserved_abs_paths = set()
@@ -32,10 +42,14 @@ def command(
         try:
             abs_path.relative_to(work_dir)
         except ValueError:
-            raise ValueError(
-                f"Preserve paths outside the working directory range: {rel_path}"
+            click.echo(
+                click.style(
+                    f"Preserve paths outside the working directory range: {rel_path}",
+                    fg="red",
+                ),
+                err=True,
             )
-
+            raise click.Abort()
         preserved_abs_paths.add(abs_path)
 
     all_preserved_paths = set(preserved_abs_paths)
@@ -60,7 +74,12 @@ def command(
                 if verbose and not quiet:
                     click.echo(f"Deleted folder: {path.relative_to(work_dir)}")
         except Exception as e:
-            click.echo(f"Failed to delete {path.relative_to(work_dir)}: {e}", err=True)
+            click.echo(
+                click.style(
+                    f"Failed to delete {path.relative_to(work_dir)}: {e}", fg="red"
+                ),
+                err=True,
+            )
 
     items_to_process = []
     for root, dirs, files in os.walk(work_dir, topdown=False):
