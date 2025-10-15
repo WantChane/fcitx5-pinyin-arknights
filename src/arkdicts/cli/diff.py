@@ -27,7 +27,7 @@ def diff_file(file1, file2, quiet=False):
     set1 = read_file_to_set(file1)
     set2 = read_file_to_set(file2)
 
-    if not quiet and set1 == set2:
+    if quiet and set1 == set2:
         return False
 
     only_in_file1 = sorted(set1 - set2)
@@ -76,7 +76,7 @@ def diff_directory(dir1, dir2):
         file2_path = Path(dir2) / relative_file
 
         if relative_file in files1 and relative_file in files2:
-            diff_file(str(file1_path), str(file2_path), quiet=False)
+            diff_file(str(file1_path), str(file2_path), quiet=True)
 
         elif relative_file in files1:
             diff_file_with_empty(str(file1_path), side="new")
