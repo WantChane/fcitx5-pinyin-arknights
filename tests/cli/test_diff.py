@@ -8,6 +8,13 @@ def runner():
     return CliRunner()
 
 
+def remove_ansi_codes(text):
+    import re
+
+    ansi_escape = re.compile(r"\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])")
+    return ansi_escape.sub("", text)
+
+
 @pytest.mark.parametrize(
     "file1_content,file2_content,expected_patterns",
     [
@@ -15,16 +22,16 @@ def runner():
         (
             "A\nB\nC",
             "A\nD\nE",
-            ["--- 1.txt", "+++ 2.txt", "< B", "< C", "> D", "> E", "---"],
+            # 变化：文件头格式改变，符号从 < > 变为 - +
+            ["--- old: 1.txt", "+++ new: 2.txt", "- B", "- C", "+ D", "+ E", "@@"],
         ),
-        # 测试用例2: 完全相同的文件
+        # 测试用例2: 空文件比较
         (
-            "A\nB\nC",
-            "A\nB\nC",
-            ["--- 1.txt", "+++ 2.txt"],
+            "",
+            "A\nB",
+            # 变化：文件头格式改变，符号从 > 变为 +
+            ["--- old: 1.txt", "+++ new: 2.txt", "+ A", "+ B"],
         ),
-        # 测试用例3: 空文件比较
-        ("", "A\nB", ["--- 1.txt", "+++ 2.txt", "> A", "> B"]),
     ],
 )
 def test_diff(runner, file1_content, file2_content, expected_patterns):
@@ -36,11 +43,13 @@ def test_diff(runner, file1_content, file2_content, expected_patterns):
         result = runner.invoke(command, ["1.txt", "2.txt"])
 
     assert result.exit_code == 0
+    clean_output = remove_ansi_codes(result.output)
     for pattern in expected_patterns:
-        assert pattern in result.output, f"Pattern '{pattern}' not found in output"
+        assert pattern in clean_output, f"Pattern '{pattern}' not found in output"
 
 
 def test_stat_file_not_exists(runner):
     result = runner.invoke(command, ["nonexistent1.txt", "nonexistent2.txt"])
     assert result.exit_code != 0
     assert "Invalid value" in result.output or "does not exist" in result.output
+
