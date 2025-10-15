@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-arkdicts = "arkdicts:main"
+arkdicts = "arkdicts.main:main"
 
 [build-system]
 requires = ["uv_build>=0.9.2,<0.10.0"]
