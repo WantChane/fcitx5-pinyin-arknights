@@ -25,11 +25,11 @@ def build_dictionary(dict_name):
 @click.option(
     "-s",
     "--select",
-    "select_values",
+    "select_dictionaries",
     multiple=True,
 )
-def command(all_flag, select_values):
-    if not all_flag and not select_values:
+def command(all_flag, select_dictionaries):
+    if not all_flag and not select_dictionaries:
         click.echo(
             click.style(
                 "Warning: No --select or --all specified, defaulting to --all", fg="red"
@@ -38,7 +38,7 @@ def command(all_flag, select_values):
         )
         all_flag = True
 
-    if all_flag and select_values:
+    if all_flag and select_dictionaries:
         click.echo(
             click.style(
                 "Warning: --select and --all exist at the same time, --select takes precedence",
@@ -51,8 +51,8 @@ def command(all_flag, select_values):
     selected_set = set()
     if all_flag:
         selected_set = ALL_DICTS
-    elif select_values:
-        selected_set = set(select_values)
+    elif select_dictionaries:
+        selected_set = set(select_dictionaries)
         if not selected_set.issubset(ALL_DICTS):
             invalid_selections = selected_set - ALL_DICTS
             click.echo(
