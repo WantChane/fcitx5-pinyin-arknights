@@ -16,4 +16,4 @@ main.add_command(build.command)
 main.add_command(label.command)
 
 if __name__ == "__main__":
-    main(auto_envvar_prefix="AD")
+    main()
