@@ -3,7 +3,7 @@ from mw2fcitx.version import PKG_VERSION
 from datetime import datetime
 
 
-def get_dict_set(conf_dir="conf"):
+def get_dict_set(conf_dir):
     result = set()
 
     if not os.path.exists(conf_dir):
@@ -21,13 +21,16 @@ def get_dict_set(conf_dir="conf"):
     return result
 
 
-ALL_DICTS = get_dict_set()
+ALL_DICTS = get_dict_set(os.path.dirname(os.path.abspath(__file__)) + "/conf")
 MANUAL_DICTS = ["an_other"]
+
+OUTPUT_DIR = "./data"
 CLEAN_EXCLUDE_FILES = [
-    "input/fixfile.json",
-    "input/an_other_titles.txt",
-    "output/.gitkeep",
+    "fixfile.json",
+    "an_other_titles.txt",
 ]
+FIXFILE_PATH = "./data/fixfile.json"
+
 USER_AGENT = f"MW2Fcitx/{PKG_VERSION}; github.com/WantChane/fcitx5-pinyin-arknights"
 BUILD_DATE = datetime.now().strftime("%y.%m.%d")
 REQUEST_DELAY = 2
