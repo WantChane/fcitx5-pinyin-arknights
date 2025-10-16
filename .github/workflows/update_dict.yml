@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       incremental_dicts: ${{ steps.determine-type.outputs.incremental_dicts }}
-      need_upate: ${{ setps.determine-type.outputs.need_update }}
+      need_upate: ${{ steps.determine-type.outputs.need_update }}
 
     steps:
       - name: Install system dependencies
