@@ -110,23 +110,23 @@ class DiffProcessor:
             self.markdown_content.append(header_line)
             file1_path = Path(dir1) / relative_file
             file2_path = Path(dir2) / relative_file
-
+            diff_result = False
             if relative_file in files1 and relative_file in files2:
-                result |= self.diff_file(
+                diff_result = self.diff_file(
                     str(file1_path), str(file2_path), verbose=False
                 )
 
             elif relative_file in files1:
-                result |= self.diff_file(str(file1_path), None)
+                diff_result = self.diff_file(str(file1_path), None)
 
             elif relative_file in files2:
-                result |= self.diff_file(None, str(file2_path))
+                diff_result = self.diff_file(None, str(file2_path))
 
-            if self.markdown_content.peek() == header_line:
+            if not diff_result:
                 self.markdown_content.pop()
             else:
                 self.markdown_content.append("\n", echo=True)
-
+            result |= diff_result
         return result
 
 
