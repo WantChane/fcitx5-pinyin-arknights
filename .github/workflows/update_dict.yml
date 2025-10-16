@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       incremental_dicts: ${{ steps.determine-type.outputs.incremental_dicts }}
+      need_upate: ${{ setps.determine-type.outputs.need_update }}
 
     steps:
       - name: Install system dependencies
@@ -43,12 +44,22 @@ jobs:
           else
             incremental_dicts=""
           fi
+
+          if [ -n "$incremental_dicts" ]; then
+            need_update="true"
+          else
+            need_update="false"
+          fi
+
           echo "incremental_dicts=$incremental_dicts" >> $GITHUB_OUTPUT
+          echo "need_update=$need_update" >> $GITHUB_OUTPUT
           echo "Build dicts: $incremental_dicts"
+          echo "Need update: $need_update"
 
   update:
     runs-on: ubuntu-latest
     needs: check-incremental
+    if: needs.check-incremental.outputs.need_upate == 'true'
     permissions:
       issues: write
       contents: write
