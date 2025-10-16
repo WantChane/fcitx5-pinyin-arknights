@@ -78,7 +78,7 @@ def check_version(version_file):
     "--select",
     "select_dictionaries",
     multiple=True,
-    envvar="SELECT_DICTIONARIES",
+    envvar="AD_UPDATE_SELECT_DICTIONARIES",
 )
 @click.pass_context
 def command(ctx, select_dictionaries):

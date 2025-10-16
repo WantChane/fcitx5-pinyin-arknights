@@ -103,7 +103,7 @@ jobs:
         id: arkdicts-update
         run: uv run arkdicts update
         env:
-          SELECT_DICTIONARIES: ${{ needs.check-incremental.outputs.incremental_dicts }}
+          AD_UPDATE_SELECT_DICTIONARIES: ${{ needs.check-incremental.outputs.incremental_dicts }}
 
       - name: Generate diff file
         id: arkdicts-diff
