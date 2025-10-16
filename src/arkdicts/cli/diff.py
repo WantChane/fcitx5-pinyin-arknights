@@ -155,4 +155,4 @@ def command(path1, path2, verbose):
             click.style("Error: Cannot compare a directory with a file.", fg="red")
         )
 
-    echo_or_github_output({"files_changed": str(result).lower()}, verbose)
+    echo_or_github_output({"diff_result": str(result).lower()}, verbose)
