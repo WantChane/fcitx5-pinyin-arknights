@@ -164,7 +164,7 @@ jobs:
           tag_name: v${{ steps.date.outputs.build-date }}
           name: Release ${{ steps.date.outputs.build-date }}
           body: |
-            词库版本: ${{ needs.update.outputs.current_version }}
+            游戏版本: ${{ needs.update.outputs.current_version }}
             **更新内容**: [点击查看完整的对比文件](https://github.com/WantChane/fcitx5-pinyin-arknights/blob/main/data/changes.md)
           files: artifacts/*
           draft: true
