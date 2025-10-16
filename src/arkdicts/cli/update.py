@@ -4,6 +4,7 @@ import click
 import requests
 from arkdicts.constant import ROOT_DIR
 from arkdicts.cli import build
+from arkdicts.utils.utils import echo_or_github_output
 
 
 def get_raw_github_file(
@@ -56,25 +57,11 @@ def check_version(version_file):
     version_changed = current_version != old_version
 
     output_data = {
-        "changed": str(version_changed).lower(),
+        "version_changed": str(version_changed).lower(),
         "current_version": current_version,
     }
 
-    if "GITHUB_OUTPUT" in os.environ:
-        try:
-            with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
-                for key, value in output_data.items():
-                    fh.write(f"{key}={value}\n")
-        except IOError as e:
-            click.echo(
-                click.style(
-                    f"Failed to write {os.environ['GITHUB_OUTPUT']}: {e}", fg="red"
-                ),
-                err=True,
-            )
-    else:
-        for key, value in output_data.items():
-            click.echo(f"{key}={value}")
+    echo_or_github_output(output_data)
 
     if version_changed and current_version:
         write_local_version(version_file, current_version)
