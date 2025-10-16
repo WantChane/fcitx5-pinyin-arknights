@@ -1,6 +1,10 @@
 import click
 import os
 from arkdicts.constant import OUTPUT_DIR
+from arkdicts.constant import (
+    BUILD_DATE,
+    FIXFILE_FILE,
+)
 
 
 def generate_filepath(dict_name: str) -> tuple[str, str, str]:
@@ -26,3 +30,51 @@ def echo_or_github_output(message: dict, verbose: bool = False):
     elif verbose:
         for key, value in message.items():
             click.echo(f"{key}={value}")
+
+
+def generate_exports(
+    *,
+    dict_name,
+    titles_path,
+    rime_path,
+    fcitx_path,
+    source=None,
+    tweaks,
+    characters_to_omit=None,
+):
+    if source is not None and os.environ["AD_BUILD_LOCAL"] == "0":
+        s = source
+    else:
+        s = {
+            "file_path": [titles_path],
+        }
+
+    if characters_to_omit is None:
+        characters_to_omit = []
+
+    return {
+        "source": s,
+        "tweaks": tweaks,
+        "converter": {
+            "use": "pypinyin",
+            "kwargs": {
+                "disable_instinct_pinyin": False,
+                "fixfile": FIXFILE_FILE,
+                "characters_to_omit": characters_to_omit,
+            },
+        },
+        "generator": [
+            {
+                "use": "rime",
+                "kwargs": {
+                    "name": dict_name,
+                    "version": BUILD_DATE,
+                    "output": rime_path,
+                },
+            },
+            {
+                "use": "pinyin",
+                "kwargs": {"output": fcitx_path},
+            },
+        ],
+    }

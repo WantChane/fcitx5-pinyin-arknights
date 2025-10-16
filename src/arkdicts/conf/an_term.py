@@ -1,9 +1,8 @@
 import os
 from mw2fcitx.tweaks.moegirl import tweak_split_word_with
-from arkdicts.constant import BUILD_DATE, FIXFILE_FILE
 from arkdicts.custom_tweaks import tweak_mapping
 from arkdicts.utils.parse_page import parse_page
-from arkdicts.utils.utils import generate_filepath
+from arkdicts.utils.utils import generate_exports, generate_filepath
 
 dict_name = os.path.splitext(os.path.basename(__file__))[0]
 titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
@@ -19,31 +18,10 @@ tweaks = [
     tweak_mapping({"我方": None}),
 ]
 
-
-exports = {
-    "source": {
-        "file_path": [titles_path],
-    },
-    "tweaks": tweaks,
-    "converter": {
-        "use": "pypinyin",
-        "kwargs": {
-            "disable_instinct_pinyin": False,
-            "fixfile": FIXFILE_FILE,
-        },
-    },
-    "generator": [
-        {
-            "use": "rime",
-            "kwargs": {
-                "name": dict_name,
-                "version": BUILD_DATE,
-                "output": rime_path,
-            },
-        },
-        {
-            "use": "pinyin",
-            "kwargs": {"output": fcitx_path},
-        },
-    ],
-}
+exports = generate_exports(
+    dict_name=dict_name,
+    titles_path=titles_path,
+    rime_path=rime_path,
+    fcitx_path=fcitx_path,
+    tweaks=tweaks,
+)

@@ -11,6 +11,9 @@ def fetch_page_content(
     page_title: str, base_url: str, request_delay: int = REQUEST_DELAY
 ) -> BeautifulSoup:
     """获取页面内容并返回BeautifulSoup对象"""
+    if os.environ["AD_BUILD_LOCAL"] == "1":
+        raise EnvironmentError()
+
     encoded_title = urllib.parse.quote(page_title)
     api_url = f"{base_url}?action=parse&page={encoded_title}&format=json&formatversion=2&utf8=1"
     headers = {
@@ -64,6 +67,8 @@ def parse_page(
         print(f"Successfully extracted {len(elements)} elements to: {output_path}")
         return True
 
+    except EnvironmentError:
+        return False
     except Exception as e:
         print(f"Processing error: {e}")
         return False
@@ -88,7 +93,6 @@ def parse_structured_page(
     root_selector, child_selectors = next(iter(selectors.items()))
     num_children = len(child_selectors)
 
-    # 设置默认值
     attributes = attributes or [""] * num_children
     recursive_texts = recursive_texts or [False] * num_children
 
@@ -131,6 +135,8 @@ def parse_structured_page(
         print(f"Successfully extracted {len(root_elements)} rows to: {output_path}")
         return True
 
+    except EnvironmentError:
+        return False
     except Exception as e:
         print(f"Processing error: {e}")
         return False
@@ -220,6 +226,8 @@ def parse_sequential_page(
         print(f"Successfully extracted {len(lines)} rows to: {output_path}")
         return True
 
+    except EnvironmentError:
+        return False
     except Exception as e:
         print(f"Processing error: {e}")
         return False

@@ -1,3 +1,4 @@
+import os
 import click
 from arkdicts.constant import ALL_DICTS, CONF_DIR
 from mw2fcitx.main import inner_main
@@ -28,7 +29,8 @@ def build_dictionary(dict_name):
     "select_dictionaries",
     multiple=True,
 )
-def command(all_flag, select_dictionaries):
+@click.option("-l", "--local", envvar="AD_BUILD_LOCAL", is_flag=True, default=False)
+def command(all_flag, select_dictionaries, local):
     if not all_flag and not select_dictionaries:
         click.echo(
             click.style(
@@ -49,6 +51,9 @@ def command(all_flag, select_dictionaries):
         all_flag = False
 
     selected_set = set()
+
+    os.environ["AD_BUILD_LOCAL"] = "1" if local else "0"
+
     if all_flag:
         selected_set = ALL_DICTS
     elif select_dictionaries:
