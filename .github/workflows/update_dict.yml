@@ -128,7 +128,7 @@ jobs:
   package:
     needs:
       - update
-    if: ${{ needs.update.outputs.changes_committed == "true" }}
+    if: needs.update.outputs.changes_committed == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
