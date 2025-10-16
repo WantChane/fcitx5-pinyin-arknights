@@ -1,124 +1,58 @@
 name: update and release
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
-      build_type:
-        description: 'Build type (incremental or full)'
-        required: true
-        default: 'full'
-        type: choice
-        options:
-          - incremental
-          - full
       incremental_dicts:
-        description: 'Comma-separated dictionary names for incremental build'
+        description: "Space-separated dictionary names for incremental update"
         required: false
         type: string
+        default: ""
   pull_request:
     types: [closed]
     branches:
       - main
 
-env:
-  PYTHON_VERSION: "3.10"
-
 jobs:
-  check-version:
+  check-incremental:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: read
-      issues: write
     outputs:
-      current_version: ${{ steps.check-version.outputs.current_version }}
       incremental_dicts: ${{ steps.determine-type.outputs.incremental_dicts }}
-      build_type: ${{ steps.determine-type.outputs.type }}
 
     steps:
-    - name: checkout@v4
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+      - name: Install system dependencies
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
+        run: sudo apt install -y jq
 
-    - name: setup-python@v5
-      uses: actions/setup-python@v5
-      with:
-        python-version: ${{ env.PYTHON_VERSION }}
-        cache: 'pip'
+      - name: Parse PR labels
+        id: parse-pr-labels
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
+        run: |
+          DICTS=$(echo '${{ toJson(github.event.pull_request.labels) }}' | jq -r '[ .[] | select(.name | startswith("incremental: ")) | .name | sub("^incremental: "; "") ] | join(" ")')
+          echo "incremental_dicts=${DICTS}" >> $GITHUB_OUTPUT
+          echo "Detected incremental dictionaries: ${DICTS}"
 
-    - name: install requirements
-      run: pip install -r requirements.txt
-
-    - name: sync labels
-      run: |
-        chmod +x script/label.sh
-        ./script/label.sh
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: install system dependencies
-      if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
-      run: sudo apt install -y jq
-
-    - name: parse PR labels
-      id: parse-pr-labels
-      if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
-      run: |
-        DICTS=$(echo '${{ toJson(github.event.pull_request.labels) }}' | jq -r '[ .[] | select(.name | startswith("incremental: ")) | .name | sub("^incremental: "; "") ] | join(",")')
-        echo "incremental_dicts=${DICTS}" >> $GITHUB_OUTPUT
-        echo "Detected incremental dictionaries: ${DICTS}"
-
-    - name: check version
-      id: check-version
-      run: python script/check_version.py
-
-    - name: commit version update
-      id: commit-version
-      if: ${{ steps.check-version.outputs.changed == 'true' }}
-      uses: EndBug/add-and-commit@v9
-      with:
-        author_name: 'GitHub Actions'
-        author_email: 'actions@github.com'
-        message: 'chore(version): Auto-update VERSION file [skip ci]'
-        add: 'VERSION'
-
-    - name: push changes
-      if: ${{ steps.check-version.outputs.changed == 'true' }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
-
-    - name: determine build type
-      id: determine-type
-      run: |
-        type="none"
-        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-          type="${{ inputs.build_type }}"
-          incremental_dicts="${{ inputs.incremental_dicts }}"
-        else
-          if [ "${{ steps.check-version.outputs.changed }}" == 'true' ]; then
-            type="full"
-          elif [ -n "${{ steps.parse-pr-labels.outputs.incremental_dicts }}" ]; then
-            type="incremental"
+      - name: Determine build type
+        id: determine-type
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            incremental_dicts="${{ inputs.incremental_dicts }}"
+          elif [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
             incremental_dicts="${{ steps.parse-pr-labels.outputs.incremental_dicts }}"
+          else
+            incremental_dicts=""
           fi
-        fi
-        echo "type=$type" >> $GITHUB_OUTPUT
-        echo "Build type determined: $type"
-        echo "incremental_dicts=$incremental_dicts" >> $GITHUB_OUTPUT
-        echo "Build dicts: $incremental_dicts"
+          echo "incremental_dicts=$incremental_dicts" >> $GITHUB_OUTPUT
+          echo "Build dicts: $incremental_dicts"
 
-  build:
+  update:
     runs-on: ubuntu-latest
-    needs: check-version
-    permissions:
-      contents: read
-    if: needs.check-version.outputs.build_type != 'none'
+    needs: check-incremental
+    outputs:
+      current_version: ${{ steps.arkdicts-update.outputs.current_version}}
     steps:
-      - name: checkout@v4
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
@@ -126,130 +60,108 @@ jobs:
       - name: install system dependencies
         run: sudo apt install -y libime-bin
 
-      - name: setup-python@v5
+      - name: Setup python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
+          python-version-file: ".python-version"
 
-      - name: install requirements
-        run: pip install -r requirements.txt
-
-      - name: run full build
-        if: ${{ needs.check-version.outputs.build_type == 'full' }}
-        run: |
-          chmod +x ./build.py
-          ./build.py -a -c
-
-      - name: release-downloader@v1
-        uses: robinraju/release-downloader@v1
-        if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          latest: true
-          fileName: '*.tar.gz'
-          extract: true
-          out-file-path: 'output'
+          enable-cache: true
 
-      - name: install requirements
-        run: pip install -r requirements.txt
+      - name: Minimize uv cache
+        run: uv cache prune --ci
 
-      - name: run incremental build
-        if: ${{ needs.check-version.outputs.build_type == 'incremental' }}
+      - name: Install the project
+        run: uv sync --locked --all-extras --dev
+
+      - name: Sync labels
+        run: uv run arkdicts label
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        permissions:
+          issues: write
+
+      - name: Backup old version
+        run: cp -r data{,.bak}
+
+      - name: Update
+        id: arkdicts-update
+        run: uv run arkdicts update
+        env:
+          SELECT_DICTIONARIES: ${{ needs.check-incremental.outputs.incremental_dicts }}
+
+      - name: Commit version changes
+        if: steps.arkdicts-update.outputs.version_changed == 'true'
+        run: git add version
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        permissions:
+          contents: write
+
+      - name: Generate diff file
+        id: arkdicts-diff
+        run: uv run arkdicts diff data{.bak,} | tee ./data/change.diff
+
+      - name: Commit data folder
+        if: setps.arkdicts-diff.outputs.diff_result == 'true'
+        run: git add data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        permissions:
+          contents: write
+
+      - name: Commit and push if any changes
         run: |
-          chmod +x ./build.py
-          ./build.py -d ${{ needs.check-version.outputs.incremental_dicts }}
-
-      - name: upload-artifact@v4
-        uses: actions/upload-artifact@v4
-        with:
-          name: base-dicts
-          include-hidden-files: true
-          path: |
-            LICENSE
-            ATTRIBUTION.md
-            output
-            !output/*.tar.gz
-            !output/.gitkeep
-          retention-days: 30
-          overwrite: true
+          if ! git diff --cached --quiet; then
+            git config --local user.email "actions@github.com"
+            git config --local user.name "GitHub Actions"
+            git commit -m "chore: auto update [skip ci]"
+            git push
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        permissions:
+          contents: write
 
   package:
-    needs: 
-      - check-version
-      - build
+    needs:
+      - update
     runs-on: ubuntu-latest
-    outputs: 
+    outputs:
       build-date: ${{steps.date.outputs.date}}
-      artifact-name: release-assets-${{steps.date.outputs.date}}
 
     steps:
-      - name: download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: base-dicts
-          path: artifact
-
-      - name: install system dependencies
+      - name: Install system dependencies
         run: sudo apt install -y p7zip
 
-      - name: get date str
+      - name: Get date str
         id: date
         run: echo "date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
 
-      - name: package files into 7z and tar.gz
+      - name: Package files into 7z and tar.gz
         run: |
-          cd artifact
-          find . -name "an_*.dict.yaml" -print0 | xargs -0 7z a rime_dicts.7z LICENSE ATTRIBUTION.md
-          find . -name "an_*.dict" -print0 | xargs -0 7z a fcitx5_dicts.7z LICENSE ATTRIBUTION.md
-          find . -name "an_*_titles.txt" -print0 | xargs -0 7z a titles.7z LICENSE ATTRIBUTION.md
+          mkdir artifacts
+          tar -czf artifacts/fcitx5_dicts.tar.gz -C ./data/fcitx5_dicts .
+          tar -czf artifacts/rime_dicts.tar.gz -C ./data/rime_dicts .
+          tar -czf artifacts/titles.tar.gz -C ./data/titles .
+          (cd ./data/fcitx5_dicts && 7z a ../../artifacts/fcitx5_dicts.7z ./*)
+          (cd ./data/rime_dicts && 7z a ../../artifacts/rime_dicts.7z ./*)
+          (cd ./data/titles && 7z a ../../artifacts/titles_dicts.7z ./*)
 
-          (find . -name "an_*.dict.yaml" -print0; printf "LICENSE\0ATTRIBUTION.md\0") | tar -czvf rime_dicts.tar.gz --null -T -
-          (find . -name "an_*.dict" -print0; printf "LICENSE\0ATTRIBUTION.md\0") | tar -czvf fcitx5_dicts.tar.gz --null -T -
-          (find . -name "an_*_titles.txt" -print0; printf "LICENSE\0ATTRIBUTION.md\0") | tar -czvf titles.tar.gz --null -T -
-
-      - name: actions-generate-checksum@v1
-        uses: jmgilman/actions-generate-checksum@v1
-        with:
-          patterns: |
-            artifact/*.7z
-            artifact/*.tar.gz
-          output: artifact/checksum.txt
-
-      - name: upload-artifact@v4
-        id: upload-artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: release-assets-${{steps.date.outputs.date}}
-          include-hidden-files: true
-          path: |
-            artifact/*.7z
-            artifact/*.tar.gz
-            !artifact/.gitkeep
-          retention-days: 1
-
-  release:
-    permissions:
-      contents: write
-    needs:
-      - check-version
-      - package
-    runs-on: ubuntu-latest
-    steps:
-      - name: download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: ${{ needs.package.outputs.artifact-name }}
-          path: artifact
-
-      - name: action-gh-release@v2
+      - name: Publish
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ needs.package.outputs.build-date }}
-          name: Release ${{ needs.package.outputs.build-date }}
+          tag_name: v${{ steps.date.outputs.build-date }}
+          name: Release ${{ steps.date.outputs.build-date }}
           body: |
-            词库版本: ${{ needs.check-version.outputs.current_version }}
+            词库版本: ${{ needs.update.outputs.current_version }}
+            **更新内容**: [点击查看完整的对比文件](https://github.com/WantChane/fcitx5-pinyin-arknights/blob/main/data/change.diff)
           files: artifact/*
           draft: false
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        permissions:
+          contents: write

@@ -3,3 +3,5 @@ __pycache__
 .vscode
 .pytest_cache
 .envrc
+data.bak
+artifacts
