@@ -2,6 +2,7 @@ import re
 import click
 import os
 from pathlib import Path
+from arkdicts.utils.utils import echo_or_github_output
 
 
 def regex_filter(pattern):
@@ -24,11 +25,11 @@ def read_file_to_set(filename, filter=regex_filter(r"^version: ")):
         return set()
 
 
-def diff_file(file1, file2, quiet=False):
+def diff_file(file1, file2, verbose=False):
     set1 = read_file_to_set(file1)
     set2 = read_file_to_set(file2)
 
-    if quiet and set1 == set2:
+    if not verbose and set1 == set2:
         return False
 
     only_in_file1 = sorted(set1 - set2)
@@ -81,7 +82,7 @@ def diff_directory(dir1, dir2):
         file2_path = Path(dir2) / relative_file
 
         if relative_file in files1 and relative_file in files2:
-            result |= diff_file(str(file1_path), str(file2_path), quiet=True)
+            result |= diff_file(str(file1_path), str(file2_path), verbose=False)
 
         elif relative_file in files1:
             result |= diff_file_with_empty(str(file1_path), side="new")
@@ -135,14 +136,23 @@ def diff_file_with_empty(file_path, side="both"):
 @click.command(name="diff")
 @click.argument("path1", type=click.Path(exists=True), required=True)
 @click.argument("path2", type=click.Path(exists=True), required=True)
-def command(path1, path2):
+@click.option(
+    "-v",
+    "--verbose",
+    is_flag=True,
+    default=False,
+)
+def command(path1, path2, verbose):
+    result = False
     if os.path.isfile(path1) and os.path.isfile(path2):
-        diff_file(path1, path2)
+        result |= diff_file(path1, path2, verbose)
 
     elif os.path.isdir(path1) and os.path.isdir(path2):
-        diff_directory(path1, path2)
+        result |= diff_directory(path1, path2)
 
     else:
         click.echo(
             click.style("Error: Cannot compare a directory with a file.", fg="red")
         )
+
+    echo_or_github_output({"files_changed": str(result).lower()}, verbose)
