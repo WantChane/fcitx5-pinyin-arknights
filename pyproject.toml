@@ -1,0 +1,28 @@
+[project]
+name = "arkdicts"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "WantChane", email = "143467549+WantChane@users.noreply.github.com" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "click>=8.3.0",
+    "mw2fcitx>=0.24.0",
+]
+
+[project.scripts]
+arkdicts = "arkdicts.main:main"
+
+[build-system]
+requires = ["uv_build>=0.9.2,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.406",
+    "pytest>=8.4.2",
+    "ruff>=0.14.0",
+]

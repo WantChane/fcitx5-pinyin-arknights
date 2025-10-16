@@ -1,10 +1,7 @@
 __pycache__
 .venv
-titles.txt
-prts.dict*
 .vscode
-output/*
-!output/.gitkeep
-input/*
-!input/fixfile.json
-!input/an_other_titles.txt
+.pytest_cache
+.envrc
+data.bak
+artifacts
