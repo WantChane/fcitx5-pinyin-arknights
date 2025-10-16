@@ -94,15 +94,15 @@ jobs:
         env:
           SELECT_DICTIONARIES: ${{ needs.check-incremental.outputs.incremental_dicts }}
 
-      - name: Commit version changes
-        if: steps.arkdicts-update.outputs.version_changed == 'true'
-        run: git add version
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Generate diff file
         id: arkdicts-diff
         run: uv run arkdicts diff data{.bak,} -m ./data/changes.md
+
+      - name: Commit version changes
+        if: steps.arkdicts-update.outputs.version_changed == 'true' && steps.arkdicts-diff.outputs.diff_result == 'true'
+        run: git add version
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit data folder
         if: steps.arkdicts-diff.outputs.diff_result == 'true'
