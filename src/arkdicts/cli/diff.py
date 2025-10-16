@@ -51,7 +51,7 @@ def diff_file(file1, file2, quiet=False):
         click.echo(click.style(f"+ {line}", fg="green", bold=True))
     click.echo()
 
-    return True
+    return set1 != set2
 
 
 def get_relative_files(directory):
@@ -74,18 +74,22 @@ def diff_directory(dir1, dir2):
 
     all_files = sorted(files1 | files2, key=lambda x: Path(x).name)
 
+    result = False
+
     for relative_file in all_files:
         file1_path = Path(dir1) / relative_file
         file2_path = Path(dir2) / relative_file
 
         if relative_file in files1 and relative_file in files2:
-            diff_file(str(file1_path), str(file2_path), quiet=True)
+            result |= diff_file(str(file1_path), str(file2_path), quiet=True)
 
         elif relative_file in files1:
-            diff_file_with_empty(str(file1_path), side="new")
+            result |= diff_file_with_empty(str(file1_path), side="new")
 
         elif relative_file in files2:
-            diff_file_with_empty(str(file2_path), side="old")
+            result |= diff_file_with_empty(str(file2_path), side="old")
+
+    return result
 
 
 def diff_file_with_empty(file_path, side="both"):
@@ -93,6 +97,8 @@ def diff_file_with_empty(file_path, side="both"):
     set2 = set()
     if side == "old":
         set1 = read_file_to_set(file_path)
+        if set1 == set2:
+            return False
         click.echo(click.style(f"--- old: {file_path}", fg="red"))
         click.echo(
             click.style(
@@ -103,9 +109,12 @@ def diff_file_with_empty(file_path, side="both"):
         for line in set1:
             click.echo(click.style(f"- {line}", fg="red", bold=True))
         click.echo()
+        return True
 
     elif side == "new":
         set2 = read_file_to_set(file_path)
+        if set2 == set1:
+            return False
         click.echo(click.style(f"+++ new: {file_path}", fg="green"))
         click.echo(
             click.style(
@@ -116,6 +125,7 @@ def diff_file_with_empty(file_path, side="both"):
         for line in set2:
             click.echo(click.style(f"+ {line}", fg="green", bold=True))
         click.echo()
+        return True
 
     else:
         click.echo(click.style("Error: side must be 'old' or 'new'.", fg="red"))
