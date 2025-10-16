@@ -102,7 +102,7 @@ jobs:
 
       - name: Generate diff file
         id: arkdicts-diff
-        run: uv run arkdicts diff data{.bak,} | tee ./data/changes.diff
+        run: uv run arkdicts diff data{.bak,} -m ./data/changes.md
 
       - name: Commit data folder
         if: steps.arkdicts-diff.outputs.diff_result == 'true'
@@ -160,7 +160,7 @@ jobs:
           name: Release ${{ steps.date.outputs.build-date }}
           body: |
             词库版本: ${{ needs.update.outputs.current_version }}
-            **更新内容**: [点击查看完整的对比文件](https://github.com/WantChane/fcitx5-pinyin-arknights/blob/main/data/changes.diff)
+            **更新内容**: [点击查看完整的对比文件](https://github.com/WantChane/fcitx5-pinyin-arknights/blob/main/data/changes.md)
           files: artifacts/*
           draft: true
           prerelease: false
