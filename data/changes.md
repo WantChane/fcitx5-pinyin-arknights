@@ -1,207 +1,57 @@
 # rime_dicts/an_activity_v2.dict.yaml
 
 ```diff
+--- old: data.bak/rime_dicts/an_activity_v2.dict.yaml
 +++ new: data/rime_dicts/an_activity_v2.dict.yaml
-@@ -0,127 +2,127 @@
-+ 反常光谱	fan chang guang pu
-+ 次生案	ci sheng an
+@@ -1,127 +1,127 @@
+- 次生案	ci sheng an
++ 次生预案	ci sheng yu an
 ```
 
 # titles/an_activity_v2_titles.txt
 
 ```diff
---- old: data.bak/titles/an_activity_v2_titles.txt
 +++ new: data/titles/an_activity_v2_titles.txt
-@@ -1,243 +7,243 @@
-- 争锋频道：青草城,在模板调用中使用重复参数的页面争锋频道
-+ 争锋频道：青草城,争锋频道
-+ 反常光谱,主线
-+ 新生支点,登录活动
-+ 次生预案,其他活动
-+ 秋意盎然,登录活动
-+ 追迹日落以西·复刻,支线故事复刻活动
-+ 金樨迎月,登录活动
+@@ -0,245 +2,245 @@
++ 促融共竞 #2,促融共竞
++ 温情时光,合作活动
 ```
 
 # rime_dicts/an_all.dict.yaml
 
 ```diff
+--- old: data.bak/rime_dicts/an_all.dict.yaml
 +++ new: data/rime_dicts/an_all.dict.yaml
-@@ -0,10430 +174,10430 @@
-+ 不义之财家具收藏包	bu yi zhi cai jia ju shou cang bao
-+ 专享院线	zhuan xiang yuan xian
-+ 中秋签到	zhong qiu qian dao
-+ 临秋意	lin qiu yi
-+ 乐章	yue zhang
-+ 交点	jiao dian
-+ 供能基站	gong neng ji zhan
-+ 供能插座	gong neng cha zuo
-+ 侦测中心	zhen ce zhong xin
-+ 信号基站	xin hao ji zhan
-+ 先遣侦测器	xian qian zhen ce qi
-+ 光圈照明器	guang quan zhao ming qi
-+ 八音盒	ba yin he
-+ 冬时	dong shi
-+ 冬时的信物	dong shi de xin wu
-+ 冰酿的私人信件	bing niang de si ren xin jian
-+ 冲突围栏	chong tu wei lan
-+ 冶铸车	ye zhu che
-+ 分水岭线	fen shui ling xian
-+ 勘探器	kan tan qi
-+ 友人成众	you ren cheng zhong
-+ 反常光谱	fan chang guang pu
-+ 可露希尔特需券	ke lu xi er te xu quan
-+ 可露希尔珍藏券	ke lu xi er zhen cang quan
-+ 可露希尔精选券	ke lu xi er jing xuan quan
-+ 可露希尔补给券	ke lu xi er bu ji quan
-+ 吸气乱动机	xi qi luan dong ji
-+ 哭声渐息	ku sheng jian xi
-+ 噬血诅地	shi xue zu di
-+ 回顾入场券	hui gu ru chang quan
-+ 圣愚	sheng yu
-+ 坍塌矿区	tan ta kuang qu
-+ 大图书馆	da tu shu guan
-+ 孤隘险地	gu ai xian di
-+ 密林	mi lin
-+ 富集矿区	fu ji kuang qu
-+ 小型圆凳	xiao xing yuan deng
-+ 小颚虫	xiao e chong
-+ 山地村落	shan di cun luo
-+ 山脉	shan mai
-+ 岗哨	gang shao
-+ 岩溶险地	yan rong xian di
-+ 岩石	yan shi
-+ 工艺圆桌	gong yi yuan zhuo
-+ 工艺沙发	gong yi sha fa
-+ 巨锹虫	ju qiao chong
-+ 巫术村落	wu shu cun luo
-+ 幻景印象地毯	huan jing yin xiang di tan
-+ 广寒乐	guang han le
-+ 应急备案	ying ji bei an
-+ 庸人的救济	yong ren de jiu ji
-+ 异质源石虫	yi zhi yuan shi chong
-+ 异质裂兽	yi zhi lie shou
-+ 徘徊者	pai huai zhe
-+ 恩慈祷者	en ci dao zhe
-+ 惘核	wang he
-+ 战术插件	zhan shu cha jian
-+ 战术解析板	zhan shu jie xi ban
-+ 折戟者	zhe ji zhe
-+ 折桠	zhe ya
-+ 折桠的信物	zhe ya de xin wu
-+ 插件强化点	cha jian qiang hua dian
-+ 插件补给点	cha jian bu ji dian
-+ 改良巫术祭坛	gai liang wu shu ji tan
-+ 放映桌	fang ying zhuo
-+ 斑斓巢穴	ban lan chao xue
-+ 斑斓虫	ban lan chong
-+ 断岭险地	duan ling xian di
-+ 新增模组	xin zeng mo zu
-+ 新生支点	xin sheng zhi dian
-+ 无主的矿灯	wu zhu de kuang deng
-+ 无处可寻	wu chu ke xun
-+ 旧城遗址	jiu cheng yi zhi
-+ 时装回顾展	shi zhuang hui gu zhan
-+ 晨曦遥远	chen xi yao yuan
-+ 晶簇稳定器	jing cu wen ding qi
-+ 智能工作台	zhi neng gong zuo tai
-+ 暗淡的源石	an dan de yuan shi
-+ 最后欢愉	zui hou huan yu
-+ 未爆的哑弹	wei bao de ya dan
-+ 术法岗哨	shu fa gang shao
-+ 来到坟茔	lai dao fen ying
-+ 林地	lin di
-+ 次生预案	ci sheng yu an
-+ 武备存放点	wu bei cun fang dian
-+ 水产村落	shui chan cun luo
-+ 沉积河床	chen ji he chuang
-+ 河流	he liu
-+ 洒金韵	sa jin yun
-+ 涂改的旗帜	tu gai de qi zhi
-+ 深埋地底	shen mai di di
-+ 清秋玉	qing qiu yu
-+ 温厚者的怒火	wen hou zhe de nu huo
-+ 温室拱棚	wen shi gong peng
-+ 湖骸险地	hu hai xian di
-+ 源石回收炉	yuan shi hui shou lu
-+ 源石弧陈列柜	yuan shi hu chen lie gui
-+ 源石晶簇	yuan shi jing cu
-+ 源石矿场	yuan shi kuang chang
-+ 片场危机	pian chang wei ji
-+ 牧场村落	mu chang cun luo
-+ 狂躁异质裂兽	kuang zao yi zhi lie shou
-+ 猎户村落	lie hu cun luo
-+ 猎骨荒野	lie gu huang ye
-+ 生命換装	sheng ming huan zhuang
-+ 生态缸	sheng tai gang
-+ 田地	tian di
-+ 界园	jie yuan
-+ 疯人的辩护	feng ren de bian hu
-+ 痛觉明灭	tong jue ming mie
-+ 真言	zhen yan
-+ 真言的信物	zhen yan de xin wu
-+ 矿工游击队	kuang gong you ji dui
-+ 破城者	po cheng zhe
-+ 破格视界	po ge shi jie
-+ 秋意盎然	qiu yi ang ran
-+ 空白频段	kong bai pin duan
-+ 空白频段十连寻访凭证	kong bai pin duan shi lian xun fang ping zheng
-+ 空白频段寻访凭证	kong bai pin duan xun fang ping zheng
-+ 第一篇·糖果小屋	di yi pian tang guo xiao wu
-+ 第七篇·月下幻梦	di qi pian yue xia huan meng
-+ 第三篇·闪亮翅膀	di san pian shan liang chi bang
-+ 第二篇·玩具盒子	di er pian wan ju he zi
-+ 第五篇·羽绒被褥	di wu pian yu rong bei ru
-+ 第六篇·镜中茶会	di liu pian jing zhong cha hui
-+ 第四篇·轻轻眨眼	di si pian qing qing zha yan
-+ 精怪实验室	jing guai shi yan shi
-+ 精英休息室地板	jing ying xiu xi shi di ban
-+ 精英休息室壁纸	jing ying xiu xi shi bi zhi
-+ 精英干员	jing ying gan yuan
-+ 精英干员休息室	jing ying gan yuan xiu xi shi
-+ 红王	hong wang
-+ 网页活动	wang ye huo dong
-+ 老尖牙	lao jian ya
-+ 船	chuan
-+ 花丛	hua cong
-+ 草丛	cao cong
-+ 荒地前哨	huang di qian shao
-+ 荒野村落	huang ye cun luo
-+ 藏书馆	cang shu guan
-+ 蚀林险地	shi lin xian di
-+ 血裔胞体	xue yi bao ti
-+ 被污染的回收炉	bei wu ran de hui shou lu
-+ 裂壕险地	lie hao xian di
-+ 装卸机	zhuang xie ji
-+ 警戒岗哨	jing jie gang shao
-+ 训练用弓箭架	xun lian yong gong jian jia
-+ 资源点数	zi yuan dian shu
-+ 运输汽艇	yun shu qi ting
-+ 迷窟险地	mi ku xian di
-+ 迷踪	mi zong
-+ 追想入梦	zhui xiang ru meng
-+ 透明隔断墙	tou ming ge duan qiang
-+ 道路以目	dao lu yi mu
-+ 配套沙发	pei tao sha fa
-+ 重建记录	chong jian ji lu
-+ 金樨迎月	jin xi ying yue
-+ 金血	jin xue
-+ 镂空圆沙发	lou kong yuan sha fa
-+ 隐隐	yin yin
-+ 集团军中坚盾卫	ji tuan jun zhong jian dun wei
-+ 集团军前线指挥员	ji tuan jun qian xian zhi hui yuan
-+ 集团军幽灵兵	ji tuan jun you ling bing
-+ 集团军机动弩手	ji tuan jun ji dong nu shou
-+ 集团军核心指挥官	ji tuan jun he xin zhi hui guan
-+ 集团军潜行兵	ji tuan jun qian xing bing
-+ 集团军盾卫	ji tuan jun dun wei
-+ 集团军精锐弩手	ji tuan jun jing rui nu shou
-+ 集团军轻型火炮	ji tuan jun qing xing huo pao
-+ 集团军重型火炮	ji tuan jun zhong xing huo pao
-+ 雾城险地	wu cheng xian di
-+ 风号峡谷	feng hao xia gu
-+ 高能照明灯	gao neng zhao ming deng
-+ 黄王	huang wang
+@@ -3,10453 +26,10453 @@
+- -韵系列	yun xi lie
+- -飙系列	biao xi lie
+- ·女游客	nv you ke
++ 不曾遗忘	bu ceng yi wang
++ 严重污染设施	yan zhong wu ran she shi
++ 力竭声嘶	li jie sheng si
++ 后兽	hou shou
++ 唯有坦途	wei you tan tu
++ 小八界	xiao ba jie
++ 小捞捞	xiao lao lao
++ 异常预案	yi chang yu an
++ 往事	wang shi
++ 无前	wu qian
++ 旷野轰鸣	kuang ye hong ming
++ 来信	lai xin
++ 概览	gai lan
++ 海底捞	hai di lao
++ 温情时光	wen qing shi guang
++ 火锅餐台	huo guo can tai
++ 狂人的誓言	kuang ren de shi yan
++ 玩偶摆件	wan ou bai jian
++ 矩兽	ju shou
++ 示我以真	shi wo yi zhen
++ 红日留驻	hong ri liu zhu
++ 被污染的河流	bei wu ran de he liu
++ 阻道岩壁	zu dao yan bi
++ 隐蔽矿道	yin bi kuang dao
++ 韵系列	yun xi lie
++ 飙系列	biao xi lie
 ```
 
 # titles/an_all_titles.txt
@@ -209,636 +59,690 @@
 ```diff
 --- old: data.bak/titles/an_all_titles.txt
 +++ new: data/titles/an_all_titles.txt
-@@ -3,22299 +374,22299 @@
-- ISW-DF 时光之沙/敌方情报pro
-- 信标(trap 1005 acarm005)
-- 特制水上平台(trap 478 xbcanoe)
-+ 16-1
-+ 16-1 庸人的救济
-+ 16-10
-+ 16-10 哭声渐息
-+ 16-11
-+ 16-11 来到坟茔
-+ 16-12
-+ 16-12 深埋地底
-+ 16-2
-+ 16-2 晨曦遥远
-+ 16-3
-+ 16-3 道路以目
-+ 16-4
-+ 16-4 友人成众
-+ 16-5
-+ 16-5 分水岭线
-+ 16-6
-+ 16-6 痛觉明灭
-+ 16-7
-+ 16-7 最后欢愉
-+ 16-8
-+ 16-8 无处可寻
-+ 16-9
-+ 16-9 疯人的辩护
-+ Act1halfidle 01
-+ Act1halfidle 02
-+ Act1halfidle 03
-+ Act1halfidle 04
-+ Act1halfidle 05
-+ Act1halfidle 06
-+ Act1halfidle h01
-+ Act1halfidle h02
-+ Act1halfidle h03
-+ Act1halfidle h04
-+ Act1halfidle h05
-+ Act1halfidle h06
-+ Act1halfidle h07
-+ Act1halfidle h08
-+ Act1halfidle tr01
-+ Act45side ex01
-+ Act45side ex02
-+ Act45side ex03
-+ Act45side ex04
-+ Act45side ex05
-+ Act45side ex06
-+ Act45side ex07
-+ Act45side ex08
-+ Main 16-01
-+ Main 16-02
-+ Main 16-03
-+ Main 16-04
-+ Main 16-05
-+ Main 16-06
-+ Main 16-07
-+ Main 16-08
-+ Main 16-09
-+ Main 16-10
-+ Main 16-11
-+ Mantra
-+ RM-1
-+ RM-1 旧城遗址
-+ RM-2
-+ RM-2 风号峡谷
-+ RM-3
-+ RM-3 坍塌矿区
-+ RM-4
-+ RM-4 沉积河床
-+ RM-5
-+ RM-5 斑斓巢穴
-+ RM-6
-+ RM-6 猎骨荒野
-+ RM-H1
-+ RM-H1 岩溶险地
-+ RM-H2
-+ RM-H2 裂壕险地
-+ RM-H3
-+ RM-H3 孤隘险地
-+ RM-H4
-+ RM-H4 断岭险地
-+ RM-H5
-+ RM-H5 迷窟险地
-+ RM-H6
-+ RM-H6 蚀林险地
-+ RM-H7
-+ RM-H7 雾城险地
-+ RM-H8
-+ RM-H8 湖骸险地
-+ RM-TR-1
-+ RM-TR-1 荒地前哨
-+ SS-1 花格窗边的梦想/BEG
-+ SS-1 花格窗边的梦想/END
-+ SS-2 寂静长廊的两端/BEG
-+ SS-2 寂静长廊的两端/END
-+ SS-3 音乐室内的光芒/BEG
-+ SS-3 音乐室内的光芒/END
-+ SS-4 名为客房区的迷宫/BEG
-+ SS-4 名为客房区的迷宫/END
-+ SS-5 通往舞会的邀请函/BEG
-+ SS-5 通往舞会的邀请函/END
-+ SS-6 回声飘荡的大厅/BEG
-+ SS-6 回声飘荡的大厅/END
-+ SS-7 永恒绚烂的藏品/BEG
-+ SS-7 永恒绚烂的藏品/END
-+ SS-8 童话的开场/BEG
-+ SS-8 童话的开场/END
-+ SS-EX-1
-+ SS-EX-1 第一篇·糖果小屋
-+ SS-EX-2
-+ SS-EX-2 第二篇·玩具盒子
-+ SS-EX-3
-+ SS-EX-3 第三篇·闪亮翅膀
-+ SS-EX-4
-+ SS-EX-4 第四篇·轻轻眨眼
-+ SS-EX-5
-+ SS-EX-5 第五篇·羽绒被褥
-+ SS-EX-6
-+ SS-EX-6 第六篇·镜中茶会
-+ SS-EX-7
-+ SS-EX-7 第七篇·月下幻梦
-+ SS-EX-8
-+ SS-EX-8 童话的结局
-+ SS-ST-1 路口的红绿灯/NBT
-+ Sealed
-+ St 16-01
-+ TR-27
-+ TR-27 迷踪
-+ Tr 27
-+ Веточки
-+ Снегyрочка
-+ “专享院线”放映桌
-+ “临秋意”
-+ “临秋意”礼盒
-+ “广寒乐”
-+ “广寒乐”礼盒
-+ “应急备案”生态缸
-+ “徘徊者”
-+ “徘徊者”/spine
-+ “惘核”
-+ “惘核”/spine
-+ “洒金韵”
-+ “洒金韵”礼盒
-+ “清秋玉”
-+ “清秋玉”礼盒
-+ “皇帝的利刃”，折戟者
-+ “皇帝的利刃”，折戟者/spine
-+ “老尖牙”
-+ “老尖牙”/spine
-+ “追想入梦”八音盒
-+ ウルフェナイト
-+ ネクラス
-+ ブリギッド
-+ 不义之财家具收藏包
-+ 中秋签到2022
-+ 中秋签到2023
-+ 中秋签到2024
-+ 中秋签到2025
-+ 争锋频道：蜜果城/选手信息
-+ 供能基站
-+ 供能插座
-+ 侦测中心
-+ 信号基站
-+ 信标(卫戍协议)
-+ 先遣侦测器
-+ 光圈照明器
-+ 关卡一览/曲谱/sandbox
-+ 关卡一览/曲谱/乐章
-+ 关卡一览/曲谱/乐章/doc
-+ 关卡一览/曲谱/交点
-+ 冬时
-+ 冬时/语音记录
-+ 冬时的信物
-+ 冰酿的私人信件
-+ 冲突围栏
-+ 冶铸车
-+ 制作组通讯/57
-+ 勘探器
-+ 反常光谱
-+ 反常光谱/活动公告
-+ 可露希尔特需券I
-+ 可露希尔特需券II
-+ 可露希尔特需券III
-+ 可露希尔特需券IV
-+ 可露希尔珍藏券I
-+ 可露希尔精选券I
-+ 可露希尔精选券II
-+ 可露希尔精选券III
-+ 可露希尔精选券IV
-+ 可露希尔精选券V
-+ 可露希尔精选券VI
-+ 可露希尔补给券I
-+ 可露希尔补给券II
-+ 可露希尔补给券III
-+ 可露希尔补给券IV
-+ 可露希尔补给券V
-+ 吸气乱动机
-+ 吸气乱动机/spine
-+ 噬血诅地
-+ 回顾入场券
-+ 圣愚
-+ 圣愚/spine
-+ 大图书馆
-+ 妮芙/干员密录/1
-+ 客户端版本/2.6.61
-+ 密林
-+ 富集矿区
-+ 寻访模拟/中坚干员轮换卡池53
-+ 寻访模拟/中坚干员轮换卡池54
-+ 寻访模拟/定向甄选04
-+ 寻访模拟/干员轮换卡池167
-+ 寻访模拟/干员轮换卡池168
-+ 寻访模拟/未致蒙尘 复刻
-+ 寻访模拟/空白频段
-+ 小型圆凳
-+ 小颚虫
-+ 小颚虫/spine
-+ 山地村落
-+ 山脉
-+ 岗哨
-+ 岩石
-+ 工艺圆桌
-+ 工艺沙发
-+ 巨锹虫
-+ 巨锹虫/spine
-+ 巫术村落
-+ 幻景印象地毯
-+ 废墟
-+ 异质源石虫
-+ 异质源石虫/spine
-+ 异质源石虫·α
-+ 异质源石虫·α/spine
-+ 异质裂兽
-+ 异质裂兽/spine
-+ 异质裂兽·α
-+ 异质裂兽·α/spine
-+ 恩慈祷者
-+ 恩慈祷者/spine
-+ 悖论模拟 温厚者的怒火
-+ 悖论模拟 片场危机
-+ 战术插件/sandbox
-+ 战术解析板
-+ 折桠
-+ 折桠/语音记录
-+ 折桠的信物
-+ 插件强化点
-+ 插件补给点
-+ 改良巫术祭坛
-+ 斑斓虫
-+ 斑斓虫/spine
-+ 新生支点
-+ 无主的矿灯
-+ 无忧梦呓OST
-+ 时装回廊/破格视界
-+ 时装回顾展
-+ 明日方舟：焰烬曙明OST
-+ 晶簇稳定器
-+ 智能工作台
-+ 暗淡的源石
-+ 曲谱
-+ 月影之茧
-+ 未爆的哑弹
-+ 术法岗哨
-+ 林地
-+ 次生预案
-+ 次生预案/ZOOT重建记录
-+ 次生预案/帮助
-+ 次生预案/活动公告
-+ 次生预案OST
-+ 武备存放点
-+ 水产村落
-+ 河流
-+ 涂改的旗帜
-+ 温厚者的怒火
-+ 温室拱棚
-+ 源石回收炉
-+ 源石弧陈列柜
-+ 源石晶簇
-+ 源石矿场
-+ 灰毫/干员密录/1
-+ 片场危机
-+ 牧场村落
-+ 特殊兑换点数
-+ 狂躁异质裂兽
-+ 狂躁异质裂兽/spine
-+ 猎户村落
-+ 生命換装
-+ 田地
-+ 界园
-+ 真言
-+ 真言/语音记录
-+ 真言的信物
-+ 矿工游击队
-+ 矿工游击队/spine
-+ 破城者
-+ 破城者/spine
-+ 破城者·Ⅱ型
-+ 破城者·Ⅱ型/spine
-+ 秋意盎然
-+ 空白频段十连寻访凭证
-+ 空白频段寻访凭证
-+ 精怪实验室
-+ 精英休息室地板
-+ 精英休息室壁纸
-+ 精英干员休息室
-+ 精英干员：启程
-+ 红王
-+ 网页活动
-+ 罗德岛物资补给IX
-+ 船
-+ 花丛
-+ 草丛
-+ 荒芜拉普兰德/干员密录/1
-+ 荒野村落
-+ 藏书馆
-+ 血裔胞体
-+ 被污染的回收炉
-+ 装卸机
-+ 警戒岗哨
-+ 训练用弓箭架
-+ 资源点数
-+ 运输汽艇
-+ 运输汽艇/spine
-+ 追迹日落以西2025
-+ 追迹日落以西2025/活动公告
-+ 透明隔断墙
-+ 配套沙发
-+ 金樨迎月
-+ 镂空圆沙发
-+ 险地16-10
-+ 险地16-10 哭声渐息
-+ 险地16-11
-+ 险地16-11 来到坟茔
-+ 险地16-12
-+ 险地16-12 深埋地底
-+ 险地16-2
-+ 险地16-2 晨曦遥远
-+ 险地16-3
-+ 险地16-3 道路以目
-+ 险地16-4
-+ 险地16-4 友人成众
-+ 险地16-5
-+ 险地16-5 分水岭线
-+ 险地16-6
-+ 险地16-6 痛觉明灭
-+ 险地16-7
-+ 险地16-7 最后欢愉
-+ 险地16-8
-+ 险地16-8 无处可寻
-+ 隐隐
-+ 集团军中坚盾卫
-+ 集团军中坚盾卫/spine
-+ 集团军前线指挥员
-+ 集团军前线指挥员/spine
-+ 集团军幽灵兵
-+ 集团军幽灵兵/spine
-+ 集团军机动弩手
-+ 集团军机动弩手/spine
-+ 集团军核心指挥官
-+ 集团军核心指挥官/spine
-+ 集团军潜行兵
-+ 集团军潜行兵/spine
-+ 集团军盾卫
-+ 集团军盾卫/spine
-+ 集团军精锐弩手
-+ 集团军精锐弩手/spine
-+ 集团军轻型火炮
-+ 集团军轻型火炮/spine
-+ 集团军重型火炮
-+ 集团军重型火炮/spine
-+ 饰牌《金血》
-+ 首页/亮点干员/新增模组
-+ 首页/亮点干员/新增模组/数据
-+ 骋风/干员密录/1
-+ 高能照明灯
-+ 黄王
+@@ -1,22409 +111,22409 @@
+- 战术插件/sandbox
++ 16-1 庸人的救济/NBT
++ 16-10 哭声渐息/BEG
++ 16-11 来到坟茔/END
++ 16-12 深埋地底/BEG
++ 16-13
++ 16-13 不曾遗忘
++ 16-13 不曾遗忘/BEG
++ 16-14
++ 16-14 唯有坦途
++ 16-14 唯有坦途/BEG
++ 16-15
++ 16-15 旷野轰鸣
++ 16-15 旷野轰鸣/BEG
++ 16-16
++ 16-16 示我以真
++ 16-16 示我以真/BEG
++ 16-17
++ 16-17 力竭声嘶
++ 16-17 力竭声嘶/BEG
++ 16-18
++ 16-18 红日留驻
++ 16-18 红日留驻/END
++ 16-19
++ 16-19 狂人的誓言
++ 16-19 狂人的誓言/NBT
++ 16-2 晨曦遥远/BEG
++ 16-3 道路以目/BEG
++ 16-4 友人成众/BEG
++ 16-4 友人成众/END
++ 16-5 分水岭线/BEG
++ 16-6 痛觉明灭/END
++ 16-7 最后欢愉/BEG
++ 16-8 无处可寻/END
++ 16-9 疯人的辩护/BEG
++ 16-9 疯人的辩护/END
++ EB
++ EG-10
++ EG-10 无前
++ EG-10 无前/NBT
++ EG-7
++ EG-7 来信
++ EG-7 来信/NBT
++ EG-8
++ EG-8 往事
++ EG-8 往事/NBT
++ EG-9
++ EG-9 归乡
++ EG-9 归乡/NBT
++ H16-1
++ H16-1 异常预案-1
++ H16-2
++ H16-2 异常预案-2
++ H16-3
++ H16-3 异常预案-3
++ H16-4
++ H16-4 异常预案-4
++ Hard 16-01
++ Hard 16-02
++ Hard 16-03
++ Hard 16-04
++ Main 16-12
++ Main 16-13
++ Main 16-14
++ Main 16-15
++ Main 16-16
++ Main 16-17
++ Paper Boat
++ Spst 16-01
++ Spst 16-02
++ Spst 16-03
++ Spst 16-04
++ St 16-02
++ “小捞捞”玩偶摆件
++ “海底捞”火锅餐台
++ アランナ
++ ウィンドスクート
++ 与我无关
++ 严重污染设施
++ 促融共竞/02
++ 促融共竞/02/活动公告
++ 关卡一览/曲谱/概览
++ 反常光谱OST
++ 后兽
++ 后兽/spine
++ 寻访模拟/中坚干员轮换卡池55
++ 寻访模拟/干员轮换卡池169
++ 小八界
++ 小八界/spine
++ 松果/干员密录/2
++ 次生预案/mod
++ 次生预案/res
++ 次生预案/战术插件/sandbox
++ 波卜/干员密录/1
++ 温情时光
++ 真言/干员密录/1
++ 矩兽
++ 矩兽/spine
++ 蒂比/干员密录/1
++ 被污染的河流
++ 阻道岩壁
++ 险地16-13
++ 险地16-13 不曾遗忘
++ 险地16-14
++ 险地16-14 唯有坦途
++ 险地16-15
++ 险地16-15 旷野轰鸣
++ 险地16-16
++ 险地16-16 示我以真
++ 险地16-17
++ 险地16-17 力竭声嘶
++ 隐蔽矿道
 ```
 
-# titles/an_character_titles.txt
+# rime_dicts/an_character.dict.yaml
 
 ```diff
---- old: data.bak/titles/an_character_titles.txt
-+++ new: data/titles/an_character_titles.txt
-@@ -3,542 +16,542 @@
-- Mantra
-- 坎诺特
-- 更纱
-+ “娜迦”
-+ “母亲”
-+ “父亲”
-+ “睦的母亲”
-+ 叶莉莎女大公
-+ 坎诺特·古德英纳夫
-+ 安
-+ 尼克托
-+ 弗朗西斯
-+ 柳儿
-+ 沃尔夫
-+ 莫菲丝
-+ 锦织更纱
-+ 阿洛伊泽
-+ 雷尔金
-+ 霍里
-```
-
-# rime_dicts/an_characterb.dict.yaml
-
-```diff
---- old: data.bak/rime_dicts/an_characterb.dict.yaml
-+++ new: data/rime_dicts/an_characterb.dict.yaml
-@@ -2,535 +16,535 @@
-- 坎诺特	kan nuo te
-- 更纱	geng sha
++++ new: data/rime_dicts/an_character.dict.yaml
+@@ -0,532 +532,532 @@
++ ---
++ ...
++ name: an_character
++ sort: by_weight
++ 万先生	wan xian sheng
++ 万勤城	wan qin cheng
++ 万尼亚大公	wan ni ya da gong
++ 三船光平	san chuan guang ping
++ 三角铁	san jiao tie
++ 下个院士先生	xia ge yuan shi xian sheng
++ 丹布朗·莱奥帕尔迪	dan bu lang lai ao pa er di
++ 丹顿兄弟	dan dun xiong di
++ 丽塔	li ta
++ 丽芙	li fu
++ 乌尔苏拉	wu er su la
++ 乔万娜·罗塞蒂	qiao wan na luo sai di
++ 九	jiu
++ 亚当斯·施怀雅	ya dang si shi huai ya
++ 以勒什	yi lei shen
++ 伊万	yi wan
++ 伊万杰利斯塔十一世	yi wan jie li si ta shi yi shi
++ 伊奥莱塔·罗素	yi ao lai ta luo su
++ 伊斯	yi si
++ 伊斯拉姆·维特	yi si la mu wei te
++ 伊比利亚主教	yi bi li ya zhu jiao
++ 伊蒂达	yi di da
++ 伊雷妮·拉瓦萨	yi lei ni la wa sa
++ 伍德洛·比安奇	wu de luo bi an qi
++ 休斯	xiu si
++ 休露丝	xiu lu si
++ 伯德	bo de
++ 佐恩	zuo en
++ 何塞	he sai
++ 佩利佩·布朗	pei li pei bu lang
++ 佩塔	pei ta
++ 佩特拉奶奶	pei te la nai nai
++ 佩特洛娃	pei te luo wa
++ 依娜姆	yi na mu
++ 依拉	yi la
++ 保存者	bao cun zhe
++ 光头马丁	guang tou ma ding
++ 克丽斯腾·莱特	ke li si teng lai te
++ 克伦妮	ke lun ni
++ 克洛伊	ke luo yi
++ 克洛宁	ke luo ning
++ 克洛维希娅	ke luo wei xi ya
++ 克罗绮·砖石	ke luo qi zhuan shi
++ 克莱芒·杜波瓦	ke lai mang du bo wa
++ 克莱门莎	ke lai men sha
++ 克雷格	ke lei ge
++ 六十七	liu shi qi
++ 兰可	lan ke
++ 凋零骑士	diao ling qi shi
++ 凯勒	kai lei
++ 凯文	kai wen
++ 凯特·开斯特	kai te kai si te
++ 切斯柏	qie si bai
++ 切斯特	qie si te
++ 列尔	lie er
++ 列维·克里奇科	lie wei ke li qi ke
++ 利藤裕	li teng yu
++ 别格勒	bie ge lei
++ 剧团喉舌	ju tuan hou she
++ 加勒斯	jia lei si
++ 加尔森	jia er sen
++ 加西亚	jia xi ya
++ 劳拉	lao la
++ 勒内·莱托	lei nei lai tuo
++ 博卓卡斯替	bo zhuo ka si ti
++ 博士	bo shi
++ 卡代杜	ka dai du
++ 卡利托	ka li tuo
++ 卡奇·叙光	ka qi xu guang
++ 卡尔	ka er
++ 卡尔·开斯特	ka er kai si te
++ 卡彭	ka peng
++ 卡恩	ka en
++ 卡拉奇	ka la qi
++ 卡莱莎	ka lai sha
++ 卡西娅	ka xi ya
++ 卡谢娜	ka xie na
++ 卡铎尔	ka duo er
++ 卢比奥	lu bi ao
++ 卢比奥之女	lu bi ao zhi nv
++ 厄尔苏拉	e er su la
++ 厨子	chu zi
++ 厨子麦克马丁	chu zi mai ke ma ding
++ 双簧管	shuang huang guan
++ 反町哲也	fan ting zhe ye
++ 变形者集群	bian xing zhe ji qun
++ 古米的父母	gu mi de fu mu
++ 古罗	gu luo
++ 可萝尔	ke luo er
++ 可露希尔	ke lu xi er
 + 叶莉莎女大公	ye li sha nv da gong
++ 吉安娜	ji an na
++ 吉拉	ji la
++ 哈姆	ha mu
++ 哈维尔	ha wei er
++ 哈莉	ha li
++ 哈默妮	ha mo ni
++ 喀利喀	ka li ka
++ 图利奥	tu li ao
++ 图利娅	tu li ya
++ 圆规	yuan gui
++ 圣卫铳骑	sheng wei chong qi
++ 圣徒	sheng tu
++ 圣徒卡门	sheng tu ka men
++ 坎伯兰公爵	kan bo lan gong jue
 + 坎诺特·古德英纳夫	kan nuo te gu de ying na fu
++ 坎黛拉·桑切斯	kan dai la sang qie si
++ 埃芒加德	ai mang jia de
++ 塑料骑士	su liao qi shi
++ 塔佳娜	ta jia na
++ 塔季娅娜	ta ji ya na
++ 塔季扬娜·叶甫盖尼耶夫娜·拉里娜	ta ji yang na ye fu gai ni ye fu na la li na
++ 塔露拉	ta lu la
++ 塞伦	sai lun
++ 塞尔蒙	sai er meng
++ 塞弗林	sai fu lin
++ 塞斯克	sai si ke
++ 塞茜莉亚·拉珀尔塔	sai qian li ya la po er ta
++ 墙灰	qiang hui
++ 多利	duo li
++ 大嘴莫布	da zui mo bu
++ 大审判官达里奥	da shen pan guan da li ao
++ 大帝	da di
++ 大提琴	da ti qin
++ 大熊	da xiong
++ 大祭司	da ji si
++ 大长老	da zhang lao
++ 大鲍勃	da bao bo
++ 太傅	tai fu
++ 太合	tai he
++ 太尉	tai wei
++ 奎萨图什塔	kui sa tu shen ta
++ 奎隆	kui long
++ 奥伦·亚吉奥拉斯	ao lun ya ji ao la si
++ 奥克芬	ao ke fen
++ 奥卢斯	ao lu si
++ 奥罗拉	ao luo la
++ 女侠	nv xia
++ 好运	hao yun
++ 威尔	wei er
++ 娜斯提·鲁诺瑞伊	na si ti lu nuo rui yi
++ 娜汀	na ting
 + 娜迦	na jia
++ 孟铁衣	meng tie yi
++ 孽茨雷	nie ci lei
++ 宁辞秋	ning ci qiu
++ 宁述	ning shu
 + 安	an
++ 安东	an dong
++ 安东尼奥	an dong ni ao
++ 安东尼奥·威尼斯	an dong ni ao wei ni si
++ 安多恩·雅迦坦哲罗思	an duo en ya jia tan zhe luo si
++ 安妮塔	an ni ta
++ 安德涅特·马里亚姆	an de nie te ma li ya mu
++ 安玛	an ma
++ 安纳斯塔西奥	an na si ta xi ao
++ 安费丽丝·温德米尔	an fei li si wen de mi er
++ 宝宝	bao bao
++ 宫司	gong si
++ 寻路者信使	xun lu zhe xin shi
++ 导演	dao yan
++ 小敏	xiao min
++ 小教头	xiao jiao tou
++ 小沅	xiao yuan
++ 小白	xiao bai
++ 小聪明	xiao cong ming
++ 小马雷克	xiao ma lei ke
++ 尚冢	shang zhong
++ 尤利娅·许勒尔	you li ya xu lei er
++ 尤卡坦	you ka tan
++ 尤吉兄弟	you ji xiong di
++ 尤塔	you ta
++ 尤莉叶	you li ye
++ 尤里	you li
 + 尼克托	ni ke tuo
++ 屈光者	qu guang zhe
++ 屠谕者	tu yu zhe
++ 山海众头目	shan hai zhong tou mu
++ 左宣辽	zuo xuan liao
++ 左手骑士	zuo shou qi shi
++ 巨兽	ju shou
++ 巨枭	ju xiao
++ 巫王	wu wang
++ 巴蒂	ba di
++ 巴顿	ba dun
++ 布兰特·赖纳	bu lan te lai na
++ 布兰都斯	bu lan dou si
++ 布莱克	bu lai ke
++ 布雷奥甘	bu lei ao gan
++ 希勒少尉	xi lei shao wei
++ 希尔	xi er
++ 希尔德加德·赫琳玛特	xi er de jia de he lin ma te
++ 希尔达	xi er da
++ 帕尤卡卡	pa you ka ka
++ 帕蒂亚	pa di ya
++ 干员直尺	gan yuan zhi chi
++ 幽灵	you ling
++ 库林	ku lin
++ 康拉德·杰克逊	kang la de jie ke xun
++ 开斯特公爵	kai si te gong jue
++ 引火的死魂灵	yin huo de si hun ling
 + 弗朗西斯	fu lang xi si
++ 弗莱蒙特	fu lai meng te
++ 弗里达·希曼	fu li da xi man
++ 弥尔顿	mi er dun
++ 影卫	ying wei
++ 德尔菲娜	de er fei na
++ 德米特里·切塔尔多	de mi te li qie ta er duo
++ 德鲁奇	de lu qi
++ 恰尔内	qia er nei
++ 恺撒	kai sa
++ 惟任刑警	wei ren xing jing
++ 慎楼	shen lou
++ 戈尔丁	ge er ding
++ 战士比尔	zhan shi bi er
++ 扎罗	zha luo
++ 托兰·卡什	tuo lan ka shen
++ 托尔	tuo er
++ 托马索	tuo ma suo
++ 扬·许勒尔	yang xu lei er
++ 扬尼	yang ni
++ 拉兹	la zi
++ 拉娜	la na
++ 拉赫曼	la he man
++ 挖山人	wa shan ren
++ 提奥	ti ao
++ 摩诃萨埵权化	mo he sa duo quan hua
++ 放逐王	fang zhu wang
++ 文	wen
++ 文月	wen yue
++ 文森特伯爵	wen sen te bo jue
++ 斐尔迪南·克鲁尼	fei er di nan ke lu ni
++ 斯特凡诺·托雷格罗萨	si te fan nuo tuo lei ge luo sa
++ 斯蒂芬·奎	si di fen kui
++ 方小石	fang xiao shi
++ 无名剧作家	wu ming ju zuo jia
++ 昂斯特	ang si te
++ 昆图斯	kun tu si
++ 易	yi
++ 普瑞赛斯	pu rui sai si
++ 景教授	jing jiao shou
++ 曼弗雷德	man fu lei de
++ 最后的骑士	zui hou de qi shi
++ 望	wang
++ 木裂埃克提尔尼尔	mu lie ai ke ti er ni er
++ 未知男性	wei zhi nan xing
++ 本尼	ben ni
++ 朱塞佩·德克萨斯	zhu sai pei de ke sa si
++ 朱维尔	zhu wei er
++ 朵拉	duo la
++ 村长	cun zhang
++ 杜克	du ke
++ 杜玛	du ma
++ 杜遥夜	du yao ye
++ 来自黄金之城的使者	lai zi huang jin zhi cheng de shi zhe
++ 杨格	yang ge
++ 杰拉尔德	jie la er de
++ 杰拉德	jie la de
++ 杰斯顿	jie si dun
++ 杰米	jie mi
++ 杰里	jie li
++ 柏生义冈	bai sheng yi gang
++ 柏生明	bai sheng ming
++ 查尔斯·林奇	cha er si lin qi
++ 查德	cha de
++ 查理	cha li
 + 柳儿	liu er
-+ 母亲	mu qin
++ 树枝骑士	shu zhi qi shi
++ 校官	xiao guan
++ 格兰妮	ge lan ni
++ 格哈德·霍夫曼	ge ha de huo fu man
++ 格林	ge lin
++ 格特鲁德	ge te lu de
++ 格瑞斯	ge rui si
++ 格罗瓦兹尔	ge luo wa zi er
++ 格蕾塔·斯通	ge lei ta si tong
++ 桑尼	sang ni
++ 桥夹克里夫	qiao jia ke li fu
++ 梁	liang
++ 梁洵	liang xun
++ 梅团	mei tuan
++ 梅捷缇克缇	mei jie ti ke ti
++ 梅斯	mei si
++ 梅菲斯特	mei fei si te
++ 梵里妮	fan li ni
++ 槐天裴	huai tian pei
++ 橡杯	xiang bei
++ 欧厄尔	ou e er
++ 歌唱家	ge chang jia
++ 比丢	bi diu
++ 毕德曼	bi de man
++ 汉克	han ke
++ 汉密尔顿	han mi er dun
++ 汤姆	tang mu
++ 沁	qin
++ 沃奥	wo ao
 + 沃尔夫	wo er fu
-+ 父亲	fu qin
-+ 睦的母亲	mu de mu qin
++ 沃尔纳·冯·霍赫贝格	wo er na feng huo he bei ge
++ 沃里克伯爵	wo li ke bo jue
++ 沉默的樵夫	chen mo de qiao fu
++ 法布里齐奥·威尼斯	fa bu li qi ao wei ni si
++ 泷居应	long ju ying
++ 泷居未来	long ju wei lai
++ 泽诺	ze nuo
++ 洛肯·威廉姆斯	luo ken wei lian mu si
++ 洛里斯·博尔丁	luo li si bo er ding
++ 活塞	huo sai
++ 浮士德	fu shi de
++ 海伦	hai lun
++ 涅梅丝	nie mei si
++ 添头	tian tou
++ 渡魂剑	du hun jian
++ 潘乔·萨拉斯	pan qiao sa la si
++ 潘格尼尼	pan ge ni ni
++ 澪	ling
++ 火哨	huo shao
++ 炉芯终曲	lu xin zhong qu
++ 烟鬼	yan gui
++ 爱国者	ai guo zhe
++ 爱德华·雅特利亚斯	ai de hua ya te li ya si
++ 爱琳	ai lin
++ 爷爷	ye ye
++ 特蕾西娅	te lei xi ya
++ 特雷西斯	te lei xi si
++ 猎户	lie hu
++ 玄铁	xuan tie
++ 王伯	wang bo
++ 玛丽	ma li
++ 玛丽昂	ma li ang
++ 玛利图斯	ma li tu si
++ 珀茜瓦尔	po qian wa er
++ 珂拉·洛文斯坦	ke la luo wen si tan
++ 琳兹	lin zi
++ 瑞克	rui ke
++ 瑞恩	rui en
++ 瓦古	wa gu
++ 瓦尔顿子爵	wa er dun zi jue
++ 瓦拉赫	wa la he
++ 瓦莱丝	wa lai si
++ 甘比诺·里奇	gan bi nuo li qi
++ 疤眼	ba yan
++ 白垩	bai e
++ 白锦	bai jin
++ 皇帝的利刃	huang di de li ren
++ 皮加尔	pi jia er
++ 盖克斯基	gai ke si ji
++ 盾卫中的一员	dun wei zhong de yi yuan
++ 真龙	zhen long
++ 睚	ya
++ 碎骨	sui gu
++ 碧银	bi yin
++ 祖拜尔	zu bai er
++ 神农	shen nong
++ 神明	shen ming
++ 福尔图娜	fu er tu na
++ 科斯达	ke si da
++ 科西切	ke xi qie
++ 科鲁兹	ke lu zi
++ 管家	guan jia
++ 米亚罗	mi ya luo
++ 米兰妮·卢瑟福德	mi lan ni lu se fu de
++ 米奥	mi ao
++ 米沃什	mi wo shen
++ 米纳	mi na
++ 米莎	mi sha
++ 系统主机	xi tong zhu ji
++ 索默尔	suo mo er
++ 绩	ji
++ 维恩	wei en
++ 维斯利·威灵顿	wei si li wei ling dun
++ 罗伊	luo yi
++ 罗南	luo nan
++ 罗塞菈	luo sai la
++ 罗辛南特	luo xin nan te
++ 羊之主	yang zhi zhu
++ 翁贝托·德蒙塔诺	weng bei tuo de meng ta nuo
++ 老伊辛	lao yi xin
++ 老何塞	lao he sai
++ 老修士	lao xiu shi
++ 老天师	lao tian shi
++ 老妇	lao fu
++ 老姜	lao jiang
++ 老工匠	lao gong jiang
++ 老汉	lao han
++ 老约翰	lao yue han
++ 老骑士	lao qi shi
++ 考伯特	kao bo te
++ 耶奇·地心	ye qi di xin
++ 肖恩·高多汀	xiao en gao duo ting
++ 胡君	hu jun
++ 胡安娜	hu an na
++ 腐败骑士	fu bai qi shi
++ 艾丝塔拉	ai si ta la
++ 艾伦戴尔	ai lun dai er
++ 艾尔希	ai er xi
++ 艾尔瓦	ai er wa
++ 艾玛	ai ma
++ 艾莉诺	ai li nuo
++ 芙蕾达·韦斯特	fu lei da wei si te
++ 苦根	ku gen
++ 茉莉	mo li
++ 荆先生	jing xian sheng
++ 荣晚晴	rong wan qing
++ 莉泽洛特·伊维格娜德	li ze luo te yi wei ge na de
++ 莉莉娅	li li ya
++ 莫不服	mo bu fu
++ 莫伊拉	mo yi la
++ 莫佚	mo yi
++ 莫兰	mo lan
++ 莫妮克	mo ni ke
++ 莫希	mo xi
 + 莫菲丝	mo fei si
++ 莱姆	lai mu
++ 莱蒙德	lai meng de
++ 菈塔托丝	la ta tuo si
++ 菈玛莲	la ma lian
++ 菲勒加斯	fei lei jia si
++ 菲隆	fei long
++ 萨卡兹护卫	sa ka zi hu wei
++ 萨卡兹锅炉工	sa ka zi guo lu gong
++ 萨卢斯	sa lu si
++ 萨尔瓦多雷·德克萨斯	sa er wa duo lei de ke sa si
++ 萨尔贡游客	sa er gong you ke
++ 董阿伯	dong a bo
++ 蒂亚戈	di ya ge
++ 蒂奇	di qi
++ 蒲先生	pu xian sheng
++ 蔓德拉	man de la
++ 薇卡	wei ka
++ 薇尔丽芙	wei er li fu
++ 薇薇安	wei wei an
++ 虞澄	yu cheng
++ 血骑士	xue qi shi
++ 血魔大君	xue mo da jun
++ 行板	xing ban
++ 西塞罗	xi sai luo
++ 西尔弗	xi er fu
++ 西尔维娅	xi er wei ya
++ 西尔莎·凯利	xi er sha kai li
++ 西莫·威廉姆斯	xi mo wei lian mu si
++ 西西里夫人	xi xi li fu ren
++ 解真	jie zhen
++ 议员	yi yuan
++ 说书人	shuo shu ren
++ 诺埃米	nuo ai mi
++ 谌彻	chen che
++ 谢莉	xie li
++ 贝尔德	bei er de
++ 贝希曼伯爵	bei xi man bo jue
++ 贝林厄姆	bei lin e mu
++ 贝纳尔多·贝洛内	bei na er duo bei luo nei
++ 费奥多尔·弗拉基米罗维奇	fei ao duo er fu la ji mi luo wei qi
++ 费莉亚·拉珀尔塔	fei li ya la po er ta
++ 贾斯汀·菲茨罗伊	jia si ting fei ci luo yi
++ 赫尔昏佐伦	he er hun zuo lun
++ 赫尔曼	he er man
++ 赫拉提娅	he la ti ya
++ 赫曼	he man
++ 路易斯·凯利	lu yi si kai li
++ 路特	lu te
++ 达米安·巴里	da mi an ba li
++ 达里奥	da li ao
++ 迈克尔	mai ke er
++ 迈尔斯	mai er si
++ 迪亚兹·冈萨雷斯	di ya zi gang sa lei si
++ 迪亚特	di ya te
++ 迪伦	di lun
++ 迪伦马特	di lun ma te
++ 逐魇骑士	zhu yan qi shi
++ 道尔顿	dao er dun
++ 郑愁	zheng chou
++ 郑清钺	zheng qing yue
++ 酒神	jiu shen
++ 里斯本	li si ben
++ 里昂·特雷门	li ang te lei men
++ 铁斋	tie zhai
++ 铁皮	tie pi
++ 铁腕骑士	tie wan qi shi
++ 锈铜骑士	xiu tong qi shi
 + 锦织更纱	jin zhi geng sha
++ 锹子	qiao zi
++ 长凳	zhang deng
++ 阿丽娜	a li na
++ 阿伦茨·帕尔维斯	a lun ci pa er wei si
++ 阿克托斯	a ke tuo si
++ 阿利斯泰尔	a li si tai er
++ 阿勒黛·坎伯兰	a lei dai kan bo lan
++ 阿发	a fa
++ 阿尔贝托·萨卢佐	a er bei tuo sa lu zuo
++ 阿布纳	a bu na
++ 阿摩斯	a mo si
++ 阿斯帕齐亚	a si pa qi ya
++ 阿方索	a fang suo
++ 阿根	a gen
++ 阿格妮	a ge ni
++ 阿格尼尔	a ge ni er
 + 阿洛伊泽	a luo yi ze
++ 阿然	a ran
++ 阿玛雅	a ma ya
++ 阿米娅	a mi ya
++ 阿维图斯	a wei tu si
++ 阿雅吉	a ya ji
++ 阿雅妮	a ya ni
++ 雅拉·布克·威尔森	ya la bu ke wei er sen
++ 雷内尔·科瓦尔斯基	lei nei er ke wa er si ji
 + 雷尔金	lei er jin
++ 雷德	lei de
++ 霍克	huo ke
++ 霍汀	huo ting
 + 霍里	huo li
-```
-
-# rime_dicts/an_clothes.dict.yaml
-
-```diff
-+++ new: data/rime_dicts/an_clothes.dict.yaml
-@@ -0,395 +10,395 @@
-+ 冷色摇滚	leng se yao gun
-+ 异乡的云	yi xiang de yun
-+ 无影灯下	wu ying deng xia
-+ 时遗	shi yi
-+ 桂影窗	gui ying chuang
-+ 温情烘焙	wen qing hong bei
-+ 生化沉溺	sheng hua chen ni
-+ 疗养地怪谈	liao yang di guai tan
-+ 链锯陪护者	lian ju pei hu zhe
-+ 镇邪焱	zhen xie yan
-```
-
-# titles/an_clothes_titles.txt
-
-```diff
-+++ new: data/titles/an_clothes_titles.txt
-@@ -0,437 +10,437 @@
-+ 冷色摇滚
-+ 异乡的云
-+ 无影灯下
-+ 时遗
-+ 桂影窗
-+ 温情烘焙
-+ 生化沉溺
-+ 疗养地怪谈
-+ 链锯陪护者
-+ 镇邪焱
++ 霜星	shuang xing
++ 须佐	xu zuo
++ 顾筌	gu quan
++ 颉	jie
++ 首言者	shou yan zhe
++ 马克·麦克斯	ma ke mai ke si
++ 马克维茨	ma ke wei ci
++ 马尔科	ma er ke
++ 马特奥	ma te ao
++ 骑摩托的	qi mo tuo de
++ 魏彦吾	wei yan wu
++ 鲁斯	lu si
++ 麦基	mai ji
++ 黎	li
++ 黑印	hei yin
++ 黛安·韦伯	dai an wei bo
++ 黛柯绮·银币	dai ke qi yin bi
++ 鼠王	shu wang
 ```
 
 # rime_dicts/an_enermy.dict.yaml
 
 ```diff
 +++ new: data/rime_dicts/an_enermy.dict.yaml
-@@ -0,1494 +29,1494 @@
-+ 吸气乱动机	xi qi luan dong ji
-+ 圣愚	sheng yu
-+ 小颚虫	xiao e chong
-+ 巨锹虫	ju qiao chong
-+ 异质源石虫	yi zhi yuan shi chong
-+ 异质源石虫·	yi zhi yuan shi chong
-+ 异质裂兽	yi zhi lie shou
-+ 异质裂兽·	yi zhi lie shou
-+ 徘徊者	pai huai zhe
-+ 恩慈祷者	en ci dao zhe
-+ 惘核	wang he
-+ 折戟者	zhe ji zhe
-+ 斑斓虫	ban lan chong
-+ 狂躁异质裂兽	kuang zao yi zhi lie shou
-+ 矿工游击队	kuang gong you ji dui
-+ 破城者	po cheng zhe
-+ 破城者·	po cheng zhe
-+ 老尖牙	lao jian ya
-+ 运输汽艇	yun shu qi ting
-+ 集团军中坚盾卫	ji tuan jun zhong jian dun wei
-+ 集团军前线指挥员	ji tuan jun qian xian zhi hui yuan
-+ 集团军幽灵兵	ji tuan jun you ling bing
-+ 集团军机动弩手	ji tuan jun ji dong nu shou
-+ 集团军核心指挥官	ji tuan jun he xin zhi hui guan
-+ 集团军潜行兵	ji tuan jun qian xing bing
-+ 集团军盾卫	ji tuan jun dun wei
-+ 集团军精锐弩手	ji tuan jun jing rui nu shou
-+ 集团军轻型火炮	ji tuan jun qing xing huo pao
-+ 集团军重型火炮	ji tuan jun zhong xing huo pao
+@@ -0,1497 +3,1497 @@
++ 后兽	hou shou
++ 小八界	xiao ba jie
++ 矩兽	ju shou
 ```
 
 # titles/an_enermy_titles.txt
 
 ```diff
 +++ new: data/titles/an_enermy_titles.txt
-@@ -0,1485 +29,1485 @@
-+ “徘徊者”
-+ “惘核”
-+ “皇帝的利刃”，折戟者
-+ “老尖牙”
-+ 吸气乱动机
-+ 圣愚
-+ 小颚虫
-+ 巨锹虫
-+ 异质源石虫
-+ 异质源石虫·α
-+ 异质裂兽
-+ 异质裂兽·α
-+ 恩慈祷者
-+ 斑斓虫
-+ 狂躁异质裂兽
-+ 矿工游击队
-+ 破城者
-+ 破城者·Ⅱ型
-+ 运输汽艇
-+ 集团军中坚盾卫
-+ 集团军前线指挥员
-+ 集团军幽灵兵
-+ 集团军机动弩手
-+ 集团军核心指挥官
-+ 集团军潜行兵
-+ 集团军盾卫
-+ 集团军精锐弩手
-+ 集团军轻型火炮
-+ 集团军重型火炮
+@@ -0,1488 +3,1488 @@
++ 后兽
++ 小八界
++ 矩兽
 ```
 
 # rime_dicts/an_item.dict.yaml
 
 ```diff
+--- old: data.bak/rime_dicts/an_item.dict.yaml
 +++ new: data/rime_dicts/an_item.dict.yaml
-@@ -0,1110 +23,1110 @@
-+ 不义之财家具收藏包	bu yi zhi cai jia ju shou cang bao
-+ 临秋意	lin qiu yi
-+ 冬时的信物	dong shi de xin wu
-+ 冰酿的私人信件	bing niang de si ren xin jian
-+ 可露希尔特需券	ke lu xi er te xu quan
-+ 可露希尔珍藏券	ke lu xi er zhen cang quan
-+ 可露希尔精选券	ke lu xi er jing xuan quan
-+ 可露希尔补给券	ke lu xi er bu ji quan
-+ 回顾入场券	hui gu ru chang quan
-+ 广寒乐	guang han le
-+ 打火石	da huo shi
-+ 折桠的信物	zhe ya de xin wu
-+ 无主的矿灯	wu zhu de kuang deng
-+ 时装回顾展	shi zhuang hui gu zhan
-+ 暗淡的源石	an dan de yuan shi
-+ 未爆的哑弹	wei bao de ya dan
-+ 洒金韵	sa jin yun
-+ 涂改的旗帜	tu gai de qi zhi
-+ 清秋玉	qing qiu yu
-+ 真言的信物	zhen yan de xin wu
-+ 空白频段十连寻访凭证	kong bai pin duan shi lian xun fang ping zheng
-+ 空白频段寻访凭证	kong bai pin duan xun fang ping zheng
-+ 资源点数	zi yuan dian shu
-```
-
-# titles/an_item_titles.txt
-
-```diff
-+++ new: data/titles/an_item_titles.txt
-@@ -0,1164 +36,1164 @@
-+ “临秋意”
-+ “广寒乐”
-+ “洒金韵”
-+ “清秋玉”
-+ 不义之财家具收藏包
-+ 冬时的信物
-+ 冰酿的私人信件
-+ 可露希尔特需券I
-+ 可露希尔特需券II
-+ 可露希尔特需券III
-+ 可露希尔特需券IV
-+ 可露希尔珍藏券I
-+ 可露希尔精选券I
-+ 可露希尔精选券II
-+ 可露希尔精选券III
-+ 可露希尔精选券IV
-+ 可露希尔精选券V
-+ 可露希尔精选券VI
-+ 可露希尔补给券I
-+ 可露希尔补给券II
-+ 可露希尔补给券III
-+ 可露希尔补给券IV
-+ 可露希尔补给券V
-+ 回顾入场券
-+ 打火石
-+ 折桠的信物
-+ 无主的矿灯
-+ 时装回顾展
-+ 暗淡的源石
-+ 未爆的哑弹
-+ 涂改的旗帜
-+ 真言的信物
-+ 空白频段十连寻访凭证
-+ 空白频段寻访凭证
-+ 罗德岛物资补给IX
-+ 资源点数
-```
-
-# rime_dicts/an_operator.dict.yaml
-
-```diff
-+++ new: data/rime_dicts/an_operator.dict.yaml
-@@ -0,381 +3,381 @@
-+ 冬时	dong shi
-+ 折桠	zhe ya
-+ 真言	zhen yan
-```
-
-# titles/an_operator_titles.txt
-
-```diff
-+++ new: data/titles/an_operator_titles.txt
-@@ -0,418 +3,418 @@
-+ 冬时
-+ 折桠
-+ 真言
+@@ -2,1110 +2,1110 @@
+- 兑换券·	dui huan quan
+- 参赛认证-	can sai ren zheng
++ 兑换券	dui huan quan
++ 参赛认证	can sai ren zheng
 ```
 
 # rime_dicts/an_real_name.dict.yaml
@@ -846,204 +750,116 @@
 ```diff
 --- old: data.bak/rime_dicts/an_real_name.dict.yaml
 +++ new: data/rime_dicts/an_real_name.dict.yaml
-@@ -12,211 +12,211 @@
-- 三角初音三角初華三角初华	san jiao chu yin san jiao chu hua san jiao chu hua
-- 丽塔·斯卡曼德罗斯	li ta si ka man de luo si
-- 威廉·菲赫特·车尔尼	wei lian fei he te che er ni
-- 恩希亚·希瓦艾什	en xi ya xi wa ai shen
-- 汉娜·因陀罗·杰克森	han na yin tuo luo jie ke sen
-- 特雷弗·弗里斯顿	te lei fu fu li si dun
-- 玛嘉烈·临光	ma jia lie lin guang
-- 纳西莎	na xi sha
-- 费德里科·吉亚洛	fei de li ke ji ya luo
-- 迷迭香	mi die xiang
-- 阿丝忒吉妮·乌比卡埃琳娜·乌比卡	a si te ji ni wu bi ka ai lin na wu bi ka
-- 阿芙朵嘉·锐笔	a fu duo jia rui bi
-+ ---阿芙朵嘉·锐笔	a fu duo jia rui bi
-+ 三角初音三角初音三角初华三角初華	san jiao chu yin san jiao chu yin san jiao chu hua san jiao chu hua
-+ 丽塔·斯卡曼德罗斯---	li ta si ka man de luo si
-+ 埃琳娜·乌比卡	ai lin na wu bi ka
-+ 威廉·菲赫特·车尔尼---	wei lian fei he te che er ni
-+ 恩希亚·希瓦艾什---	en xi ya xi wa ai shen
-+ 汉娜·因陀罗·杰克森---	han na yin tuo luo jie ke sen
-+ 特雷弗·弗里斯顿---	te lei fu fu li si dun
-+ 玛嘉烈·临光---	ma jia lie lin guang
-+ 纳西莎迷迭香	na xi sha mi die xiang
-+ 费德里科·吉亚洛---	fei de li ke ji ya luo
-+ 阿丝忒吉妮·乌比卡	a si te ji ni wu bi ka
-```
-
-# titles/an_real_name_titles.txt
-
-```diff
---- old: data.bak/titles/an_real_name_titles.txt
-+++ new: data/titles/an_real_name_titles.txt
-@@ -68,203 +68,203 @@
-- Friston-3,??? Friston特雷弗·弗里斯顿[4]
-- U-Official,Eureka尤里卡
-- W,W[5]Wiš'adel 维什戴尔[6]
-- 三角初华,三角初音三角初華三角初华[11]
-- 临光,??? Nearl玛嘉烈·临光
-- 伺夜,Leontuzzo Bellone莱昂图索·贝洛内
-- 克丽斯腾,Kristen Wright克丽斯腾·莱特
-- 初雪,Enya Silverash恩雅·希瓦艾什
-- 刻俄柏,Ceobe刻俄柏
-- 医生,Gustave Kateb古斯塔夫·卡特伯
-- 双月,Nienke Meijer妮科·梅捷
-- 号角,??? Skamandros丽塔·斯卡曼德罗斯
-- 哈洛德,Harold Craigavon哈洛德·克雷加文
-- 嘉维尔,Gavial嘉维尔
-- 因陀罗,??? "Indra" ???汉娜·“因陀罗”·杰克森
-- 塑心,Arturia Giallo阿尔图罗·吉亚洛
-- 塔露拉,Talulah Arutorias塔露拉·雅特利亚斯
-- 多萝西,Dorothy Franks多萝西·弗兰克斯
-- 安洁莉娜,Angelina Ajimu安心院アンジェリーナ安心院安洁莉娜
-- 导火索,Shuhrat Kessikbayev舒赫拉特·柯西克巴耶夫
-- 崖心,??? Silverash恩希亚·希瓦艾什
-- 德克萨斯,Cellinia Texas切利尼娜·德克萨斯
-- 战车,Alexsandr Senaviev亚历山大·塞纳维耶夫
-- 戴菲恩,Delphine Windermere戴菲恩·温德米尔
-- 拉普兰德,Lappland Saluzzo拉普兰德·萨卢佐
-- 推进之王,Alexandrina Vina Victoria亚历山德莉娜·维娜·维多利亚
-- 摩根,Kate "Morgan" Morrigan凯特·“摩根”·莫瑞根
-- 斥罪,Lavinia Falcone拉维妮娅·法尔科内
-- 星极,Astesia ???阿丝忒希娅·乌比卡
-- 星源,Astgenne ???阿丝忒吉妮·乌比卡埃琳娜·乌比卡
-- 梅尔,Mayer ???梅尔·斯托尼
-- 森西,センシ森西
-- 浮士德,Sasha萨沙
-- 海蒂,Heidi Thomson海蒂·汤姆森
-- 灰烬,Eliza Cohen艾丽萨·科恩
-- 灵知,Gnosis Edelweiss诺希斯·埃德怀斯
-- 烈夏,Rosalind ??? Larina罗莎琳·塔季扬诺夫娜·拉里娜
-- 爱国者,Buldrokkastee博卓卡斯替
-- 特米米,Tomimi特米米
-- 玛恩纳,Młynar Nearl玛恩纳·临光
-- 玛露西尔,マルシル・ドナトー玛露西尔
-- 瑕光,Maria Nearl玛莉娅·临光
-- 白面鸮,Joyce Moore乔伊丝·摩尔
-- 碎骨,Alex 亚历克斯Misha 米莎[12]
-- 罗比菈塔,Roberta罗比菈塔·贝克
-- 艾拉,Elzbieta Bosak艾姿碧塔·博萨克
-- 艾雅法拉,Adele阿黛尔·瑙曼
-- 莱恩哈特,Leonhardt莱恩哈特
-- 莱欧斯,ライオス・トーデン莱欧斯
-- 菲亚梅塔,Fiammetta菲亚梅塔
-- 薇薇安娜,Viviana Von ??? 薇薇安娜·冯·霍赫贝格[1]Viviana ??? 薇薇安娜·德罗斯特[2]
-- 角峰,Matterhorn ???马特洪·耶克
-- 赫默,Olivia Silence奥利维亚·赫默
-- 车尔尼,??? ??? Czerny威廉·菲赫特·车尔尼
-- 达格达,Isabelle "Dagda" Montague伊莎贝尔·“达格达”·孟塔古
-- 迷迭香,纳西莎Rosmontis 迷迭香
-- 送葬人,??? Giallo费德里科·吉亚洛
-- 逻各斯,Aefanyl哀珐尼尔
-- 铃兰,Lisa丽萨
-- 银灰,Enciodes Silverash恩希欧迪斯·希瓦艾什
-- 锏,（真名遗失）Degenbrecher 锏
-- 锡兰,Ceylon ???锡兰·道尔科斯
-- 闪击,Elias Kötz伊莱亚斯·库兹
-- 霜华,Tina Lin Tsang蒂娜
-- 霜星,Yelena叶莲娜
-- 鸿雪,Avdotya ???阿芙朵嘉·尼古拉耶芙娜·伊万诺娃Avdotya Razorpen 阿芙朵嘉·锐笔
-- 齐尔查克,チルチャック・ティムズ齐尔查克
-- 龙舌兰,Ernesto ???埃内斯托·萨拉斯
-+ Friston-3,特雷弗·弗里斯顿--- Friston[4]
-+ U-Official,尤里卡Eureka
-+ W,W[5]维什戴尔Wiš'adel[6]
-+ 三角初华,三角初音三角初音三角初华三角初華[11]
-+ 临光,玛嘉烈·临光--- Nearl
-+ 伺夜,莱昂图索·贝洛内Leontuzzo Bellone
-+ 克丽斯腾,克丽斯腾·莱特Kristen Wright
-+ 初雪,恩雅·希瓦艾什Enya Silverash
-+ 刻俄柏,刻俄柏Ceobe
-+ 医生,古斯塔夫·卡特伯Gustave Kateb
-+ 双月,妮科·梅捷Nienke Meijer
-+ 号角,丽塔·斯卡曼德罗斯--- Skamandros
-+ 哈洛德,哈洛德·克雷加文Harold Craigavon
-+ 嘉维尔,嘉维尔Gavial
-+ 因陀罗,汉娜·“因陀罗”·杰克森--- "Indra" ---
-+ 塑心,阿尔图罗·吉亚洛Arturia Giallo
-+ 塔露拉,塔露拉·雅特利亚斯Talulah Arutorias
-+ 多萝西,多萝西·弗兰克斯Dorothy Franks
-+ 安洁莉娜,安心院安洁莉娜Angelina Ajimu安心院アンジェリーナ
-+ 导火索,舒赫拉特·柯西克巴耶夫Shuhrat Kessikbayev
-+ 崖心,恩希亚·希瓦艾什--- Silverash
-+ 德克萨斯,切利尼娜·德克萨斯Cellinia Texas
-+ 战车,亚历山大·塞纳维耶夫Alexsandr Senaviev
-+ 戴菲恩,戴菲恩·温德米尔Delphine Windermere
-+ 拉普兰德,拉普兰德·萨卢佐Lappland Saluzzo
-+ 推进之王,亚历山德莉娜·维娜·维多利亚Alexandrina Vina Victoria
-+ 摩根,凯特·“摩根”·莫瑞根Kate "Morgan" Morrigan
-+ 斥罪,拉维妮娅·法尔科内Lavinia Falcone
-+ 星极,阿丝忒希娅·乌比卡Astesia ---
-+ 星源,阿丝忒吉妮·乌比卡Astgenne ???埃琳娜·乌比卡
-+ 梅尔,梅尔·斯托尼Mayer ---
-+ 森西,森西センシ
-+ 浮士德,萨沙Sasha
-+ 海蒂,海蒂·汤姆森Heidi Thomson
-+ 灰烬,艾丽萨·科恩Eliza Cohen
-+ 灵知,诺希斯·埃德怀斯Gnosis Edelweiss
-+ 烈夏,罗莎琳·塔季扬诺夫娜·拉里娜Rosalind ??? Larina
-+ 爱国者,博卓卡斯替Buldrokkastee
-+ 特米米,特米米Tomimi
-+ 玛恩纳,玛恩纳·临光Młynar Nearl
-+ 玛露西尔,玛露西尔マルシル・ドナトー
-+ 瑕光,玛莉娅·临光Maria Nearl
-+ 白面鸮,乔伊丝·摩尔Joyce Moore
-+ 碎骨,亚历克斯Alex米莎Misha[12]
-+ 罗比菈塔,罗比菈塔·贝克Roberta ---
-+ 艾拉,艾姿碧塔·博萨克Elzbieta Bosak
-+ 艾雅法拉,阿黛尔·瑙曼Adele ---
-+ 莱恩哈特,莱恩哈特Leonhardt
-+ 莱欧斯,莱欧斯ライオス・トーデン
-+ 菲亚梅塔,菲亚梅塔Fiammetta
-+ 薇薇安娜,薇薇安娜·冯·霍赫贝格Viviana Von ---[1]薇薇安娜·德罗斯特Viviana ---[2]
-+ 角峰,马特洪·耶克Matterhorn ---
-+ 赫默,奥利维亚·赫默Olivia Silence
-+ 车尔尼,威廉·菲赫特·车尔尼--- --- Czerny
-+ 达格达,伊莎贝尔·“达格达”·孟塔古Isabelle "Dagda" Montague
-+ 迷迭香,纳西莎迷迭香Rosmontis
-+ 送葬人,费德里科·吉亚洛--- Giallo
-+ 逻各斯,哀珐尼尔Aefanyl
-+ 铃兰,丽萨Lisa
-+ 银灰,恩希欧迪斯·希瓦艾什Enciodes Silverash
-+ 锏,（真名遗失）锏Degenbrecher
-+ 锡兰,锡兰·道尔科斯Ceylon ---
-+ 闪击,伊莱亚斯·库兹Elias Kötz
-+ 霜华,蒂娜Tina Lin Tsang
-+ 霜星,叶莲娜Yelena
-+ 鸿雪,阿芙朵嘉·尼古拉耶芙娜·伊万诺娃Avdotya --- ---阿芙朵嘉·锐笔Avdotya Razorpen
-+ 齐尔查克,齐尔查克チルチャック・ティムズ
-+ 龙舌兰,埃内斯托·萨拉斯Ernesto ---
+@@ -9,212 +10,212 @@
+- ---阿芙朵嘉·锐笔	a fu duo jia rui bi
+- 三角初音三角初音三角初华三角初華	san jiao chu yin san jiao chu yin san jiao chu hua san jiao chu hua
+- 丽塔·斯卡曼德罗斯---	li ta si ka man de luo si
+- 威廉·菲赫特·车尔尼---	wei lian fei he te che er ni
+- 恩希亚·希瓦艾什---	en xi ya xi wa ai shen
+- 汉娜·因陀罗·杰克森---	han na yin tuo luo jie ke sen
+- 特雷弗·弗里斯顿---	te lei fu fu li si dun
+- 玛嘉烈·临光---	ma jia lie lin guang
+- 费德里科·吉亚洛---	fei de li ke ji ya luo
++ 三角初华	san jiao chu hua
++ 三角初音	san jiao chu yin
++ 丽塔·斯卡曼德罗斯	li ta si ka man de luo si
++ 威廉·菲赫特·车尔尼	wei lian fei he te che er ni
++ 恩希亚·希瓦艾什	en xi ya xi wa ai shen
++ 汉娜·因陀罗·杰克森	han na yin tuo luo jie ke sen
++ 特雷弗·弗里斯顿	te lei fu fu li si dun
++ 玛嘉烈·临光	ma jia lie lin guang
++ 费德里科·吉亚洛	fei de li ke ji ya luo
++ 阿芙朵嘉·锐笔	a fu duo jia rui bi
 ```
 
 # rime_dicts/an_skill.dict.yaml
 
 ```diff
 +++ new: data/rime_dicts/an_skill.dict.yaml
-@@ -0,1103 +8,1103 @@
-+ 共鸣溃缩	gong ming kui suo
-+ 协同指令	xie tong zhi ling
-+ 循理归因	xun li gui yin
-+ 意识联协	yi shi lian xie
-+ 数据分析	shu ju fen xi
-+ 无言为真	wu yan wei zhen
-+ 生存决心	sheng cun jue xin
-+ 绝境抵抗	jue jing di kang
+@@ -0,1132 +29,1132 @@
++ 丰收	feng shou
++ 作战规划	zuo zhan gui hua
++ 信号增幅	xin hao zeng fu
++ 借阅登记	jie yue deng ji
++ 回收利用	hui shou li yong
++ 安防巡逻	an fang xun luo
++ 山地村落	shan di cun luo
++ 巫术村落	wu shu cun luo
++ 开打	kai da
++ 强化验收	qiang hua yan shou
++ 打人树	da ren shu
++ 探矿	tan kuang
++ 来客	lai ke
++ 水产村落	shui chan cun luo
++ 污染传播	wu ran chuan bo
++ 污染处理	wu ran chu li
++ 灌溉	guan gai
++ 牧场村落	mu chang cun luo
++ 猎户村落	lie hu cun luo
++ 空间跳跃	kong jian tiao yue
++ 荒野村落	huang ye cun luo
++ 血之遗赠	xue zhi yi zeng
++ 血溃	xue kui
++ 补给签收	bu ji qian shou
++ 读书会	du shu hui
++ 超负荷运转	chao fu he yun zhuan
++ 采摘	cai zhai
++ 铸造	zhu zao
++ 长途运输	chang tu yun shu
 ```
 
 # titles/an_skill_titles.txt
 
 ```diff
 +++ new: data/titles/an_skill_titles.txt
-@@ -0,1180 +8,1180 @@
-+ 文件:技能 共鸣溃缩.png
-+ 文件:技能 协同指令.png
-+ 文件:技能 循理归因.png
-+ 文件:技能 意识联协.png
-+ 文件:技能 数据分析.png
-+ 文件:技能 无言为真.png
-+ 文件:技能 生存决心.png
-+ 文件:技能 绝境抵抗.png
+@@ -0,1208 +28,1208 @@
++ 文件:技能 丰收.png
++ 文件:技能 作战规划.png
++ 文件:技能 信号增幅.png
++ 文件:技能 借阅登记.png
++ 文件:技能 回收利用.png
++ 文件:技能 安防巡逻.png
++ 文件:技能 开打！.png
++ 文件:技能 强化验收.png
++ 文件:技能 打人树.png
++ 文件:技能 探矿.png
++ 文件:技能 来客 山地村落.png
++ 文件:技能 来客 巫术村落.png
++ 文件:技能 来客 水产村落.png
++ 文件:技能 来客 牧场村落.png
++ 文件:技能 来客 猎户村落.png
++ 文件:技能 来客 荒野村落.png
++ 文件:技能 污染传播.png
++ 文件:技能 污染处理.png
++ 文件:技能 灌溉.png
++ 文件:技能 空间跳跃.png
++ 文件:技能 血之遗赠.png
++ 文件:技能 血溃.png
++ 文件:技能 补给签收.png
++ 文件:技能 读书会.png
++ 文件:技能 超负荷运转.png
++ 文件:技能 采摘.png
++ 文件:技能 铸造.png
++ 文件:技能 长途运输.png
+```
+
+# rime_dicts/an_terra.dict.yaml
+
+```diff
++++ new: data/rime_dicts/an_terra.dict.yaml
+@@ -0,638 +3,638 @@
++ 冬时	dong shi
++ 折桠	zhe ya
++ 真言	zhen yan
+```
+
+# titles/an_terra_titles.txt
+
+```diff
++++ new: data/titles/an_terra_titles.txt
+@@ -0,636 +3,636 @@
++ 冬时
++ 折桠
++ 真言
 ```
 
