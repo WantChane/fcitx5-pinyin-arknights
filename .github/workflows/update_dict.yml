@@ -172,7 +172,7 @@ jobs:
           tar -czf artifacts/titles.tar.gz -C ./data/titles .
           (cd ./data/fcitx5_dicts && 7z a ../../artifacts/fcitx5_dicts.7z ./*)
           (cd ./data/rime_dicts && 7z a ../../artifacts/rime_dicts.7z ./*)
-          (cd ./data/titles && 7z a ../../artifacts/titles_dicts.7z ./*)
+          (cd ./data/titles && 7z a ../../artifacts/titles.7z ./*)
 
       - name: Publish
         uses: softprops/action-gh-release@v2
