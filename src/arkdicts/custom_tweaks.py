@@ -83,8 +83,12 @@ def tweak_mapping(mapping_dict):
         for word in words:
             if word in mapping_dict:
                 new_val = mapping_dict[word]
-                if new_val is not None:
-                    append(new_val)
+                if new_val is None:
+                    continue
+                elif isinstance(new_val, list):
+                    result.extend(new_val)
+                elif isinstance(new_val, str):
+                    result.append(new_val)
             else:
                 append(word)
 
