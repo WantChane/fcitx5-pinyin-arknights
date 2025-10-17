@@ -7,9 +7,9 @@ dict_name = os.path.splitext(os.path.basename(__file__))[0]
 titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
 
 parse_page(
-    page_title="水月与深蓝之树",
+    page_title="水月与深蓝之树/生物制品陈设",
     output_path=titles_path,
-    selector="div>table.wikitable>tbody>tr=first-child>th:nth-child(2)",
+    selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
 )
 
 tweaks = [
