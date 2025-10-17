@@ -45,7 +45,9 @@ jobs:
             incremental_dicts=""
           fi
 
-          if [ -n "$incremental_dicts" ]; then
+          if [ "${{ github.event_name }}" == "schedule" ]; then
+            need_upate="true"
+          elif [ -n "$incremental_dicts" ]; then
             need_update="true"
           else
             need_update="false"
@@ -66,6 +68,7 @@ jobs:
     outputs:
       current_version: ${{ steps.arkdicts-update.outputs.current_version}}
       changes_committed: ${{ steps.commit-and-push.outputs.changes_committed }}
+      commit_sha: ${{ steps.commit-and-push.outpus.commit_sha }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -130,6 +133,8 @@ jobs:
             git commit -m "chore: auto update [skip ci]"
             git push
             echo "changes_committed=true" >> $GITHUB_OUTPUT
+            COMMIT_SHA=$(git rev-parse HEAD)
+            echo "commit_sha=$COMMIT_SHA" >> $GITHUB_OUTPUT
           else
             echo "changes_committed=false" >> $GITHUB_OUTPUT
           fi
@@ -150,14 +155,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref }}
+          ref: ${{ needs.update.outputs.commit_sha }}
 
       - name: Install system dependencies
         run: sudo apt install -y p7zip
 
       - name: Get date str
         id: date
-        run: echo "date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
+        run: echo "build_date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
 
       - name: Package files into 7z and tar.gz
         run: |
@@ -172,11 +177,11 @@ jobs:
       - name: Publish
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.date.outputs.build-date }}
-          name: Release ${{ steps.date.outputs.build-date }}
+          tag_name: v${{ steps.date.outputs.build_date }}
+          name: Release ${{ steps.date.outputs.build_date }}
           body: |
             游戏版本: ${{ needs.update.outputs.current_version }}
-            **更新内容**: [点击查看完整的对比文件](https://github.com/WantChane/fcitx5-pinyin-arknights/blob/main/data/changes.md)
+            **更新内容**: [点击查看完整的对比文件](https://github.com/WantChane/fcitx5-pinyin-arknights/blob/${{ needs.update.outputs.commit_sha }}/data/changes.md)
           files: artifacts/*
           draft: true
           prerelease: false
