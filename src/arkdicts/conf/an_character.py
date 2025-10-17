@@ -3,7 +3,7 @@ from arkdicts.custom_tweaks import (
     tweak_trim_parentheses_suffix,
     tweak_remove_chars,
     tweak_find_chinese,
-    tweak_mapping,
+    tweak_delete_by_regex,
 )
 from arkdicts.utils.parse_page import parse_page
 from arkdicts.utils.utils import generate_filepath, generate_exports
@@ -22,7 +22,7 @@ tweaks = [
     tweak_trim_parentheses_suffix(),
     tweak_remove_chars(["“", "”"]),
     tweak_find_chinese(["·"]),
-    tweak_mapping({"的父亲": None}),
+    tweak_delete_by_regex(["父亲", "母亲"]),
 ]
 
 exports = generate_exports(

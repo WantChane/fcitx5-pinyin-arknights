@@ -22,33 +22,62 @@ def tweak_delete_by_regex(regexes):
     return delete_by_regex
 
 
-def tweak_find_chinese(allowed_chars=None):
+def tweak_replace_regex(regex_pattern: str):
+    pattern = re.compile(regex_pattern)
+
+    def cb(items: List[str]) -> List[str]:
+        ret = []
+        for item in items:
+            modified_item = pattern.sub("", item)
+            ret.append(modified_item)
+        return ret
+
+    return cb
+
+
+def tweak_find_chinese(allowed_chars=None, connector_only=False):
     if allowed_chars is None:
         allowed_chars = []
-    allowed = re.escape("".join(allowed_chars))
-    pattern = re.compile(
-        f"([\\u4e00-\\u9fff{allowed}]+)|([^\\u4e00-\\u9fff{allowed}]+)"
-    )
+
+    allowed_pattern = re.escape("".join(allowed_chars))
+
+    if connector_only:
+        pattern = re.compile(
+            f"[\\u4e00-\\u9fff]+(?:[{allowed_pattern}][\\u4e00-\\u9fff]+)*"
+        )
+    else:
+        pattern = re.compile(f"[\\u4e00-\\u9fff{allowed_pattern}]+")
 
     def find_chinese(items: List[str]) -> List[str]:
         result = []
         for item in items:
-            parts = []
-            for match in pattern.finditer(item):
-                chinese_part = match.group(1)
-                non_chinese_part = match.group(2)
-                if chinese_part:
-                    parts.append(chinese_part)
-                else:
-                    parts.append(non_chinese_part)
-            filtered = [p for p in parts if p]
-            result.extend(filtered)
+            matches = pattern.findall(item)
+            if connector_only:
+                validated_matches = []
+                for match in matches:
+                    has_connector = any(char in allowed_chars for char in match)
+                    if has_connector:
+                        if (
+                            match[0] not in allowed_chars
+                            and match[-1] not in allowed_chars
+                        ):
+                            validated_matches.append(match)
+                    else:
+                        validated_matches.append(match)
+                result.extend(validated_matches)
+            else:
+                result.extend(matches)
         return result
 
     return find_chinese
 
 
 def tweak_remove_chars(chars):
+    has_multi_char = any(len(char) > 1 for char in chars)
+
+    if has_multi_char:
+        print("Wanning: tweak_remove_chars is intended for single characters only.")
+
     trans_table = str.maketrans("", "", "".join(chars))
 
     def remove_chars(words):
@@ -65,8 +94,12 @@ def tweak_mapping(mapping_dict):
         for word in words:
             if word in mapping_dict:
                 new_val = mapping_dict[word]
-                if new_val is not None:
-                    append(new_val)
+                if new_val is None:
+                    continue
+                elif isinstance(new_val, list):
+                    result.extend(new_val)
+                elif isinstance(new_val, str):
+                    result.append(new_val)
             else:
                 append(word)
 

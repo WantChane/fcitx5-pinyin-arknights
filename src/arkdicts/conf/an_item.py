@@ -13,7 +13,7 @@ titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
 
 tweaks = [
     tweak_remove_chars(["“", "”", "《", "》"]),
-    tweak_find_chinese(["·", "-"]),
+    tweak_find_chinese(["·", "-"], connector_only=True),
 ]
 
 exports = generate_exports(

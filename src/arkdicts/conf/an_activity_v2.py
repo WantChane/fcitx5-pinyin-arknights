@@ -1,9 +1,10 @@
 import os
-from mw2fcitx.tweaks.moegirl import tweak_split_word_with, tweak_remove_regex
+from mw2fcitx.tweaks.moegirl import tweak_split_word_with
 from arkdicts.custom_tweaks import (
     tweak_delete_by_regex,
     tweak_find_chinese,
     tweak_remove_chars,
+    tweak_replace_regex,
 )
 from arkdicts.utils.parse_page import parse_sequential_page
 from arkdicts.utils.utils import generate_filepath, generate_exports
@@ -39,10 +40,11 @@ tweaks = [
         )
     ],
     tweak_split_word_with(["：", "「", "」"]),
-    tweak_remove_regex(["^第.*章预热$"]),
+    tweak_delete_by_regex(["^第.*章预热$"]),
     tweak_delete_by_regex(["主线动画", "限时任务", "集成回顾"]),
-    tweak_remove_chars(["“", "”", "预热", "开放"]),
+    tweak_remove_chars(["“", "”"]),
     tweak_find_chinese("·"),
+    tweak_replace_regex(r"(预热|开放)$"),
 ]
 
 
