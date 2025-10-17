@@ -22,6 +22,19 @@ def tweak_delete_by_regex(regexes):
     return delete_by_regex
 
 
+def tweak_replace_regex(regex_pattern: str):
+    pattern = re.compile(regex_pattern)
+
+    def cb(items: List[str]) -> List[str]:
+        ret = []
+        for item in items:
+            modified_item = pattern.sub("", item)
+            ret.append(modified_item)
+        return ret
+
+    return cb
+
+
 def tweak_find_chinese(allowed_chars=None):
     if allowed_chars is None:
         allowed_chars = []
@@ -49,6 +62,11 @@ def tweak_find_chinese(allowed_chars=None):
 
 
 def tweak_remove_chars(chars):
+    has_multi_char = any(len(char) > 1 for char in chars)
+
+    if has_multi_char:
+        print("Wanning: tweak_remove_chars is intended for single characters only.")
+
     trans_table = str.maketrans("", "", "".join(chars))
 
     def remove_chars(words):
