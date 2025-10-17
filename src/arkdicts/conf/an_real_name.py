@@ -31,7 +31,7 @@ tweaks = [
             "”",
         ]
     ),
-    tweak_find_chinese(["·", "-"]),
+    tweak_find_chinese(["·", "-"], connector_only=True),
     tweak_delete_by_regex([r"\b安心院\b", r"\b真名遗失\b"]),
     tweak_mapping({"三角初音三角初音三角初华三角初華": ["三角初音", "三角初华"]}),
 ]

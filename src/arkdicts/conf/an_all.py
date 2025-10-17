@@ -14,7 +14,7 @@ titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
 
 tweaks = [
     tweak_trim_parentheses_suffix(),
-    tweak_find_chinese(["·", "-"]),
+    tweak_find_chinese(["·", "-"], connector_only=True),
     tweak_trim_suffix(["·", "-"]),
 ]
 
