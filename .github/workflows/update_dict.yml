@@ -148,8 +148,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    outputs:
-      build-date: ${{steps.date.outputs.date}}
 
     steps:
       - name: Checkout
@@ -160,9 +158,12 @@ jobs:
       - name: Install system dependencies
         run: sudo apt install -y p7zip
 
-      - name: Get date str
-        id: date
-        run: echo "build_date=$(date +'%y.%m.%d')" >> $GITHUB_OUTPUT
+      - name: Generate version info
+        id: generate-version
+        run: |
+          build_date=$(date +'%y.%m.%d')
+          short_sha=${{ needs.update.outputs.commit_sha:0:6 }}
+          echo "version=$build_date.$short_sha" >> $GITHUB_OUTPUT
 
       - name: Package files into 7z and tar.gz
         run: |
@@ -177,8 +178,8 @@ jobs:
       - name: Publish
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.date.outputs.build_date }}
-          name: Release ${{ steps.date.outputs.build_date }}
+          tag_name: v${{ steps.generate-version.outputs.version }}
+          name: Release ${{ steps.generate-version.outputs.version }}
           body: |
             游戏版本: ${{ needs.update.outputs.current_version }}
             **更新内容**: [点击查看完整的对比文件](https://github.com/WantChane/fcitx5-pinyin-arknights/blob/${{ needs.update.outputs.commit_sha }}/data/changes.md)
