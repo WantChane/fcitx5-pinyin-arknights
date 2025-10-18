@@ -85,7 +85,7 @@ class DiffProcessor:
             self.markdown_content.append(f"+++ new: {file2}\n", fg="green")
 
         self.markdown_content.append(
-            f"@@ -{len(only_in_file1)},{len(set2)} +{len(only_in_file2)},{len(set2)} @@\n",
+            f"@@ -{len(only_in_file1)},{len(set1)} +{len(only_in_file2)},{len(set2)} @@\n",
             fg="cyan",
         )
         for line in only_in_file1:
