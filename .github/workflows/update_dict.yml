@@ -162,7 +162,8 @@ jobs:
         id: generate-version
         run: |
           build_date=$(date +'%y.%m.%d')
-          short_sha=${{ needs.update.outputs.commit_sha:0:6 }}
+          full_sha="${{ needs.update.outputs.commit_sha }}"
+          short_sha="${full_sha:0:6}"
           echo "version=$build_date.$short_sha" >> $GITHUB_OUTPUT
 
       - name: Package files into 7z and tar.gz
