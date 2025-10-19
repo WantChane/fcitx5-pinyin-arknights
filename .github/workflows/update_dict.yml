@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       incremental_dicts: ${{ steps.determine-type.outputs.incremental_dicts }}
-      need_upate: ${{ steps.determine-type.outputs.need_update }}
+      need_update: ${{ steps.determine-type.outputs.need_update }}
 
     steps:
       - name: Install system dependencies
@@ -46,7 +46,7 @@ jobs:
           fi
 
           if [ "${{ github.event_name }}" == "schedule" ]; then
-            need_upate="true"
+            need_update="true"
           elif [ -n "$incremental_dicts" ]; then
             need_update="true"
           else
@@ -61,14 +61,14 @@ jobs:
   update:
     runs-on: ubuntu-latest
     needs: check-incremental
-    if: needs.check-incremental.outputs.need_upate == 'true'
+    if: needs.check-incremental.outputs.need_update == 'true'
     permissions:
       issues: write
       contents: write
     outputs:
       current_version: ${{ steps.arkdicts-update.outputs.current_version}}
       changes_committed: ${{ steps.commit-and-push.outputs.changes_committed }}
-      commit_sha: ${{ steps.commit-and-push.outpus.commit_sha }}
+      commit_sha: ${{ steps.commit-and-push.outputs.commit_sha }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
