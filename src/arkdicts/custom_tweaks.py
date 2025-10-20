@@ -25,14 +25,14 @@ def tweak_delete_by_regex(regexes):
 def tweak_replace_regex(regex_pattern: str):
     pattern = re.compile(regex_pattern)
 
-    def cb(items: List[str]) -> List[str]:
+    def replace_regex(items: List[str]) -> List[str]:
         ret = []
         for item in items:
             modified_item = pattern.sub("", item)
             ret.append(modified_item)
         return ret
 
-    return cb
+    return replace_regex
 
 
 def tweak_find_chinese(allowed_chars=None, connector_only=False):
