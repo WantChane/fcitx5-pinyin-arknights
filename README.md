@@ -114,3 +114,4 @@ uv run arkdicts build -a
 
 - 生成工具：[mw2fcitx](https://github.com/outloudvi/mw2fcitx) ([MIT License](https://github.com/outloudvi/mw2fcitx/blob/master/LICENSE))。
 - 数据来源：[prts.wiki](https://prts.wiki)，该内容采用 **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** 许可。
+- 版本检测：[ArknightsGameResource](https://github.com/yuanyan3060/ArknightsGameResource) ([AGPL-3.0 License](https://github.com/yuanyan3060/ArknightsGameResource/blob/main/LICENSE))。本项目仅通过网络请求读取其 [version](https://github.com/yuanyan3060/ArknightsGameResource/blob/main/version) 文件中的版本号字符串，用于更新检测。
