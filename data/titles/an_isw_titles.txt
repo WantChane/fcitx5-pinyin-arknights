@@ -22,6 +22,7 @@ ISW-DF 紧急授课(阿纳萨羯磨)
 ISW-DF 开门请当心
 ISW-DF 恐怖传说
 ISW-DF 迈入永恒
+ISW-DF 末狩
 ISW-DF 谋岁者
 ISW-DF 破岁阵祀
 ISW-DF 人之光辉
@@ -36,6 +37,8 @@ ISW-DF 授法
 ISW-DF 硕果累累
 ISW-DF 思维矫正
 ISW-DF 思维矫正(阿纳萨羯磨)
+ISW-DF 天数将易
+ISW-DF 往昔难忆
 ISW-DF 巍峨银凇
 ISW-DF 无中生钱
 ISW-DF 无主巨物
@@ -161,11 +164,13 @@ ISW-NO 建制
 ISW-NO 狡兽九窟
 ISW-NO 教徒居所
 ISW-NO 狡鼷三窟
+ISW-NO 借力打力
 ISW-NO 禁区
 ISW-NO 精酿杀手
 ISW-NO 惊喜工厂
 ISW-NO 纠错
 ISW-NO 酒商运输队
+ISW-NO 救援行动
 ISW-NO 据险固守
 ISW-NO 卡兹瀑布
 ISW-NO 溃乱魔典
@@ -194,9 +199,11 @@ ISW-NO 溟痕乐园
 ISW-NO 明抢暗偷
 ISW-NO 谋求共识
 ISW-NO 南武群英会
+ISW-NO 南武约
 ISW-NO 年代断层
 ISW-NO 弄假成真
 ISW-NO 排风口
+ISW-NO 凭票入内
 ISW-NO 凭器
 ISW-NO 破局
 ISW-NO 奇谭
@@ -204,6 +211,7 @@ ISW-NO 青山不语
 ISW-NO 轻舟共渡
 ISW-NO 求道
 ISW-NO 求敌得敌
+ISW-NO 驱虫
 ISW-NO 去晦
 ISW-NO 仁·义·武
 ISW-NO 人造物狂欢节
@@ -233,6 +241,7 @@ ISW-NO 首演
 ISW-NO 霜与沙
 ISW-NO 水火相容
 ISW-NO 死斗
+ISW-NO 四方
 ISW-NO 死囚之夜
 ISW-NO 思维折断
 ISW-NO 所守者，义
@@ -242,6 +251,7 @@ ISW-NO 坍缩体的午后
 ISW-NO 贪妄
 ISW-NO 通道封锁
 ISW-NO 突击战
+ISW-NO 玩具兵将
 ISW-NO 王冠之下
 ISW-NO 往事喑哑
 ISW-NO 忘形
@@ -258,6 +268,7 @@ ISW-NO 巫咒同盟
 ISW-NO 无罪净土
 ISW-NO 夕娥忆
 ISW-NO 夕江对擂
+ISW-NO 夕江诀
 ISW-NO 现代战争法则
 ISW-NO 先来后到
 ISW-NO 新部族
@@ -299,12 +310,14 @@ ISW-NO 远方来客
 ISW-NO 远古坚冰
 ISW-NO 原始部落
 ISW-NO 月华寒
+ISW-NO 越山海
 ISW-NO 愠怒
 ISW-NO 杂音干扰
 ISW-NO 瞻前顾后
 ISW-NO 斩首
 ISW-NO 长驱不复
 ISW-NO 遮天蔽日
+ISW-NO 震坎
 ISW-NO 正经生意
 ISW-NO 峥嵘战功
 ISW-NO 正义
