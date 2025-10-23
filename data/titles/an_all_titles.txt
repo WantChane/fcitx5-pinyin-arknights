@@ -2150,6 +2150,7 @@ Act29side ex05
 Act29side ex06
 Act29side ex07
 Act29side ex08
+Act29side s01
 Act29side s02
 Act29side s03
 Act29side s04
@@ -11114,6 +11115,7 @@ Zuo Le
 促融共竞/02/活动公告
 促融共竞/表情套组
 促融共竞1 OST
+促融共竞2 OST
 促融共竞2共竞目标
 促融共竞控制
 俗心
