@@ -185,7 +185,7 @@ jobs:
             游戏版本: ${{ needs.update.outputs.current_version }}
             **更新内容**: [点击查看完整的对比文件](https://github.com/WantChane/fcitx5-pinyin-arknights/blob/${{ needs.update.outputs.commit_sha }}/data/changes.md)
           files: artifacts/*
-          draft: true
+          draft: false
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
