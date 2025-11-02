@@ -62,7 +62,7 @@ import_tables:
   # - mydict1           # 挂载配置目录下的 mydict1.dict.yaml 词库文件
   # - cn_dicts/mydict2  # 挂载 cn_dicts 目录里的 mydict2.dict.yaml 词库文件
   - cn_dicts/an_operator
-  - cn_dicts/an_activity
+  - cn_dicts/an_activity_v2
 ...
 ```
 
