@@ -1,10 +1,49 @@
 import re
-from typing import List
+from typing import List, Iterator
 import click
 import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from arkdicts.utils.utils import echo_or_github_output
+import contextlib
+import tempfile
+import shutil
+import subprocess
+import tarfile
+import io
+
+
+@contextlib.contextmanager
+def git_ref_path(resource: str) -> Iterator[str]:
+    if ":" not in resource:
+        if not os.path.exists(resource):
+            raise click.ClickException(f"Path '{resource}' does not exist")
+        try:
+            yield resource
+        finally:
+            pass
+        return
+    ref, git_path = resource.split(":", 1)
+    temp_dir = tempfile.mkdtemp()
+    try:
+        archive_command = ["git", "archive", "--format=tar", ref, git_path]
+        result = subprocess.run(
+            archive_command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+        )
+        with tarfile.open(fileobj=io.BytesIO(result.stdout), mode="r") as tar:
+            tar.extractall(path=temp_dir)
+        extracted_path = os.path.join(temp_dir, git_path)
+        if not os.path.exists(extracted_path):
+            raise click.ClickException(
+                f"Path '{git_path}' does not exist in ref '{ref}' after extraction"
+            )
+        yield extracted_path
+    except subprocess.CalledProcessError as e:
+        raise click.ClickException(
+            f"Failed to extract '{resource}': {e.stderr.decode().strip()}"
+        )
+    finally:
+        shutil.rmtree(temp_dir, ignore_errors=True)
 
 
 @dataclass
@@ -131,8 +170,8 @@ class DiffProcessor:
 
 
 @click.command(name="diff")
-@click.argument("path1", type=click.Path(exists=True), required=True)
-@click.argument("path2", type=click.Path(exists=True), required=True)
+@click.argument("path1", type=click.Path(), required=True)
+@click.argument("path2", type=click.Path(), required=True)
 @click.option("-m", "--markdown", type=click.Path(), default=None)
 @click.option(
     "-v",
@@ -141,19 +180,21 @@ class DiffProcessor:
     default=False,
 )
 def command(path1, path2, markdown, verbose):
-    markdown_content = MarkdownContent(lines=[]) if markdown else MarkdownContent()
-    diff_processor = DiffProcessor(markdown_content)
-    result = False
+    with git_ref_path(path1) as real_path1, git_ref_path(path2) as real_path2:
+        markdown_content = MarkdownContent(lines=[]) if markdown else MarkdownContent()
+        diff_processor = DiffProcessor(markdown_content)
+        result = False
 
-    if os.path.isfile(path1) and os.path.isfile(path2):
-        result |= diff_processor.diff_file(path1, path2, verbose)
+        if os.path.isfile(real_path1) and os.path.isfile(real_path2):
+            result |= diff_processor.diff_file(real_path1, real_path2, verbose)
+        elif os.path.isdir(real_path1) and os.path.isdir(real_path2):
+            result |= diff_processor.diff_directory(real_path1, real_path2)
+        else:
+            click.echo(
+                click.style("Error: Cannot compare directory and file", fg="red")
+            )
 
-    elif os.path.isdir(path1) and os.path.isdir(path2):
-        result |= diff_processor.diff_directory(path1, path2)
+        echo_or_github_output({"diff_result": str(result).lower()}, verbose)
 
-    else:
-        click.echo(
-            click.style("Error: Cannot compare a directory with a file.", fg="red")
-        )
-    echo_or_github_output({"diff_result": str(result).lower()}, verbose)
-    markdown_content.save(markdown)
+        if markdown:
+            markdown_content.save(markdown)
