@@ -99,9 +99,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Backup old version
-        run: cp -r data{,.bak}
-
       - name: Update
         id: arkdicts-update
         run: uv run arkdicts update
@@ -110,7 +107,9 @@ jobs:
 
       - name: Generate diff file
         id: arkdicts-diff
-        run: uv run arkdicts diff data{.bak,} -m ./data/changes.md
+        run: |
+          LATEST_TAG=$(git describe --tags --abbrev=0)
+          uv run arkdicts diff $LATEST_TAG:data data -m ./data/changes.md
 
       - name: Commit version changes
         if: steps.arkdicts-update.outputs.version_changed == 'true' && steps.arkdicts-diff.outputs.diff_result == 'true'
