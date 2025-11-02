@@ -131,20 +131,19 @@ class DiffProcessor:
         only_in_file2 = sorted(set2 - set1)
 
         self.markdown_content.append("```diff\n")
-        if only_in_file1 or only_in_file2:
-            if only_in_file1:
-                self.markdown_content.append(f"--- {file1_display}\n", fg="red")
-            if only_in_file2:
-                self.markdown_content.append(f"+++ {file2_display}\n", fg="green")
+        self.markdown_content.append(f"--- {file1_display}\n", fg="red")
+        self.markdown_content.append(f"+++ {file2_display}\n", fg="green")
 
-            for line in only_in_file1:
-                self.markdown_content.append(f"- {line}\n", fg="red", bold=True)
-            for line in only_in_file2:
-                self.markdown_content.append(f"+ {line}\n", fg="green", bold=True)
-        else:
-            self.markdown_content.append(f"# Files are identical: {file1_display}\n")
+        self.markdown_content.append(
+            f"@@ -{len(only_in_file1)},{len(set1)} +{len(only_in_file2)},{len(set2)} @@\n",
+            fg="cyan",
+        )
+        for line in only_in_file1:
+            self.markdown_content.append(f"- {line}\n", fg="red", bold=True)
+        for line in only_in_file2:
+            self.markdown_content.append(f"+ {line}\n", fg="green", bold=True)
 
-        self.markdown_content.append("```\n\n")
+        self.markdown_content.append("```\n")
 
         return set1 != set2
 
@@ -163,11 +162,10 @@ class DiffProcessor:
             return False
 
         result = False
-        self.markdown_content.append("# Comparing directories:\n")
-        self.markdown_content.append(f"- {dir1_display}\n")
-        self.markdown_content.append(f"- {dir2_display}\n\n")
 
         for relative_file in all_files:
+            header_line = f"# {relative_file}\n\n"
+            self.markdown_content.append(header_line)
             file1_path = Path(dir1) / relative_file
             file2_path = Path(dir2) / relative_file
 
@@ -192,8 +190,12 @@ class DiffProcessor:
                     None, str(file2_path), "ADDED", file2_display, verbose=False
                 )
 
-            result |= diff_result
+            if not diff_result:
+                self.markdown_content.pop()
+            else:
+                self.markdown_content.append("\n", echo=True)
 
+            result |= diff_result
         return result
 
 
@@ -238,4 +240,3 @@ def command(path1: str, path2: str, markdown: str | None, verbose: bool):
 
         if markdown:
             diff_processor.markdown_content.save(markdown)
-
