@@ -1,8 +1,10 @@
+import re
 import os
 import time
 import urllib.parse
+from bs4.element import NavigableString
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, CData, Comment, Tag
 from typing import Dict, List, Optional
 from arkdicts.constant import USER_AGENT, REQUEST_DELAY
 
@@ -28,15 +30,93 @@ def fetch_page_content(
     return BeautifulSoup(data["parse"]["text"], "html.parser")
 
 
-def extract_text(element, attribute: str, recursive: bool) -> str:
+def extract_text(element: Tag, attribute: str, recursive: bool) -> str:
     """从元素中提取文本/属性值"""
     if attribute:
-        return element.get(attribute, "").strip()
+        return element.get(attribute, "").strip()  # pyright: ignore[reportAttributeAccessIssue,reportOptionalMemberAccess]
     return (
         element.get_text(strip=True)
         if recursive
         else "".join(element.find_all(string=True, recursive=False)).strip()
     )
+
+
+def semantic_extract_text(
+    element: Tag,
+    skip_tags: set = {"del", "script", "style"},
+    block_tags: set = {
+        "div",
+        "p",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "ul",
+        "ol",
+        "li",
+        "table",
+        "tr",
+        "section",
+        "article",
+    },
+    inline_tags: set = {"b", "strong", "i", "em", "u", "span", "a", "code"},
+    block_separator: str = "\n",
+) -> str:
+    """
+    智能提取元素内容，按标签类型处理文本
+
+    :param element: 要提取的BeautifulSoup Tag对象
+    :param skip_tags: 需要跳过的标签集合
+    :param block_tags: 块级标签集合
+    :param inline_tags: 内联标签集合
+    :param block_separator: 块级标签文本间的连接符
+    :return: 提取的文本字符串
+    """
+    parts = []
+    for child in element.children:
+        if isinstance(child, (Comment, CData)):
+            continue
+
+        if isinstance(child, NavigableString):
+            parts.append(child.strip(" "))
+            continue
+
+        if child.name in skip_tags:  # pyright: ignore[reportAttributeAccessIssue]
+            continue
+
+        if child.name in block_tags:  # pyright: ignore[reportAttributeAccessIssue]
+            content = semantic_extract_text(
+                child,  # pyright: ignore[reportArgumentType]
+                skip_tags,
+                block_tags,
+                inline_tags,
+                block_separator,  # pyright: ignore[reportAttributeAccessIssue]
+            )
+            if content:
+                if parts:
+                    parts.append(block_separator)
+                parts.append(content)
+                parts.append(block_separator)
+
+        elif child.name in inline_tags:  # pyright: ignore[reportAttributeAccessIssue]
+            parts.append(child.get_text(strip=True, separator=""))
+
+        else:
+            parts.append(
+                semantic_extract_text(
+                    child,  # pyright: ignore[reportArgumentType]
+                    skip_tags,
+                    block_tags,
+                    inline_tags,
+                    block_separator,
+                )
+            )
+
+    result = "".join(parts)
+
+    return re.sub(r"\s\s+", " ", result).strip()
 
 
 def parse_page(
