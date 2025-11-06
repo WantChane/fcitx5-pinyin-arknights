@@ -43,7 +43,11 @@ def extract_text(element: Tag, attribute: str, recursive: bool) -> str:
 
 def semantic_extract_text(
     element: Tag,
-    skip_tags: set = {"del", "script", "style"},
+    skip_tags: set = {
+        "del",
+        "script",
+        "style",
+    },
     block_tags: set = {
         "div",
         "p",
@@ -61,8 +65,17 @@ def semantic_extract_text(
         "section",
         "article",
     },
-    inline_tags: set = {"b", "strong", "i", "em", "u", "span", "a", "code"},
-    block_separator: str = "\n",
+    inline_tags: set = {
+        "b",
+        "strong",
+        "i",
+        "em",
+        "u",
+        "span",
+        "a",
+        "code",
+    },
+    block_separator: str = "|",
 ) -> str:
     """
     智能提取元素内容，按标签类型处理文本
@@ -95,14 +108,10 @@ def semantic_extract_text(
                 block_separator,  # pyright: ignore[reportAttributeAccessIssue]
             )
             if content:
-                if parts:
-                    parts.append(block_separator)
                 parts.append(content)
                 parts.append(block_separator)
-
         elif child.name in inline_tags:  # pyright: ignore[reportAttributeAccessIssue]
             parts.append(child.get_text(strip=True, separator=""))
-
         else:
             parts.append(
                 semantic_extract_text(
@@ -116,7 +125,7 @@ def semantic_extract_text(
 
     result = "".join(parts)
 
-    return re.sub(r"\s\s+", " ", result).strip()
+    return re.sub(r"\|+", "|", result).strip(block_separator + " ")
 
 
 def parse_page(
@@ -231,6 +240,7 @@ def parse_sequential_page(
     delimiter: str = ",",
     base_url: str = "https://prts.wiki/api.php",
     request_delay: int = REQUEST_DELAY,
+    mode: str = "default",
 ) -> bool:
     num_selectors = len(selectors)
     attributes = attributes or [""] * num_selectors
@@ -284,13 +294,20 @@ def parse_sequential_page(
             selector_idx = entry["selector_idx"]
             element = entry["element"]
 
-            text = (
-                extract_text(
-                    element, attributes[selector_idx], recursive_texts[selector_idx]
+            if mode == "semantic":
+                text = (
+                    semantic_extract_text(element)
+                    .replace("\n", " ")
+                    .replace(delimiter, " ")
                 )
-                .replace("\n", " ")
-                .replace(delimiter, " ")
-            )
+            else:
+                text = (
+                    extract_text(
+                        element, attributes[selector_idx], recursive_texts[selector_idx]
+                    )
+                    .replace("\n", " ")
+                    .replace(delimiter, " ")
+                )
 
             current_values[selector_idx] = text
 
