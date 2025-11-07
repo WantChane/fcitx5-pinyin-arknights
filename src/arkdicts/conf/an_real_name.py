@@ -1,11 +1,17 @@
+import re
 import os
 from arkdicts.custom_tweaks import (
     tweak_find_chinese,
-    tweak_mapping,
     tweak_remove_chars,
-    tweak_delete_by_regex,
 )
-from arkdicts.utils.parse_page import parse_sequential_page
+from mw2fcitx.tweaks.moegirl import tweak_opencc_t2s
+from arkdicts.utils.parse_page import (
+    SEMANTIC_BLOCK_TAGS,
+    SEMANTIC_INLINE_TAGS,
+    extract_text,
+    parse_sequential_page,
+    semantic_extract_text,
+)
 from arkdicts.utils.utils import generate_filepath, generate_exports
 
 dict_name = os.path.splitext(os.path.basename(__file__))[0]
@@ -18,8 +24,23 @@ parse_sequential_page(
         "div>table.wikitable>tbody>tr>td:nth-child(2)",
         "div>table.wikitable>tbody>tr>td:nth-child(3)",
     ],
-    recursive_texts=[True, True],
+    extractor=[
+        extract_text(),
+        semantic_extract_text(
+            inline_tags=SEMANTIC_INLINE_TAGS - {"span"},
+            block_tags=SEMANTIC_BLOCK_TAGS | {"span"},
+        ),
+    ],
 )
+
+
+def tweak_remove_parentheses():
+    def remove_parentheses(items: list[str]) -> list[str]:
+        pattern = re.compile(r"\s*[（({\[][^（）)}\]\]]*?[）)}\]\]]")
+        return [pattern.sub("", item) for item in items]
+
+    return remove_parentheses
+
 
 tweaks = [
     lambda words: [
@@ -31,14 +52,10 @@ tweaks = [
             "”",
         ]
     ),
-    tweak_find_chinese(["·", "-"], connector_only=True),
-    tweak_delete_by_regex([r"\b安心院\b", r"\b真名遗失\b"]),
-    tweak_mapping(
-        {
-            "三角初音三角初音三角初华三角初華": ["三角初音", "三角初华"],
-            "佐原田金兵卫三船光平": ["三船光平", "佐原田金兵卫"],
-        }
-    ),
+    lambda words: [item for s in words for item in s.split("|")],
+    tweak_remove_parentheses(),
+    tweak_find_chinese(["·", "-"], connector_only=True, strict=True),
+    tweak_opencc_t2s,
 ]
 
 exports = generate_exports(

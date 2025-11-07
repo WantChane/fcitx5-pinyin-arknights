@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 dependencies = [
     "beautifulsoup4>=4.14.2",
     "click>=8.3.0",
-    "mw2fcitx>=0.24.0",
+    "mw2fcitx[opencc]>=0.24.0",
 ]
 
 [project.scripts]

@@ -19,7 +19,6 @@ parse_sequential_page(
         "div>table.wikitable>tbody>tr>td:nth-child(2)>a",
         "div>table.wikitable>tbody>tr>td:nth-child(3)",
     ],
-    recursive_texts=[True, True],
 )
 
 tweaks = [

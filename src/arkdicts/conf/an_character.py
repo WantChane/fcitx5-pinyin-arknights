@@ -15,7 +15,6 @@ parse_page(
     page_title="剧情角色一览",
     output_path=titles_path,
     selector="div>table.wikitable>tbody>tr>td:first-child",
-    recursive_text=True,
 )
 
 tweaks = [
