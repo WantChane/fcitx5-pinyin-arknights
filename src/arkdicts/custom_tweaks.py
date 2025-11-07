@@ -1,10 +1,12 @@
-import re
 from typing import List
 
 
 def tweak_trim_parentheses_suffix():
+    import re
+
+    pattern = re.compile(r"\s*[（(][^（）)]*[）)]$")
+
     def trim_parentheses_suffix(items: List[str]) -> List[str]:
-        pattern = re.compile(r"\s*[（(][^（）)]*[）)]$")
         return [pattern.sub("", item) for item in items]
 
     return trim_parentheses_suffix
@@ -23,6 +25,8 @@ def tweak_delete_by_regex(regexes):
 
 
 def tweak_replace_regex(regex_pattern: str):
+    import re
+
     pattern = re.compile(regex_pattern)
 
     def replace_regex(items: List[str]) -> List[str]:
@@ -35,39 +39,49 @@ def tweak_replace_regex(regex_pattern: str):
     return replace_regex
 
 
-def tweak_find_chinese(allowed_chars=None, connector_only=False):
+def tweak_find_chinese(allowed_chars=None, connector_only=False, strict=False):
+    import re
+
     if allowed_chars is None:
         allowed_chars = []
 
-    allowed_pattern = re.escape("".join(allowed_chars))
+    escaped_chars = re.escape("".join(allowed_chars))
 
     if connector_only:
         pattern = re.compile(
-            f"[\\u4e00-\\u9fff]+(?:[{allowed_pattern}][\\u4e00-\\u9fff]+)*"
+            f"[\\u4e00-\\u9fff]+(?:[{escaped_chars}][\\u4e00-\\u9fff]+)*"
         )
     else:
-        pattern = re.compile(f"[\\u4e00-\\u9fff{allowed_pattern}]+")
+        pattern = re.compile(f"[\\u4e00-\\u9fff{escaped_chars}]+")
+
+    if strict:
+        strict_pattern = re.compile(f"[^\\u4e00-\\u9fff{escaped_chars}]")
 
     def find_chinese(items: List[str]) -> List[str]:
         result = []
         for item in items:
+            item = item.strip()
+            if strict and strict_pattern.search(item):  # pyright: ignore[reportPossiblyUnboundVariable]
+                continue
+
             matches = pattern.findall(item)
-            if connector_only:
-                validated_matches = []
-                for match in matches:
-                    has_connector = any(char in allowed_chars for char in match)
-                    if has_connector:
-                        if (
-                            match[0] not in allowed_chars
-                            and match[-1] not in allowed_chars
-                        ):
-                            validated_matches.append(match)
-                    else:
-                        validated_matches.append(match)
-                result.extend(validated_matches)
-            else:
+            if not connector_only:
                 result.extend(matches)
+            else:
+                result.extend(_validate_connectors(matches, allowed_chars))
         return result
+
+    def _validate_connectors(matches, allowed_set):
+        valid_matches = []
+        for match in matches:
+            has_connector = any(char in allowed_set for char in match)
+
+            if has_connector:
+                if match[0] not in allowed_set and match[-1] not in allowed_set:
+                    valid_matches.append(match)
+            else:
+                valid_matches.append(match)
+        return valid_matches
 
     return find_chinese
 

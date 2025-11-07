@@ -9,7 +9,6 @@ parse_page(
     page_title="分支一览",
     output_path=titles_path,
     selector="font>strong",
-    recursive_text=True,
 )
 
 tweaks = []

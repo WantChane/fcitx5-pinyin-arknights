@@ -10,7 +10,6 @@ parse_page(
     page_title="泰拉词库",
     output_path=titles_path,
     selector="div>table.wikitable>tbody>tr>td:first-child",
-    recursive_text=True,
 )
 
 tweaks = [
