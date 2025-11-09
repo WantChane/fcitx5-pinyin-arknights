@@ -1,6 +1,6 @@
 import os
 from arkdicts.custom_tweaks import tweak_find_chinese, tweak_remove_chars, tweak_mapping
-from arkdicts.utils.parse_page import parse_page
+from arkdicts.utils.parse_page import extract_text, parse_page
 from arkdicts.utils.utils import generate_filepath, generate_exports
 
 dict_name = os.path.splitext(os.path.basename(__file__))[0]
@@ -10,6 +10,7 @@ parse_page(
     page_title="水月与深蓝之树/生物制品陈设",
     output_path=titles_path,
     selector="div>table.wikitable>tbody>tr:first-child>th:nth-child(2)",
+    extractor=extract_text(recursive=False),
 )
 
 tweaks = [
