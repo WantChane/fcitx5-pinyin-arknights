@@ -1763,6 +1763,13 @@ Act1arcade m3 03
 Act1arcade m4 01
 Act1arcade m4 02
 Act1arcade m4 03
+Act1autochess m01
+Act1autochess m02
+Act1autochess m03
+Act1autochess m04
+Act1autochess m05
+Act1autochess m06
+Act1autochess m07
 Act1bossrush 01
 Act1bossrush 02
 Act1bossrush 03
@@ -2647,6 +2654,19 @@ Act46side 07
 Act46side 08
 Act46side 09
 Act46side 10
+Act46side ex01
+Act46side ex02
+Act46side ex03
+Act46side ex04
+Act46side ex05
+Act46side ex06
+Act46side ex07
+Act46side ex08
+Act46side s01
+Act46side s02
+Act46side s03
+Act46side s04
+Act46side s05
 Act46side st01
 Act46side st02
 Act46side st03
@@ -6991,6 +7011,32 @@ OS-9
 OS-9 凛刃出匣
 OS-9 凛刃出匣/BEG
 OS-9 凛刃出匣/END
+OS-EX-1
+OS-EX-1 饮净水
+OS-EX-2
+OS-EX-2 敬友邻
+OS-EX-3
+OS-EX-3 御外敌
+OS-EX-4
+OS-EX-4 熟食而止
+OS-EX-5
+OS-EX-5 皮毛加身
+OS-EX-6
+OS-EX-6 顺时耕作
+OS-EX-7
+OS-EX-7 以石取石
+OS-EX-8
+OS-EX-8 以人的名
+OS-S-1
+OS-S-1 打雪仗
+OS-S-2
+OS-S-2 堆雪人
+OS-S-3
+OS-S-3 雪孩子
+OS-S-4
+OS-S-4 雪中歌谣
+OS-S-5
+OS-S-5 雪与我与雪
 OS-ST-1
 OS-ST-1 崩落
 OS-ST-1 崩落/NBT
@@ -9451,6 +9497,8 @@ Zuo Le
 “伴霜寒”
 “低吟”
 “低音号”
+“余音”
+“余音”/spine
 “供养死者”
 “信则有”
 “倾听者”金属立柱
@@ -9862,6 +9910,8 @@ Zuo Le
 “灵幛”/spine
 “灵感藏身处”
 “灵魂的投影”
+“炎佑”
+“炎佑”/spine
 “烈日抵御者”
 “烈火”
 “烈酒金刚”
@@ -9947,6 +9997,8 @@ Zuo Le
 “破茧之梦”/spine
 “碎壁”
 “碎壁”/spine
+“碎铳之簧”
+“碎铳之簧”/spine
 “磨砂”
 “祈福纳吉”端午挂饰
 “祛晦”
@@ -10451,6 +10503,7 @@ Zuo Le
 チルチャック
 ツェルニー
 ツキノギ
+ティッピ
 ティフォン
 テキサス
 テキーラ
@@ -10465,6 +10518,7 @@ Zuo Le
 トギフォンス
 トター
 トミミ
+トラゴーディア
 ドゥリン
 ドロシー
 ドーベルマン
@@ -11273,6 +11327,26 @@ Zuo Le
 倾轧者/spine
 假山水池
 假想对冲
+假想敌：再生
+假想敌：再生/spine
+假想敌：弦
+假想敌：弦/spine
+假想敌：淤困
+假想敌：淤困/spine
+假想敌：管
+假想敌：管/spine
+假想敌：胄
+假想敌：胄/spine
+假想敌：蚀裂
+假想敌：蚀裂/spine
+假想敌：铳
+假想敌：铳/spine
+假想敌：镜膜
+假想敌：镜膜/spine
+假想敌：骨刺
+假想敌：骨刺/spine
+假想敌：黑云
+假想敌：黑云/spine
 假日大酬宾
 假日威龙
 假日威龙陈
@@ -12082,6 +12156,14 @@ Zuo Le
 卫戍协议/敌人一览/萨卡兹佣兵
 卫戍协议/道具
 卫戍协议OST
+卫戍协议·盟约
+卫戍协议·盟约 AC-3
+卫戍协议·盟约 AC-4
+卫戍协议·盟约 AC-5
+卫戍协议·盟约 AC-6
+卫戍协议·盟约 AC-7
+卫戍协议·盟约 AC-8
+卫戍协议·盟约 AC-9
 卫戍协议：盟约
 卫戍认证
 卫戎协议
@@ -14501,6 +14583,7 @@ Zuo Le
 崔林特尔梅之金2024
 崔林特尔梅之金2024/活动公告
 崔林特尔梅之金OST
+崔林特尔梅之金家具收藏包
 崔金
 崖心
 崖心/spine
@@ -17072,6 +17155,7 @@ Zuo Le
 止颂/语音记录
 止颂的信物
 止颂的文件夹
+止颂的私人信件
 正义
 正义骑士号
 正义骑士号/spine
@@ -19864,6 +19948,7 @@ Zuo Le
 联络员/spine
 联邦监狱
 聖約イグゼキュター
+聘风
 聚光灯吊顶
 聚合凝胶
 聚合剂
