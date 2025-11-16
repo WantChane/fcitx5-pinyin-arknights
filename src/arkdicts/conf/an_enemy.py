@@ -15,7 +15,7 @@ titles_path, rime_path, fcitx_path = generate_filepath(dict_name)
 tweaks = [
     tweak_trim_parentheses_suffix(),
     tweak_split_word_with(["“", "”", "，"]),
-    tweak_find_chinese(["·", "-"]),
+    tweak_find_chinese(["·", "-", "："], connector_only=True),
 ]
 
 exports = generate_exports(
@@ -38,5 +38,5 @@ exports = generate_exports(
     rime_path=rime_path,
     fcitx_path=fcitx_path,
     tweaks=tweaks,
-    characters_to_omit=["·", "-"],
+    characters_to_omit=["·", "-", "："],
 )
