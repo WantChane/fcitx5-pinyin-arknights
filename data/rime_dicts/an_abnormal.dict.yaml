@@ -1,54 +1,54 @@
 ---
 name: an_abnormal
 sort: by_weight
-version: 25.11.26
+version: 25.12.05
 ...
-强制浮空	qiang zhi fu kong
+禁用近战	jin yong jin zhan
+恐惧	kong ju
+不可阻挡	bu ke zu dang
+诱导	you dao
+麻痹抗性	ma bi kang xing
+寒冷	han leng
+未知	wei zhi
+技力封闭	ji li feng bi
 离地	li di
 自缚	zi fu
-恐惧	kong ju
-晕眩抗性	yun xuan kang xing
-不可阻挡	bu ke zu dang
-晕眩	yun xuan
-不可选中	bu ke xuan zhong
-隐匿	yin ni
-技力封闭	ji li feng bi
-沉睡抗性	chen shui kang xing
-迷彩	mi cai
-阻回	zu hui
-静默	jing mo
-闭锁	bi suo
-麻痹震颤	ma bi zhen chan
-禁疗	jin liao
-束缚	shu fu
-沉默抗性	chen mo kang xing
-冻结	dong jie
-沉默	chen mo
-技能强启	ji neng qiang qi
-恐惧抗性	kong ju kang xing
-浮空抗性	fu kong kang xing
-寒冷	han leng
-战栗	zhan li
-麻痹	ma bi
-强制缴械	qiang zhi jiao xie
-浮空	fu kong
-隐藏	yin cang
-诱导	you dao
-失衡免疫	shi heng mian yi
-禁用近战	jin yong jin zhan
-缴械	jiao xie
-地面规避	di mian gui bi
-诱导抗性	you dao kang xing
-状态免疫	zhuang tai mian yi
-战栗抗性	zhan li kang xing
-元素免疫	yuan su mian yi
-麻痹抗性	ma bi kang xing
-禁锢	jin gu
-无法行动	wu fa xing dong
-无敌	wu di
-未知	wei zhi
-沉睡	chen shui
-冻结抗性	dong jie kang xing
-不死	bu si
-无法撤退	wu fa che tui
 孤立	gu li
+缴械	jiao xie
+沉默抗性	chen mo kang xing
+失衡免疫	shi heng mian yi
+隐藏	yin cang
+浮空	fu kong
+麻痹震颤	ma bi zhen chan
+麻痹	ma bi
+地面规避	di mian gui bi
+冻结抗性	dong jie kang xing
+禁锢	jin gu
+禁疗	jin liao
+不可选中	bu ke xuan zhong
+强制浮空	qiang zhi fu kong
+无法行动	wu fa xing dong
+沉睡抗性	chen shui kang xing
+冻结	dong jie
+沉睡	chen shui
+状态免疫	zhuang tai mian yi
+迷彩	mi cai
+束缚	shu fu
+晕眩	yun xuan
+隐匿	yin ni
+沉默	chen mo
+晕眩抗性	yun xuan kang xing
+战栗抗性	zhan li kang xing
+诱导抗性	you dao kang xing
+不死	bu si
+恐惧抗性	kong ju kang xing
+战栗	zhan li
+闭锁	bi suo
+技能强启	ji neng qiang qi
+阻回	zu hui
+无敌	wu di
+元素免疫	yuan su mian yi
+强制缴械	qiang zhi jiao xie
+浮空抗性	fu kong kang xing
+无法撤退	wu fa che tui
+静默	jing mo
