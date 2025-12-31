@@ -1,54 +1,54 @@
 ---
 name: an_abnormal
 sort: by_weight
-version: 25.12.24
+version: 25.12.31
 ...
-束缚	shu fu
-闭锁	bi suo
-禁用近战	jin yong jin zhan
-元素免疫	yuan su mian yi
-沉默	chen mo
-隐藏	yin cang
-离地	li di
 技能强启	ji neng qiang qi
-诱导	you dao
-寒冷	han leng
-麻痹抗性	ma bi kang xing
-麻痹震颤	ma bi zhen chan
-地面规避	di mian gui bi
-失衡免疫	shi heng mian yi
-冻结抗性	dong jie kang xing
+沉睡抗性	chen shui kang xing
+缴械	jiao xie
 无法行动	wu fa xing dong
 不可选中	bu ke xuan zhong
-沉睡抗性	chen shui kang xing
-不可阻挡	bu ke zu dang
 沉睡	chen shui
-强制浮空	qiang zhi fu kong
-战栗	zhan li
-阻回	zu hui
-无法撤退	wu fa che tui
-缴械	jiao xie
 战栗抗性	zhan li kang xing
 恐惧抗性	kong ju kang xing
-沉默抗性	chen mo kang xing
-浮空	fu kong
-迷彩	mi cai
-晕眩抗性	yun xuan kang xing
 麻痹	ma bi
-状态免疫	zhuang tai mian yi
-禁疗	jin liao
-诱导抗性	you dao kang xing
-强制缴械	qiang zhi jiao xie
-晕眩	yun xuan
-不死	bu si
+闭锁	bi suo
+麻痹震颤	ma bi zhen chan
+冻结	dong jie
+禁用近战	jin yong jin zhan
 技力封闭	ji li feng bi
-孤立	gu li
-浮空抗性	fu kong kang xing
-禁锢	jin gu
-自缚	zi fu
+隐藏	yin cang
+晕眩	yun xuan
+无法撤退	wu fa che tui
+不可阻挡	bu ke zu dang
+晕眩抗性	yun xuan kang xing
+禁疗	jin liao
+浮空	fu kong
+状态免疫	zhuang tai mian yi
+束缚	shu fu
+冻结抗性	dong jie kang xing
+强制缴械	qiang zhi jiao xie
 静默	jing mo
 恐惧	kong ju
-隐匿	yin ni
+浮空抗性	fu kong kang xing
+阻回	zu hui
+沉默抗性	chen mo kang xing
 无敌	wu di
+不死	bu si
+诱导抗性	you dao kang xing
+寒冷	han leng
+战栗	zhan li
+禁锢	jin gu
+麻痹抗性	ma bi kang xing
+地面规避	di mian gui bi
+隐匿	yin ni
+沉默	chen mo
+自缚	zi fu
+迷彩	mi cai
 未知	wei zhi
-冻结	dong jie
+强制浮空	qiang zhi fu kong
+孤立	gu li
+失衡免疫	shi heng mian yi
+元素免疫	yuan su mian yi
+诱导	you dao
+离地	li di
