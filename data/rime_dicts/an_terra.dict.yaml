@@ -1,648 +1,651 @@
 ---
 name: an_terra
 sort: by_weight
-version: 26.01.09
+version: 26.01.17
 ...
-黑角	hei jiao
-玉门	yu men
-蚀清	shi qing
-拉特兰中庭公证所	la te lan zhong ting gong zheng suo
-阿格尼尔	a ge ni er
-骋风	cheng feng
-威灵顿公爵	wei ling dun gong jue
-珍妮特·朗费罗	zhen ni te lang fei luo
-布洛卡	bu luo ka
-提卡伦多	ti ka lun duo
-卡特斯	ka te si
-香草	xiang cao
-多伦郡	duo lun jun
-黑骑士	hei qi shi
-荒芜拉普兰德	huang wu la pu lan de
-泰拉	tai la
-血魔	xue mo
-达格达	da ge da
-松桐	song tong
-车尔尼	che er ni
-布丁	bu ding
-原生罗德岛终端服务	yuan sheng luo de dao zhong duan fu wu
-炎客	yan ke
-塔尔干主矿脉	ta er gan zhu kuang mai
-远牙	yuan ya
-絮雨	xu yu
-凯瑟琳	kai se lin
-泡泡	pao pao
-烈夏	lie xia
-斯特凡诺·托雷格罗萨	si te fan nuo tuo lei ge luo sa
-芳汀	fang ting
-玫拉	mei la
-角峰	jiao feng
-提丰	ti feng
-寒芒克洛丝	han mang ke luo si
-甘比诺	gan bi nuo
-傀影	kui ying
-钳兽	qian shou
-林	lin
-温米	wen mi
-苦艾	ku ai
-暴行	bao xing
-特克诺	te ke nuo
-咪波	mi bo
-沙地兽	sha di shou
-龙舌兰	long she lan
-医生	yi sheng
-玛恩纳	ma en na
-酒神	jiu shen
-行箸	xing zhu
-沙滩伞公司	sha tan san gong si
-巴别塔	ba bie ta
-塔山生物科技	ta shan sheng wu ke ji
-地灵	di ling
-红豆	hong dou
-缠丸	chan wan
-沃伦姆德	wo lun mu de
-酸糖	suan tang
-芙兰卡	fu lan ka
-循兽	xun shou
-苍苔	cang tai
-温迪戈	wen di ge
-萨卡兹	sa ka zi
-瘤兽	liu shou
-魔王	mo wang
-森蚺	sen ran
-大辛德拉卡托	da xin de la ka tuo
-凛冬	lin dong
-松果	song guo
-斥候	chi hou
-泥岩	ni yan
-晓歌	xiao ge
-佩尔多尼	pei er duo ni
-塑心	su xin
-龙门近卫局	long men jin wei ju
-末药	mo yao
-艾丝黛尔	ai si dai er
-月禾	yue he
-坚雷	jian lei
-战车	zhan che
-阿伦茨·帕尔维斯	a lun ci pa er wei si
-鼷兽	xi shou
-杰斯顿	jie si dun
-罗小黑	luo xiao hei
-萨科塔	sa ke ta
-芬	fen
-格劳克斯	ge lao ke si
-克洛丝	ke luo si
-科林尼亚	ke lin ni ya
-锡人	xi ren
-夜莺	ye ying
-波登可	bo deng ke
-石棉	shi mian
-夜烟	ye yan
-洛洛	luo luo
-终极大铁屯	zhong ji da tie tun
-灰烬	hui jin
-清流	qing liu
-伊比利亚	yi bi li ya
-戴菲恩	dai fei en
-霜星	shuang xing
-乔万娜·罗塞蒂	qiao wan na luo sai di
-长泉镇	zhang quan zhen
-玻利瓦尔王国	bo li wa er wang guo
-多萝西	duo luo xi
-导火索	dao huo suo
-博士	bo shi
-慕斯	mu si
-罗德岛-精英干员	luo de dao jing ying gan yuan
-罗德岛	luo de dao
-塞雷娅	sai lei ya
-菲莱	fei lai
-斐迪亚	fei di ya
-托尔瓦尔德·霍索恩	tuo er wa er de huo suo en
-坎黛拉	kan dai la
-蕾缪安	lei mou an
-安比尔	an bi er
-月见夜	yue jian ye
-萨尔贡	sa er gong
-霜叶	shuang ye
-御机	yu ji
-黍	shu
 德克萨斯	de ke sa si
-暗索	an suo
-华法琳	hua fa lin
-杰西卡	jie xi ka
-三角初华	san jiao chu hua
-安德切尔	an de qie er
-焚风热土	fen feng re tu
-莱伊	lai yi
-斑点	ban dian
-玻利瓦尔	bo li wa er
-吽	hong
-艾雅法拉	ai ya fa la
-火哨	huo shao
-缄默德克萨斯	jian mo de ke sa si
-普罗旺斯	pu luo wang si
-忍冬	ren dong
-蓝毒	lan du
-流星	liu xing
-惊蛰	jing zhe
-莎草	suo cao
-守林人	shou lin ren
-莱塔尼亚	lai ta ni ya
-裁度	cai duo
-黑键	hei jian
-深池	shen chi
-阿加门	a jia men
-蒙特卢佩	meng te lu pei
-薇薇安娜	wei wei an na
-极境	ji jing
-恐鱼	kong yu
-卡兹戴尔军事委员会	ka zi dai er jun shi wei yuan hui
-炎狱炎熔	yan yu yan rong
-阿发	a fa
-妮芙	ni fu
-碎骨	sui gu
-爱国者	ai guo zhe
-赫尔昏佐伦	he er hun zuo lun
-可萝尔	ke luo er
-巫恋	wu lian
-西蒙娜	xi meng na
-槐琥	huai hu
-东	dong
-赦罪师	she zui shi
-烛煌	zhu huang
-乌尔比安	wu er bi an
-维多利亚帝国	wei duo li ya di guo
-宴	yan
-矿石病	kuang shi bing
-沃尔珀	wo er po
-露托	lu tuo
-呼啸骑士团	hu xiao qi shi tuan
-伊斯	yi si
-际崖城	ji ya cheng
-莱欧斯	lai ou si
-荷谟伊	he mo yi
-娜仁图亚	na ren tu ya
-小满	xiao man
-祐天寺若麦	you tian si ruo mai
-塔露拉	ta lu la
-潘乔	pan qiao
-塞茜莉亚	sai qian li ya
-聆音	ling yin
-桃金娘	tao jin niang
-见行者	jian xing zhe
-谜图	mi tu
-莱茵生命	lai yin sheng ming
-艾拉	ai la
-刺玫	ci mei
-梅	mei
-伦蒂尼姆	lun di ni mu
-企鹅物流	qi e wu liu
-深海色	shen hai se
-芙蓉	fu rong
-白面鸮	bai mian xiao
-瑟奇亚克	se qi ya ke
-依特拉	yi te la
-切尔诺伯格	qie er nuo bo ge
-水灯心	shui deng xin
-孑	jie
-龙	long
-亚叶	ya ye
-玛露西尔	ma lu xi er
-源石技艺	yuan shi ji yi
-明日方舟	ming ri fang zhou
-号角	hao jiao
-梅菲斯特	mei fei si te
-米诺斯	mi nuo si
-百灶	bai zao
-圣聆初雪	sheng ling chu xue
-极光	ji guang
-远山	yuan shan
-陈	chen
-明椒	ming jiao
-空构	kong gou
-库兰塔	ku lan ta
-雅赛努斯	ya sai nu si
-斩业星熊	zhan ye xing xiong
-小丘郡	xiao qiu jun
-子月	zi yue
-圣约送葬人	sheng yue song zang ren
-卡拉顿	ka la dun
-因陀罗	yin tuo luo
-仇白	chou bai
-恶魔破坏龙	e mo po huai long
-雷姆必拓	lei mu bi tuo
-若叶睦	ruo ye mu
-玻利瓦尔独立国	bo li wa er du li guo
-鲁珀	lu po
-梅尔	mei er
-维谢海姆	wei xie hai mu
-逻各斯	luo ge si
-凯文	kai wen
-司霆惊蛰	si ting jing zhe
-切斯柏	qie si bai
-迪伦马特	di lun ma te
-云迹	yun ji
-沃尔沃特科钦斯基	wo er wo te ke qin si ji
-血骑士	xue qi shi
-新约能天使	xin yue neng tian shi
-焰影苇草	yan ying wei cao
-阿斯卡纶	a si ka lun
-黎博利	li bo li
-叙拉古	xu la gu
-假日威龙陈	jia ri wei long chen
-卡瓦莱利亚基	ka wa lai li ya ji
-裂兽	lie shou
-阿卡胡拉	a ka hu la
-伊桑	yi sang
-夜半	ye ban
-罗德岛基建	luo de dao ji jian
-海嗣	hai si
-跃跃	yue yue
-赫尔曼·道尔科斯	he er man dao er ke si
-九色鹿	jiu se lu
-刻刀	ke dao
-梓兰	zi lan
-杜林	du lin
-麦克斯哥伦比亚特区	mai ke si ge lun bi ya te qu
-重岳	zhong yue
-约翰老妈	yue han lao ma
-埃拉托	ai la tuo
-砾	li
-莉薇娅·吉尔达斯	li wei ya ji er da si
-阿消	a xiao
-特米米	te mi mi
-利奥波德大公	li ao bo de da gong
-归溟幽灵鲨	gui ming you ling sha
-红	hong
-欧厄尔·彼得斯	ou e er bi de si
-特雷西斯	te lei xi si
-豆苗	dou miao
-衡沙	heng sha
-鬼	gui
-安哲拉	an zhe la
-深靛	shen dian
-灰喉	hui hou
-杰克	jie ke
-阿撒兹勒	a sa zi lei
-翎羽	ling yu
-至简	zhi jian
-耀骑士临光	yao qi shi lin guang
-折光	zhe guang
-巫王	wu wang
-格拉尼	ge la ni
-微风	wei feng
-凯尔希	kai er xi
-羽毛笔	yu mao bi
-乌萨斯	wu sa si
-瑰盐	gui yan
-魏彦吾	wei yan wu
-琳琅诗怀雅	lin lang shi huai ya
-感染者	gan ran zhe
-四月	si yue
-高卢	gao lu
-汐斯塔	xi si ta
-闪击	shan ji
-曼弗雷德	man fu lei de
-承曦格雷伊	cheng xi ge lei yi
-天空盒	tian kong he
-塔佳娜	ta jia na
-熔泉	rong quan
-令	ling
-风暴眼	feng bao yan
-移动城市	yi dong cheng shi
-芭芭拉·道尔科斯	ba ba la dao er ke si
-海蒂	hai di
-斥罪	chi zui
-历阵锐枪芬	li zhen rui qiang fen
-整合运动	zheng he yun dong
-多索雷斯	duo suo lei si
-锈锤	xiu chui
-骏鹰王国	jun ying wang guo
-崖心	ya xin
-行动组	xing dong zu
-红云	hong yun
-棘刺	ji ci
-沙尔-阿加德	sha er a jia de
-史尔特尔	shi er te er
-克莱布拉松	ke lai bu la song
-流明	liu ming
-莱恩哈特	lai en ha te
-慑砂	she sha
-幽灵鲨	you ling sha
-伺夜	ci ye
-丹布朗·莱奥帕尔迪	dan bu lang lai ao pa er di
-行动预备组	xing dong yu bei zu
-辛嘉斯王朝	xin jia si wang chao
-煌	huang
-艾丽妮	ai li ni
-法杖	fa zhang
-老鲤	lao li
-林贡斯	lin gong si
-食铁兽	shi tie shou
-曼提柯	man ti ke
-谢拉格	xie la ge
-瓦伊凡联盟	wa yi fan lian meng
-铸铁	zhu tie
-澄闪	cheng shan
-温蒂	wen di
-西绪福斯	xi xu fu si
-寻澜	xun lan
-响石	xiang shi
-协律	xie lv
-万顷	wan qing
-隐现	yin xian
-使徒	shi tu
-埃克哈德	ai ke ha de
-科罗萨主矿脉	ke luo sa zhu kuang mai
-瑞柏巴	rui bai ba
-郁金香	yu jin xiang
-银灰	yin hui
-伊内丝	yi nei si
-凛视	lin shi
-隐德来希	yin de lai xi
-科西嘉一世	ke xi jia yi shi
-折桠	zhe ya
-真言	zhen yan
-涤火杰西卡	di huo jie xi ka
-玻利瓦尔联合政府	bo li wa er lian he zheng fu
-柏喙	bai hui
-铃兰	ling lan
-燧石	sui shi
-暮落	mu luo
-休谟斯	xiu mo si
-海霓	hai ni
-空	kong
-沸血骑士团	fei xue qi shi tuan
-送葬人	song zang ren
-石英	shi ying
-纯烬艾雅法拉	chun jin ai ya fa la
-迷迭香	mi die xiang
-贾维团伙	jia wei tuan huo
-推进之王	tui jin zhi wang
-蜜莓	mi mei
-图耶	tu ye
-哥伦比亚	ge lun bi ya
-掠风	lve feng
-真正玻利瓦尔人解放运动	zhen zheng bo li wa er ren jie fang yun dong
-炎	yan
-讯使	xun shi
-刻俄柏	ke e bo
-伊比利亚王国	yi bi li ya wang guo
-余	yu
-凋零骑士	diao ling qi shi
-浮士德	fu shi de
-闪灵	shan ling
-褐果	he guo
-梅兰德基金会	mei lan de ji jin hui
-蒂比	di bi
-野鬃	ye zong
-阿纳缇	a na ti
-炎熔	yan rong
-德拉克	de la ke
-歌蕾蒂娅	ge lei di ya
-凛御银灰	lin yu yin hui
-火神	huo shen
-青枳	qing zhi
-赫德雷	he de lei
-瑕光	xia guang
-哈蒂娅	ha di ya
-柯克西卡	ke ke xi ka
-皮洛萨	pi luo sa
-温德米尔公爵	wen de mi er gong jue
-小贾斯汀·菲茨罗伊	xiao jia si ting fei ci luo yi
-深海猎人	shen hai lie ren
-阿兰娜	a lan na
-波卜	bo bo
-信仰搅拌机	xin yang jiao ban ji
-拉乌尼达	la wu ni da
-双日城	shuang ri cheng
-佩洛	pei luo
-特里蒙	te li meng
-阿斯兰	a si lan
-维荻	wei di
-沃尔西尼	wo er xi ni
-赫拉格	he la ge
-浊心斯卡蒂	zhuo xin si ka di
-拉特兰	la te lan
-哈洛德	ha luo de
-杏仁	xing ren
-洋灰	yang hui
-巡林者	xun lin zhe
-渡桥	du qiao
-止颂	zhi song
-但书	dan shu
-火龙	huo long
-爱丽丝	ai li si
-源石	yuan shi
-菲林	fei lin
-格兰法洛	ge lan fa luo
-术髓	shu sui
-阿达克利斯	a da ke li si
-真理	zhen li
-安多恩	an duo en
-圣骏堡	sheng jun bao
-佩佩	pei pei
-耶拉	ye la
-霜华	shuang hua
-桑葚	sang shen
-绮良	qi liang
-灵知	ling zhi
-暴雨	bao yu
-和弦	he xian
-可颂	ke song
-泡普卡	pao pu ka
-森西	sen xi
-钼铅	mu qian
-特蕾西娅	te lei xi ya
-伊万杰利斯塔十一世	yi wan jie li si ta shi yi shi
-达维镇	da wei zhen
-卡夫卡	ka fu ka
-安洁莉娜	an jie li na
-萨弗拉	sa fu la
-贾维	jia wei
-腐败骑士	fu bai qi shi
-卡缇	ka ti
-大叛乱	da pan luan
-年	nian
-驮兽	tuo shou
-猎蜂	lie feng
-帕拉斯	pa la si
-百炼嘉维尔	bai lian jia wei er
-尚蜀	shang shu
-维多利亚	wei duo li ya
-雷顿·孟塔古	lei dun meng ta gu
-托兰	tuo lan
-夜魔	ye mo
-深巡	shen xun
-四国战争	si guo zhan zheng
-霍尔海雅	huo er hai ya
-安德涅特·马里亚姆	an de nie te ma li ya mu
-雷神工业	lei shen gong ye
-璟屿主矿脉	jing yu zhu kuang mai
-深律	shen lv
-风丸	feng wan
-崔林特尔梅	cui lin te er mei
-格雷伊	ge lei yi
-苏苏洛	su su luo
-文月	wen yue
-卡普里尼	ka pu li ni
-锁川	suo chuan
-斯卡蒂	si ka di
-铎铃	duo ling
-彩虹小队	cai hong xiao dui
-麦哲伦	mai zhe lun
-红隼	hong sun
-札拉克	zha la ke
-焰尾	yan wei
-玫兰莎	mei lan sha
-可露希尔	ke lu xi er
-麒麟	qi lin
-卡达	ka da
-寒檀	han tan
-王牌	wang pai
-雅拉·B·威尔森	ya la wei er sen
-触痕	chu hen
-星极	xing ji
-维什戴尔	wei shi dai er
-吉星	ji xing
-黑钢国际	hei gang guo ji
-缪尔赛思	mou er sai si
-乌萨斯学生自治团	wu sa si xue sheng zi zhi tuan
-娜斯提	na si ti
-娜斯提·鲁诺瑞伊	na si ti lu nuo rui yi
-冬时	dong shi
-山	shan
-断崖	duan ya
-格拉斯哥帮	ge la si ge bang
-能天使	neng tian shi
-克莱芒·杜波瓦	ke lai mang du bo wa
-岁	sui
-苇草	wei cao
-诺斯伍德大骑士团	nuo si wu de da qi shi tuan
-卡西米尔	ka xi mi er
-贝娜	bei na
-阿罗玛	a luo ma
-萨米	sa mi
-卡彭	ka peng
-龙门	long men
-菲亚梅塔	fei ya mei ta
-鸿雪	hong xue
-雪绒	xue rong
-诺威尔	nuo wei er
-蔓德拉	man de la
-鼠王	shu wang
-雪猎	xue lie
-截云	jie yun
-左乐	zuo le
-夜刀	ye dao
-蛇屠箱	she tu xiang
-引星棘刺	yin xing ji ci
-阿	a
-夕	xi
-丰川祥子	feng chuan xiang zi
-死芒	si mang
-乌萨斯帝国	wu sa si di guo
-录武官	lu wu guan
-克洛宁	ke luo ning
-卡西米尔商业联合会	ka xi mi er shang ye lian he hui
-云兽	yun shou
-安努拉	an nu la
-锏	jian
-露西娅·斯卡曼德罗斯	lu xi ya si ka man de luo si
-匹特拉姆	pi te la mu
-冰酿	bing niang
-克丽斯腾·莱特	ke li si teng lai te
-罗宾	luo bin
-大帝	da di
-嵯峨	cuo e
-电弧	dian hu
-斐尔迪南·克鲁尼	fei er di nan ke lu ni
-太阳谷机械工业	tai yang gu ji xie gong ye
-齐尔查克	qi er cha ke
-埃拉菲亚	ai la fei ya
-白金	bai jin
-雷蛇	lei she
-因非冰原	yin fei bing yuan
-摩根	mo gen
-星源	xing yuan
-卡兹戴尔	ka zi dai er
-初雪	chu xue
-弗雷德里克三世	fu lei de li ke san shi
-奥达	ao da
-断罪者	duan zui zhe
-淬羽赫默	cui yu he mo
-卡西米尔监正会	ka xi mi er jian zheng hui
-灰毫	hui hao
-瓦伊凡	wa yi fan
-濯尘芙蓉	zhuo chen fu rong
-文	wen
-红松骑士团	hong song qi shi tuan
-蜜蜡	mi la
-雪踵骑士团	xue zhong qi shi tuan
-卡西米尔无胄盟	ka xi mi er wu zhou meng
-嘉维尔	jia wei er
-陨星	yun xing
-遥	yao
-马克·麦克斯	ma ke mai ke si
-维娜·维多利亚	wei na wei duo li ya
-琴柳	qin liu
-德·黎博利	de li bo li
-八幡海铃	ba fan hai ling
-罗比菈塔	luo bi la ta
-拉普兰德	la pu lan de
-调香师	diao xiang shi
-德米特里·切塔尔多	de mi te li qie ta er duo
-罗德岛制药公司	luo de dao zhi yao gong si
-米格鲁	mi ge lu
-乌有	wu you
-薄绿	bao lv
-喀兰贸易	ka lan mao yi
-风笛	feng di
-白雪	bai xue
-溯光星源	su guang xing yuan
-锋刃	feng ren
-雪雉	xue zhi
-锡兰	xi lan
-阿戈尔	a ge er
-天火	tian huo
-双月	shuang yue
-白铁	bai tie
-赫默	he mo
-夏栎	xia li
-古米	gu mi
-稀音	xi yin
-海沫	hai mo
-空弦	kong xian
-莫斯提马	mo si ti ma
 奇美拉	qi mei la
-丰蹄	feng ti
-鲤氏侦探事务所	li shi zhen tan shi wu suo
-早露	zao lu
-杰弗里·梅斯	jie fu li mei si
-铅踝	qian huai
-理查·西摩	li cha xi mo
+因非冰原	yin fei bing yuan
+罗宾	luo bin
 董阿伯	dong a bo
-塞拉托	sai la tuo
-星熊	xing xiong
-拜松	bai song
-毕德曼	bi de man
-奥斯塔	ao si ta
-诗怀雅	shi huai ya
-异客	yi ke
-鞭刃	bian ren
-伦蒂尼姆市民自救军	lun di ni mu shi min zi jiu jun
-水月	shui yue
-杜宾	du bin
-伊芙利特	yi fu li te
+蛇屠箱	she tu xiang
+莫斯提马	mo si ti ma
+杰斯顿	jie si dun
+林贡斯	lin gong si
+因陀罗	yin tuo luo
+帕拉斯	pa la si
+三角初华	san jiao chu hua
+法杖	fa zhang
+莱塔尼亚	lai ta ni ya
+砾	li
+瓦伊凡联盟	wa yi fan lian meng
 安赛尔	an sai er
-史都华德	shi dou hua de
-清道夫	qing dao fu
-米莎	mi sha
-阿米娅	a mi ya
-赤冬	chi dong
-狮蝎	shi xie
-弑君者	shi jun zhe
-塞弗林·霍索恩	sai fu lin huo suo en
-临光	lin guang
-空爆	kong bao
+玻利瓦尔联合政府	bo li wa er lian he zheng fu
+卡兹戴尔	ka zi dai er
+八幡海铃	ba fan hai ling
+钼铅	mu qian
+真理	zhen li
+山	shan
+安德切尔	an de qie er
+卡缇	ka ti
+王牌	wang pai
+格劳克斯	ge lao ke si
+推进之王	tui jin zhi wang
+终极大铁屯	zhong ji da tie tun
+图耶	tu ye
+杰克	jie ke
+札拉克	zha la ke
+大帝	da di
+荷谟伊	he mo yi
+天火	tian huo
+布洛卡	bu luo ka
+左乐	zuo le
+塑心	su xin
+松果	song guo
+夜半	ye ban
+佩尔多尼	pei er duo ni
+双月	shuang yue
+傀影	kui ying
+凛御银灰	lin yu yin hui
+阿斯兰	a si lan
+谢拉格	xie la ge
+卡西米尔	ka xi mi er
+埃拉托	ai la tuo
+郁金香	yu jin xiang
+蒙特卢佩	meng te lu pei
+咪波	mi bo
+爱丽丝	ai li si
+多萝西	duo luo xi
+月见夜	yue jian ye
+塔尔干主矿脉	ta er gan zhu kuang mai
+蒂比	di bi
+杰西卡	jie xi ka
+提丰	ti feng
+深海猎人	shen hai lie ren
+电弧	dian hu
+锡人	xi ren
+托兰	tuo lan
+百灶	bai zao
+冰酿	bing niang
+响石	xiang shi
+白铁	bai tie
+九色鹿	jiu se lu
+梅	mei
+赫拉格	he la ge
+黎博利	li bo li
+崔林特尔梅	cui lin te er mei
+焰尾	yan wei
+魏彦吾	wei yan wu
+食铁兽	shi tie shou
+约翰老妈	yue han lao ma
+忍冬	ren dong
+米诺斯	mi nuo si
+薄绿	bao lv
 黑	hei
+使徒	shi tu
+戴菲恩	dai fei en
+猎蜂	lie feng
+缇缇	ti ti
+崖心	ya xin
+蔓德拉	man de la
+灰烬	hui jin
+切尔诺伯格	qie er nuo bo ge
+斑点	ban dian
+拉乌尼达	la wu ni da
+深律	shen lv
+年	nian
+多伦郡	duo lun jun
+银灰	yin hui
+太阳谷机械工业	tai yang gu ji xie gong ye
+瑟奇亚克	se qi ya ke
+乌萨斯学生自治团	wu sa si xue sheng zi zhi tuan
+灰喉	hui hou
+蚀清	shi qing
+塞雷娅	sai lei ya
+微风	wei feng
+骋风	cheng feng
+桃金娘	tao jin niang
+小满	xiao man
+际崖城	ji ya cheng
+芙蓉	fu rong
+缠丸	chan wan
+暮落	mu luo
+吽	hong
+末药	mo yao
+理查·西摩	li cha xi mo
+米格鲁	mi ge lu
+乌萨斯	wu sa si
+异客	yi ke
+梅菲斯特	mei fei si te
+露托	lu tuo
+万顷	wan qing
+棘刺	ji ci
+阿罗玛	a luo ma
+霜华	shuang hua
+阿	a
+协律	xie lv
+佩佩	pei pei
+孑	jie
+洋灰	yang hui
+火哨	huo shao
+芙兰卡	fu lan ka
+毕德曼	bi de man
+贾维团伙	jia wei tuan huo
+断罪者	duan zui zhe
+伊芙利特	yi fu li te
+齐尔查克	qi er cha ke
+赫德雷	he de lei
+极境	ji jing
+高卢	gao lu
+巫恋	wu lian
+水月	shui yue
+红松骑士团	hong song qi shi tuan
+引星棘刺	yin xing ji ci
+格兰法洛	ge lan fa luo
+维谢海姆	wei xie hai mu
+夜烟	ye yan
+杰弗里·梅斯	jie fu li mei si
+泡泡	pao pao
+圣骏堡	sheng jun bao
+吉星	ji xing
+纯烬艾雅法拉	chun jin ai ya fa la
+维多利亚帝国	wei duo li ya di guo
+明椒	ming jiao
+瑰盐	gui yan
+恐鱼	kong yu
+蜜莓	mi mei
+承曦格雷伊	cheng xi ge lei yi
+源石	yuan shi
+刺玫	ci mei
+娜仁图亚	na ren tu ya
+明日方舟	ming ri fang zhou
+皮洛萨	pi luo sa
+鸿雪	hong xue
+鼠王	shu wang
+谜图	mi tu
+提卡伦多	ti ka lun duo
+泥岩	ni yan
+坚雷	jian lei
+碎骨	sui gu
+晓歌	xiao ge
+塞茜莉亚	sai qian li ya
+卡瓦莱利亚基	ka wa lai li ya ji
+白金	bai jin
+海沫	hai mo
+沙尔-阿加德	sha er a jia de
+临光	lin guang
+格拉斯哥帮	ge la si ge bang
+槐琥	huai hu
+科林尼亚	ke lin ni ya
+奥斯塔	ao si ta
+菲亚梅塔	fei ya mei ta
+梅兰德基金会	mei lan de ji jin hui
+埃克哈德	ai ke ha de
+血骑士	xue qi shi
+石英	shi ying
+摩根	mo gen
+赫默	he mo
+艾拉	ai la
+寻澜	xun lan
+折桠	zhe ya
+鼷兽	xi shou
+玻利瓦尔王国	bo li wa er wang guo
+曼弗雷德	man fu lei de
+沙地兽	sha di shou
+巫王	wu wang
+隐德来希	yin de lai xi
+娜斯提·鲁诺瑞伊	na si ti lu nuo rui yi
+德米特里·切塔尔多	de mi te li qie ta er duo
+玉门	yu men
+云迹	yun ji
+羽毛笔	yu mao bi
+焚风热土	fen feng re tu
+维荻	wei di
+隐现	yin xian
+感染者	gan ran zhe
+截云	jie yun
+霜叶	shuang ye
+汐斯塔	xi si ta
+柏喙	bai hui
+海蒂	hai di
+止颂	zhi song
+翎羽	ling yu
+云兽	yun shou
+塞弗林·霍索恩	sai fu lin huo suo en
+信仰搅拌机	xin yang jiao ban ji
+阿发	a fa
+莱伊	lai yi
+香草	xiang cao
+遥	yao
+清道夫	qing dao fu
+远山	yuan shan
+导火索	dao huo suo
+海嗣	hai si
+深巡	shen xun
+安德涅特·马里亚姆	an de nie te ma li ya mu
+历阵锐枪芬	li zhen rui qiang fen
+瑕光	xia guang
+泡普卡	pao pu ka
+文月	wen yue
+冬时	dong shi
+沙滩伞公司	sha tan san gong si
+安努拉	an nu la
+宴	yan
+若叶睦	ruo ye mu
+喀兰贸易	ka lan mao yi
+流星	liu xing
+莱恩哈特	lai en ha te
+风暴眼	feng bao yan
+铸铁	zhu tie
+大叛乱	da pan luan
+卡拉顿	ka la dun
+星熊	xing xiong
+铅踝	qian huai
+赦罪师	she zui shi
+恶魔破坏龙	e mo po huai long
+安多恩	an duo en
+温德米尔公爵	wen de mi er gong jue
+艾丽妮	ai li ni
+米莎	mi sha
+森西	sen xi
+丹布朗·莱奥帕尔迪	dan bu lang lai ao pa er di
+圣聆初雪	sheng ling chu xue
+卡夫卡	ka fu ka
+阿达克利斯	a da ke li si
+慕斯	mu si
+嵯峨	cuo e
+铎铃	duo ling
+鬼	gui
+早露	zao lu
+刻刀	ke dao
+红豆	hong dou
+华法琳	hua fa lin
+杜林	du lin
+杏仁	xing ren
+休谟斯	xiu mo si
+阿戈尔	a ge er
+夏栎	xia li
+水灯心	shui deng xin
+阿米娅	a mi ya
+哈蒂娅	ha di ya
+玻利瓦尔	bo li wa er
+大辛德拉卡托	da xin de la ka tuo
+弑君者	shi jun zhe
+欧厄尔·彼得斯	ou e er bi de si
+拉特兰	la te lan
+深海色	shen hai se
+斯卡蒂	si ka di
+达格达	da ge da
+百炼嘉维尔	bai lian jia wei er
+摆渡人	bai du ren
+托尔瓦尔德·霍索恩	tuo er wa er de huo suo en
+雅赛努斯	ya sai nu si
+锈锤	xiu chui
+远牙	yuan ya
+特米米	te mi mi
+特蕾西娅	te lei xi ya
+古米	gu mi
+雷蛇	lei she
+归溟幽灵鲨	gui ming you ling sha
+熔泉	rong quan
+卡西米尔无胄盟	ka xi mi er wu zhou meng
+莎草	suo cao
+燧石	sui shi
+苇草	wei cao
+卡特斯	ka te si
+四月	si yue
+霜星	shuang xing
+凋零骑士	diao ling qi shi
+阿斯卡纶	a si ka lun
+整合运动	zheng he yun dong
+仇白	chou bai
+原生罗德岛终端服务	yuan sheng luo de dao zhong duan fu wu
+锡兰	xi lan
+阿消	a xiao
+裂兽	lie shou
+斯特凡诺·托雷格罗萨	si te fan nuo tuo lei ge luo sa
+伊内丝	yi nei si
+酸糖	suan tang
+缪尔赛思	mou er sai si
+科罗萨主矿脉	ke luo sa zhu kuang mai
+可颂	ke song
+渡桥	du qiao
+阿格尼尔	a ge ni er
+柯克西卡	ke ke xi ka
+诺威尔	nuo wei er
+温迪戈	wen di ge
+森蚺	sen ran
+触痕	chu hen
+西绪福斯	xi xu fu si
+多索雷斯	duo suo lei si
+荒芜拉普兰德	huang wu la pu lan de
+哈洛德	ha luo de
+拉特兰中庭公证所	la te lan zhong ting gong zheng suo
+黑钢国际	hei gang guo ji
+锋刃	feng ren
+温蒂	wen di
+真正玻利瓦尔人解放运动	zhen zheng bo li wa er ren jie fang yun dong
+玛露西尔	ma lu xi er
+嘉维尔	jia wei er
+可萝尔	ke luo er
+酒神	jiu shen
+白雪	bai xue
+阿撒兹勒	a sa zi lei
+安比尔	an bi er
+铃兰	ling lan
+夜刀	ye dao
+鞭刃	bian ren
+红云	hong yun
+黑骑士	hei qi shi
+妮芙	ni fu
+薇薇安娜	wei wei an na
+雷神工业	lei shen gong ye
+伦蒂尼姆	lun di ni mu
+迪伦马特	di lun ma te
+罗德岛基建	luo de dao ji jian
+诺斯伍德大骑士团	nuo si wu de da qi shi tuan
+娜斯提	na si ti
+和弦	he xian
+战车	zhan che
+布丁	bu ding
+驮兽	tuo shou
+罗德岛-精英干员	luo de dao jing ying gan yuan
+呼啸骑士团	hu xiao qi shi tuan
+沃尔沃特科钦斯基	wo er wo te ke qin si ji
+寒芒克洛丝	han mang ke luo si
+讯使	xun shi
+叙拉古	xu la gu
+跃跃	yue yue
+折光	zhe guang
+真言	zhen yan
+琳琅诗怀雅	lin lang shi huai ya
+尚蜀	shang shu
+温米	wen mi
+海霓	hai ni
+石棉	shi mian
+潘乔	pan qiao
+骏鹰王国	jun ying wang guo
+暴行	bao xing
+绮良	qi liang
+逻各斯	luo ge si
+安洁莉娜	an jie li na
+幽灵鲨	you ling sha
+撷英调香师	xie ying diao xiang shi
+腐败骑士	fu bai qi shi
+空爆	kong bao
+莱欧斯	lai ou si
+天空盒	tian kong he
+小丘郡	xiao qiu jun
+露西娅·斯卡曼德罗斯	lu xi ya si ka man de luo si
+洛洛	luo luo
+假日威龙陈	jia ri wei long chen
+夕	xi
+企鹅物流	qi e wu liu
+巴别塔	ba bie ta
+爱国者	ai guo zhe
+阿卡胡拉	a ka hu la
+特里蒙	te li meng
+克丽斯腾·莱特	ke li si teng lai te
+乔万娜·罗塞蒂	qiao wan na luo sai di
+雪雉	xue zhi
+卡西米尔商业联合会	ka xi mi er shang ye lian he hui
+亚叶	ya ye
+夜魔	ye mo
+凛视	lin shi
+星极	xing ji
+四国战争	si guo zhan zheng
+鲁珀	lu po
+闪击	shan ji
+伊斯	yi si
+双日城	shuang ri cheng
+乌有	wu you
+雪绒	xue rong
+瑞柏巴	rui bai ba
+极光	ji guang
+斐尔迪南·克鲁尼	fei er di nan ke lu ni
+卡彭	ka peng
+锁川	suo chuan
+龙舌兰	long she lan
+惊蛰	jing zhe
+菲林	fei lin
+琴柳	qin liu
+罗德岛	luo de dao
+库兰塔	ku lan ta
+梅尔	mei er
+璟屿主矿脉	jing yu zhu kuang mai
+哥伦比亚	ge lun bi ya
+波登可	bo deng ke
+伊万杰利斯塔十一世	yi wan jie li si ta shi yi shi
+乌萨斯帝国	wu sa si di guo
+蜜蜡	mi la
+刻俄柏	ke e bo
+星源	xing yuan
+凯文	kai wen
+岁	sui
+雷顿·孟塔古	lei dun meng ta gu
+矿石病	kuang shi bing
+卡兹戴尔军事委员会	ka zi dai er jun shi wei yuan hui
+龙门	long men
+沃尔西尼	wo er xi ni
+耀骑士临光	yao qi shi lin guang
+死芒	si mang
+克洛宁	ke luo ning
+灵知	ling zhi
+艾雅法拉	ai ya fa la
+风笛	feng di
+罗小黑	luo xiao hei
+龙	long
 卡涅利安	ka nie li an
+褐果	he guo
+文	wen
+溯光星源	su guang xing yuan
+维多利亚	wei duo li ya
+凛冬	lin dong
+艾丝黛尔	ai si dai er
+重岳	zhong yue
+黍	shu
+斥候	chi hou
+德·黎博利	de li bo li
+术髓	shu sui
+塞拉托	sai la tuo
+角峰	jiao feng
+伊比利亚王国	yi bi li ya wang guo
+炎狱炎熔	yan yu yan rong
+青枳	qing zhi
+麦克斯哥伦比亚特区	mai ke si ge lun bi ya te qu
+炎客	yan ke
+见行者	jian xing zhe
+普罗旺斯	pu luo wang si
+循兽	xun shou
+寒檀	han tan
+萨尔贡	sa er gong
+老鲤	lao li
+新约能天使	xin yue neng tian shi
+行动组	xing dong zu
+号角	hao jiao
+维什戴尔	wei shi dai er
+长泉镇	zhang quan zhen
+卡普里尼	ka pu li ni
+马克·麦克斯	ma ke mai ke si
+祐天寺若麦	you tian si ruo mai
+赫尔曼·道尔科斯	he er man dao er ke si
+余	yu
+萨科塔	sa ke ta
+歌蕾蒂娅	ge lei di ya
+录武官	lu wu guan
+可露希尔	ke lu xi er
+辛嘉斯王朝	xin jia si wang chao
+梓兰	zi lan
+守林人	shou lin ren
+博士	bo shi
+清流	qing liu
+赫尔昏佐伦	he er hun zuo lun
+伺夜	ci ye
+芳汀	fang ting
+莱茵生命	lai yin sheng ming
+稀音	xi yin
+暴雨	bao yu
+淬羽赫默	cui yu he mo
+科西嘉一世	ke xi jia yi shi
+空构	kong gou
+暗索	an suo
+格雷伊	ge lei yi
+陈	chen
+澄闪	cheng shan
+慑砂	she sha
+焰影苇草	yan ying wei cao
+司霆惊蛰	si ting jing zhe
+深池	shen chi
+衡沙	heng sha
+烛煌	zhu huang
+雪踵骑士团	xue zhong qi shi tuan
+斐迪亚	fei di ya
+霍尔海雅	huo er hai ya
+阿加门	a jia men
+裁度	cai duo
+林	lin
+迷迭香	mi die xiang
+炎熔	yan rong
+车尔尼	che er ni
+空	kong
+源石技艺	yuan shi ji yi
+卡西米尔监正会	ka xi mi er jian zheng hui
+絮雨	xu yu
+濯尘芙蓉	zhuo chen fu rong
+依特拉	yi te la
+麒麟	qi lin
+调香师	diao xiang shi
+玛恩纳	ma en na
+维娜·维多利亚	wei na wei duo li ya
+坎黛拉	kan dai la
+浊心斯卡蒂	zhuo xin si ka di
+萨米	sa mi
+苍苔	cang tai
+卡达	ka da
+令	ling
+缄默德克萨斯	jian mo de ke sa si
+菲莱	fei lai
+松桐	song tong
+斩业星熊	zhan ye xing xiong
+雅拉·B·威尔森	ya la wei er sen
+钳兽	qian shou
+贝娜	bei na
+红隼	hong sun
+御机	yu ji
+红	hong
+能天使	neng tian shi
+史尔特尔	shi er te er
+克莱芒·杜波瓦	ke lai mang du bo wa
+煌	huang
+耶拉	ye la
+初雪	chu xue
+阿伦茨·帕尔维斯	a lun ci pa er wei si
+龙门近卫局	long men jin wei ju
+瓦伊凡	wa yi fan
+斥罪	chi zui
+烈夏	lie xia
+克莱布拉松	ke lai bu la song
+伊桑	yi sang
+玫兰莎	mei lan sha
+彩虹小队	cai hong xiao dui
+芭芭拉·道尔科斯	ba ba la dao er ke si
+弗雷德里克三世	fu lei de li ke san shi
+波卜	bo bo
+凯尔希	kai er xi
+深靛	shen dian
+罗比菈塔	luo bi la ta
+杜宾	du bin
+断崖	duan ya
+西蒙娜	xi meng na
+利奥波德大公	li ao bo de da gong
+罗德岛制药公司	luo de dao zhi yao gong si
+丰川祥子	feng chuan xiang zi
+沃伦姆德	wo lun mu de
+血魔	xue mo
+萨弗拉	sa fu la
+行动预备组	xing dong yu bei zu
+送葬人	song zang ren
+史都华德	shi dou hua de
+雪猎	xue lie
+月禾	yue he
+塔山生物科技	ta shan sheng wu ke ji
+赤冬	chi dong
+桑葚	sang shen
+火神	huo shen
+地灵	di ling
+风丸	feng wan
+特克诺	te ke nuo
+萨卡兹	sa ka zi
+空弦	kong xian
+曼提柯	man ti ke
+埃拉菲亚	ai la fei ya
+塔露拉	ta lu la
+泰拉	tai la
+夜莺	ye ying
+炎	yan
+克洛丝	ke luo si
+涤火杰西卡	di huo jie xi ka
+聆音	ling yin
+闪灵	shan ling
+黑键	hei jian
+但书	dan shu
+黑角	hei jiao
+阿兰娜	a lan na
+凯瑟琳	kai se lin
+掠风	lve feng
+鲤氏侦探事务所	li shi zhen tan shi wu suo
+拉普兰德	la pu lan de
+雷姆必拓	lei mu bi tuo
+安哲拉	an zhe la
+锏	jian
+匹特拉姆	pi te la mu
+蕾缪安	lei mou an
+丰蹄	feng ti
+沸血骑士团	fei xue qi shi tuan
+拜松	bai song
+伊比利亚	yi bi li ya
+达维镇	da wei zhen
+芬	fen
+白面鸮	bai mian xiao
+浮士德	fu shi de
+麦哲伦	mai zhe lun
+野鬃	ye zong
+巡林者	xun lin zhe
+切斯柏	qie si bai
+东	dong
+火龙	huo long
+魔王	mo wang
+贾维	jia wei
+佩洛	pei luo
+诗怀雅	shi huai ya
+子月	zi yue
+威灵顿公爵	wei ling dun gong jue
+移动城市	yi dong cheng shi
+塔佳娜	ta jia na
+至简	zhi jian
+灰毫	hui hao
+小贾斯汀·菲茨罗伊	xiao jia si ting fei ci luo yi
+流明	liu ming
+玻利瓦尔独立国	bo li wa er du li guo
+医生	yi sheng
+豆苗	dou miao
+行箸	xing zhu
+莉薇娅·吉尔达斯	li wei ya ji er da si
+特雷西斯	te lei xi si
+苏苏洛	su su luo
+格拉尼	ge la ni
+珍妮特·朗费罗	zhen ni te lang fei luo
+奥达	ao da
+甘比诺	gan bi nuo
+阿纳缇	a na ti
+伦蒂尼姆市民自救军	lun di ni mu shi min zi jiu jun
+德拉克	de la ke
+瘤兽	liu shou
+狮蝎	shi xie
+玫拉	mei la
+陨星	yun xing
+苦艾	ku ai
+乌尔比安	wu er bi an
+沃尔珀	wo er po
+圣约送葬人	sheng yue song zang ren
+蓝毒	lan du
