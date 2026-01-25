@@ -1,365 +1,374 @@
 ---
 name: an_isw
 sort: by_weight
-version: 26.01.17
+version: 26.01.25
 ...
-狡鼷三窟	jiao xi san ku
-公司纠葛	gong si jiu ge
-地有四难	di you si nan
-暗箭难防	an jian nan fang
-首演	shou yan
-混乱的表象	hun luan de biao xiang
-夙愿将偿	su yuan jiang chang
-亘古仇敌	gen gu chou di
-法术与铁砧	fa shu yu tie zhen
-图穷匕见	tu qiong bi xian
-不鉴	bu jian
-饥渴祭坛	ji ke ji tan
-腹背受敌	fu bei shou di
-赴陨	fu yun
-萨卡兹的渴求	sa ka zi de ke qiu
-似曾相识	si ceng xiang shi
-谋求共识	mou qiu gong shi
-假想对冲	jia xiang dui chong
-乌萨斯方块	wu sa si fang kuai
-杂音干扰	za yin gan rao
-斗兽笼	dou shou long
-朝谒	chao ye
-机械之灾	ji xie zhi zai
-通道封锁	tong dao feng suo
 硅基伥的宴席	gui ji chang de yan xi
-溟痕乐园	ming hen le yuan
-纠错	jiu cuo
-死囚之夜	si qiu zhi ye
-生百相	sheng bai xiang
-教徒居所	jiao tu ju suo
-玩具兵将	wan ju bing jiang
-鸭爵的宴会	ya jue de yan hui
-点化	dian hua
-凭票入内	ping piao ru nei
-拆东补西	chai dong bu xi
-迎雷	ying lei
-借力打力	jie li da li
-狂徒围攻	kuang tu wei gong
-虫虫别回头	chong chong bie hui tou
-幽灵城	you ling cheng
-公害	gong hai
-深寒造像	shen han zao xiang
-寒渊惜别	han yuan xi bie
-排风口	pai feng kou
-蓄水池	xu shui chi
-红雾弥漫	hong wu mi man
-驱虫	qu chong
-回溯	hui su
-王冠之下	wang guan zhi xia
-蔑震	mie zhen
-大迁徙	da qian xi
-迈入永恒	mai ru yong heng
-大棋一盘	da qi yi pan
-低空机动	di kong ji dong
-荒山恶汉	huang shan e han
-山海必争	shan hai bi zheng
-共生	gong sheng
-仁义武	ren yi wu
-鲍勃酒品	bao bo jiu pin
-海神的信者	hai shen de xin zhe
-隔岸观火	ge an guan huo
-循循善诱	xun xun shan you
-步步紧逼	bu bu jin bi
-青山不语	qing shan bu yu
-荒野军校生	huang ye jun xiao sheng
-恃强凌弱	shi qiang ling ruo
-赶集	gan ji
-真相	zhen xiang
-巫咒同盟	wu zhou tong meng
-亡者行军	wang zhe xing jun
-离域检查	li yu jian cha
-伏兵山谷	fu bing shan gu
-育生池	yu sheng chi
-魂灵朝谒	hun ling chao ye
-分赃不均	fen zang bu jun
-鸭速公路	ya su gong lu
-除暴安良	chu bao an liang
-互助	hu zhu
-天数将易	tian shu jiang yi
-生灵的终点	sheng ling de zhong dian
-赴敌者	fu di zhe
-南武群英会	nan wu qun ying hui
-大君遗脉	da jun yi mai
-救援行动	jiu yuan xing dong
-监工现场	jian gong xian chang
-正义使者	zheng yi shi zhe
-丛林密布	cong lin mi bu
-冰海疑影	bing hai yi ying
-识文	shi wen
-奇谭	qi tan
-以逸待劳	yi yi dai lao
-神圣的渴求	shen sheng de ke qiu
-水火相容	shui huo xiang rong
-海窟沙暴	hai ku sha bao
-永恒安息	yong heng an xi
-游荡恶徒	you dang e tu
-所守者义	suo shou zhe yi
-落魄骑士	luo po qi shi
-末狩	mo shou
-计划耕种	ji hua geng zhong
-去晦	qu hui
-喜从驮来	xi cong tuo lai
-猩红甬道	xing hong yong dao
-事不过四	shi bu guo si
-观察	guan cha
-英雄无名	ying xiong wu ming
-锈锤之战	xiu chui zhi zhan
-盲盒商场	mang he shang chang
-吹笛人的号召	chui di ren de hao zhao
-自然之怒	zi ran zhi nu
-园丁	yuan ding
-见闻峰会	jian wen feng hui
-坏邻居	huai lin ju
-卫士不语功	wei shi bu yu gong
-大盗当头	da dao dang tou
-圣城	sheng cheng
-先来后到	xian lai hou dao
-悦耳杀机	yue er sha ji
-巡逻队	xun luo dui
-守望的河水	shou wang de he shui
-蔓延	man yan
-长驱不复	chang qu bu fu
-霜与沙	shuang yu sha
-争议频发	zheng yi pin fa
-源源不断	yuan yuan bu duan
-神出鬼没	shen chu gui mo
-飞越大水坑	fei yue da shui keng
-精酿杀手	jing niang sha shou
-大群所向	da qun suo xiang
-被遗弃者	bei yi qi zhe
-南武约	nan wu yue
-邪异囚笼	xie yi qiu long
-明抢暗偷	ming qiang an tou
-夺树者	duo shu zhe
-有教无类	you jiao wu lei
-斥洪	chi hong
-求敌得敌	qiu di de di
-啖之以利	dan zhi yi li
-瞻前顾后	zhan qian gu hou
-鸭本运作	ya ben yun zuo
-现代战争法则	xian dai zhan zheng fa ze
-生人勿近	sheng ren wu jin
-飞翔的怪盗	fei xiang de guai dao
-苔手	tai shou
-驯兽者	xun shou zhe
-闪闪发光	shan shan fa guang
-大地醒转	da di xing zhuan
-驯兽小屋	xun shou xiao wu
-萨米之熵	sa mi zhi shang
-危机四伏	wei ji si fu
-高普尼克之拳	gao pu ni ke zhi quan
-年代断层	nian dai duan ceng
-时光之沙	shi guang zhi sha
-彻骨冰寒	che gu bing han
-紧急授课	jin ji shou ke
-惊喜工厂	jing xi gong chang
-无中生钱	wu zhong sheng qian
-仪式之夜	yi shi zhi ye
-有序清场	you xu qing chang
-待宰的兽群	dai zai de shou qun
-突击战	tu ji zhan
-拳拳到肉	quan quan dao rou
-贪妄	tan wang
-不容拒绝	bu rong ju jue
-往昔难忆	wang xi nan yi
-朽败考察	xiu bai kao cha
-火力小队	huo li xiao dui
-分离与统一	fen li yu tong yi
-萨卡兹突袭	sa ka zi tu xi
-雕匠与石像	diao jiang yu shi xiang
-失控	shi kong
-背山面水	bei shan mian shui
-地下天途	di xia tian tu
-以守代攻	yi shou dai gong
-好梦在何方	hao meng zai he fang
-夕江对擂	xi jiang dui lei
-人造物狂欢节	ren zao wu kuang huan jie
-利刃所指	li ren suo zhi
-鸭爵的嘲讽	ya jue de chao feng
-据险固守	ju xian gu shou
-鸭爵的保安	ya jue de bao an
-幽影与鬼魅	you ying yu gui mei
-骑士对决	qi shi dui jue
-往事喑哑	wang shi yin ya
-没有尽头的路	mei you jin tou de lu
-冰凝之所	bing ning zhi suo
-寒灾之咒	han zai zhi zhou
-放射性粉尘	fang she xing fen chen
-善恶同道	shan e tong dao
-或然面纱	huo ran mian sha
-存亡之战	cun wang zhi zhan
-无序盛宴	wu xu sheng yan
-呼吸	hu xi
-愠怒	yun nu
-剑刀矛	jian dao mao
-恐怖传说	kong bu chuan shuo
-坍缩体的午后	tan suo ti de wu hou
-破局	po ju
-机动队	ji dong dui
-违和	wei he
-昔字如烟	xi zi ru yan
-峥嵘战功	zheng rong zhan gong
-贪饵	tan er
-征兆	zheng zhao
-与虫为伴	yu chong wei ban
-硕果累累	shuo guo lei lei
-黄沙幻境	huang sha huan jing
-领地意识	ling di yi shi
-迷惘	mi wang
-自缚	zi fu
-谤天	bang tian
-永恒愤怒	yong heng fen nu
-弄假成真	nong jia cheng zhen
-别无所求	bie wu suo qiu
-月华寒	yue hua han
-狡兽九窟	jiao shou jiu ku
-雪山上的来客	xue shan shang de lai ke
-新部族	xin bu zu
-火之骄子	huo zhi jiao zi
-压轴登场	ya zhou deng chang
-越山海	yue shan hai
-浮空城接舷战	fu kong cheng jie xian zhan
-轻舟共渡	qing zhou gong du
-混沌	hun dun
-度假村冤魂	du jia cun yuan hun
-狩猎场	shou lie chang
-外道	wai dao
-抱头狗窜	bao tou gou cuan
-深度认知	shen du ren zhi
-覆水难收	fu shui nan shou
-酒商运输队	jiu shang yun shu dui
-战场侧面	zhan chang ce mian
-死斗	si dou
-授法	shou fa
-建制	jian zhi
-劫罚	jie fa
-落叶归根	luo ye gui gen
-飞来横祸	fei lai heng huo
-遮天蔽日	zhe tian bi ri
-薄礼一份	bao li yi fen
-物权纠纷	wu quan jiu fen
-夕娥忆	xi e yi
-正经生意	zheng jing sheng yi
-凭器	ping qi
-长期试用	chang qi shi yong
-失败的试胆	shi bai de shi dan
-意外	yi wai
-命运的宠儿	ming yun de chong er
-禁区	jin qu
-订正	ding zheng
-天途半道	tian tu ban dao
-豪华车队	hao hua che dui
-恶魔猎人	e mo lie ren
-荒唐把戏	huang tang ba xi
-老戏骨	lao xi gu
-认知即重担	ren zhi ji zhong dan
-神游天外	shen you tian wai
-竭泽而渔	jie ze er yu
-作壁上观	zuo bi shang guan
-远古坚冰	yuan gu jian bing
-巫蛊群魔	wu gu qun mo
-夕江诀	xi jiang jue
-自然条款	zi ran tiao kuan
-斩首	zhan shou
-炉工志愿队	lu gong zhi yuan dui
-巍峨银凇	wei e yin song
-虫群横行	chong qun heng xing
-虚无之偶	xu wu zhi ou
-炎灼	yan zhuo
-半吊子之旅	ban diao zi zhi lv
-彻底失控	che di shi kong
-锈烟地	xiu yan di
-喜从箱来	xi cong xiang lai
-感化	gan hua
-赶场戏班	gan chang xi ban
-易易鸭鸭	yi yi ya ya
-无声呼号	wu sheng hu hao
-异体同心	yi ti tong xin
-忘形	wang xing
-咫尺天涯	zhi chi tian ya
-劫虚济实	jie xu ji shi
-本能污染	ben neng wu ran
-时光凯旋	shi guang kai xuan
-铳与秩序	chong yu zhi xu
-破岁阵祀	po sui zhen si
-饥渴	ji ke
-离歌的庭院	li ge de ting yuan
-思维折断	si wei zhe duan
-莱茵卫士	lai yin wei shi
-狂信如火	kuang xin ru huo
-石心双子	shi xin shuang zi
-开门请当心	kai men qing dang xin
-人镇	ren zhen
-失控蜂群	shi kong feng qun
-以血还血	yi xue hai xue
-远方来客	yuan fang lai ke
 险路勿近	xian lu wu jin
-兽群	shou qun
-不成烟火	bu cheng yan huo
-无人机起降库	wu ren ji qi jiang ku
-残损学院	can sun xue yuan
-应用测试	ying yong ce shi
-鸭爵的挑战	ya jue de tiao zhan
-四方	si fang
-血脉之辩	xue mai zhi bian
-荒地群猎	huang di qun lie
-哨兵	shao bing
-玩具的报复	wan ju de bao fu
-人之光辉	ren zhi guang hui
-礼炮小队	li pao xiao dui
-求道	qiu dao
-还之彼身	hai zhi bi shen
-溃乱魔典	kui luan mo dian
-邙山镇地方志	mang shan zhen di fang zhi
-病症	bing zheng
-鲍勃农场	bao bo nong chang
-无主巨物	wu zhu ju wu
-劳作的清晨	lao zuo de qing chen
-路边劫匪	lu bian jie fei
-夺路而跳	duo lu er tiao
-无罪净土	wu zui jing tu
-阴云笼罩	yin yun long zhao
-安全检查	an quan jian cha
-寄人城池下	ji ren cheng chi xia
-共舞	gong wu
-乐理之灾	yue li zhi zai
-洞天福地	dong tian fu di
-思维矫正	si wei jiao zheng
-奉献	feng xian
-崇敬深海	chong jing shen hai
-火力覆盖	huo li fu gai
+共生	gong sheng
+大迁徙	da qian xi
+失控蜂群	shi kong feng qun
+年代断层	nian dai duan ceng
+失败的试胆	shi bai de shi dan
+破岁阵祀	po sui zhen si
+末狩	mo shou
+通道封锁	tong dao feng suo
+生灵的终点	sheng ling de zhong dian
+奇谭	qi tan
+瞻前顾后	zhan qian gu hou
+坍缩体的午后	tan suo ti de wu hou
 射手部队	she shou bu dui
 何处无山海	he chu wu shan hai
-诸事不顺	zhu shi bu shun
-这位乌萨斯人	zhe wei wu sa si ren
-分明	fen ming
-永无尽头	yong wu jin tou
-叙事要约	xu shi yao yue
-乌萨斯的渴求	wu sa si de ke qiu
-卡兹瀑布	ka zi pu bu
-余烬方阵	yu jin fang zhen
-正义	zheng yi
-巢穴	chao xue
-烟花秀	yan hua xiu
-鸭爵的戏剧	ya jue de xi ju
-震坎	zhen kan
-继承	ji cheng
-从众效应	cong zhong xiao ying
-冰川期	bing chuan qi
-再启新篇	zai qi xin pian
+与虫为伴	yu chong wei ban
+水火相容	shui huo xiang rong
+火力小队	huo li xiao dui
+昔字如烟	xi zi ru yan
+峥嵘战功	zheng rong zhan gong
+魂灵朝谒	hun ling chao ye
+失控	shi kong
+以逸待劳	yi yi dai lao
+生百相	sheng bai xiang
 信号灯	xin hao deng
-虚实洪流	xu shi hong liu
-惩罚	cheng fa
-为崖作伥	wei ya zuo chang
+鸭爵的挑战	ya jue de tiao zhan
+永恒安息	yong heng an xi
+似曾相识	si ceng xiang shi
+寒灾之咒	han zai zhi zhou
+落叶归根	luo ye gui gen
+夺树者	duo shu zhe
+飞翔的怪盗	fei xiang de guai dao
+杂音干扰	za yin gan rao
+神出鬼没	shen chu gui mo
+海窟沙暴	hai ku sha bao
+四方	si fang
+落魄骑士	luo po qi shi
 漩涡	xuan wo
-犹豫不决	you yu bu jue
+救援行动	jiu yuan xing dong
+凭票入内	ping piao ru nei
+授法	shou fa
+月华寒	yue hua han
+夙愿将偿	su yuan jiang chang
+有教无类	you jiao wu lei
+寒渊惜别	han yuan xi bie
+路边劫匪	lu bian jie fei
+求敌得敌	qiu di de di
+蔓延	man yan
+溟痕乐园	ming hen le yuan
+公司纠葛	gong si jiu ge
 原始部落	yuan shi bu luo
-谋岁者	mou sui zhe
-渗透与远袭	shen tou yu yuan xi
+天数将易	tian shu jiang yi
+覆水难收	fu shui nan shou
+除暴安良	chu bao an liang
+好梦在何方	hao meng zai he fang
+分明	fen ming
+啖之以利	dan zhi yi li
+大棋一盘	da qi yi pan
+感化	gan hua
+公害	gong hai
+混沌	hun dun
+莱茵卫士	lai yin wei shi
+惊喜工厂	jing xi gong chang
+离域检查	li yu jian cha
+火之骄子	huo zhi jiao zi
+思维折断	si wei zhe duan
+狂信如火	kuang xin ru huo
+剑刀矛	jian dao mao
+喜从箱来	xi cong xiang lai
+虫虫别回头	chong chong bie hui tou
+时光之沙	shi guang zhi sha
+领地意识	ling di yi shi
+自然条款	zi ran tiao kuan
+精酿杀手	jing niang sha shou
+订正	ding zheng
+驯兽者	xun shou zhe
+大地醒转	da di xing zhuan
+共舞	gong wu
+不容拒绝	bu rong ju jue
+贪妄	tan wang
+愠怒	yun nu
+亘古仇敌	gen gu chou di
+死斗	si dou
+神游天外	shen you tian wai
+荒野军校生	huang ye jun xiao sheng
+没有尽头的路	mei you jin tou de lu
+死囚之夜	si qiu zhi ye
+育生池	yu sheng chi
+谤天	bang tian
+赶场戏班	gan chang xi ban
+巫咒同盟	wu zhou tong meng
+饥渴	ji ke
+人镇	ren zhen
+不鉴	bu jian
+止变	zhi bian
+继承	ji cheng
+虚实洪流	xu shi hong liu
+喜从驮来	xi cong tuo lai
+驯兽小屋	xun shou xiao wu
+真相	zhen xiang
+荒山恶汉	huang shan e han
+闪闪发光	shan shan fa guang
+守望的河水	shou wang de he shui
+御外侮	yu wai wu
+狡兽九窟	jiao shou jiu ku
+背山面水	bei shan mian shui
+排风口	pai feng kou
+时封	shi feng
+英雄无名	ying xiong wu ming
+无声呼号	wu sheng hu hao
+危机四伏	wei ji si fu
+识文	shi wen
+半吊子之旅	ban diao zi zhi lv
+老戏骨	lao xi gu
+事不过四	shi bu guo si
+巢穴	chao xue
+恶魔猎人	e mo lie ren
+借力打力	jie li da li
+天途半道	tian tu ban dao
+永无尽头	yong wu jin tou
+斗兽笼	dou shou long
+远古坚冰	yuan gu jian bing
+互助	hu zhu
+所守者义	suo shou zhe yi
+深寒造像	shen han zao xiang
+夺路而跳	duo lu er tiao
+鸭速公路	ya su gong lu
+图穷匕见	tu qiong bi xian
+高普尼克之拳	gao pu ni ke zhi quan
+吹笛人的号召	chui di ren de hao zhao
+或然面纱	huo ran mian sha
+盲盒商场	mang he shang chang
+观察	guan cha
+萨米之熵	sa mi zhi shang
+被遗弃者	bei yi qi zhe
+犹豫不决	you yu bu jue
+幽灵城	you ling cheng
+争议频发	zheng yi pin fa
+循循善诱	xun xun shan you
+暗箭难防	an jian nan fang
+游荡恶徒	you dang e tu
+伏兵山谷	fu bing shan gu
+深度认知	shen du ren zhi
+红雾弥漫	hong wu mi man
+正义使者	zheng yi shi zhe
+点化	dian hua
+火力覆盖	huo li fu gai
+鸭爵的戏剧	ya jue de xi ju
+鲍勃农场	bao bo nong chang
+黄沙幻境	huang sha huan jing
+浮空城接舷战	fu kong cheng jie xian zhan
+战场侧面	zhan chang ce mian
+遮天蔽日	zhe tian bi ri
+乌萨斯方块	wu sa si fang kuai
+夕娥忆	xi e yi
+奉献	feng xian
+凭器	ping qi
+自缚	zi fu
+铳与秩序	chong yu zhi xu
+大盗当头	da dao dang tou
+度假村冤魂	du jia cun yuan hun
+源源不断	yuan yuan bu duan
+夕江诀	xi jiang jue
+谋求共识	mou qiu gong shi
+步步紧逼	bu bu jin bi
+兽群	shou qun
+血脉之辩	xue mai zhi bian
+往昔难忆	wang xi nan yi
+劳作的清晨	lao zuo de qing chen
+恐怖传说	kong bu chuan shuo
+回溯	hui su
+假想对冲	jia xiang dui chong
+现代战争法则	xian dai zhan zheng fa ze
+邙山镇地方志	mang shan zhen di fang zhi
+圣城	sheng cheng
+炎灼	yan zhuo
+这位乌萨斯人	zhe wei wu sa si ren
+雪山上的来客	xue shan shang de lai ke
+寄人城池下	ji ren cheng chi xia
+认知即重担	ren zhi ji zhong dan
+彻骨冰寒	che gu bing han
+以守代攻	yi shou dai gong
+正义	zheng yi
+无人机起降库	wu ren ji qi jiang ku
+为崖作伥	wei ya zuo chang
+劫虚济实	jie xu ji shi
+混乱的表象	hun luan de biao xiang
+物权纠纷	wu quan jiu fen
+抱头狗窜	bao tou gou cuan
+腹背受敌	fu bei shou di
+呼吸	hu xi
+压轴登场	ya zhou deng chang
+丛林密布	cong lin mi bu
+紧急授课	jin ji shou ke
+赶集	gan ji
+有序清场	you xu qing chang
+咫尺天涯	zhi chi tian ya
+乐理之灾	yue li zhi zai
+生人勿近	sheng ren wu jin
+越山海	yue shan hai
+贪饵	tan er
+玩具的报复	wan ju de bao fu
+求道	qiu dao
+驱虫	qu chong
+冰凝之所	bing ning zhi suo
+幽影与鬼魅	you ying yu gui mei
+荒地群猎	huang di qun lie
+鸭爵的嘲讽	ya jue de chao feng
+破局	po ju
+飞来横祸	fei lai heng huo
+锈烟地	xiu yan di
 靡靡之音	mi mi zhi yin
+神圣的渴求	shen sheng de ke qiu
+地下天途	di xia tian tu
+虚无之偶	xu wu zhi ou
+竭泽而渔	jie ze er yu
+园丁	yuan ding
+狩猎场	shou lie chang
+悦耳杀机	yue er sha ji
+外道	wai dao
+朽败考察	xiu bai kao cha
+长期试用	chang qi shi yong
+蓄水池	xu shui chi
+玩具兵将	wan ju bing jiang
+纠错	jiu cuo
+思维矫正	si wei jiao zheng
+分赃不均	fen zang bu jun
+大群所向	da qun suo xiang
+洞天福地	dong tian fu di
+人之光辉	ren zhi guang hui
+录忆	lu yi
+拆东补西	chai dong bu xi
+硕果累累	shuo guo lei lei
+仪式之夜	yi shi zhi ye
+不成烟火	bu cheng yan huo
+余烬方阵	yu jin fang zhen
+异体同心	yi ti tong xin
+新部族	xin bu zu
+薄礼一份	bao li yi fen
+巍峨银凇	wei e yin song
+虫群横行	chong qun heng xing
+分离与统一	fen li yu tong yi
+遍地福音	bian di fu yin
+荒唐把戏	huang tang ba xi
+烟花秀	yan hua xiu
+饥渴祭坛	ji ke ji tan
+长驱不复	chang qu bu fu
+劫罚	jie fa
+监工现场	jian gong xian chang
+斩首	zhan shou
+海神的信者	hai shen de xin zhe
+意外	yi wai
+巡逻队	xun luo dui
+乌萨斯的渴求	wu sa si de ke qiu
+冰川期	bing chuan qi
+建制	jian zhi
+亡者行军	wang zhe xing jun
+震坎	zhen kan
+隔岸观火	ge an guan huo
+无主巨物	wu zhu ju wu
+坏邻居	huai lin ju
+低空机动	di kong ji dong
+蔑震	mie zhen
+利刃所指	li ren suo zhi
+还之彼身	hai zhi bi shen
+易易鸭鸭	yi yi ya ya
+卡兹瀑布	ka zi pu bu
+鸭爵的保安	ya jue de bao an
+飞越大水坑	fei yue da shui keng
+豪华车队	hao hua che dui
+斥洪	chi hong
+邪异囚笼	xie yi qiu long
+礼炮小队	li pao xiao dui
+夕江对擂	xi jiang dui lei
+无序盛宴	wu xu sheng yan
+霜与沙	shuang yu sha
+计划耕种	ji hua geng zhong
+从众效应	cong zhong xiao ying
+阴云笼罩	yin yun long zhao
+待宰的兽群	dai zai de shou qun
+迎雷	ying lei
+骑士对决	qi shi dui jue
+卫士不语功	wei shi bu yu gong
+去晦	qu hui
+叙事要约	xu shi yao yue
+拳拳到肉	quan quan dao rou
+机动队	ji dong dui
+自然之怒	zi ran zhi nu
+萨卡兹的渴求	sa ka zi de ke qiu
+应用测试	ying yong ce shi
+据险固守	ju xian gu shou
+忘形	wang xing
+赴敌者	fu di zhe
+鸭本运作	ya ben yun zuo
+炉工志愿队	lu gong zhi yuan dui
+诸事不顺	zhu shi bu shun
+存亡之战	cun wang zhi zhan
+地有四难	di you si nan
+青山不语	qing shan bu yu
+人造物狂欢节	ren zao wu kuang huan jie
+猩红甬道	xing hong yong dao
+正经生意	zheng jing sheng yi
+征兆	zheng zhao
+渗透与远袭	shen tou yu yuan xi
+大君遗脉	da jun yi mai
+迷惘	mi wang
+苔手	tai shou
+恃强凌弱	shi qiang ling ruo
+锈锤之战	xiu chui zhi zhan
+崇敬深海	chong jing shen hai
+别无所求	bie wu suo qiu
+朝谒	chao ye
+首演	shou yan
+南武群英会	nan wu qun ying hui
+开门请当心	kai men qing dang xin
+定乾坤	ding qian kun
+时光凯旋	shi guang kai xuan
+安全检查	an quan jian cha
+无中生钱	wu zhong sheng qian
+法术与铁砧	fa shu yu tie zhen
+仁义武	ren yi wu
+迈入永恒	mai ru yong heng
+善恶同道	shan e tong dao
+违和	wei he
+哨兵	shao bing
+忍气不吞声	ren qi bu tun sheng
+往事喑哑	wang shi yin ya
+冰海疑影	bing hai yi ying
+山海必争	shan hai bi zheng
+永恒愤怒	yong heng fen nu
+酒商运输队	jiu shang yun shu dui
+萨卡兹突袭	sa ka zi tu xi
+溃乱魔典	kui luan mo dian
+机械之灾	ji xie zhi zai
+谋岁者	mou sui zhe
+鲍勃酒品	bao bo jiu pin
+作壁上观	zuo bi shang guan
+石心双子	shi xin shuang zi
+雕匠与石像	diao jiang yu shi xiang
+相合	xiang he
+彻底失控	che di shi kong
+惩罚	cheng fa
+以血还血	yi xue hai xue
+先来后到	xian lai hou dao
+离歌的庭院	li ge de ting yuan
+巫蛊群魔	wu gu qun mo
+再启新篇	zai qi xin pian
+王冠之下	wang guan zhi xia
+明抢暗偷	ming qiang an tou
+命运的宠儿	ming yun de chong er
+远方来客	yuan fang lai ke
+狂徒围攻	kuang tu wei gong
+狡鼷三窟	jiao xi san ku
+病症	bing zheng
+轻舟共渡	qing zhou gong du
+砺锋	li feng
+突击战	tu ji zhan
+本能污染	ben neng wu ran
+教徒居所	jiao tu ju suo
+残损学院	can sun xue yuan
+南武约	nan wu yue
+赴陨	fu yun
+无罪净土	wu zui jing tu
+见闻峰会	jian wen feng hui
+弄假成真	nong jia cheng zhen
+放射性粉尘	fang she xing fen chen
+禁区	jin qu
+鸭爵的宴会	ya jue de yan hui

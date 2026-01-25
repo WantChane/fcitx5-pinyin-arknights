@@ -1,210 +1,136 @@
-# rime_dicts/an_abnormal.dict.yaml
-
-```diff
---- v26.01.09.7d2391:data/rime_dicts/an_abnormal.dict.yaml
-+++ data/rime_dicts/an_abnormal.dict.yaml
-@@ -1,55 +1,55 @@
-- 未知	wei zhi
-+ 塔不可选中	ta bu ke xuan zhong
-```
-
-# titles/an_abnormal_titles.txt
-
-```diff
---- v26.01.09.7d2391:data/titles/an_abnormal_titles.txt
-+++ data/titles/an_abnormal_titles.txt
-@@ -1,54 +1,54 @@
-- 未知
-+ 塔不可选中
-```
-
 # titles/an_activity_v2_titles.txt
 
 ```diff
---- v26.01.09.7d2391:data/titles/an_activity_v2_titles.txt
+--- v26.01.17.f1e2e5:data/titles/an_activity_v2_titles.txt
 +++ data/titles/an_activity_v2_titles.txt
-@@ -0,260 +1,261 @@
-+ 慵懒心意,合作活动
+@@ -0,261 +2,263 @@
++ 界园志异限时任务(界园志异拓展Ⅱ),其他活动
++ 相见欢·复刻,支线故事复刻活动
 ```
 
 # rime_dicts/an_all.dict.yaml
 
 ```diff
---- v26.01.09.7d2391:data/rime_dicts/an_all.dict.yaml
+--- v26.01.17.f1e2e5:data/rime_dicts/an_all.dict.yaml
 +++ data/rime_dicts/an_all.dict.yaml
-@@ -0,10917 +13,10930 @@
-+ 万顷的私人信件	wan qing de si ren xin jian
-+ 合唱歌	he chang ge
-+ 对驳	dui bo
-+ 引航者	yin hang zhe
-+ 怀黍离家具收藏包	huai shu li jia ju shou cang bao
-+ 慵懒心意	yong lan xin yi
-+ 懒懒的沙发	lan lan de sha fa
-+ 柔软玩偶堆	rou ruan wan ou dui
-+ 残夢軌跡	can meng gui ji
-+ 转折	zhuan zhe
-+ 进场歌	jin chang ge
-+ 铺陈	pu chen
-+ 高潮	gao chao
+@@ -0,10930 +16,10946 @@
++ 妄躯	wang qu
++ 定乾坤	ding qian kun
++ 录忆	lu yi
++ 御外侮	yu wai wu
++ 忍气不吞声	ren qi bu tun sheng
++ 怨骸	yuan hai
++ 提提	ti ti
++ 敛傲	lian ao
++ 时封	shi feng
++ 朔壳	shuo ke
++ 止变	zhi bian
++ 界园志异拓展二限时日常	jie yuan zhi yi tuo zhan er xian shi ri chang
++ 相合	xiang he
++ 砺锋	li feng
++ 身形	shen xing
++ 遍地福音	bian di fu yin
 ```
 
 # titles/an_all_titles.txt
 
 ```diff
---- v26.01.09.7d2391:data/titles/an_all_titles.txt
+--- v26.01.17.f1e2e5:data/titles/an_all_titles.txt
 +++ data/titles/an_all_titles.txt
-@@ -0,23396 +61,23457 @@
-+ Act48side ex01
-+ Act48side ex02
-+ Act48side ex03
-+ Act48side ex04
-+ Act48side ex05
-+ Act48side ex06
-+ Act48side ex07
-+ Act48side ex08
-+ Halo of hope
-+ ME-1 工作与时日/BEG
-+ ME-1 工作与时日/END
-+ ME-2 命定的终点/BEG
-+ ME-2 命定的终点/END
-+ ME-3 无解的谜题/BEG
-+ ME-3 无解的谜题/END
-+ ME-4 失手/BEG
-+ ME-4 失手/END
-+ ME-5 汇流/BEG
-+ ME-5 汇流/END
-+ ME-6 旧日诗篇/BEG
-+ ME-6 旧日诗篇/END
-+ ME-7 奔袭/BEG
-+ ME-7 奔袭/END
-+ ME-8 神谕示显/BEG
-+ ME-8 神谕示显/END
-+ ME-EX-1
-+ ME-EX-1 进场歌
-+ ME-EX-2
-+ ME-EX-2 背景
-+ ME-EX-3
-+ ME-EX-3 主题
-+ ME-EX-4
-+ ME-EX-4 转折
-+ ME-EX-5
-+ ME-EX-5 铺陈
-+ ME-EX-6
-+ ME-EX-6 对驳
-+ ME-EX-7
-+ ME-EX-7 高潮
-+ ME-EX-8
-+ ME-EX-8 合唱歌
-+ ME-ST-1 涉过流淌的河/NBT
-+ ME-ST-2 一个无声的夜晚/NBT
-+ ME-ST-3 无法再一次踏入的河/NBT
-+ Wanna Know Me? (Too Bad)
-+ アークナイツ 6周年記念楽曲集
-+ 万顷的私人信件
-+ 今日をしるして
-+ 刺玫/干员密录/1
-+ 家具一览/sandbox
-+ 寻访模拟/干员轮换卡池176
-+ 引航者
-+ 怀黍离家具收藏包
-+ 慵懒心意
-+ 懒懒的沙发
-+ 柔软玩偶堆
-+ 残夢軌跡
-+ 焰尾/干员密录/1
-+ 莱伊/干员密录/2
-+ 钼铅/干员密录/1
-+ 雅赛努斯复仇记OST
+@@ -0,23457 +34,23491 @@
++ ISW-DF 定乾坤
++ ISW-DF 录忆
++ ISW-DF 止变
++ ISW-NO 御外侮
++ ISW-NO 忍气不吞声
++ ISW-NO 时封
++ ISW-NO 相合
++ ISW-NO 砺锋
++ ISW-NO 遍地福音
++ 妄躯
++ 妄躯/spine
++ 定乾坤
++ 寻访模拟/中坚干员轮换卡池60
++ 录忆
++ 御外侮
++ 忍气不吞声
++ 怨骸
++ 怨骸/spine
++ 愠怒/spine
++ 提提
++ 敛傲
++ 敛傲/spine
++ 时封
++ 朔壳
++ 朔壳/spine
++ 止变
++ 界园志异拓展二限时日常
++ 相合
++ 相见欢2026
++ 相见欢2026/活动公告
++ 砺锋
++ 身形
++ 身形/spine
++ 遍地福音
 ```
 
-# rime_dicts/an_character.dict.yaml
+# rime_dicts/an_enemy.dict.yaml
 
 ```diff
---- v26.01.09.7d2391:data/rime_dicts/an_character.dict.yaml
-+++ data/rime_dicts/an_character.dict.yaml
-@@ -0,550 +2,552 @@
-+ 伊萨科斯	yi sa ke si
-+ 梅里塔	mei li ta
-```
-
-# titles/an_character_titles.txt
-
-```diff
---- v26.01.09.7d2391:data/titles/an_character_titles.txt
-+++ data/titles/an_character_titles.txt
-@@ -0,560 +2,562 @@
-+ 伊萨科斯
-+ 梅里塔
-```
-
-# rime_dicts/an_clothes.dict.yaml
-
-```diff
---- v26.01.09.7d2391:data/rime_dicts/an_clothes.dict.yaml
-+++ data/rime_dicts/an_clothes.dict.yaml
-@@ -0,416 +2,418 @@
-+ 常伴我身	chang ban wo shen
-+ 轻松旅途	qing song lv tu
-```
-
-# titles/an_clothes_titles.txt
-
-```diff
---- v26.01.09.7d2391:data/titles/an_clothes_titles.txt
-+++ data/titles/an_clothes_titles.txt
-@@ -0,458 +2,460 @@
-+ 常伴我身
-+ 轻松旅途
+--- v26.01.17.f1e2e5:data/rime_dicts/an_enemy.dict.yaml
++++ data/rime_dicts/an_enemy.dict.yaml
+@@ -0,1577 +5,1582 @@
++ 妄躯	wang qu
++ 怨骸	yuan hai
++ 敛傲	lian ao
++ 朔壳	shuo ke
++ 身形	shen xing
 ```
 
 # titles/an_enemy_titles.txt
 
 ```diff
---- v26.01.09.7d2391:data/titles/an_enemy_titles.txt
+--- v26.01.17.f1e2e5:data/titles/an_enemy_titles.txt
 +++ data/titles/an_enemy_titles.txt
-@@ -1,1583 +0,1582 @@
-- 净浊之焰(队长)
+@@ -0,1582 +5,1587 @@
++ 妄躯
++ 怨骸
++ 敛傲
++ 朔壳
++ 身形
 ```
 
-# rime_dicts/an_item.dict.yaml
+# rime_dicts/an_isw.dict.yaml
 
 ```diff
---- v26.01.09.7d2391:data/rime_dicts/an_item.dict.yaml
-+++ data/rime_dicts/an_item.dict.yaml
-@@ -0,1141 +2,1143 @@
-+ 万顷的私人信件	wan qing de si ren xin jian
-+ 怀黍离家具收藏包	huai shu li jia ju shou cang bao
+--- v26.01.17.f1e2e5:data/rime_dicts/an_isw.dict.yaml
++++ data/rime_dicts/an_isw.dict.yaml
+@@ -0,364 +9,373 @@
++ 定乾坤	ding qian kun
++ 录忆	lu yi
++ 御外侮	yu wai wu
++ 忍气不吞声	ren qi bu tun sheng
++ 时封	shi feng
++ 止变	zhi bian
++ 相合	xiang he
++ 砺锋	li feng
++ 遍地福音	bian di fu yin
 ```
 
-# titles/an_item_titles.txt
+# titles/an_isw_titles.txt
 
 ```diff
---- v26.01.09.7d2391:data/titles/an_item_titles.txt
-+++ data/titles/an_item_titles.txt
-@@ -0,1202 +2,1204 @@
-+ 万顷的私人信件
-+ 怀黍离家具收藏包
-```
-
-# rime_dicts/an_terra.dict.yaml
-
-```diff
---- v26.01.09.7d2391:data/rime_dicts/an_terra.dict.yaml
-+++ data/rime_dicts/an_terra.dict.yaml
-@@ -0,647 +3,650 @@
-+ 摆渡人	bai du ren
-+ 撷英调香师	xie ying diao xiang shi
-+ 缇缇	ti ti
-```
-
-# titles/an_terra_titles.txt
-
-```diff
---- v26.01.09.7d2391:data/titles/an_terra_titles.txt
-+++ data/titles/an_terra_titles.txt
-@@ -0,645 +3,648 @@
-+ 摆渡人
-+ 撷英调香师
-+ 缇缇
+--- v26.01.17.f1e2e5:data/titles/an_isw_titles.txt
++++ data/titles/an_isw_titles.txt
+@@ -0,370 +9,379 @@
++ ISW-DF 定乾坤
++ ISW-DF 录忆
++ ISW-DF 止变
++ ISW-NO 御外侮
++ ISW-NO 忍气不吞声
++ ISW-NO 时封
++ ISW-NO 相合
++ ISW-NO 砺锋
++ ISW-NO 遍地福音
 ```
 

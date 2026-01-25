@@ -9,6 +9,7 @@ ISW-DF 朝谒
 ISW-DF 朝谒(阿纳萨羯磨)
 ISW-DF 大盗当头
 ISW-DF 大群所向
+ISW-DF 定乾坤
 ISW-DF 飞翔的怪盗
 ISW-DF 覆水难收
 ISW-DF 寒渊惜别
@@ -21,6 +22,7 @@ ISW-DF 紧急授课
 ISW-DF 紧急授课(阿纳萨羯磨)
 ISW-DF 开门请当心
 ISW-DF 恐怖传说
+ISW-DF 录忆
 ISW-DF 迈入永恒
 ISW-DF 末狩
 ISW-DF 谋岁者
@@ -48,6 +50,7 @@ ISW-DF 虚无之偶
 ISW-DF 园丁
 ISW-DF 悦耳杀机
 ISW-DF 再启新篇
+ISW-DF 止变
 ISW-DF 诸事不顺
 ISW-DU 抱头狗窜
 ISW-DU 高普尼克之拳
@@ -71,6 +74,7 @@ ISW-NO 鲍勃农场
 ISW-NO 薄礼一份
 ISW-NO 背山面水
 ISW-NO 本能污染
+ISW-NO 遍地福音
 ISW-NO 冰川期
 ISW-NO 冰海疑影
 ISW-NO 冰凝之所
@@ -178,6 +182,7 @@ ISW-NO 莱茵卫士
 ISW-NO 老戏骨
 ISW-NO 劳作的清晨
 ISW-NO 乐理之灾
+ISW-NO 砺锋
 ISW-NO 离歌的庭院
 ISW-NO 礼炮小队
 ISW-NO 利刃所指
@@ -214,6 +219,7 @@ ISW-NO 求敌得敌
 ISW-NO 驱虫
 ISW-NO 去晦
 ISW-NO 仁·义·武
+ISW-NO 忍气不吞声
 ISW-NO 人造物狂欢节
 ISW-NO 人镇
 ISW-NO 萨卡兹的渴求
@@ -229,6 +235,7 @@ ISW-NO 生灵的终点
 ISW-NO 生人勿近
 ISW-NO 事不过四
 ISW-NO 似曾相识
+ISW-NO 时封
 ISW-NO 失控
 ISW-NO 失控蜂群
 ISW-NO 恃强凌弱
@@ -271,6 +278,7 @@ ISW-NO 夕江对擂
 ISW-NO 夕江诀
 ISW-NO 现代战争法则
 ISW-NO 先来后到
+ISW-NO 相合
 ISW-NO 新部族
 ISW-NO 猩红甬道
 ISW-NO 朽败考察
@@ -306,6 +314,7 @@ ISW-NO 幽影与鬼魅
 ISW-NO 与虫为伴
 ISW-NO 余烬方阵
 ISW-NO 育生池
+ISW-NO 御外侮
 ISW-NO 远方来客
 ISW-NO 远古坚冰
 ISW-NO 原始部落
