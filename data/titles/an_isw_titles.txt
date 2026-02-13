@@ -10,6 +10,7 @@ ISW-DF 朝谒(阿纳萨羯磨)
 ISW-DF 大盗当头
 ISW-DF 大群所向
 ISW-DF 定乾坤
+ISW-DF 定乾坤(定本源)
 ISW-DF 飞翔的怪盗
 ISW-DF 覆水难收
 ISW-DF 寒渊惜别
@@ -51,6 +52,7 @@ ISW-DF 园丁
 ISW-DF 悦耳杀机
 ISW-DF 再启新篇
 ISW-DF 止变
+ISW-DF 止变(役群兽)
 ISW-DF 诸事不顺
 ISW-DU 抱头狗窜
 ISW-DU 高普尼克之拳
@@ -82,6 +84,7 @@ ISW-NO 病症
 ISW-NO 步步紧逼
 ISW-NO 不成烟火
 ISW-NO 不鉴
+ISW-NO 不鉴(今昔境)
 ISW-NO 残损学院
 ISW-NO 拆东补西
 ISW-NO 巢穴
@@ -105,6 +108,7 @@ ISW-NO 待宰的兽群
 ISW-NO 啖之以利
 ISW-NO 地下天途
 ISW-NO 地有四难
+ISW-NO 地有四难(今昔境)
 ISW-NO 低空机动
 ISW-NO 点化
 ISW-NO 雕匠与石像
@@ -197,7 +201,9 @@ ISW-NO 盲盒商场
 ISW-NO 邙山镇地方志
 ISW-NO 没有尽头的路
 ISW-NO 靡靡之音
+ISW-NO 靡靡之音(今昔境)
 ISW-NO 迷惘
+ISW-NO 迷惘(今昔境)
 ISW-NO 蔑震
 ISW-NO 蔑震(其二)
 ISW-NO 溟痕乐园
@@ -211,7 +217,9 @@ ISW-NO 排风口
 ISW-NO 凭票入内
 ISW-NO 凭器
 ISW-NO 破局
+ISW-NO 破局(今昔境)
 ISW-NO 奇谭
+ISW-NO 奇谭(今昔境)
 ISW-NO 青山不语
 ISW-NO 轻舟共渡
 ISW-NO 求道
@@ -256,12 +264,14 @@ ISW-NO 苔手
 ISW-NO 贪饵
 ISW-NO 坍缩体的午后
 ISW-NO 贪妄
+ISW-NO 贪妄(今昔境)
 ISW-NO 通道封锁
 ISW-NO 突击战
 ISW-NO 玩具兵将
 ISW-NO 王冠之下
 ISW-NO 往事喑哑
 ISW-NO 忘形
+ISW-NO 忘形(今昔境)
 ISW-NO 亡者行军
 ISW-NO 违和
 ISW-NO 危机四伏
@@ -321,6 +331,7 @@ ISW-NO 原始部落
 ISW-NO 月华寒
 ISW-NO 越山海
 ISW-NO 愠怒
+ISW-NO 愠怒(今昔境)
 ISW-NO 杂音干扰
 ISW-NO 瞻前顾后
 ISW-NO 斩首

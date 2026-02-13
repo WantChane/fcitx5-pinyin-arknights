@@ -1,125 +1,128 @@
 ---
 name: an_term
 sort: by_weight
-version: 26.01.25
+version: 26.02.13
 ...
-精英干员	jing ying gan yuan
-麻痹	ma bi
-心情落差	xin qing luo cha
-停顿	ting dun
-护盾	hu dun
-晕眩	yun xuan
-仿生海龙	fang sheng hai long
-标准化类技能	biao zhun hua lei ji neng
-异格	yi ge
-梦境	meng jing
-回收利用	hui shou li yong
-配合意识	pei he yi shi
-杜林族	du lin zu
-龙门近卫局	long men jin wei ju
-红松骑士团类技能	hong song qi shi tuan lei ji neng
-莱茵生命	lai yin sheng ming
-移动	yi dong
-元素损伤	yuan su sun shang
-萨米	sa mi
-叙拉古	xu la gu
-部分技能	bu fen ji neng
-绑定	bang ding
-恐惧	kong ju
-金属工艺类技能	jin shu gong yi lei ji neng
-吟唱	yin chang
-庇护	bi hu
-屏障	ping zhang
-近地悬浮	jin di xuan fu
-巫术结晶	wu shu jie jing
-寒冷	han leng
-战栗	zhan li
-无声共鸣	wu sheng gong ming
-感知信息	gan zhi xin xi
-武道	wu dao
-重伤	zhong shang
-折射	zhe she
-可靠的随从们	ke kao de sui cong men
-意识实体	yi shi shi ti
-魔力	mo li
-思维链环	si wei lian huan
-装备应变	zhuang bei ying bian
-米诺斯	mi nuo si
-损伤屏障	sun shang ping zhang
-格拉斯哥帮	ge la si ge bang
-魔物料理	mo wu liao li
-无词颂歌	wu ci song ge
-丰富工作经验	feng fu gong zuo jing yan
-记忆碎片	ji yi sui pian
-热情值	re qing zhi
-失重	shi zhong
-嘉维尔	jia wei er
-元素脆弱	yuan su cui ruo
-侵蚀损伤	qin shi sun shang
-浮空	fu kong
-鲤氏侦探事务所	li shi zhen tan shi wu suo
-部分设施	bu fen she shi
 防守方	fang shou fang
-赤金生产线	chi jin sheng chan xian
-谢拉格	xie la ge
-异常状态	yi chang zhuang tai
-沉睡	chen shui
-持续攻击	chi xu gong ji
-脆弱	cui ruo
-特殊叠加规则	te shu die jia gui ze
-深海猎人	shen hai lie ren
-过载	guo zai
-徘徊旋律	pai huai xuan lv
-冻结	dong jie
-拉特兰	la te lan
-迷彩	mi cai
-自动化	zi dong hua
-可爱的艾露猫	ke ai de ai lu mao
-莱茵科技类技能	lai yin ke ji lei ji neng
-鼓舞	gu wu
-特殊加成	te shu jia cheng
-物理脆弱	wu li cui ruo
-起飞	qi fei
-乌萨斯特饮	wu sa si te yin
-工作场所	gong zuo chang suo
-因果	yin guo
-莱欧斯小队	lai ou si xiao dui
-人间烟火	ren jian yan huo
-精力充沛	jing li chong pei
-念力	nian li
-凋亡损伤	diao wang sun shang
-虚弱	xu ruo
-坚忍	jian ren
-怪物猎人小队	guai wu lie ren xiao dui
-进攻方	jin gong fang
-演技的怪物	yan ji de guai wu
-特殊比较规则	te shu bi jiao gui ze
-法术脆弱	fa shu cui ruo
-蓄力	xu li
-骑士	qi shi
-神经损伤	shen jing sun shang
-怅惘和声	chang wang he sheng
-彩虹小队	cai hong xiao dui
-偷取	tou qu
-情报储备	qing bao chu bei
-木天蓼	mu tian liao
-天道酬勤	tian dao chou qin
-物理护盾	wu li hu dun
-小节	xiao jie
+杜林族	du lin zu
+折射	zhe she
 能天使	neng tian shi
-工程机器人	gong cheng ji qi ren
-抵抗	di kang
-灼燃损伤	zhuo ran sun shang
-作业平台	zuo ye ping tai
-乌萨斯学生自治团	wu sa si xue sheng zi zhi tuan
-隐匿	yin ni
-诱导	you dao
-特别独占订单	te bie du zhan ding dan
-其他设施	qi ta she shi
-萨尔贡	sa er gong
+护盾	hu dun
+小节	xiao jie
+天道酬勤	tian dao chou qin
+骑士	qi shi
+元素损伤	yuan su sun shang
+演技的怪物	yan ji de guai wu
+徘徊旋律	pai huai xuan lv
+丰富工作经验	feng fu gong zuo jing yan
+武道	wu dao
+热情值	re qing zhi
 红松骑士团	hong song qi shi tuan
-岁	sui
-业报	ye bao
+神经损伤	shen jing sun shang
+晕眩	yun xuan
+金属工艺类技能	jin shu gong yi lei ji neng
+损伤屏障	sun shang ping zhang
+梦境	meng jing
+停顿	ting dun
+标准化类技能	biao zhun hua lei ji neng
+鼓舞	gu wu
+异格	yi ge
+侵蚀损伤	qin shi sun shang
+意识实体	yi shi shi ti
+绑定	bang ding
+屏障	ping zhang
+弱点伤害	ruo dian shang hai
+特别独占订单	te bie du zhan ding dan
+感知信息	gan zhi xin xi
+无声共鸣	wu sheng gong ming
+外势	wai shi
+工作场所	gong zuo chang suo
+部分设施	bu fen she shi
+过载	guo zai
+战栗	zhan li
+赤金生产线	chi jin sheng chan xian
+魔力	mo li
+物理脆弱	wu li cui ruo
 束缚	shu fu
+岁	sui
 补弹	bu dan
+诱导	you dao
+龙门近卫局	long men jin wei ju
+配合意识	pei he yi shi
+物理护盾	wu li hu dun
+重伤	zhong shang
+作业平台	zuo ye ping tai
+失重	shi zhong
+工程机器人	gong cheng ji qi ren
+念力	nian li
+浮空	fu kong
+偷取	tou qu
+巫术结晶	wu shu jie jing
+蓄力	xu li
+特殊加成	te shu jia cheng
+乌萨斯特饮	wu sa si te yin
+元素脆弱	yuan su cui ruo
+莱欧斯小队	lai ou si xiao dui
+拉特兰	la te lan
+因果	yin guo
+萨米	sa mi
+米诺斯	mi nuo si
+其他设施	qi ta she shi
+叙拉古	xu la gu
+持续攻击	chi xu gong ji
+可爱的艾露猫	ke ai de ai lu mao
+木天蓼	mu tian liao
+深海猎人	shen hai lie ren
+嘉维尔	jia wei er
+庇护	bi hu
+坚忍	jian ren
+灼燃损伤	zhuo ran sun shang
+特殊比较规则	te shu bi jiao gui ze
+近地悬浮	jin di xuan fu
+谢拉格	xie la ge
+迷彩	mi cai
+记忆碎片	ji yi sui pian
+麻痹	ma bi
+回收利用	hui shou li yong
+脆弱	cui ruo
+精英干员	jing ying gan yuan
+怪物猎人小队	guai wu lie ren xiao dui
+怅惘和声	chang wang he sheng
+装备应变	zhuang bei ying bian
+精力充沛	jing li chong pei
+部分技能	bu fen ji neng
+隐匿	yin ni
+异常状态	yi chang zhuang tai
+吟唱	yin chang
+格拉斯哥帮	ge la si ge bang
+沉睡	chen shui
+萨尔贡	sa er gong
+恐惧	kong ju
+寒冷	han leng
+莱茵生命	lai yin sheng ming
+法术脆弱	fa shu cui ruo
+自动化	zi dong hua
+彩虹小队	cai hong xiao dui
+抵抗	di kang
+心情落差	xin qing luo cha
+移动	yi dong
+凋亡损伤	diao wang sun shang
+实地	shi di
 黑钢国际	hei gang guo ji
+仿生海龙	fang sheng hai long
+鲤氏侦探事务所	li shi zhen tan shi wu suo
+冻结	dong jie
+无词颂歌	wu ci song ge
+红松骑士团类技能	hong song qi shi tuan lei ji neng
+莱茵科技类技能	lai yin ke ji lei ji neng
+人间烟火	ren jian yan huo
+乌萨斯学生自治团	wu sa si xue sheng zi zhi tuan
+魔物料理	mo wu liao li
+情报储备	qing bao chu bei
+思维链环	si wei lian huan
+特殊叠加规则	te shu die jia gui ze
+虚弱	xu ruo
+可靠的随从们	ke kao de sui cong men
+起飞	qi fei
+业报	ye bao
+进攻方	jin gong fang
