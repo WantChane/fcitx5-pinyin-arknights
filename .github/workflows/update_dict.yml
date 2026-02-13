@@ -77,7 +77,9 @@ jobs:
           fetch-tags: true
 
       - name: install system dependencies
-        run: sudo apt install -y libime-bin
+        run: |
+          sudo apt update
+          sudo apt install -y libime-bin --fix-missing
 
       - name: Setup python
         uses: actions/setup-python@v5
