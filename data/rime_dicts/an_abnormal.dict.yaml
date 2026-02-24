@@ -1,56 +1,56 @@
 ---
 name: an_abnormal
 sort: by_weight
-version: 26.02.13
+version: 26.02.24
 ...
-不死	bu si
-静默	jing mo
-缴械	jiao xie
-恐惧	kong ju
-地面规避	di mian gui bi
-寒冷	han leng
-元素免疫	yuan su mian yi
 塔不可选中	ta bu ke xuan zhong
+自惧	zi ju
+失衡免疫	shi heng mian yi
+闭锁	bi suo
+阻回	zu hui
 技能强启	ji neng qiang qi
+无法行动	wu fa xing dong
+元素免疫	yuan su mian yi
+隐藏	yin cang
+不死	bu si
+麻痹	ma bi
+禁用近战	jin yong jin zhan
+技力封闭	ji li feng bi
+战栗	zhan li
+禁锢	jin gu
+晕眩抗性	yun xuan kang xing
+战栗抗性	zhan li kang xing
 诱导抗性	you dao kang xing
 束缚	shu fu
-孤立	gu li
-自惧	zi ju
-离地	li di
-诱导	you dao
+静默	jing mo
+浮空强化	fu kong qiang hua
 不可选中	bu ke xuan zhong
-战栗	zhan li
-晕眩抗性	yun xuan kang xing
-沉默抗性	chen mo kang xing
-战栗抗性	zhan li kang xing
-沉睡抗性	chen shui kang xing
-强制缴械	qiang zhi jiao xie
-阻回	zu hui
-沉默	chen mo
-麻痹震颤	ma bi zhen chan
-无法行动	wu fa xing dong
 麻痹抗性	ma bi kang xing
-晕眩	yun xuan
-冻结	dong jie
-迷彩	mi cai
-禁用近战	jin yong jin zhan
-状态免疫	zhuang tai mian yi
-闭锁	bi suo
-浮空抗性	fu kong kang xing
-浮空	fu kong
-麻痹	ma bi
+沉默抗性	chen mo kang xing
+缴械	jiao xie
+沉默	chen mo
+离地	li di
+隐匿	yin ni
+地面规避	di mian gui bi
 封护	feng hu
-恐惧抗性	kong ju kang xing
-隐藏	yin cang
-冻结抗性	dong jie kang xing
+孤立	gu li
+无敌	wu di
 自缚	zi fu
 无法撤退	wu fa che tui
-失衡免疫	shi heng mian yi
+诱导	you dao
+晕眩	yun xuan
 禁疗	jin liao
-技力封闭	ji li feng bi
-隐匿	yin ni
-强制浮空	qiang zhi fu kong
-不可阻挡	bu ke zu dang
+恐惧抗性	kong ju kang xing
+状态免疫	zhuang tai mian yi
+麻痹震颤	ma bi zhen chan
+冻结	dong jie
 沉睡	chen shui
-禁锢	jin gu
-无敌	wu di
+沉睡抗性	chen shui kang xing
+恐惧	kong ju
+迷彩	mi cai
+不可阻挡	bu ke zu dang
+寒冷	han leng
+强制缴械	qiang zhi jiao xie
+浮空抗性	fu kong kang xing
+浮空	fu kong
+冻结抗性	dong jie kang xing
