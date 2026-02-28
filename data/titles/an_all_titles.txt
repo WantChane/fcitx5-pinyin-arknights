@@ -2183,6 +2183,27 @@ Act2bossrush tm01
 Act2bossrush tm02
 Act2bossrush tm03
 Act2bossrush tm04
+Act2break 01
+Act2break 02
+Act2break 03
+Act2break 04
+Act2break 05
+Act2break 06
+Act2break 07
+Act2break 08
+Act2break 09
+Act2break 10
+Act2break 11
+Act2break 12
+Act2break sp01
+Act2break sp02
+Act2break sp03
+Act2break sp04
+Act2break sp05
+Act2break sp06
+Act2break sp07
+Act2break sp08
+Act2break sp09
 Act2enemyduel 01a
 Act2multi 01
 Act2multi 02
@@ -2732,6 +2753,11 @@ Act49side ex05
 Act49side ex06
 Act49side ex07
 Act49side ex08
+Act49side mo01
+Act49side s01
+Act49side s02
+Act49side s03
+Act49side s04
 Act49side st01
 Act49side st02
 Act49side tr01
@@ -8758,6 +8784,16 @@ TA-EX-7
 TA-EX-7 《小史摘钞》
 TA-EX-8
 TA-EX-8 《朝野汇编》
+TA-MO-1
+TA-MO-1 待启封的锦囊
+TA-S-1
+TA-S-1 《幄机》
+TA-S-2
+TA-S-2 《山河武略》
+TA-S-3
+TA-S-3 《塞语》
+TA-S-4
+TA-S-4 《经纬运筹》
 TA-ST-1
 TA-ST-1 蒙不失诵
 TA-ST-1 蒙不失诵/NBT
@@ -9274,38 +9310,50 @@ U探泰拉
 VEC-01
 VEC-01 拳拳生风
 VEC-01 横冲直进
+VEC-01 此面朝上
 VEC-02
 VEC-02 交通拦截
 VEC-02 低温征兆
+VEC-02 高心率追逐
 VEC-03
 VEC-03 潮声轰鸣
+VEC-03 蜿蜒单行道
 VEC-03 重荷
 VEC-04
 VEC-04 巨锤与锐枪
 VEC-04 巨锤与锐枪/敌方情报pro
 VEC-04 机械概括谬误
+VEC-04 空间盲点
 VEC-05
+VEC-05 一线胜机
 VEC-05 刻骨铭心
 VEC-05 刻骨铭心/敌方情报pro
 VEC-05 止步即死
 VEC-06
 VEC-06 二次烧成
+VEC-06 灰烬游行团
 VEC-06 远方来袭
 VEC-07
 VEC-07 果蔬乱炖
+VEC-07 真光层下
 VEC-07 赤红的冰
 VEC-08
 VEC-08 思绪之隙
 VEC-08 思绪之隙/敌方情报pro
 VEC-08 结构化思维
+VEC-08 脉冲隔绝术
 VEC-09
 VEC-09 心碎沙堡
+VEC-09 紧急逃生
 VEC-10
 VEC-10 夹道欢迎
+VEC-10 涣散喧嚣
 VEC-11
 VEC-11 寒暑不分
+VEC-11 生人勿近
 VEC-12
 VEC-12 存在性论证
+VEC-12 维度误导
 VEC-A
 VEC-A 热情逼人
 VEC-B
@@ -9318,23 +9366,30 @@ VEC-D 有限性原理
 VEC-SP01
 VEC-SP01 丛林巅峰
 VEC-SP01 何必匆忙
+VEC-SP01 自有方圆
 VEC-SP02
 VEC-SP02 无暇分心
+VEC-SP02 物归原主
 VEC-SP02 狂徒围攻
 VEC-SP03
 VEC-SP03 巫术纠缠
+VEC-SP03 心中一泓
 VEC-SP03 火力掩护
 VEC-SP04
 VEC-SP04 啮齿出洞
 VEC-SP04 盾阵隘口
+VEC-SP04 蜂鸣不绝
 VEC-SP05
 VEC-SP05 伙友之影
 VEC-SP05 啮齿狂潮
+VEC-SP05 污染危机
 VEC-SP06
 VEC-SP06 择人而噬
+VEC-SP06 躁动冲刺
 VEC-SP06 酒厂英豪
 VEC-SP07
 VEC-SP07 异质聚群
+VEC-SP07 慧眼如炬
 VEC-SP07 投资回报
 VEC-SP08
 VEC-SP08 炮火泥潭
@@ -9348,8 +9403,10 @@ VEC-SP11 爆炸现场
 VEC-SP12
 VEC-SP12 巫术排练
 VEC-SP13
+VEC-SP13 南辕北辙
 VEC-SP13 巫术汇演
 VEC-SP14
+VEC-SP14 刺骨苦难
 VEC-SP14 绝人之路
 VEC-SP15
 VEC-SP15 墙开一面
@@ -9762,6 +9819,8 @@ Zuo Le
 Снегyрочка
 “Mechanist”，机械之心
 “Mechanist”，机械之心/spine
+“Misery”，静默之刃
+“Misery”，静默之刃/spine
 “YO，欢迎来到冰原”
 “一尺间”
 “一往无前”铁头前锋
@@ -11964,6 +12023,7 @@ Zuo Le
 关卡一览
 关卡一览/sandbox
 关卡一览/主题曲
+关卡一览/主题曲/回想
 关卡一览/主题曲/塔楼骑士之书
 关卡一览/主题曲/尘封密室
 关卡一览/主题曲/未署名的笔记本
@@ -12292,6 +12352,7 @@ Zuo Le
 制作组通讯/59
 制作组通讯/60
 制作组通讯/61
+制作组通讯/62
 制式双人床
 制式器械零件
 制式多功能支架
@@ -14110,6 +14171,8 @@ Zuo Le
 官方宣传图一览/外服
 官方宣传图一览/朝陇山
 定乾坤
+定点数
+定点数与浮点数
 定点浮标
 定点浮标/spine
 定风波
@@ -14550,6 +14613,7 @@ Zuo Le
 寻访模拟/定向甄选03
 寻访模拟/定向甄选04
 寻访模拟/定向甄选05
+寻访模拟/定向甄选06
 寻访模拟/宿愿
 寻访模拟/射落灾异的风暴
 寻访模拟/小丘上的眠柳
@@ -14651,6 +14715,7 @@ Zuo Le
 寻访模拟/干员轮换卡池176
 寻访模拟/干员轮换卡池177
 寻访模拟/干员轮换卡池178
+寻访模拟/干员轮换卡池179
 寻访模拟/干员轮换卡池18
 寻访模拟/干员轮换卡池19
 寻访模拟/干员轮换卡池20
@@ -16353,6 +16418,8 @@ Zuo Le
 投票用的陶片
 投递坐标
 抗/导辐射遮阳帘
+抗拒之火炎熔
+抗拒之火炎熔/spine
 抗震支柱
 折光
 折光/干员密录/1
@@ -16863,7 +16930,6 @@ Zuo Le
 新约能天使的信物
 新绿瓶插
 新能
-新能源天使
 新茶簸箕架
 新街
 新部族
@@ -18280,6 +18346,7 @@ Zuo Le
 浮士德/spine
 浮海飘航者
 浮海飘航者/spine
+浮点数
 浮空城接舷战
 浮袭者
 浮袭者/spine
@@ -19636,12 +19703,16 @@ Zuo Le
 矢量战术装备/spine
 矢量突破
 矢量突破/01
+矢量突破/01 无机物
 矢量突破/02
 矢量突破/02/活动公告
+矢量突破/02 巫术之夜
 矢量突破/2024
 矢量突破/2024/活动公告
 矢量突破OST
+矢量突破巫术之夜OST
 矢量突破无机物OST
+矢量突破：巫术之夜
 矢量突破：无机物
 矢量谜题
 矩
@@ -23330,6 +23401,7 @@ Zuo Le
 饰牌《寻序》
 饰牌《尘嚣》
 饰牌《屠戮》
+饰牌《巫术》
 饰牌《帮派》
 饰牌《幻梦》
 饰牌《幻象》
@@ -23346,6 +23418,7 @@ Zuo Le
 饰牌《整日》
 饰牌《斧子》
 饰牌《方舟》
+饰牌《无机》
 饰牌《日出》
 饰牌《日落》
 饰牌《昌明》
