@@ -2195,6 +2195,10 @@ Act2break 09
 Act2break 10
 Act2break 11
 Act2break 12
+Act2break h01
+Act2break h02
+Act2break h03
+Act2break h04
 Act2break sp01
 Act2break sp02
 Act2break sp03
@@ -2204,6 +2208,13 @@ Act2break sp06
 Act2break sp07
 Act2break sp08
 Act2break sp09
+Act2break sp10
+Act2break sp11
+Act2break sp12
+Act2break sp13
+Act2break sp14
+Act2break sp15
+Act2break sp16
 Act2enemyduel 01a
 Act2multi 01
 Act2multi 02
@@ -9355,14 +9366,18 @@ VEC-12
 VEC-12 存在性论证
 VEC-12 维度误导
 VEC-A
+VEC-A 可变性方程
 VEC-A 热情逼人
 VEC-B
+VEC-B 十九号车道
 VEC-B 车轮滚滚
 VEC-C
 VEC-C 思绪倒影
 VEC-C 思绪倒影/敌方情报pro
+VEC-C 自适应悖论
 VEC-D
 VEC-D 有限性原理
+VEC-D 认知剥离界域
 VEC-SP01
 VEC-SP01 丛林巅峰
 VEC-SP01 何必匆忙
@@ -9393,15 +9408,20 @@ VEC-SP07 慧眼如炬
 VEC-SP07 投资回报
 VEC-SP08
 VEC-SP08 炮火泥潭
+VEC-SP08 速递怪谈
 VEC-SP08 风险投资
 VEC-SP09
+VEC-SP09 向死而生
 VEC-SP09 风尘仆仆
 VEC-SP10
+VEC-SP10 狭岸相逢
 VEC-SP10 行色匆匆
 VEC-SP11
 VEC-SP11 爆炸现场
+VEC-SP11 过度狂热
 VEC-SP12
 VEC-SP12 巫术排练
+VEC-SP12 水土不服
 VEC-SP13
 VEC-SP13 南辕北辙
 VEC-SP13 巫术汇演
@@ -9410,7 +9430,9 @@ VEC-SP14 刺骨苦难
 VEC-SP14 绝人之路
 VEC-SP15
 VEC-SP15 墙开一面
+VEC-SP15 殊途同归
 VEC-SP16
+VEC-SP16 夺命光影
 VEC-SP16 活路一条
 VI-1
 VI-1 侧面作战
@@ -12538,6 +12560,8 @@ Zuo Le
 匿影藏形
 十四章机制控制器
 十字路口
+十字路口(消歧义)
+十字路口/活动公告
 十连中坚寻访凭证
 十连寻访凭证
 千仞关
@@ -14570,6 +14594,7 @@ Zuo Le
 寻访模拟/中坚干员轮换卡池59
 寻访模拟/中坚干员轮换卡池60
 寻访模拟/中坚干员轮换卡池61
+寻访模拟/中坚干员轮换卡池62
 寻访模拟/中坚甄选01
 寻访模拟/中坚甄选02
 寻访模拟/中坚甄选03
