@@ -1907,6 +1907,16 @@ Act1vecb sp05
 Act1vecb sp06
 Act1vecb sp07
 Act1vecb sp08
+Act20mini 01
+Act20mini 02
+Act20mini 03
+Act20mini 04
+Act20mini 05
+Act20mini 06
+Act20mini 07
+Act20mini 08
+Act20mini s01
+Act20mini s02
 Act20side 01
 Act20side 02
 Act20side 03
@@ -3389,6 +3399,26 @@ CF-TR-1 来袭！天空王者！/END
 CFA-01/NBT
 CFA-02/NBT
 CFA-03/NBT
+CG-1
+CG-1 掌声之外
+CG-2
+CG-2 高脚杯中的泡影
+CG-3
+CG-3 立约的艺术
+CG-4
+CG-4 醒酒之后
+CG-5
+CG-5 种豆得豆
+CG-6
+CG-6 定价
+CG-7
+CG-7 轻便的行李
+CG-8
+CG-8 准入许可
+CG-S-1
+CG-S-1 新风向
+CG-S-2
+CG-S-2 授信之人
 CG-ST1 红酒谋杀案/NBT
 CG-ST2 生意经/NBT
 CG-ST3 见证/NBT
@@ -6019,6 +6049,12 @@ Leonhardt
 Lessing
 Lessing(EP)
 Level act1vautochess 01-04
+Level act2autochess h07 05
+Level act2autochess h07 05 s
+Level act2autochess m01
+Level act2autochess m02
+Level act2autochess m03
+Level act2autochess m04
 Level act38rune 01-01
 Level act38rune 01-04
 Level act4fun 01
@@ -12739,6 +12775,9 @@ Zuo Le
 卫戍协议：盟约/战场一览
 卫戍协议：盟约OST
 卫戍协议：盟约 下半
+卫戍协议：盟约 下半/PRTS盟约记录
+卫戍协议：盟约 下半/PRTS盟约记录/参战干员
+卫戍协议：盟约 下半/PRTS盟约记录/盟约
 卫戍协议：盟约 下半/活动公告
 卫戍认证
 卫戎协议
@@ -14935,6 +14974,7 @@ Zuo Le
 寻访模拟/联合行动18
 寻访模拟/联合行动19
 寻访模拟/联合行动20
+寻访模拟/联合行动21
 寻访模拟/自火中归还
 寻访模拟/自由的囚徒
 寻访模拟/自由的囚徒 复刻
@@ -15231,6 +15271,7 @@ Zuo Le
 岁的界园志异/诡意行商
 岁的界园志异/通宝
 岁的界园志异/通宝图标
+岁的界园志异/钱盒预览
 岁相
 岁相/spine
 岁躯

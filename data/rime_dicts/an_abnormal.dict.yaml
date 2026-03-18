@@ -1,56 +1,56 @@
 ---
 name: an_abnormal
 sort: by_weight
-version: 26.03.14
+version: 26.03.18
 ...
-禁锢	jin gu
-冻结抗性	dong jie kang xing
-阻回	zu hui
+麻痹	ma bi
 诱导抗性	you dao kang xing
-封护	feng hu
+状态免疫	zhuang tai mian yi
+浮空强化	fu kong qiang hua
 沉睡	chen shui
-禁疗	jin liao
-沉默抗性	chen mo kang xing
+寒冷	han leng
+阻回	zu hui
+地面规避	di mian gui bi
+麻痹抗性	ma bi kang xing
+无法撤退	wu fa che tui
+塔不可选中	ta bu ke xuan zhong
 晕眩抗性	yun xuan kang xing
-孤立	gu li
+闭锁	bi suo
+浮空	fu kong
+冻结抗性	dong jie kang xing
+静默	jing mo
+麻痹震颤	ma bi zhen chan
+失衡免疫	shi heng mian yi
+隐匿	yin ni
+迷彩	mi cai
+元素免疫	yuan su mian yi
+技能强启	ji neng qiang qi
+缴械	jiao xie
+技力封闭	ji li feng bi
+沉默抗性	chen mo kang xing
+禁用近战	jin yong jin zhan
 束缚	shu fu
+封护	feng hu
 恐惧	kong ju
 诱导	you dao
-塔不可选中	ta bu ke xuan zhong
-不可阻挡	bu ke zu dang
-失衡免疫	shi heng mian yi
-技力封闭	ji li feng bi
-战栗抗性	zhan li kang xing
-地面规避	di mian gui bi
-强制缴械	qiang zhi jiao xie
-自惧	zi ju
-晕眩	yun xuan
-隐匿	yin ni
-自缚	zi fu
-迷彩	mi cai
-不死	bu si
-闭锁	bi suo
-禁用近战	jin yong jin zhan
-缴械	jiao xie
-寒冷	han leng
-元素免疫	yuan su mian yi
-沉默	chen mo
-麻痹	ma bi
-恐惧抗性	kong ju kang xing
-无敌	wu di
-状态免疫	zhuang tai mian yi
-隐藏	yin cang
-无法行动	wu fa xing dong
-浮空	fu kong
-浮空强化	fu kong qiang hua
-静默	jing mo
-技能强启	ji neng qiang qi
 战栗	zhan li
-不可选中	bu ke xuan zhong
-无法撤退	wu fa che tui
+晕眩	yun xuan
+战栗抗性	zhan li kang xing
+孤立	gu li
+无法行动	wu fa xing dong
+强制缴械	qiang zhi jiao xie
 沉睡抗性	chen shui kang xing
-麻痹抗性	ma bi kang xing
-麻痹震颤	ma bi zhen chan
+无敌	wu di
+不死	bu si
+自惧	zi ju
+自缚	zi fu
 离地	li di
+禁疗	jin liao
 冻结	dong jie
+恐惧抗性	kong ju kang xing
+隐藏	yin cang
+不可阻挡	bu ke zu dang
 浮空抗性	fu kong kang xing
+不可选中	bu ke xuan zhong
+沉默	chen mo
+禁锢	jin gu
