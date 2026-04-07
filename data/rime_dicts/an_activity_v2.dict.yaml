@@ -1,140 +1,142 @@
 ---
 name: an_activity_v2
 sort: by_weight
-version: 26.04.01
+version: 26.04.07
 ...
-空想花庭	kong xiang hua ting
-相见欢	xiang jian huan
-镜中集	jing zhong ji
-淬火尘霾	cui huo chen mai
-松烟行动	song yan xing dong
-慈悲灯塔	ci bei deng ta
-风暴瞭望	feng bao liao wang
-盟约	meng yue
-共竞目标	gong jing mu biao
-我们明日见	wo men ming ri jian
-阴云火花	yin yun huo hua
-春分	chun fen
-寻昼行动	xun zhou xing dong
-黎明前奏	li ming qian zou
-遗尘漫步	yi chen man bu
-净罪作战	jing zui zuo zhan
-洪炉示岁	hong lu shi sui
-眠于树影之中	mian yu shu ying zhi zhong
-罗德岛防御协议	luo de dao fang yu xie yi
-生于黑夜	sheng yu hei ye
-孤星	gu xing
-将进酒	qiang jin jiu
-水月与深蓝之树	shui yue yu shen lan zhi shu
-泰拉饭	tai la fan
-黄铁行动	huang tie xing dong
-促融共竞	cu rong gong jing
-不义之财	bu yi zhi cai
-探索者的银凇止境	tan suo zhe de yin song zhi jing
-画中人	hua zhong ren
-绿野幻梦	lv ye huan meng
-破碎日冕	po sui ri mian
-雅赛努斯复仇记	ya sai nu si fu chou ji
-出苍白海	chu cang bai hai
-十字路口	shi zi lu kou
-引航者试炼	yin hang zhe shi lian
-银心湖列车	yin xin hu lie che
-浊燃作战	zhuo ran zuo zhan
-太阳甩在身后	tai yang shuai zai shen hou
-开播纪念	kai bo ji nian
-局部坏死	ju bu huai si
-潮起潮又起	chao qi chao you qi
-离解复合	li jie fu he
-水晶箭行动	shui jing jian xing dong
-无忧梦呓	wu you meng yi
-开播庆祝	kai bo qing zhu
-刻俄柏的灰蕈迷境	ke e bo de hui xun mi jing
-萨卡兹的无终奇语	sa ka zi de wu zhong qi yu
-潮曦作战	chao xi zuo zhan
-起源行动	qi yuan xing dong
-下半	xia ban
-长夜临光	chang ye lin guang
-利刃行动	li ren xing dong
-去咧嘴谷	qu lie zui gu
-明日方舟	ming ri fang zhou
-灯火序曲	deng huo xu qu
-未许之地	wei xu zhi di
-风雪过境	feng xue guo jing
-沙中之火	sha zhong zhi huo
-落叶逐火	luo ye zhu huo
-吾导先路	wu dao xian lu
-视相博物馆	shi xiang bo wu guan
-争锋频道	zheng feng pin dao
-光谱行动	guang pu xing dong
-尘环行动	chen huan xing dong
-荒芜行动	huang wu xing dong
-弧光作战	hu guang zuo zhan
-理想城	li xiang cheng
-星语共愿	xing yu gong yuan
-纷争演绎	fen zheng yan yi
-生路	sheng lu
-渊默行动	yuan mo xing dong
-照我以火	zhao wo yi huo
-好久不见	hao jiu bu jian
-崔林特尔梅之金	cui lin te er mei zhi jin
-如我所见	ru wo suo jian
-红松林	hong song lin
-火山旅梦	huo shan lv meng
-卫戍协议	wei shu xie yi
-尘影余音	chen ying yu yin
-雪山降临	xue shan jiang lin
-长夏狂欢季	chang xia kuang huan ji
-铅封行动	qian feng xing dong
-踏寻往昔之风	ta xun wang xi zhi feng
-辞岁行	ci sui xing
-孤岛风云	gu dao feng yun
-多索雷斯假日	duo suo lei si jia ri
-荷谟伊智境	he mo yi zhi jing
-揭幕者们	jie mu zhe men
-此地之外	ci di zhi wai
-战地秘闻	zhan di mi wen
-怀黍离	huai shu li
-蛮鳞行动	man lin xing dong
-青草城	qing cao cheng
-乌萨斯的孩子们	wu sa si de hai zi men
 巴别塔	ba bie ta
-众生行记	zhong sheng xing ji
-时光的赠礼	shi guang de zeng li
-赝波行动	yan bo xing dong
-骑兵与猎人	qi bing yu lie ren
-登临意	deng lin yi
-喧闹法则	xuan nao fa ze
-密林悍将归来	mi lin han jiang gui lai
-次生预案	ci sheng yu an
-红丝绒	hong si rong
-熔炉还魂记	rong lu huan hun ji
-未尽篇章	wei jin pian zhang
-沙洲遗闻	sha zhou yi wen
-梦城堡模拟训练	meng cheng bao mo ni xun lian
-蜜果城	mi guo cheng
-恶兆湍流	e zhao tuan liu
-重返古堡	chong fan gu bao
-反常光谱	fan chang guang pu
-墟	xu
 火蓝之心	huo lan zhi xin
+惊霆无声	jing ting wu sheng
+覆潮之下	fu chao zhi xia
+沙中之火	sha zhong zhi huo
 午间逸话	wu jian yi hua
-危机合约	wei ji he yue
-追迹日落以西	zhui ji ri luo yi xi
+辞岁行	ci sui xing
+风暴瞭望	feng bao liao wang
+红丝绒	hong si rong
+十字路口	shi zi lu kou
+长夜临光	chang ye lin guang
+空想花庭	kong xiang hua ting
+探索者的银凇止境	tan suo zhe de yin song zhi jing
+萨卡兹的无终奇语	sa ka zi de wu zhong qi yu
+洪炉示岁	hong lu shi sui
+照我以火	zhao wo yi huo
+红松林	hong song lin
+利刃行动	li ren xing dong
+我们	wo men
+慈悲灯塔	ci bei deng ta
+如我所见	ru wo suo jian
+浊燃作战	zhuo ran zuo zhan
+火山旅梦	huo shan lv meng
+开播纪念	kai bo ji nian
+人们	ren men
+潮起潮又起	chao qi chao you qi
+将进酒	qiang jin jiu
+恶兆湍流	e zhao tuan liu
+时光的赠礼	shi guang de zeng li
+绿野幻梦	lv ye huan meng
+盟约	meng yue
 冬隐归路	dong yin gui lu
+引航者试炼	yin hang zhe shi lian
+挽歌燃烧殆尽	wan ge ran shao dai jin
+破碎日冕	po sui ri mian
+促融共竞	cu rong gong jing
+尘影余音	chen ying yu yin
+太阳甩在身后	tai yang shuai zai shen hou
+视相博物馆	shi xiang bo wu guan
+落叶逐火	luo ye zhu huo
+黄铁行动	huang tie xing dong
+喧闹法则	xuan nao fa ze
+蛮鳞行动	man lin xing dong
+雪山降临	xue shan jiang lin
+梦城堡模拟训练	meng cheng bao mo ni xun lian
+铅封行动	qian feng xing dong
+傀影与猩红孤钻	kui ying yu xing hong gu zuan
+银心湖列车	yin xin hu lie che
+孤星	gu xing
+春分	chun fen
+生于黑夜	sheng yu hei ye
+局部坏死	ju bu huai si
+弧光作战	hu guang zuo zhan
+赝波行动	yan bo xing dong
+眠于树影之中	mian yu shu ying zhi zhong
+星语共愿	xing yu gong yuan
+理想城	li xiang cheng
+岁的界园志异	sui de jie yuan zhi yi
+水晶箭行动	shui jing jian xing dong
+尖灭测试作战	jian mie ce shi zuo zhan
+生路	sheng lu
+刻俄柏的灰蕈迷境	ke e bo de hui xun mi jing
+日暮寻路	ri mu xun lu
+罗德岛防御协议	luo de dao fang yu xie yi
+登临意	deng lin yi
+春季日常	chun ji ri chang
+潮曦作战	chao xi zuo zhan
+镜中集	jing zhong ji
+开播庆祝	kai bo qing zhu
+怀黍离	huai shu li
+揭幕者们	jie mu zhe men
+去咧嘴谷	qu lie zui gu
+密林悍将归来	mi lin han jiang gui lai
+无忧梦呓	wu you meng yi
+此地之外	ci di zhi wai
+纷争演绎	fen zheng yan yi
 燃灰行动	ran hui xing dong
+众生行记	zhong sheng xing ji
+出苍白海	chu cang bai hai
+未尽篇章	wei jin pian zhang
+寻昼行动	xun zhou xing dong
+未许之地	wei xu zhi di
+荷谟伊智境	he mo yi zhi jing
+沃伦姆德的薄暮	wo lun mu de de bo mu
+墟	xu
+相见欢	xiang jian huan
+重返古堡	chong fan gu bao
+起源行动	qi yuan xing dong
+尘环行动	chen huan xing dong
+阴云火花	yin yun huo hua
+下半	xia ban
+青草城	qing cao cheng
+玛莉娅·临光	ma li ya lin guang
+多索雷斯假日	duo suo lei si jia ri
+遗尘漫步	yi chen man bu
+骑兵与猎人	qi bing yu lie ren
+光谱行动	guang pu xing dong
+黎明前奏	li ming qian zou
+愚人号	yu ren hao
+我们明日见	wo men ming ri jian
 靶向药物	ba xiang yao wu
 焰烬曙明完结庆祝	yan jin shu ming wan jie qing zhu
-春季日常	chun ji ri chang
-玛莉娅·临光	ma li ya lin guang
-日暮寻路	ri mu xun lu
-岁的界园志异	sui de jie yuan zhi yi
-矢量突破	shi liang tu po
-尖灭测试作战	jian mie ce shi zuo zhan
+崔林特尔梅之金	cui lin te er mei zhi jin
+荒芜行动	huang wu xing dong
+好久不见	hao jiu bu jian
+明日方舟	ming ri fang zhou
+次生预案	ci sheng yu an
+画中人	hua zhong ren
+追迹日落以西	zhui ji ri luo yi xi
+雅赛努斯复仇记	ya sai nu si fu chou ji
+反常光谱	fan chang guang pu
+淬火尘霾	cui huo chen mai
+泰拉饭	tai la fan
+灯火序曲	deng huo xu qu
+不义之财	bu yi zhi cai
+乌萨斯的孩子们	wu sa si de hai zi men
+长夏狂欢季	chang xia kuang huan ji
+水月与深蓝之树	shui yue yu shen lan zhi shu
+蜜果城	mi guo cheng
+熔炉还魂记	rong lu huan hun ji
+卫戍协议	wei shu xie yi
 叙拉古人	xu la gu ren
+孤岛风云	gu dao feng yun
+松烟行动	song yan xing dong
+踏寻往昔之风	ta xun wang xi zhi feng
+吾导先路	wu dao xian lu
+沙洲遗闻	sha zhou yi wen
+战地秘闻	zhan di mi wen
+净罪作战	jing zui zuo zhan
 源石尘行动	yuan shi chen xing dong
-挽歌燃烧殆尽	wan ge ran shao dai jin
-愚人号	yu ren hao
-覆潮之下	fu chao zhi xia
-沃伦姆德的薄暮	wo lun mu de de bo mu
-傀影与猩红孤钻	kui ying yu xing hong gu zuan
-惊霆无声	jing ting wu sheng
+危机合约	wei ji he yue
+风雪过境	feng xue guo jing
+渊默行动	yuan mo xing dong
+矢量突破	shi liang tu po
+争锋频道	zheng feng pin dao
+离解复合	li jie fu he
+共竞目标	gong jing mu biao
