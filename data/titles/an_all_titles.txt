@@ -2809,6 +2809,14 @@ Act51side 05
 Act51side 06
 Act51side 07
 Act51side 08
+Act51side ex01
+Act51side ex02
+Act51side ex03
+Act51side ex04
+Act51side ex05
+Act51side ex06
+Act51side ex07
+Act51side ex08
 Act51side st01
 Act51side st02
 Act51side tr01
@@ -7367,6 +7375,22 @@ PA-8
 PA-8 一千年后
 PA-8 一千年后/BEG
 PA-8 一千年后/END
+PA-EX-1
+PA-EX-1 在底层
+PA-EX-2
+PA-EX-2 活尸
+PA-EX-3
+PA-EX-3 母亲
+PA-EX-4
+PA-EX-4 长子
+PA-EX-5
+PA-EX-5 三姐妹
+PA-EX-6
+PA-EX-6 钦差大臣
+PA-EX-7
+PA-EX-7 乐观的悲剧
+PA-EX-8
+PA-EX-8 樱桃园
 PA-ST-1
 PA-ST-1 群氓
 PA-ST-1 群氓/NBT
@@ -14216,6 +14240,7 @@ Zuo Le
 奥达
 奥达/语音记录
 奥达的信物
+奥达的私人信件
 女妖河谷的拂哀菈
 女妖河谷的拂哀菈/spine
 女游客C
@@ -15565,6 +15590,7 @@ Zuo Le
 巴别塔2025
 巴别塔2025/活动公告
 巴别塔OST
+巴别塔家具收藏包
 巴普洛维奇，枢密官
 巴普洛维奇，枢密官/spine
 巴松管展柜
