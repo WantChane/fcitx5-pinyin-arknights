@@ -1,56 +1,56 @@
 ---
 name: an_abnormal
 sort: by_weight
-version: 26.04.15
+version: 26.04.26
 ...
-麻痹震颤	ma bi zhen chan
 沉睡	chen shui
-缴械	jiao xie
-沉默	chen mo
-强制缴械	qiang zhi jiao xie
-浮空	fu kong
-不死	bu si
-禁锢	jin gu
-迷彩	mi cai
-隐匿	yin ni
 隐藏	yin cang
-孤立	gu li
+缴械	jiao xie
 晕眩	yun xuan
-束缚	shu fu
-战栗抗性	zhan li kang xing
-无敌	wu di
-禁用近战	jin yong jin zhan
-沉默抗性	chen mo kang xing
-诱导抗性	you dao kang xing
-冻结抗性	dong jie kang xing
-状态免疫	zhuang tai mian yi
-无法行动	wu fa xing dong
-塔不可选中	ta bu ke xuan zhong
-冻结	dong jie
-无法撤退	wu fa che tui
-小睡	xiao shui
-沉睡抗性	chen shui kang xing
-不可阻挡	bu ke zu dang
-不可选中	bu ke xuan zhong
-浮空抗性	fu kong kang xing
-禁疗	jin liao
-麻痹	ma bi
-麻痹抗性	ma bi kang xing
-自缚	zi fu
-自惧	zi ju
-静默	jing mo
-技力封闭	ji li feng bi
-地面规避	di mian gui bi
-恐惧抗性	kong ju kang xing
-失衡免疫	shi heng mian yi
-技能强启	ji neng qiang qi
-寒冷	han leng
-闭锁	bi suo
-晕眩抗性	yun xuan kang xing
-离地	li di
-浮空强化	fu kong qiang hua
-阻回	zu hui
-诱导	you dao
-元素免疫	yuan su mian yi
 战栗	zhan li
+浮空抗性	fu kong kang xing
+静默	jing mo
+小睡	xiao shui
+麻痹	ma bi
+地面规避	di mian gui bi
+阻回	zu hui
+沉默	chen mo
 恐惧	kong ju
+浮空强化	fu kong qiang hua
+沉睡抗性	chen shui kang xing
+孤立	gu li
+自惧	zi ju
+塔不可选中	ta bu ke xuan zhong
+技能强启	ji neng qiang qi
+诱导	you dao
+失衡免疫	shi heng mian yi
+不可阻挡	bu ke zu dang
+恐惧抗性	kong ju kang xing
+沉默抗性	chen mo kang xing
+状态免疫	zhuang tai mian yi
+麻痹震颤	ma bi zhen chan
+诱导抗性	you dao kang xing
+强制缴械	qiang zhi jiao xie
+晕眩抗性	yun xuan kang xing
+隐匿	yin ni
+无法撤退	wu fa che tui
+麻痹抗性	ma bi kang xing
+技力封闭	ji li feng bi
+无法行动	wu fa xing dong
+元素免疫	yuan su mian yi
+浮空	fu kong
+不可选中	bu ke xuan zhong
+禁疗	jin liao
+禁锢	jin gu
+闭锁	bi suo
+无敌	wu di
+冻结抗性	dong jie kang xing
+迷彩	mi cai
+束缚	shu fu
+寒冷	han leng
+冻结	dong jie
+离地	li di
+禁用近战	jin yong jin zhan
+不死	bu si
+战栗抗性	zhan li kang xing
+自缚	zi fu
