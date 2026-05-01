@@ -1,65 +1,69 @@
 ---
 name: an_material
 sort: by_weight
-version: 26.04.26
+version: 26.05.01
 ...
-酮凝集	tong ning ji
-轻锰矿	qing meng kuang
-双极纳米片	shuang ji na mi pian
-聚酸酯	ju suan zhi
-五水研磨石	wu shui yan mo shi
-异铁块	yi tie kuai
-褐素纤维	he su xian wei
-重相位对映体	zhong xiang wei dui ying ti
-聚合凝胶	ju he ning jiao
-代糖	dai tang
-酮凝集组	tong ning ji zu
 装置	zhuang zhi
-三水锰矿	san shui meng kuang
-化合切削液	hua he qie xiao ye
-研磨石	yan mo shi
-源岩	yuan yan
-糖聚块	tang ju kuai
-炽合金块	chi he jin kuai
-全新装置	quan xin zhuang zhi
-异铁	yi tie
-转质盐聚块	zhuan zhi yan ju kuai
-异铁碎片	yi tie sui pian
-糖组	tang zu
-凝胶	ning jiao
-异铁组	yi tie zu
-类凝结核	lei ning jie he
-白马醇	bai ma chun
-数据增补仪	shu ju zeng bu yi
-酮阵列	tong zhen lie
-切削原液	qie xiao yuan ye
-炽合金	chi he jin
-破损装置	po sun zhuang zhi
-酯原料	zhi yuan liao
-固源岩	gu yuan yan
-聚酸酯组	ju suan zhi zu
-高级训练套件	gao ji xun lian tao jian
-糖	tang
-转质盐组	zhuan zhi yan zu
-荒金	huang jin
-烧结核凝晶	shao jie he ning jing
-改量装置	gai liang zhuang zhi
-精炼溶剂	jing lian rong ji
-固源岩组	gu yuan yan zu
-扭转醇	niu zhuan chun
 环烃预制体	huan ting yu zhi ti
-晶体元件	jing ti yuan jian
+双极纳米片	shuang ji na mi pian
+切削原液	qie xiao yuan ye
+糖聚块	tang ju kuai
+研磨石	yan mo shi
 环烃聚质	huan ting ju zhi
-固化纤维板	gu hua xian wei ban
+化合切削液	hua he qie xiao ye
+转质盐聚块	zhuan zhi yan ju kuai
+荒金	huang jin
 混色金	hun se jin
-数据增补条	shu ju zeng bu tiao
+白马醇	bai ma chun
 双酮	shuang tong
-晶体电路	jing ti dian lu
-晶体电子单元	jing ti dian zi dan yuan
-芯片助剂	xin pian zhu ji
-模组数据块	mo zu shu ju kuai
-提纯源岩	ti chun yuan yan
-聚酸酯块	ju suan zhi kuai
-半自然溶剂	ban zi ran rong ji
-手性屈光体	shou xing qu guang ti
+数据增补条	shu ju zeng bu tiao
 聚合剂	ju he ji
+炽合金块	chi he jin kuai
+炽合金	chi he jin
+烧结核凝晶	shao jie he ning jing
+扭转醇	niu zhuan chun
+聚能动力单元	ju neng dong li dan yuan
+糖	tang
+酮阵列	tong zhen lie
+聚酸酯块	ju suan zhi kuai
+五水研磨石	wu shui yan mo shi
+芯片助剂	xin pian zhu ji
+异铁碎片	yi tie sui pian
+聚酸酯组	ju suan zhi zu
+三水锰矿	san shui meng kuang
+褐素纤维	he su xian wei
+聚合凝胶	ju he ning jiao
+轻锰矿	qing meng kuang
+手性屈光体	shou xing qu guang ti
+破损装置	po sun zhuang zhi
+糖组	tang zu
+液化高能气体	ye hua gao neng qi ti
+固源岩组	gu yuan yan zu
+液化醚吸聚体	ye hua mi xi ju ti
+源岩	yuan yan
+高级训练套件	gao ji xun lian tao jian
+半自然溶剂	ban zi ran rong ji
+酯原料	zhi yuan liao
+提纯源岩	ti chun yuan yan
+改量装置	gai liang zhuang zhi
+重相位对映体	zhong xiang wei dui ying ti
+模组数据块	mo zu shu ju kuai
+异铁	yi tie
+转质盐组	zhuan zhi yan zu
+固化纤维板	gu hua xian wei ban
+异铁组	yi tie zu
+数据增补仪	shu ju zeng bu yi
+全新装置	quan xin zhuang zhi
+异铁块	yi tie kuai
+晶体电路	jing ti dian lu
+晶体元件	jing ti yuan jian
+酮凝集组	tong ning ji zu
+酮凝集	tong ning ji
+精炼溶剂	jing lian rong ji
+晶体电子单元	jing ti dian zi dan yuan
+代糖	dai tang
+聚酸酯	ju suan zhi
+固源岩	gu yuan yan
+凝胶	ning jiao
+电极单元	dian ji dan yuan
+类凝结核	lei ning jie he
