@@ -1,76 +1,76 @@
 ---
 name: an_branch
 sort: by_weight
-version: 26.05.15
+version: 26.05.22
 ...
-领主	ling zhu
-巫役	wu yi
-傀儡师	kui lei shi
-吟游者	yin you zhe
-决战者	jue zhan zhe
-攻城手	gong cheng shou
-斗士	dou shi
-猎手	lie shou
-剑豪	jian hao
-守护者	shou hu zhe
-疗养师	liao yang shi
-炼金师	lian jin shi
-驭械术师	yu xie shu shi
-铁卫	tie wei
-哨戒铁卫	shao jie tie wei
-链术师	lian shu shi
 召唤师	zhao huan shi
-炮手	pao shou
-巡空者	xun kong zhe
-扩散术师	kuo san shu shi
-情报官	qing bao guan
-工匠	gong jiang
-凝滞师	ning zhi shi
-处决者	chu jue zhe
-重剑手	zhong jian shou
-怪杰	guai jie
-解放者	jie fang zhe
-佣兵	yong bing
-无畏者	wu wei zhe
-回环射手	hui huan she shou
-神射手	shen she shou
-本源术师	ben yuan shu shi
-冲锋手	chong feng shou
-战术家	zhan shu jia
-轰击术师	hong ji shu shi
-要塞	yao sai
-裂空炮手	lie kong pao shou
-收割者	shou ge zhe
-秘术师	mi shu shi
-行医	xing yi
-执旗手	zhi qi shou
-速射手	su she shou
 咒愈师	zhou yu shi
-推击手	tui ji shou
+医师	yi shi
 撼地者	han di zhe
-强攻手	qiang gong shou
-中坚术师	zhong jian shu shi
+哨戒铁卫	shao jie tie wei
+重剑手	zhong jian shou
 本源铁卫	ben yuan tie wei
 投掷手	tou zhi shou
-护佑者	hu you zhe
-教官	jiao guan
-陷阱师	xian jing shi
-驭法铁卫	yu fa tie wei
 阵法术师	zhen fa shu shi
-医师	yi shi
-尖兵	jian bing
-本源近卫	ben yuan jin wei
-守望者	shou wang zhe
-策士	ce shi
-重射手	zhong she shou
-伏击客	fu ji ke
+铁卫	tie wei
+回环射手	hui huan she shou
 不屈者	bu qu zhe
-塑灵术师	su ling shu shi
-散射手	san she shou
-武者	wu zhe
-链愈师	lian yu shi
-行商	hang shang
-削弱者	xue ruo zhe
+速射手	su she shou
+解放者	jie fang zhe
+情报官	qing bao guan
+猎手	lie shou
+冲锋手	chong feng shou
+怪杰	guai jie
+无畏者	wu wei zhe
+陷阱师	xian jing shi
+轰击术师	hong ji shu shi
+处决者	chu jue zhe
 术战者	shu zhan zhe
-群愈师	qun yu shi
+神射手	shen she shou
+驭械术师	yu xie shu shi
+本源术师	ben yuan shu shi
+强攻手	qiang gong shou
+中坚术师	zhong jian shu shi
+重射手	zhong she shou
+执旗手	zhi qi shou
+决战者	jue zhan zhe
+守护者	shou hu zhe
+散射手	san she shou
+裂空炮手	lie kong pao shou
+秘术师	mi shu shi
+战术家	zhan shu jia
+削弱者	xue ruo zhe
+攻城手	gong cheng shou
+行医	xing yi
+巫役	wu yi
+守望者	shou wang zhe
+炮手	pao shou
+链术师	lian shu shi
+伏击客	fu ji ke
+佣兵	yong bing
+剑豪	jian hao
+斗士	dou shi
+收割者	shou ge zhe
+本源近卫	ben yuan jin wei
+要塞	yao sai
+疗养师	liao yang shi
+护佑者	hu you zhe
+傀儡师	kui lei shi
+炼金师	lian jin shi
+推击手	tui ji shou
+扩散术师	kuo san shu shi
+链愈师	lian yu shi
+工匠	gong jiang
+教官	jiao guan
 钩索师	gou suo shi
+尖兵	jian bing
+领主	ling zhu
+吟游者	yin you zhe
+策士	ce shi
+武者	wu zhe
+驭法铁卫	yu fa tie wei
+巡空者	xun kong zhe
+行商	hang shang
+凝滞师	ning zhi shi
+群愈师	qun yu shi
+塑灵术师	su ling shu shi
