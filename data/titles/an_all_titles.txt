@@ -1888,6 +1888,15 @@ Act1break sp15
 Act1break sp16
 Act1enemyduel 01a
 Act1enemyduel 02a
+Act1football 01
+Act1football 02
+Act1football 03
+Act1football 04
+Act1football 05
+Act1football 06
+Act1football 07
+Act1football s01
+Act1football tr01
 Act1halfidle 01
 Act1halfidle 02
 Act1halfidle 03
@@ -2878,7 +2887,16 @@ Act50side 05
 Act50side 06
 Act50side 07
 Act50side 08
+Act50side ex01
+Act50side ex02
+Act50side ex03
+Act50side ex04
+Act50side ex05
+Act50side ex06
+Act50side ex07
+Act50side ex08
 Act50side p-1
+Act50side s01
 Act50side st01
 Act50side st02
 Act50side tr01
@@ -7540,6 +7558,24 @@ PA-ST-2 完整的缺损
 PA-ST-2 完整的缺损/NBT
 PA-TR-1
 PA-TR-1 卑劣与繁荣
+PF-1
+PF-1 揭幕之战
+PF-2
+PF-2 把握良机
+PF-3
+PF-3 渐入佳境
+PF-4
+PF-4 客场连战
+PF-5
+PF-5 争分夺球
+PF-6
+PF-6 胜负难分
+PF-7
+PF-7 出线之争
+PF-S-1
+PF-S-1 耐力拉练
+PF-TR-1
+PF-TR-1 首次训练
 PL-1
 PL-1 深入敌阵
 PL-2
@@ -9260,8 +9296,26 @@ TD-8
 TD-8 宿命流转，苍霆激荡
 TD-8 宿命流转，苍霆激荡/BEG
 TD-8 宿命流转，苍霆激荡/END
+TD-EX-1
+TD-EX-1 为了泡影国的未来？
+TD-EX-2
+TD-EX-2 迁徙季
+TD-EX-3
+TD-EX-3 完美的训练场
+TD-EX-4
+TD-EX-4 保护“御轮”
+TD-EX-5
+TD-EX-5 新的岗哨
+TD-EX-6
+TD-EX-6 新的兽潮？
+TD-EX-7
+TD-EX-7 最后的“诅咒”
+TD-EX-8
+TD-EX-8 山河一闪，雷鸣响彻
 TD-P-1
 TD-P-1 “百兽奔行”
+TD-S-1
+TD-S-1 群山震颤，百龙夜行
 TD-ST-1
 TD-ST-1 风沙渐起
 TD-ST-1 风沙渐起/NBT
@@ -11960,6 +12014,8 @@ Zuo Le
 争锋频道：青草城OST
 争锋魄力奖杯
 事不过四
+事件
+事件/时点
 事相碎片
 事相结晶
 二周年庆典/活动公告
@@ -12448,6 +12504,8 @@ Zuo Le
 元素
 元素值
 元素损伤
+充能飘浮球
+充能飘浮球/spine
 先来后到
 先礼后兵
 先遣侦测器
@@ -12750,6 +12808,8 @@ Zuo Le
 冲锋哥
 冲锋源石虫
 冲锋源石虫/spine
+决胜时刻球
+决胜时刻球/spine
 冶铸台
 冶铸车
 冷爆机
@@ -15292,6 +15352,7 @@ Zuo Le
 寻访模拟/中坚干员轮换卡池65
 寻访模拟/中坚干员轮换卡池66
 寻访模拟/中坚干员轮换卡池67
+寻访模拟/中坚干员轮换卡池68
 寻访模拟/中坚甄选01
 寻访模拟/中坚甄选02
 寻访模拟/中坚甄选03
@@ -18121,6 +18182,7 @@ Zuo Le
 智能保鲜冰箱
 智能工作台
 智能空域控制机
+智能裁判官
 智能语音茶壶套组
 晾药簸箕架
 暂歇树桩
@@ -20603,6 +20665,18 @@ Zuo Le
 直播间实况壁纸
 直播间特制顶灯
 直播间磨砂地砖
+直球队击人手
+直球队击人手/spine
+直球队击球手
+直球队击球手/spine
+直球队坚定击人手
+直球队坚定击人手/spine
+直球队坚定击球手
+直球队坚定击球手/spine
+直球队坚定守门员
+直球队坚定守门员/spine
+直球队守门员
+直球队守门员/spine
 直立式厨房套组
 直线最短
 直面
@@ -20773,6 +20847,7 @@ Zuo Le
 破阵者组长
 破阵者组长/spine
 砺火成锋
+砺火成锋 复刻
 砺锋
 砾
 砾/spine
@@ -22457,6 +22532,8 @@ Zuo Le
 落叶归根
 落叶逐火
 落叶逐火/活动公告
+落叶逐火2026
+落叶逐火2026/活动公告
 落地书架
 落地云绢
 落地人工造景
@@ -23499,6 +23576,7 @@ Zuo Le
 重力
 重启锚点
 重启锚点/信息记录中心
+重启锚点/外勤储备中心
 重启锚点/日志
 重启锚点OST
 重启锚点罗德岛新基地NPC
@@ -23753,6 +23831,7 @@ Zuo Le
 锡兰・道尔科斯
 锡兰的信物
 锡兰的私人信件
+锦标积分券
 锯子转呀转
 锲而不舍
 锻冶町的夏天
@@ -23862,6 +23941,7 @@ Zuo Le
 阵地守门员/spine
 阵地屏障
 阵地足球锦标
+阵地足球锦标OST
 阶梯式藏书架
 阻断波长
 阻流阀
