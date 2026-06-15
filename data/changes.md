@@ -1,216 +1,173 @@
+# titles/an_activity_v2_titles.txt
+
+```diff
+--- v26.06.12.4e1550:data/titles/an_activity_v2_titles.txt
++++ data/titles/an_activity_v2_titles.txt
+@@ -1,283 +3,285 @@
+- 尖灭测试作战,其他活动危机合约作战赛季
++ 尖灭测试作战,危机合约危机合约作战赛季
++ 舞桨！甜咸竞渡大比拼,登录活动
++ 落叶逐火·复刻,支线故事复刻活动联动活动
+```
+
 # rime_dicts/an_all.dict.yaml
 
 ```diff
---- v26.06.08.b4b9d2:data/rime_dicts/an_all.dict.yaml
+--- v26.06.12.4e1550:data/rime_dicts/an_all.dict.yaml
 +++ data/rime_dicts/an_all.dict.yaml
-@@ -0,11702 +34,11736 @@
-+ 为了泡影国的未来	wei le pao ying guo de wei lai
-+ 争分夺球	zheng fen duo qiu
-+ 事件	shi jian
-+ 保护	bao hu
-+ 充能飘浮球	chong neng piao fu qiu
-+ 决胜时刻球	jue sheng shi ke qiu
-+ 出线之争	chu xian zhi zheng
-+ 外勤储备中心	wai qin chu bei zhong xin
-+ 完美的训练场	wan mei de xun lian chang
-+ 客场连战	ke chang lian zhan
-+ 山河一闪	shan he yi shan
-+ 御轮	yu lun
-+ 把握良机	ba wo liang ji
-+ 揭幕之战	jie mu zhi zhan
-+ 新的兽潮	xin de shou chao
-+ 新的岗哨	xin de gang shao
-+ 时点	shi dian
-+ 智能裁判官	zhi neng cai pan guan
-+ 最后的	zui hou de
-+ 百龙夜行	bai long ye xing
-+ 直球队击人手	zhi qiu dui ji ren shou
-+ 直球队击球手	zhi qiu dui ji qiu shou
-+ 直球队坚定击人手	zhi qiu dui jian ding ji ren shou
-+ 直球队坚定击球手	zhi qiu dui jian ding ji qiu shou
-+ 直球队坚定守门员	zhi qiu dui jian ding shou men yuan
-+ 直球队守门员	zhi qiu dui shou men yuan
-+ 群山震颤	qun shan zhen chan
-+ 耐力拉练	nai li la lian
-+ 胜负难分	sheng fu nan fen
-+ 诅咒	zu zhou
-+ 迁徙季	qian xi ji
-+ 锦标积分券	jin biao ji fen quan
-+ 雷鸣响彻	lei ming xiang che
-+ 首次训练	shou ci xun lian
+@@ -0,11736 +22,11758 @@
++ 先声夺人	xian sheng duo ren
++ 冠军之路	guan jun zhi lu
++ 华采迎福	hua cai ying fu
++ 小心脚下	xiao xin jiao xia
++ 深巡的私人信件	shen xun de si ren xin jian
++ 球风对撞	qiu feng dui zhuang
++ 生路家具收藏包	sheng lu jia ju shou cang bao
++ 盘带练习	pan dai lian xi
++ 结绳庆贺	jie sheng qing he
++ 装饰台	zhuang shi tai
++ 门神会全能守门员	men shen hui quan neng shou men yuan
++ 门神会击人手	men shen hui ji ren shou
++ 门神会击球手	men shen hui ji qiu shou
++ 门神会守门员	men shen hui shou men yuan
++ 门神会忠诚击人手	men shen hui zhong cheng ji ren shou
++ 门神会忠诚击球手	men shen hui zhong cheng ji qiu shou
++ 魔球帮击人手	mo qiu bang ji ren shou
++ 魔球帮击球手	mo qiu bang ji qiu shou
++ 魔球帮守门员	mo qiu bang shou men yuan
++ 魔球帮诡秘击人手	mo qiu bang gui mi ji ren shou
++ 魔球帮诡秘击球手	mo qiu bang gui mi ji qiu shou
++ 魔球帮诡秘守门员	mo qiu bang gui mi shou men yuan
 ```
 
 # titles/an_all_titles.txt
 
 ```diff
---- v26.06.08.b4b9d2:data/titles/an_all_titles.txt
+--- v26.06.12.4e1550:data/titles/an_all_titles.txt
 +++ data/titles/an_all_titles.txt
-@@ -0,25006 +80,25086 @@
-+ Act1football 01
-+ Act1football 02
-+ Act1football 03
-+ Act1football 04
-+ Act1football 05
-+ Act1football 06
-+ Act1football 07
-+ Act1football s01
-+ Act1football tr01
-+ Act50side ex01
-+ Act50side ex02
-+ Act50side ex03
-+ Act50side ex04
-+ Act50side ex05
-+ Act50side ex06
-+ Act50side ex07
-+ Act50side ex08
-+ Act50side s01
-+ PF-1
-+ PF-1 揭幕之战
-+ PF-2
-+ PF-2 把握良机
-+ PF-3
-+ PF-3 渐入佳境
-+ PF-4
-+ PF-4 客场连战
-+ PF-5
-+ PF-5 争分夺球
-+ PF-6
-+ PF-6 胜负难分
-+ PF-7
-+ PF-7 出线之争
-+ PF-S-1
-+ PF-S-1 耐力拉练
-+ PF-TR-1
-+ PF-TR-1 首次训练
-+ TD-EX-1
-+ TD-EX-1 为了泡影国的未来？
-+ TD-EX-2
-+ TD-EX-2 迁徙季
-+ TD-EX-3
-+ TD-EX-3 完美的训练场
-+ TD-EX-4
-+ TD-EX-4 保护“御轮”
-+ TD-EX-5
-+ TD-EX-5 新的岗哨
-+ TD-EX-6
-+ TD-EX-6 新的兽潮？
-+ TD-EX-7
-+ TD-EX-7 最后的“诅咒”
-+ TD-EX-8
-+ TD-EX-8 山河一闪，雷鸣响彻
-+ TD-S-1
-+ TD-S-1 群山震颤，百龙夜行
-+ 事件
-+ 事件/时点
-+ 充能飘浮球
-+ 充能飘浮球/spine
-+ 决胜时刻球
-+ 决胜时刻球/spine
-+ 寻访模拟/中坚干员轮换卡池68
-+ 智能裁判官
-+ 直球队击人手
-+ 直球队击人手/spine
-+ 直球队击球手
-+ 直球队击球手/spine
-+ 直球队坚定击人手
-+ 直球队坚定击人手/spine
-+ 直球队坚定击球手
-+ 直球队坚定击球手/spine
-+ 直球队坚定守门员
-+ 直球队坚定守门员/spine
-+ 直球队守门员
-+ 直球队守门员/spine
-+ 砺火成锋 复刻
-+ 落叶逐火2026
-+ 落叶逐火2026/活动公告
-+ 重启锚点/外勤储备中心
-+ 锦标积分券
-+ 阵地足球锦标OST
-```
-
-# rime_dicts/an_character.dict.yaml
-
-```diff
---- v26.06.08.b4b9d2:data/rime_dicts/an_character.dict.yaml
-+++ data/rime_dicts/an_character.dict.yaml
-@@ -0,601 +1,602 @@
-+ 前代陛下	qian dai bi xia
-```
-
-# titles/an_character_titles.txt
-
-```diff
---- v26.06.08.b4b9d2:data/titles/an_character_titles.txt
-+++ data/titles/an_character_titles.txt
-@@ -0,612 +1,613 @@
-+ 前代陛下
+@@ -0,25086 +45,25131 @@
++ Act1football ex01
++ Act1football ex02
++ Act1football ex03
++ Act1football ex04
++ Act1football s02
++ PF-EX-1
++ PF-EX-1 球风对撞
++ PF-EX-2
++ PF-EX-2 先声夺人
++ PF-EX-3
++ PF-EX-3 小心脚下
++ PF-EX-4
++ PF-EX-4 冠军之路
++ PF-S-2
++ PF-S-2 盘带练习
++ “华采迎福”装饰台
++ “结绳庆贺”装饰台
++ 多索雷斯假日/标志物模板/styles.css
++ 深巡的私人信件
++ 生路家具收藏包
++ 端午2026
++ 门神会全能守门员
++ 门神会全能守门员/spine
++ 门神会击人手
++ 门神会击人手/spine
++ 门神会击球手
++ 门神会击球手/spine
++ 门神会守门员
++ 门神会守门员/spine
++ 门神会忠诚击人手
++ 门神会忠诚击人手/spine
++ 门神会忠诚击球手
++ 门神会忠诚击球手/spine
++ 魔球帮击人手
++ 魔球帮击人手/spine
++ 魔球帮击球手
++ 魔球帮击球手/spine
++ 魔球帮守门员
++ 魔球帮守门员/spine
++ 魔球帮诡秘击人手
++ 魔球帮诡秘击人手/spine
++ 魔球帮诡秘击球手
++ 魔球帮诡秘击球手/spine
++ 魔球帮诡秘守门员
++ 魔球帮诡秘守门员/spine
 ```
 
 # rime_dicts/an_clothes.dict.yaml
 
 ```diff
---- v26.06.08.b4b9d2:data/rime_dicts/an_clothes.dict.yaml
+--- v26.06.12.4e1550:data/rime_dicts/an_clothes.dict.yaml
 +++ data/rime_dicts/an_clothes.dict.yaml
-@@ -0,452 +1,453 @@
-+ 跃动节拍	yue dong jie pai
+@@ -0,453 +1,454 @@
++ 撷香霭	xie xiang ai
 ```
 
 # titles/an_clothes_titles.txt
 
 ```diff
---- v26.06.08.b4b9d2:data/titles/an_clothes_titles.txt
+--- v26.06.12.4e1550:data/titles/an_clothes_titles.txt
 +++ data/titles/an_clothes_titles.txt
-@@ -0,494 +1,495 @@
-+ 跃动节拍
+@@ -0,495 +1,496 @@
++ 撷香霭
 ```
 
 # rime_dicts/an_enemy.dict.yaml
 
 ```diff
---- v26.06.08.b4b9d2:data/rime_dicts/an_enemy.dict.yaml
+--- v26.06.12.4e1550:data/rime_dicts/an_enemy.dict.yaml
 +++ data/rime_dicts/an_enemy.dict.yaml
-@@ -0,1694 +8,1702 @@
-+ 充能飘浮球	chong neng piao fu qiu
-+ 决胜时刻球	jue sheng shi ke qiu
-+ 直球队击人手	zhi qiu dui ji ren shou
-+ 直球队击球手	zhi qiu dui ji qiu shou
-+ 直球队坚定击人手	zhi qiu dui jian ding ji ren shou
-+ 直球队坚定击球手	zhi qiu dui jian ding ji qiu shou
-+ 直球队坚定守门员	zhi qiu dui jian ding shou men yuan
-+ 直球队守门员	zhi qiu dui shou men yuan
+@@ -0,1702 +12,1714 @@
++ 门神会全能守门员	men shen hui quan neng shou men yuan
++ 门神会击人手	men shen hui ji ren shou
++ 门神会击球手	men shen hui ji qiu shou
++ 门神会守门员	men shen hui shou men yuan
++ 门神会忠诚击人手	men shen hui zhong cheng ji ren shou
++ 门神会忠诚击球手	men shen hui zhong cheng ji qiu shou
++ 魔球帮击人手	mo qiu bang ji ren shou
++ 魔球帮击球手	mo qiu bang ji qiu shou
++ 魔球帮守门员	mo qiu bang shou men yuan
++ 魔球帮诡秘击人手	mo qiu bang gui mi ji ren shou
++ 魔球帮诡秘击球手	mo qiu bang gui mi ji qiu shou
++ 魔球帮诡秘守门员	mo qiu bang gui mi shou men yuan
 ```
 
 # titles/an_enemy_titles.txt
 
 ```diff
---- v26.06.08.b4b9d2:data/titles/an_enemy_titles.txt
+--- v26.06.12.4e1550:data/titles/an_enemy_titles.txt
 +++ data/titles/an_enemy_titles.txt
-@@ -0,1704 +8,1712 @@
-+ 充能飘浮球
-+ 决胜时刻球
-+ 直球队击人手
-+ 直球队击球手
-+ 直球队坚定击人手
-+ 直球队坚定击球手
-+ 直球队坚定守门员
-+ 直球队守门员
+@@ -0,1712 +12,1724 @@
++ 门神会全能守门员
++ 门神会击人手
++ 门神会击球手
++ 门神会守门员
++ 门神会忠诚击人手
++ 门神会忠诚击球手
++ 魔球帮击人手
++ 魔球帮击球手
++ 魔球帮守门员
++ 魔球帮诡秘击人手
++ 魔球帮诡秘击球手
++ 魔球帮诡秘守门员
 ```
 
 # rime_dicts/an_item.dict.yaml
 
 ```diff
---- v26.06.08.b4b9d2:data/rime_dicts/an_item.dict.yaml
+--- v26.06.12.4e1550:data/rime_dicts/an_item.dict.yaml
 +++ data/rime_dicts/an_item.dict.yaml
-@@ -0,1221 +1,1222 @@
-+ 锦标积分券	jin biao ji fen quan
+@@ -0,1222 +2,1224 @@
++ 深巡的私人信件	shen xun de si ren xin jian
++ 生路家具收藏包	sheng lu jia ju shou cang bao
 ```
 
 # titles/an_item_titles.txt
 
 ```diff
---- v26.06.08.b4b9d2:data/titles/an_item_titles.txt
+--- v26.06.12.4e1550:data/titles/an_item_titles.txt
 +++ data/titles/an_item_titles.txt
-@@ -0,1289 +1,1290 @@
-+ 锦标积分券
+@@ -0,1290 +2,1292 @@
++ 深巡的私人信件
++ 生路家具收藏包
 ```
 
