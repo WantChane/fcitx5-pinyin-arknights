@@ -1,173 +1,155 @@
+# rime_dicts/an_activity_v2.dict.yaml
+
+```diff
+--- v26.06.15.a67472:data/rime_dicts/an_activity_v2.dict.yaml
++++ data/rime_dicts/an_activity_v2.dict.yaml
+@@ -0,146 +1,147 @@
++ 涤墨作战	di mo zuo zhan
+```
+
 # titles/an_activity_v2_titles.txt
 
 ```diff
---- v26.06.12.4e1550:data/titles/an_activity_v2_titles.txt
+--- v26.06.15.a67472:data/titles/an_activity_v2_titles.txt
 +++ data/titles/an_activity_v2_titles.txt
-@@ -1,283 +3,285 @@
-- 尖灭测试作战,其他活动危机合约作战赛季
-+ 尖灭测试作战,危机合约危机合约作战赛季
-+ 舞桨！甜咸竞渡大比拼,登录活动
-+ 落叶逐火·复刻,支线故事复刻活动联动活动
+@@ -0,285 +1,286 @@
++ 涤墨作战,危机合约危机合约作战赛季
 ```
 
 # rime_dicts/an_all.dict.yaml
 
 ```diff
---- v26.06.12.4e1550:data/rime_dicts/an_all.dict.yaml
+--- v26.06.15.a67472:data/rime_dicts/an_all.dict.yaml
 +++ data/rime_dicts/an_all.dict.yaml
-@@ -0,11736 +22,11758 @@
-+ 先声夺人	xian sheng duo ren
-+ 冠军之路	guan jun zhi lu
-+ 华采迎福	hua cai ying fu
-+ 小心脚下	xiao xin jiao xia
-+ 深巡的私人信件	shen xun de si ren xin jian
-+ 球风对撞	qiu feng dui zhuang
-+ 生路家具收藏包	sheng lu jia ju shou cang bao
-+ 盘带练习	pan dai lian xi
-+ 结绳庆贺	jie sheng qing he
-+ 装饰台	zhuang shi tai
-+ 门神会全能守门员	men shen hui quan neng shou men yuan
-+ 门神会击人手	men shen hui ji ren shou
-+ 门神会击球手	men shen hui ji qiu shou
-+ 门神会守门员	men shen hui shou men yuan
-+ 门神会忠诚击人手	men shen hui zhong cheng ji ren shou
-+ 门神会忠诚击球手	men shen hui zhong cheng ji qiu shou
-+ 魔球帮击人手	mo qiu bang ji ren shou
-+ 魔球帮击球手	mo qiu bang ji qiu shou
-+ 魔球帮守门员	mo qiu bang shou men yuan
-+ 魔球帮诡秘击人手	mo qiu bang gui mi ji ren shou
-+ 魔球帮诡秘击球手	mo qiu bang gui mi ji qiu shou
-+ 魔球帮诡秘守门员	mo qiu bang gui mi shou men yuan
+@@ -4,11758 +11,11765 @@
+- 个人名片主题一览	ge ren ming pian zhu ti yi lan
+- 个人名片头像一览	ge ren ming pian tou xiang yi lan
+- 详细信息	xiang xi xin xi
+- 预告	yu gao
++ 个人名片一览	ge ren ming pian yi lan
++ 个人头像一览	ge ren tou xiang yi lan
++ 其他信息汇总	qi ta xin xi hui zong
++ 出击	chu ji
++ 墨染书阁	mo ran shu ge
++ 大将军	da jiang jun
++ 涤墨之旗	di mo zhi qi
++ 涤墨作战	di mo zuo zhan
++ 血刺坑道	xue ci keng dao
++ 阴郁影棚	yin yu ying peng
++ 龙卷风	long juan feng
 ```
 
 # titles/an_all_titles.txt
 
 ```diff
---- v26.06.12.4e1550:data/titles/an_all_titles.txt
+--- v26.06.15.a67472:data/titles/an_all_titles.txt
 +++ data/titles/an_all_titles.txt
-@@ -0,25086 +45,25131 @@
-+ Act1football ex01
-+ Act1football ex02
-+ Act1football ex03
-+ Act1football ex04
-+ Act1football s02
-+ PF-EX-1
-+ PF-EX-1 球风对撞
-+ PF-EX-2
-+ PF-EX-2 先声夺人
-+ PF-EX-3
-+ PF-EX-3 小心脚下
-+ PF-EX-4
-+ PF-EX-4 冠军之路
-+ PF-S-2
-+ PF-S-2 盘带练习
-+ “华采迎福”装饰台
-+ “结绳庆贺”装饰台
-+ 多索雷斯假日/标志物模板/styles.css
-+ 深巡的私人信件
-+ 生路家具收藏包
-+ 端午2026
-+ 门神会全能守门员
-+ 门神会全能守门员/spine
-+ 门神会击人手
-+ 门神会击人手/spine
-+ 门神会击球手
-+ 门神会击球手/spine
-+ 门神会守门员
-+ 门神会守门员/spine
-+ 门神会忠诚击人手
-+ 门神会忠诚击人手/spine
-+ 门神会忠诚击球手
-+ 门神会忠诚击球手/spine
-+ 魔球帮击人手
-+ 魔球帮击人手/spine
-+ 魔球帮击球手
-+ 魔球帮击球手/spine
-+ 魔球帮守门员
-+ 魔球帮守门员/spine
-+ 魔球帮诡秘击人手
-+ 魔球帮诡秘击人手/spine
-+ 魔球帮诡秘击球手
-+ 魔球帮诡秘击球手/spine
-+ 魔球帮诡秘守门员
-+ 魔球帮诡秘守门员/spine
+@@ -5,25131 +23,25149 @@
+- 个人名片主题一览
+- 个人名片头像一览
+- 时装回廊/预告
+- 装置一览/详细信息
+- 高级凭证区/历史记录
++ 个人名片一览
++ 个人头像一览
++ 乌萨斯 血刺坑道
++ 其他信息汇总
++ 制作组通讯/66
++ 危机合约/涤墨作战
++ 危机合约/涤墨作战/大炎 墨染书阁 任务地图
++ 危机合约/涤墨作战/指标详情
++ 危机合约/涤墨作战/活动公告
++ 危机合约/涤墨作战/谢拉格 蚀裂冰湖 任务地图
++ 哥伦比亚 阴郁影棚
++ 墨染书阁
++ 大炎 墨染书阁
++ 寻访模拟/中坚干员轮换卡池69
++ 寻访模拟/干员轮换卡池187
++ 寻访模拟/砺火成锋 复刻
++ 循途漫录：大将军，出击！
++ 战争浪潮
++ 涤墨之旗
++ 涤墨作战
++ 血刺坑道
++ 阴郁影棚
++ 龙卷风
+```
+
+# rime_dicts/an_character.dict.yaml
+
+```diff
+--- v26.06.15.a67472:data/rime_dicts/an_character.dict.yaml
++++ data/rime_dicts/an_character.dict.yaml
+@@ -1,602 +1,602 @@
+- 前代陛下	qian dai bi xia
++ 前代国主	qian dai guo zhu
+```
+
+# titles/an_character_titles.txt
+
+```diff
+--- v26.06.15.a67472:data/titles/an_character_titles.txt
++++ data/titles/an_character_titles.txt
+@@ -1,613 +1,613 @@
+- 前代陛下
++ 前代国主
 ```
 
 # rime_dicts/an_clothes.dict.yaml
 
 ```diff
---- v26.06.12.4e1550:data/rime_dicts/an_clothes.dict.yaml
+--- v26.06.15.a67472:data/rime_dicts/an_clothes.dict.yaml
 +++ data/rime_dicts/an_clothes.dict.yaml
-@@ -0,453 +1,454 @@
-+ 撷香霭	xie xiang ai
+@@ -0,454 +1,455 @@
++ 新地形	xin di xing
 ```
 
 # titles/an_clothes_titles.txt
 
 ```diff
---- v26.06.12.4e1550:data/titles/an_clothes_titles.txt
+--- v26.06.15.a67472:data/titles/an_clothes_titles.txt
 +++ data/titles/an_clothes_titles.txt
-@@ -0,495 +1,496 @@
-+ 撷香霭
+@@ -0,496 +1,497 @@
++ 新地形
 ```
 
 # rime_dicts/an_enemy.dict.yaml
 
 ```diff
---- v26.06.12.4e1550:data/rime_dicts/an_enemy.dict.yaml
+--- v26.06.15.a67472:data/rime_dicts/an_enemy.dict.yaml
 +++ data/rime_dicts/an_enemy.dict.yaml
-@@ -0,1702 +12,1714 @@
-+ 门神会全能守门员	men shen hui quan neng shou men yuan
-+ 门神会击人手	men shen hui ji ren shou
-+ 门神会击球手	men shen hui ji qiu shou
-+ 门神会守门员	men shen hui shou men yuan
-+ 门神会忠诚击人手	men shen hui zhong cheng ji ren shou
-+ 门神会忠诚击球手	men shen hui zhong cheng ji qiu shou
-+ 魔球帮击人手	mo qiu bang ji ren shou
-+ 魔球帮击球手	mo qiu bang ji qiu shou
-+ 魔球帮守门员	mo qiu bang shou men yuan
-+ 魔球帮诡秘击人手	mo qiu bang gui mi ji ren shou
-+ 魔球帮诡秘击球手	mo qiu bang gui mi ji qiu shou
-+ 魔球帮诡秘守门员	mo qiu bang gui mi shou men yuan
+@@ -0,1714 +1,1715 @@
++ 龙卷风	long juan feng
 ```
 
 # titles/an_enemy_titles.txt
 
 ```diff
---- v26.06.12.4e1550:data/titles/an_enemy_titles.txt
+--- v26.06.15.a67472:data/titles/an_enemy_titles.txt
 +++ data/titles/an_enemy_titles.txt
-@@ -0,1712 +12,1724 @@
-+ 门神会全能守门员
-+ 门神会击人手
-+ 门神会击球手
-+ 门神会守门员
-+ 门神会忠诚击人手
-+ 门神会忠诚击球手
-+ 魔球帮击人手
-+ 魔球帮击球手
-+ 魔球帮守门员
-+ 魔球帮诡秘击人手
-+ 魔球帮诡秘击球手
-+ 魔球帮诡秘守门员
+@@ -0,1724 +1,1725 @@
++ 龙卷风
 ```
 
 # rime_dicts/an_item.dict.yaml
 
 ```diff
---- v26.06.12.4e1550:data/rime_dicts/an_item.dict.yaml
+--- v26.06.15.a67472:data/rime_dicts/an_item.dict.yaml
 +++ data/rime_dicts/an_item.dict.yaml
-@@ -0,1222 +2,1224 @@
-+ 深巡的私人信件	shen xun de si ren xin jian
-+ 生路家具收藏包	sheng lu jia ju shou cang bao
+@@ -3,1224 +0,1221 @@
+- 的烧烤味饼干	de shao kao wei bing gan
+- 空爆的烧烤味饼干	kong bao de shao kao wei bing gan
+- 陈的烧烤味饼干	chen de shao kao wei bing gan
 ```
 
 # titles/an_item_titles.txt
 
 ```diff
---- v26.06.12.4e1550:data/titles/an_item_titles.txt
+--- v26.06.15.a67472:data/titles/an_item_titles.txt
 +++ data/titles/an_item_titles.txt
-@@ -0,1290 +2,1292 @@
-+ 深巡的私人信件
-+ 生路家具收藏包
+@@ -3,1292 +0,1289 @@
+- Castle-3的烧烤味饼干
+- 空爆的烧烤味饼干
+- 陈的烧烤味饼干
 ```
 
