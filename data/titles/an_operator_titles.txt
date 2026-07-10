@@ -229,6 +229,7 @@ Mechanist(卫戍协议)
 明椒
 Misery(卫戍协议)
 Miss.Christine
+谬因
 摩根
 莫斯提马
 魔王
@@ -250,6 +251,7 @@ Mon3tr
 帕拉斯
 泡泡
 泡普卡
+佩德洛
 佩佩
 PhonoR-0
 Pith
