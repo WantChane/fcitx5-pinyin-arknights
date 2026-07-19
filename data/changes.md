@@ -1,723 +1,497 @@
-# rime_dicts/an_abnormal.dict.yaml
+# rime_dicts/an_collection_7.dict.yaml
 
 ```diff
---- v26.07.11.c18505:data/rime_dicts/an_abnormal.dict.yaml
-+++ data/rime_dicts/an_abnormal.dict.yaml
-@@ -0,55 +1,56 @@
-+ 传送	chuan song
+--- ADDED
++++ data/rime_dicts/an_collection_7.dict.yaml
+@@ -0,0 +242,242 @@
++ ---
++ ...
++ name: an_collection_7
++ sort: by_weight
++ 一串钱伥	yi chuan qian chang
++ 万星园之辉	wan xing yuan zhi hui
++ 三尺万象	san chi wan xiang
++ 人事部铜印	ren shi bu tong yin
++ 人偶之家	ren ou zhi jia
++ 仇名录	chou ming lu
++ 他缚	ta fu
++ 传芳雕版	chuan fang diao ban
++ 伪翅	wei chi
++ 佣兵的饰物	yong bing de shi wu
++ 光耀卡西米尔	guang yao ka xi mi er
++ 军团护心镜	jun tuan hu xin jing
++ 冰中火	bing zhong huo
++ 凉拌海草	liang ban hai cao
++ 几丁质刺刃	ji ding zhi ci ren
++ 凯旋号角	kai xuan hao jiao
++ 击坠神明	ji zhui shen ming
++ 制式防暴用具	zhi shi fang bao yong ju
++ 剑锤	jian chui
++ 剿袭之手	chao xi zhi shou
++ 医者-地缘策略	yi zhe di yuan ce lve
++ 医者-妙手	yi zhe miao shou
++ 医者-新典训	yi zhe xin dian xun
++ 医者-自医	yi zhe zi yi
++ 博士银印	bo shi yin yin
++ 厄运火杆	e yun huo gan
++ 发泡胶	fa pao jiao
++ 叙拉古人的愤怒	xu la gu ren de fen nu
++ 古地树实	gu di shu shi
++ 古堡的子嗣	gu bao de zi si
++ 古怪的长笛	gu guai de chang di
++ 古旧乐谱残章	gu jiu yue pu can zhang
++ 古旧的蒸汽甲胄	gu jiu de zheng qi jia zhou
++ 古老壁画	gu lao bi hua
++ 同行者	tong hang zhe
++ 咖啡平原咖啡糖	ka fei ping yuan ka fei tang
++ 囊中骨	nang zhong gu
++ 四叶草化石	si ye cao hua shi
++ 圆石祭坛	yuan shi ji tan
++ 地形图	di xing tu
++ 坚御之手	jian yu zhi shou
++ 垂降劫掠装置	chui jiang jie lve zhuang zhi
++ 城墙之子	cheng qiang zhi zi
++ 基础物联终端	ji chu wu lian zhong duan
++ 复仇者	fu chou zhe
++ 复得之轮	fu de zhi lun
++ 大静谧	da jing mi
++ 天师锦囊	tian shi jin nang
++ 天穹尘埃	tian qiong chen ai
++ 失落之钥	shi luo zhi yao
++ 女妖之吻	nv yao zhi wen
++ 小格兰法洛	xiao ge lan fa luo
++ 尖叫樱桃	jian jiao ying tao
++ 岩角号	yan jiao hao
++ 幸运饼干	xing yun bing gan
++ 庇护	bi hu
++ 开拓之手	kai tuo zhi shou
++ 异铁小圆盾	yi tie xiao yuan dun
++ 异香角	yi xiang jiao
++ 归来	gui lai
++ 彩虹瓮	cai hong weng
++ 微缩舞台模型	wei suo wu tai mo xing
++ 急救药箱	ji jiu yao xiang
++ 怦然信标	peng ran xin biao
++ 恐鱼干	kong yu gan
++ 悬丝傀儡	xuan si kui lei
++ 悲伤的红	bei shang de hong
++ 慑空之手	she kong zhi shou
++ 战术背心	zhan shu bei xin
++ 折戟-新典训	zhe ji xin dian xun
++ 折戟-浴血	zhe ji yu xue
++ 折戟-避锋	zhe ji bi feng
++ 折戟-锋刃	zhe ji feng ren
++ 护愈之手	hu yu zhi shou
++ 拳经三问	quan jing san wen
++ 指中狼	zhi zhong lang
++ 损坏的左轮弹巢	sun huai de zuo lun dan chao
++ 探测先锋	tan ce xian feng
++ 摩根队长佳酿	mo gen dui zhang jia niang
++ 撕咬的渴望	si yao de ke wang
++ 支援地雷组	zhi yuan di lei zu
++ 支援补给站	zhi yuan bu ji zhan
++ 支援起重机	zhi yuan qi zhong ji
++ 支援轰隆隆	zhi yuan hong long long
++ 支援防暴桩	zhi yuan fang bao zhuang
++ 支援雾机	zhi yuan wu ji
++ 支柱-勤奋	zhi zhu qin fen
++ 支柱-援护	zhi zhu yuan hu
++ 支柱-新典训	zhi zhu xin dian xun
++ 支柱-突破	zhi zhu tu po
++ 教堂救济餐券	jiao tang jiu ji can quan
++ 散轶诗简	san yi shi jian
++ 文明的存续	wen ming de cun xu
++ 断杖-同调	duan zhang tong diao
++ 断杖-新典训	duan zhang xin dian xun
++ 断杖-波纹	duan zhang bo wen
++ 断杖-突破	duan zhang tu po
++ 旧高卢地名源流考	jiu gao lu di ming yuan liu kao
++ 时光之末	shi guang zhi mo
++ 显圣吊坠	xian sheng diao zhui
++ 未知仪器	wei zhi yi qi
++ 杜林地上环游记	du lin di shang huan you ji
++ 林中小手	lin zhong xiao shou
++ 林间夜话	lin jian ye hua
++ 果腹	guo fu
++ 染血辞典	ran xue ci dian
++ 植浆	zhi jiang
++ 橙味风暴	cheng wei feng bao
++ 止痛片	zhi tong pian
++ 残弩-新典训	can nu xin dian xun
++ 残弩-神准	can nu shen zhun
++ 残弩-神速	can nu shen su
++ 残弩-突破	can nu tu po
++ 残破合影	can po he ying
++ 沙盘	sha pan
++ 河谷祭祈	he gu ji qi
++ 法术杀手	fa shu sha shou
++ 波纹之手	bo wen zhi shou
++ 洁白的舞鞋	jie bai de wu xie
++ 活木甲	huo mu jia
++ 活玫瑰	huo mei gui
++ 涌动之餐	yong dong zhi can
++ 液体化肥	ye ti hua fei
++ 渴血钳兽	ke xue qian shou
++ 湖中神盾	hu zhong shen dun
++ 湮没光明	yan mo guang ming
++ 源石鸢尾花	yuan shi yuan wei hua
++ 源私钥	yuan si yao
++ 漆黑的舞鞋	qi hei de wu xie
++ 演出用香水	yan chu yong xiang shui
++ 炎国字汇	yan guo zi hui
++ 热水壶	re shui hu
++ 热辣可可	re la ke ke
++ 焚毁文明	fen hui wen ming
++ 特勤任务影像	te qin ren wu ying xiang
++ 特殊抑制器	te shu yi zhi qi
++ 特种作战防暴盾	te zhong zuo zhan fang bao dun
++ 特级馥郁咖啡豆	te ji fu yu ka fei dou
++ 犬植浆	quan zhi jiang
++ 狙击镜	ju ji jing
++ 独奏八音盒	du zou ba yin he
++ 猎印	lie yin
++ 猎犬咖啡	lie quan ka fei
++ 猎犬病特效药	lie quan bing te xiao yao
++ 玻璃小鸟	bo li xiao niao
++ 璀璨悲泣	cui can bei qi
++ 生命之水	sheng ming zhi shui
++ 疗养体验卡	liao yang ti yan ka
++ 疗养特供卡	liao yang te gong ka
++ 疗养礼品卡	liao yang li pin ka
++ 的电锯	de dian ju
++ 皇家利口酒	huang jia li kou jiu
++ 皇帝的恩宠	huang di de en chong
++ 皇帝的收藏	huang di de shou cang
++ 皮特水果什锦	pi te shui guo shi jin
++ 碎片大厦的回忆	sui pian da sha de hui yi
++ 神音海螺	shen yin hai luo
++ 种植者保单	zhong zhi zhe bao dan
++ 空床	kong chuang
++ 窜天源石虫	cuan tian yuan shi chong
++ 竞技场贵宾券	jing ji chang gui bin quan
++ 童趣玩偶	tong qu wan ou
++ 第一法则	di yi fa ze
++ 第二经济改革法	di er jing ji gai ge fa
++ 精神治疗录像带	jing shen zhi liao lu xiang dai
++ 精选兽肉罐头	jing xuan shou rou guan tou
++ 紧急活性剂	jin ji huo xing ji
++ 红日冠冕	hong ri guan mian
++ 红色蝴蝶结	hong se hu die jie
++ 维多利亚废铁勋章	wei duo li ya fei tie xun zhang
++ 绽放	zhan fang
++ 绿叶菜罐头	lv ye cai guan tou
++ 缠梦古堡模型	chan meng gu bao mo xing
++ 罗德岛战术电台	luo de dao zhan shu dian tai
++ 羽兽肝酱	yu shou gan jiang
++ 翱翼	ao yi
++ 老妈的鼓励	lao ma de gu li
++ 老近卫军之锋	lao jin wei jun zhi feng
++ 至宝指环	zhi bao zhi huan
++ 舞者手链	wu zhe shou lian
++ 苍白花冠	cang bai hua guan
++ 荣耀套餐	rong yao tao can
++ 荣耀绶带	rong yao shou dai
++ 药枚	yao mei
++ 蓝色丝巾	lan se si jin
++ 薄行囊	bao xing nang
++ 虬蜕	qiu tui
++ 血孩子	xue hai zi
++ 血魔的寝床	xue mo de qin chuang
++ 襁褓九头蛇	qiang bao jiu tou she
++ 襁褓天马	qiang bao tian ma
++ 襁褓巨龙	qiang bao ju long
++ 襁褓白泽	qiang bao bai ze
++ 襁褓金乌	qiang bao jin wu
++ 襁褓骏鹰	qiang bao jun ying
++ 解约协议	jie yue xie yi
++ 设计师量尺	she ji shi liang chi
++ 诛戮之手	zhu lu zhi shou
++ 贴地炸	tie di zha
++ 贵族刺剑	gui zu ci jian
++ 赐福新生	ci fu xin sheng
++ 赤金的远征	chi jin de yuan zheng
++ 赶车夫的长鞭	gan che fu de zhang bian
++ 迷梦香精	mi meng xiang jing
++ 迷藏	mi cang
++ 迷迭香之拥	mi die xiang zhi yong
++ 追忆	zhui yi
++ 重力蔑视机关	zhong li mie shi ji guan
++ 金酒之杯	jin jiu zhi bei
++ 钝爪-先机	dun zhao xian ji
++ 钝爪-屡战	dun zhao lv zhan
++ 钝爪-新典训	dun zhao xin dian xun
++ 钝爪-百战	dun zhao bai zhan
++ 铁卫-侵掠	tie wei qin lve
++ 铁卫-整固	tie wei zheng gu
++ 铁卫-新典训	tie wei xin dian xun
++ 铁卫-轻行	tie wei qing xing
++ 银餐叉	yin can cha
++ 锈刃-可视静谧	xiu ren ke shi jing mi
++ 锈刃-新典训	xiu ren xin dian xun
++ 锈刃-研磨	xiu ren yan mo
++ 锈刃-突破	xiu ren tu po
++ 锈蚀刀片	xiu shi dao pian
++ 锈蚀的铁锤	xiu shi de tie chui
++ 长生者之证	chang sheng zhe zhi zheng
++ 阿卡胡拉饭碗	a ka hu la fan wan
++ 阿猛	a meng
++ 雅集	ya ji
++ 零食盒	ling shi he
++ 静谧扩香石	jing mi kuo xiang shi
++ 香草沙士汽水	xiang cao sha shi qi shui
++ 高卢银行支票	gao lu yin hang zhi piao
++ 高级物联终端	gao ji wu lian zhong duan
++ 黄金平原	huang jin ping yuan
++ 黑夜呢喃	hei ye ni nan
++ 黑夜披肩	hei ye pi jian
++ 黑流树海笔记	hei liu shu hai bi ji
++ 黑色郁金香	hei se yu jin xiang
 ```
 
-# titles/an_abnormal_titles.txt
+# titles/an_collection_7_titles.txt
 
 ```diff
---- v26.07.11.c18505:data/titles/an_abnormal_titles.txt
-+++ data/titles/an_abnormal_titles.txt
-@@ -1,55 +1,55 @@
-- ？？？
-+ 传送
-```
-
-# rime_dicts/an_activity_v2.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_activity_v2.dict.yaml
-+++ data/rime_dicts/an_activity_v2.dict.yaml
-@@ -0,148 +1,149 @@
-+ 沉沦者的黑流树海	chen lun zhe de hei liu shu hai
-```
-
-# titles/an_activity_v2_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_activity_v2_titles.txt
-+++ data/titles/an_activity_v2_titles.txt
-@@ -0,288 +2,290 @@
-+ 沉沦者的黑流树海,集成战略嵌入不存在部分的页面
-+ 红丝绒·复刻,支线故事复刻活动
-```
-
-# rime_dicts/an_all.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_all.dict.yaml
-+++ data/rime_dicts/an_all.dict.yaml
-@@ -0,11832 +106,11938 @@
-+ 一步之遥	yi bu zhi yao
-+ 一视同仁	yi shi tong ren
-+ 丛林法则	cong lin fa ze
-+ 丰饶树冢	feng rao shu zhong
-+ 侵占家园	qin zhan jia yuan
-+ 光荣远征	guang rong yuan zheng
-+ 共斗	gong dou
-+ 冰冷流亡	bing leng liu wang
-+ 卡德霍	ka de huo
-+ 危朽	wei xiu
-+ 合伙人会议	he huo ren hui yi
-+ 同域共存	tong yu gong cun
-+ 命运共享	ming yun gong xiang
-+ 咩的朋友	mie de peng you
-+ 哀悼铁腕	ai dao tie wan
-+ 在劫难逃	zai jie nan tao
-+ 坎诺特保险柜	kan nuo te bao xian gui
-+ 埃尔伯特	ai er bo te
-+ 外显尖牙	wai xian jian ya
-+ 大总统	da zong tong
-+ 安保措施	an bao cuo shi
-+ 崩解	beng jie
-+ 开业剪彩	kai ye jian cai
-+ 异端	yi duan
-+ 引擎配件目录	yin qing pei jian mu lu
-+ 强买强卖	qiang mai qiang mai
-+ 彼处水如酒	bi chu shui ru jiu
-+ 征服者	zheng fu zhe
-+ 德莱昂	de lai ang
-+ 急不可耐	ji bu ke nai
-+ 恶意讨薪	e yi tao xin
-+ 恶笼草	e long cao
-+ 扰动之谬	rao dong zhi miu
-+ 拉特兰回声-圣祠	la te lan hui sheng sheng ci
-+ 招募券掉落类型速查	zhao mu quan diao luo lei xing su cha
-+ 拟造物质编目	ni zao wu zhi bian mu
-+ 搏杀	bo sha
-+ 撼地遗众	han di yi zhong
-+ 无主地	wu zhu di
-+ 无效验尸	wu xiao yan shi
-+ 暴力押运	bao li ya yun
-+ 未名的荒原	wei ming de huang yuan
-+ 未来见闻	wei lai jian wen
-+ 本性难移	ben xing nan yi
-+ 机械师	ji xie shi
-+ 机械师的信物	ji xie shi de xin wu
-+ 枝头陷阱	zhi tou xian jing
-+ 死箱	si xiang
-+ 毛绒游戏	mao rong you xi
-+ 永无安宁	yong wu an ning
-+ 汉科	han ke
-+ 沉沦者的黑流树海	chen lun zhe de hei liu shu hai
-+ 洛伦茨	luo lun ci
-+ 活木	huo mu
-+ 混沌源阶理论	hun dun yuan jie li lun
-+ 湖中魇	hu zhong yan
-+ 源流样本	yuan liu yang ben
-+ 源阶方	yuan jie fang
-+ 源阶方模块	yuan jie fang mo kuai
-+ 源阶粒素	yuan jie li su
-+ 演化算子	yan hua suan zi
-+ 灌水贤者	guan shui xian zhe
-+ 灭身	mie shen
-+ 烟雾弹	yan wu dan
-+ 焦土之家	jiao tu zhi jia
-+ 物欲遮天	wu yu zhe tian
-+ 狂热敬虔	kuang re jing qian
-+ 猎犬	lie quan
-+ 猎犬病原	lie quan bing yuan
-+ 生存习性	sheng cun xi xing
-+ 畸变恶笼草	ji bian e long cao
-+ 畸症	ji zheng
-+ 症结之核	zheng jie zhi he
-+ 痛楚化身	tong chu hua shen
-+ 痛苦将息	tong ku jiang xi
-+ 种植园惊魂	zhong zhi yuan jing hun
-+ 空值体	kong zhi ti
-+ 箱型恶笼草	xiang xing e long cao
-+ 纵怒	zong nu
-+ 聆风猎手	ling feng lie shou
-+ 虫虫游戏厅	chong chong you xi ting
-+ 血夜回魂	xue ye hui hun
-+ 诞生礼	dan sheng li
-+ 败叶	bai ye
-+ 赤金厄运	chi jin e yun
-+ 赤金条	chi jin tiao
-+ 赤陈	chi chen
-+ 趁火打劫	chen huo da jie
-+ 辟路行进	pi lu xing jin
-+ 过度繁殖	guo du fan zhi
-+ 进退趋同	jin tui qu tong
-+ 远北猎场	yuan bei lie chang
-+ 送别仪式	song bie yi shi
-+ 选边站	xuan bian zhan
-+ 遗忘时间	yi wang shi jian
-+ 铁腕迷思	tie wan mi si
-+ 长刀寒夜	zhang dao han ye
-+ 闹乐	nao le
-+ 陌生旅伴	mo sheng lv ban
-+ 颂水贤者	song shui xian zhe
-+ 预算否决	yu suan fou jue
-+ 黑流之源	hei liu zhi yuan
-+ 黑流数据库	hei liu shu ju ku
-+ 黑流树海	hei liu shu hai
-+ 黑色逆流	hei se ni liu
-+ 默祷圣祠	mo dao sheng ci
-```
-
-# titles/an_all_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_all_titles.txt
-+++ data/titles/an_all_titles.txt
-@@ -2,25270 +203,25471 @@
-- 空(敌方)
-- 结构性原理/spine
-+ Camp r 33
-+ ISW-DF 永无安宁
-+ ISW-DF 混沌源阶理论
-+ ISW-DF 畸症
-+ ISW-DF 痛苦将息
-+ ISW-NO “灭身”
-+ ISW-NO “纵怒”
-+ ISW-NO “闹乐”
-+ ISW-NO 一步之遥
-+ ISW-NO 一视同仁
-+ ISW-NO 丛林法则
-+ ISW-NO 侵占家园
-+ ISW-NO 光荣远征
-+ ISW-NO 共斗
-+ ISW-NO 冰冷流亡
-+ ISW-NO 合伙人会议
-+ ISW-NO 同域共存
-+ ISW-NO 命运共享
-+ ISW-NO 咩的朋友
-+ ISW-NO 哀悼铁腕
-+ ISW-NO 在劫难逃
-+ ISW-NO 外显尖牙
-+ ISW-NO 安保措施
-+ ISW-NO 开业剪彩
-+ ISW-NO 强买强卖
-+ ISW-NO 彼处水如酒
-+ ISW-NO 急不可耐
-+ ISW-NO 恶意讨薪
-+ ISW-NO 搏杀
-+ ISW-NO 无主地
-+ ISW-NO 无效验尸
-+ ISW-NO 暴力押运
-+ ISW-NO 未来见闻
-+ ISW-NO 本性难移
-+ ISW-NO 枝头陷阱
-+ ISW-NO 枯枝
-+ ISW-NO 死箱
-+ ISW-NO 毛绒游戏
-+ ISW-NO 活木
-+ ISW-NO 湖中魇
-+ ISW-NO 灌水贤者
-+ ISW-NO 焦土之家
-+ ISW-NO 物欲遮天
-+ ISW-NO 狂热敬虔
-+ ISW-NO 猎犬病原
-+ ISW-NO 生存习性
-+ ISW-NO 种植园惊魂
-+ ISW-NO 虫虫游戏厅
-+ ISW-NO 血夜回魂
-+ ISW-NO 诞生礼
-+ ISW-NO 败叶
-+ ISW-NO 赤金厄运
-+ ISW-NO 趁火打劫
-+ ISW-NO 辟路行进
-+ ISW-NO 过度繁殖
-+ ISW-NO 进退趋同
-+ ISW-NO 远北猎场
-+ ISW-NO 送别仪式
-+ ISW-NO 选边站
-+ ISW-NO 遗忘时间
-+ ISW-NO 铁腕迷思
-+ ISW-NO 长刀寒夜
-+ ISW-NO 陌生旅伴
-+ ISW-NO 预算否决
-+ ISW-NO 黑色逆流
-+ “危朽”
-+ “大总统”汉科
-+ “大总统”汉科/spine
-+ “崩解”
-+ “异端”埃尔伯特
-+ “异端”埃尔伯特/spine
-+ “征服者”德莱昂
-+ “征服者”德莱昂/spine
-+ “灭身”
-+ “纵怒”
-+ “闹乐”
-+ 一步之遥
-+ 一视同仁
-+ 丛林法则
-+ 丛林症结OST
-+ 丰饶树冢
-+ 侵占家园
-+ 光荣远征
-+ 共斗
-+ 冰冷流亡
-+ 制作组通讯/67
-+ 卡德霍，黑流之源
-+ 卡德霍，黑流之源/spine
-+ 合伙人会议
-+ 同域共存
-+ 命运共享
-+ 咩的朋友
-+ 哀悼铁腕
-+ 在劫难逃
-+ 坎诺特保险柜
-+ 埃尔伯特
-+ 埃尔伯特/spine
-+ 外显尖牙
-+ 安保措施
-+ 寻访模拟/干员轮换卡池189
-+ 开业剪彩
-+ 强买强卖
-+ 彼处水如酒
-+ 德莱昂
-+ 德莱昂/spine
-+ 急不可耐
-+ 恶意讨薪
-+ 恶笼草
-+ 恶笼草(装置)
-+ 恶笼草/spine
-+ 拉特兰 默祷圣祠
-+ 拉特兰回声-圣祠
-+ 搏杀
-+ 撼地遗众
-+ 撼地遗众/spine
-+ 无主地
-+ 无效验尸
-+ 暴力押运
-+ 未名的荒原
-+ 未名的荒原/spine
-+ 未来见闻
-+ 本性难移
-+ 机械师
-+ 机械师/语音记录
-+ 机械师的信物
-+ 枝头陷阱
-+ 枯枝
-+ 死箱
-+ 毛绒游戏
-+ 永无安宁
-+ 汉科
-+ 汉科/spine
-+ 沉沦者的黑流树海
-+ 沉沦者的黑流树海/事件一览
-+ 沉沦者的黑流树海/引擎配件目录
-+ 沉沦者的黑流树海/拟造物质编目
-+ 沉沦者的黑流树海/黑流数据库
-+ 洛伦茨，扰动之谬
-+ 洛伦茨，扰动之谬/spine
-+ 活木
-+ 混沌源阶理论
-+ 湖中魇
-+ 源流样本
-+ 源阶方
-+ 源阶方/spine
-+ 源阶方模块
-+ 源阶粒素
-+ 源阶粒素/spine
-+ 演化算子
-+ 灌水贤者
-+ 烟雾弹
-+ 焦土之家
-+ 物欲遮天
-+ 狂热敬虔
-+ 猎犬proto
-+ 猎犬proto/spine
-+ 猎犬病原
-+ 玻利瓦尔，症结之核
-+ 玻利瓦尔，症结之核/spine
-+ 生存习性
-+ 畸变恶笼草
-+ 畸症
-+ 痛楚化身
-+ 痛楚化身/spine
-+ 痛苦将息
-+ 种植园惊魂
-+ 空(敌人)
-+ 空值体
-+ 空值体/spine
-+ 箱型恶笼草
-+ 红丝绒2026
-+ 红丝绒2026/活动公告
-+ 结构性原理(敌方)
-+ 结构性原理(敌方)/spine
-+ 聆风猎手
-+ 聆风猎手/spine
-+ 虫虫游戏厅
-+ 血夜回魂
-+ 诞生礼
-+ 败叶
-+ 赤金厄运
-+ 赤金条
-+ 赤金条/spine
-+ 赤陈
-+ 趁火打劫
-+ 辟路行进
-+ 过度繁殖
-+ 进退趋同
-+ 远北猎场
-+ 送别仪式
-+ 选边站
-+ 遗忘时间
-+ 铁腕迷思
-+ 长刀寒夜
-+ 陌生旅伴
-+ 集成战略/招募券掉落类型速查
-+ 集成战略/炎国干员速查
-+ 颂水贤者
-+ 颂水贤者/spine
-+ 预算否决
-+ 黑流树海
-+ 黑色逆流
-+ 默祷圣祠
-```
-
-# rime_dicts/an_character.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_character.dict.yaml
-+++ data/rime_dicts/an_character.dict.yaml
-@@ -0,602 +2,604 @@
-+ 汉科	han ke
-+ 马丁	ma ding
-```
-
-# titles/an_character_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_character_titles.txt
-+++ data/titles/an_character_titles.txt
-@@ -1,613 +2,614 @@
-- Mechanist
-+ 汉科
-+ 马丁
-```
-
-# rime_dicts/an_clothes.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_clothes.dict.yaml
-+++ data/rime_dicts/an_clothes.dict.yaml
-@@ -0,459 +1,460 @@
-+ 底绒舞会	di rong wu hui
-```
-
-# titles/an_clothes_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_clothes_titles.txt
-+++ data/titles/an_clothes_titles.txt
-@@ -0,505 +1,506 @@
-+ 底绒舞会
-```
-
-# rime_dicts/an_enemy.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_enemy.dict.yaml
-+++ data/rime_dicts/an_enemy.dict.yaml
-@@ -0,1715 +24,1739 @@
-+ 卡德霍	ka de huo
-+ 埃尔伯特	ai er bo te
-+ 大总统	da zong tong
-+ 异端	yi duan
-+ 征服者	zheng fu zhe
-+ 德莱昂	de lai ang
-+ 恶笼草	e long cao
-+ 扰动之谬	rao dong zhi miu
-+ 撼地遗众	han di yi zhong
-+ 未名的荒原	wei ming de huang yuan
-+ 汉科	han ke
-+ 洛伦茨	luo lun ci
-+ 源阶方	yuan jie fang
-+ 源阶粒素	yuan jie li su
-+ 烟雾弹	yan wu dan
-+ 猎犬	lie quan
-+ 玻利瓦尔	bo li wa er
-+ 症结之核	zheng jie zhi he
-+ 痛楚化身	tong chu hua shen
-+ 空值体	kong zhi ti
-+ 聆风猎手	ling feng lie shou
-+ 赤金条	chi jin tiao
-+ 颂水贤者	song shui xian zhe
-+ 黑流之源	hei liu zhi yuan
-```
-
-# titles/an_enemy_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_enemy_titles.txt
-+++ data/titles/an_enemy_titles.txt
-@@ -2,1725 +23,1746 @@
-- 空(敌方)
-- 结构性原理
-+ “大总统”汉科
-+ “异端”埃尔伯特
-+ “征服者”德莱昂
-+ 卡德霍，黑流之源
-+ 埃尔伯特
-+ 德莱昂
-+ 恶笼草
-+ 撼地遗众
-+ 未名的荒原
-+ 汉科
-+ 洛伦茨，扰动之谬
-+ 源阶方
-+ 源阶粒素
-+ 烟雾弹
-+ 猎犬proto
-+ 玻利瓦尔，症结之核
-+ 痛楚化身
-+ 空(敌人)
-+ 空值体
-+ 结构性原理(敌方)
-+ 聆风猎手
-+ 赤金条
-+ 颂水贤者
-```
-
-# rime_dicts/an_isw.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_isw.dict.yaml
-+++ data/rime_dicts/an_isw.dict.yaml
-@@ -0,373 +64,437 @@
-+ 一步之遥	yi bu zhi yao
-+ 一视同仁	yi shi tong ren
-+ 丛林法则	cong lin fa ze
-+ 侵占家园	qin zhan jia yuan
-+ 光荣远征	guang rong yuan zheng
-+ 共斗	gong dou
-+ 冰冷流亡	bing leng liu wang
-+ 合伙人会议	he huo ren hui yi
-+ 同域共存	tong yu gong cun
-+ 命运共享	ming yun gong xiang
-+ 咩的朋友	mie de peng you
-+ 哀悼铁腕	ai dao tie wan
-+ 在劫难逃	zai jie nan tao
-+ 外显尖牙	wai xian jian ya
-+ 安保措施	an bao cuo shi
-+ 开业剪彩	kai ye jian cai
-+ 强买强卖	qiang mai qiang mai
-+ 彼处水如酒	bi chu shui ru jiu
-+ 急不可耐	ji bu ke nai
-+ 恶意讨薪	e yi tao xin
-+ 搏杀	bo sha
-+ 无主地	wu zhu di
-+ 无效验尸	wu xiao yan shi
-+ 暴力押运	bao li ya yun
-+ 未来见闻	wei lai jian wen
-+ 本性难移	ben xing nan yi
-+ 枝头陷阱	zhi tou xian jing
-+ 枯枝	ku zhi
-+ 死箱	si xiang
-+ 毛绒游戏	mao rong you xi
-+ 永无安宁	yong wu an ning
-+ 活木	huo mu
-+ 混沌源阶理论	hun dun yuan jie li lun
-+ 湖中魇	hu zhong yan
-+ 灌水贤者	guan shui xian zhe
-+ 灭身	mie shen
-+ 焦土之家	jiao tu zhi jia
-+ 物欲遮天	wu yu zhe tian
-+ 狂热敬虔	kuang re jing qian
-+ 猎犬病原	lie quan bing yuan
-+ 生存习性	sheng cun xi xing
-+ 畸症	ji zheng
-+ 痛苦将息	tong ku jiang xi
-+ 种植园惊魂	zhong zhi yuan jing hun
-+ 纵怒	zong nu
-+ 虫虫游戏厅	chong chong you xi ting
-+ 血夜回魂	xue ye hui hun
-+ 诞生礼	dan sheng li
-+ 败叶	bai ye
-+ 赤金厄运	chi jin e yun
-+ 趁火打劫	chen huo da jie
-+ 辟路行进	pi lu xing jin
-+ 过度繁殖	guo du fan zhi
-+ 进退趋同	jin tui qu tong
-+ 远北猎场	yuan bei lie chang
-+ 送别仪式	song bie yi shi
-+ 选边站	xuan bian zhan
-+ 遗忘时间	yi wang shi jian
-+ 铁腕迷思	tie wan mi si
-+ 长刀寒夜	zhang dao han ye
-+ 闹乐	nao le
-+ 陌生旅伴	mo sheng lv ban
-+ 预算否决	yu suan fou jue
-+ 黑色逆流	hei se ni liu
-```
-
-# titles/an_isw_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_isw_titles.txt
-+++ data/titles/an_isw_titles.txt
-@@ -0,390 +64,454 @@
-+ ISW-DF 永无安宁
-+ ISW-DF 混沌源阶理论
-+ ISW-DF 畸症
-+ ISW-DF 痛苦将息
-+ ISW-NO “灭身”
-+ ISW-NO “纵怒”
-+ ISW-NO “闹乐”
-+ ISW-NO 一步之遥
-+ ISW-NO 一视同仁
-+ ISW-NO 丛林法则
-+ ISW-NO 侵占家园
-+ ISW-NO 光荣远征
-+ ISW-NO 共斗
-+ ISW-NO 冰冷流亡
-+ ISW-NO 合伙人会议
-+ ISW-NO 同域共存
-+ ISW-NO 命运共享
-+ ISW-NO 咩的朋友
-+ ISW-NO 哀悼铁腕
-+ ISW-NO 在劫难逃
-+ ISW-NO 外显尖牙
-+ ISW-NO 安保措施
-+ ISW-NO 开业剪彩
-+ ISW-NO 强买强卖
-+ ISW-NO 彼处水如酒
-+ ISW-NO 急不可耐
-+ ISW-NO 恶意讨薪
-+ ISW-NO 搏杀
-+ ISW-NO 无主地
-+ ISW-NO 无效验尸
-+ ISW-NO 暴力押运
-+ ISW-NO 未来见闻
-+ ISW-NO 本性难移
-+ ISW-NO 枝头陷阱
-+ ISW-NO 枯枝
-+ ISW-NO 死箱
-+ ISW-NO 毛绒游戏
-+ ISW-NO 活木
-+ ISW-NO 湖中魇
-+ ISW-NO 灌水贤者
-+ ISW-NO 焦土之家
-+ ISW-NO 物欲遮天
-+ ISW-NO 狂热敬虔
-+ ISW-NO 猎犬病原
-+ ISW-NO 生存习性
-+ ISW-NO 种植园惊魂
-+ ISW-NO 虫虫游戏厅
-+ ISW-NO 血夜回魂
-+ ISW-NO 诞生礼
-+ ISW-NO 败叶
-+ ISW-NO 赤金厄运
-+ ISW-NO 趁火打劫
-+ ISW-NO 辟路行进
-+ ISW-NO 过度繁殖
-+ ISW-NO 进退趋同
-+ ISW-NO 远北猎场
-+ ISW-NO 送别仪式
-+ ISW-NO 选边站
-+ ISW-NO 遗忘时间
-+ ISW-NO 铁腕迷思
-+ ISW-NO 长刀寒夜
-+ ISW-NO 陌生旅伴
-+ ISW-NO 预算否决
-+ ISW-NO 黑色逆流
-```
-
-# rime_dicts/an_item.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_item.dict.yaml
-+++ data/rime_dicts/an_item.dict.yaml
-@@ -0,1226 +3,1229 @@
-+ 机械师的信物	ji xie shi de xin wu
-+ 源流样本	yuan liu yang ben
-+ 演化算子	yan hua suan zi
-```
-
-# titles/an_item_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_item_titles.txt
-+++ data/titles/an_item_titles.txt
-@@ -0,1295 +3,1298 @@
-+ 机械师的信物
-+ 源流样本
-+ 演化算子
-```
-
-# rime_dicts/an_operator.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_operator.dict.yaml
-+++ data/rime_dicts/an_operator.dict.yaml
-@@ -0,411 +1,412 @@
-+ 机械师	ji xie shi
-```
-
-# titles/an_operator_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_operator_titles.txt
-+++ data/titles/an_operator_titles.txt
-@@ -0,451 +1,452 @@
-+ 机械师
-```
-
-# rime_dicts/an_skill.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_skill.dict.yaml
-+++ data/rime_dicts/an_skill.dict.yaml
-@@ -0,1357 +9,1366 @@
-+ 全域信息失真	quan yu xin xi shi zhen
-+ 刺人植物	ci ren zhi wu
-+ 协防术式	xie fang shu shi
-+ 危朽	wei xiu
-+ 崩解	beng jie
-+ 工程学十字星	gong cheng xue shi zi xing
-+ 我的了	wo de le
-+ 款到出货	kuan dao chu huo
-+ 聚类分析	ju lei fen xi
-```
-
-# titles/an_skill_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_skill_titles.txt
-+++ data/titles/an_skill_titles.txt
-@@ -0,1530 +9,1539 @@
-+ 文件:技能 "危朽".png
-+ 文件:技能 "崩解".png
-+ 文件:技能 “我的了！”.png
-+ 文件:技能 “款到出货”.png
-+ 文件:技能 全域信息失真.png
-+ 文件:技能 刺人植物.png
-+ 文件:技能 协防术式.png
-+ 文件:技能 工程学十字星.png
-+ 文件:技能 聚类分析.png
-```
-
-# rime_dicts/an_term.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_term.dict.yaml
-+++ data/rime_dicts/an_term.dict.yaml
-@@ -0,134 +1,135 @@
-+ 狂躁损伤	kuang zao sun shang
-```
-
-# titles/an_term_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_term_titles.txt
-+++ data/titles/an_term_titles.txt
-@@ -0,139 +1,140 @@
-+ 狂躁损伤
-```
-
-# rime_dicts/an_terra.dict.yaml
-
-```diff
---- v26.07.11.c18505:data/rime_dicts/an_terra.dict.yaml
-+++ data/rime_dicts/an_terra.dict.yaml
-@@ -0,667 +1,668 @@
-+ 机械师	ji xie shi
-```
-
-# titles/an_terra_titles.txt
-
-```diff
---- v26.07.11.c18505:data/titles/an_terra_titles.txt
-+++ data/titles/an_terra_titles.txt
-@@ -0,665 +1,666 @@
-+ 机械师
+--- ADDED
++++ data/titles/an_collection_7_titles.txt
+@@ -0,0 +239,239 @@
++ Blaze的电锯
++ Scout的狙击镜
++ “剑锤”
++ “复仇者”
++ “小格兰法洛”
++ “庇护”
++ “撕咬的渴望”
++ “文明的存续”
++ “时光之末”
++ “法术杀手”
++ “璀璨悲泣”
++ “碎片大厦的回忆”
++ “童趣玩偶”
++ “绽放”
++ “老妈的鼓励”
++ “荣耀套餐”
++ “阿猛”
++ “黑夜呢喃”
++ 《光耀卡西米尔》
++ 《大静谧》
++ 《归来》
++ 《拳经三问》
++ 《旧高卢地名源流考》
++ 《杜林地上环游记》
++ 《炎国字汇》
++ 《第二经济改革法》
++ 《雅集》
++ 一串钱伥
++ 万星园之辉
++ 三尺万象
++ 人事部铜印
++ 人偶之家
++ 仇名录
++ 他缚
++ 传芳雕版
++ 伪翅
++ 佣兵的饰物
++ 军团护心镜
++ 冰中火
++ 凉拌海草
++ 几丁质刺刃
++ 凯旋号角
++ 击坠“神明”
++ 制式防暴用具
++ 剿袭之手
++ 医者-地缘策略
++ 医者-妙手
++ 医者-新典训
++ 医者-自医
++ 博士银印
++ 厄运火杆
++ 发泡胶
++ 叙拉古人的愤怒
++ 古地树实
++ 古堡的子嗣
++ 古怪的长笛
++ 古旧乐谱残章
++ 古旧的蒸汽甲胄
++ 古老壁画
++ 同行者
++ 咖啡平原咖啡糖
++ 囊中骨
++ 四叶草化石
++ 圆石祭坛
++ 地形图
++ 坚御之手
++ 垂降劫掠装置
++ 城墙之子
++ 基础物联终端
++ 复得之轮
++ 天师锦囊
++ 天穹尘埃
++ 失落之钥
++ 女妖之吻
++ 尖叫樱桃
++ 岩角号
++ 幸运饼干
++ 开拓之手
++ 异铁小圆盾
++ 异香角
++ 彩虹瓮
++ 微缩舞台模型
++ 急救药箱
++ 怦然信标
++ 恐鱼干
++ 悬丝傀儡
++ 悲伤的红
++ 慑空之手
++ 战术背心
++ 折戟-新典训
++ 折戟-浴血
++ 折戟-避锋
++ 折戟-锋刃
++ 护愈之手
++ 指中狼
++ 损坏的左轮弹巢
++ 探测先锋
++ 摩根队长佳酿
++ 支援地雷组
++ 支援补给站
++ 支援起重机
++ 支援轰隆隆
++ 支援防暴桩
++ 支援雾机
++ 支柱-勤奋
++ 支柱-援护
++ 支柱-新典训
++ 支柱-突破
++ 教堂救济餐券
++ 散轶诗简
++ 断杖-同调
++ 断杖-新典训
++ 断杖-波纹
++ 断杖-突破
++ 显圣吊坠
++ 未知仪器
++ 林中小手
++ 林间夜话
++ 果腹
++ 染血辞典
++ 植浆
++ 橙味风暴
++ 止痛片
++ 残弩-新典训
++ 残弩-神准
++ 残弩-神速
++ 残弩-突破
++ 残破合影
++ 沙盘α
++ 沙盘β
++ 河谷祭祈
++ 波纹之手
++ 洁白的舞鞋
++ 活木甲
++ 活玫瑰
++ 涌动之餐
++ 液体化肥
++ 渴血钳兽
++ 湖中神盾
++ 湮没“光明”
++ 源石鸢尾花
++ 源私钥
++ 漆黑的舞鞋
++ 演出用香水
++ 热水壶
++ 热辣可可
++ 焚毁“文明”
++ 特勤任务影像
++ 特殊抑制器
++ 特种作战防暴盾
++ 特级馥郁咖啡豆
++ 犬植浆
++ 独奏八音盒
++ 猎印
++ 猎犬咖啡
++ 猎犬病特效药
++ 玻璃小鸟
++ 生命之水
++ 疗养体验卡
++ 疗养特供卡
++ 疗养礼品卡
++ 皇家利口酒
++ 皇帝的恩宠
++ 皇帝的收藏
++ 皮特水果什锦
++ 神音海螺
++ 种植者保单
++ 空床
++ 窜天源石虫
++ 竞技场贵宾券
++ 第一法则
++ 精神治疗录像带
++ 精选兽肉罐头
++ 紧急活性剂
++ 红日冠冕
++ 红色蝴蝶结
++ 维多利亚“废铁”勋章
++ 绿叶菜罐头
++ 缠梦古堡模型
++ 罗德岛战术电台
++ 羽兽肝酱
++ 翱翼
++ 老近卫军之锋
++ 至宝指环
++ 舞者手链
++ 苍白花冠
++ 荣耀绶带
++ 药枚
++ 蓝色丝巾
++ 薄行囊
++ 虬蜕
++ 血孩子
++ 血魔的寝床
++ 襁褓九头蛇
++ 襁褓天马
++ 襁褓巨龙
++ 襁褓白泽
++ 襁褓金乌
++ 襁褓骏鹰
++ 解约协议
++ 设计师量尺
++ 诛戮之手
++ 贴地炸
++ 贵族刺剑
++ 赐福新生
++ 赤金的远征
++ 赶车夫的长鞭
++ 迷梦香精
++ 迷藏
++ 迷迭香之拥
++ 追忆
++ 重力蔑视机关
++ 金酒之杯
++ 钝爪-先机
++ 钝爪-屡战
++ 钝爪-新典训
++ 钝爪-百战
++ 铁卫-侵掠
++ 铁卫-整固
++ 铁卫-新典训
++ 铁卫-轻行
++ 银餐叉
++ 锈刃-可视静谧
++ 锈刃-新典训
++ 锈刃-研磨
++ 锈刃-突破
++ 锈蚀刀片
++ 锈蚀的铁锤
++ 长生者之证
++ 阿卡胡拉饭碗
++ 零食盒
++ 静谧扩香石
++ 香草沙士汽水
++ 高卢银行支票
++ 高级物联终端
++ 黄金平原
++ 黑夜披肩
++ 黑流树海笔记
++ 黑色郁金香
 ```
 
