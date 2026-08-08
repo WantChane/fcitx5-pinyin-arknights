@@ -42,7 +42,7 @@ BUFF抵挡
 诱导
 自惧
 小睡
-传送
+被传送
 缚地
 沉睡
 闭锁
@@ -55,3 +55,5 @@ DISARMED_COMBAT（战栗）
 FEARED（恐惧）
 PALSY（麻痹）
 ATTRACTED（诱导）
+TELEPORTED（被传送）
+GROUND_BOUND（地缚）
