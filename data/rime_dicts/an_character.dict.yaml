@@ -1,623 +1,629 @@
 ---
 name: an_character
 sort: by_weight
-version: 26.08.18
+version: 26.09.04
 ...
-慎楼	shen lou
-厄尔苏拉	e er su la
-皮乌拉	pi wu la
-杜克	du ke
-三角铁	san jiao tie
-伊万	yi wan
-达里奥	da li ao
-伊凡·图林	yi fan tu lin
-查德	cha de
-橡杯	xiang bei
-塞拉	sai la
-女侠	nv xia
-西塞罗	xi sai luo
-毕德曼	bi de man
-玛丽	ma li
-首言者	shou yan zhe
-莱蒙德	lai meng de
-澪	ling
-盖克斯基	gai ke si ji
-胡安娜	hu an na
-荆先生	jing xian sheng
-阿根	a gen
-娜汀	na ting
-霍克	huo ke
-劳拉	lao la
-朵拉	duo la
-费奥多尔·弗拉基米罗维奇	fei ao duo er fu la ji mi luo wei qi
-莱姆	lai mu
-汤姆	tang mu
-坎黛拉·桑切斯	kan dai la sang qie si
-坎伯兰公爵	kan bo lan gong jue
-小教头	xiao jiao tou
-寻路者信使	xun lu zhe xin shi
-希尔达	xi er da
-柏生明	bai sheng ming
-阿雅妮	a ya ni
-杰拉尔德	jie la er de
-西莫·威廉姆斯	xi mo wei lian mu si
-巴普洛维奇	ba pu luo wei qi
-克洛维希娅	ke luo wei xi ya
-菈玛莲	la ma lian
-炎礼	yan li
-神农	shen nong
-恺撒	kai sa
-霍里	huo li
-弗朗西斯	fu lang xi si
-渡魂剑	du hun jian
-炉芯终曲	lu xin zhong qu
-麦基	mai ji
-拉列亚	la lie ya
-睚	ya
-亨特	heng te
-双簧管	shuang huang guan
-阿伦茨·帕尔维斯	a lun ci pa er wei si
-雷尔金	lei er jin
-伊奥莱塔·罗素	yi ao lai ta luo su
-铁皮	tie pi
-塑料骑士	su liao qi shi
-安德涅特·马里亚姆	an de nie te ma li ya mu
-依拉	yi la
-山海众头目	shan hai zhong tou mu
-贝希曼伯爵	bei xi man bo jue
-珀茜瓦尔	po qian wa er
-塞茜莉亚·拉珀尔塔	sai qian li ya la po er ta
-埃芒加德	ai mang jia de
-玛丽昂	ma li ang
-伊斯	yi si
-乌露露	wu lu lu
-白垩	bai e
-逐魇骑士	zhu yan qi shi
-凋零骑士	diao ling qi shi
-沃伦佐娃夫人	wo lun zuo wa fu ren
-奥克芬	ao ke fen
-伯德	bo de
-火哨	huo shao
-马克·麦克斯	ma ke mai ke si
-提奥	ti ao
-卡奇·叙光	ka qi xu guang
-老约翰	lao yue han
-顾筌	gu quan
-迪亚特	di ya te
-达米安·巴里	da mi an ba li
-马尔科	ma er ke
-安东尼奥·威尼斯	an dong ni ao wei ni si
-罗伊	luo yi
-扬尼	yang ni
-比丢	bi diu
-圣徒	sheng tu
-锦织更纱	jin zhi geng sha
-米纳	mi na
-阿丽娜	a li na
-安东尼奥	an dong ni ao
-利亚姆·坎贝尔	li ya mu kan bei er
-九	jiu
-塔季娅娜	ta ji ya na
-古斯塔夫·博内	gu si ta fu bo nei
-米亚罗	mi ya luo
-六十七	liu shi qi
-剧团喉舌	ju tuan hou she
-潘乔·萨拉斯	pan qiao sa la si
-帕尤卡卡	pa you ka ka
-好运	hao yun
-康拉德·杰克逊	kang la de jie ke xun
-西尔卡	xi er ka
-血魔大君	xue mo da jun
-切斯柏	qie si bai
-疤眼	ba yan
-福尔图娜	fu er tu na
-瑞恩	rui en
-贝林厄姆	bei lin e mu
-董阿伯	dong a bo
-开斯特公爵	kai si te gong jue
-卢比奥	lu bi ao
-杰斯顿	jie si dun
-奥伦·亚吉奥拉斯	ao lun ya ji ao la si
-昆图斯	kun tu si
-塞斯克	sai si ke
-恰尔内	qia er nei
-文森特伯爵	wen sen te bo jue
-解真	jie zhen
-下个院士先生	xia ge yuan shi xian sheng
-安托沙	an tuo sha
-查尔斯·林奇	cha er si lin qi
-格罗莫夫	ge luo mo fu
-木裂埃克提尔尼尔	mu lie ai ke ti er ni er
-引火的死魂灵	yin huo de si hun ling
-莉泽洛特·伊维格娜德	li ze luo te yi wei ge na de
-霜星	shuang xing
-行板	xing ban
-布莱克	bu lai ke
-托尔	tuo er
-小聪明	xiao cong ming
-屠谕者	tu yu zhe
-克洛宁	ke luo ning
-迈尔斯	mai er si
-图利娅	tu li ya
-蒂奇	di qi
-奎隆	kui long
-说书人	shuo shu ren
-拉赫曼	la he man
-凯文	kai wen
-哈莉	ha li
-阿利斯泰尔	a li si tai er
-沃尔夫	wo er fu
-巫王	wu wang
-墨格斯	mo ge si
-大熊	da xiong
-莫妮克	mo ni ke
-赫尔昏佐伦	he er hun zuo lun
-德鲁奇	de lu qi
-莫菲丝	mo fei si
-丽塔	li ta
-阿摩斯	a mo si
-罗南	luo nan
-巨兽	ju shou
-克利姆	ke li mu
-萨卡兹锅炉工	sa ka zi guo lu gong
-绩	ji
-安费丽丝·温德米尔	an fei li si wen de mi er
-马克维茨	ma ke wei ci
-哈维尔	ha wei er
-安多恩·雅迦坦哲罗思	an duo en ya jia tan zhe luo si
-羊之主	yang zhi zhu
-丹顿兄弟	dan dun xiong di
-安纳斯塔西奥	an na si ta xi ao
-塔佳娜	ta jia na
-安东	an dong
-尼科洛	ni ke luo
-莫佚	mo yi
-爱德华·雅特利亚斯	ai de hua ya te li ya si
-文	wen
-纳杰日达	na jie ri da
-图利奥	tu li ao
-桥夹克里夫	qiao jia ke li fu
-赫拉提娅	he la ti ya
-希尔德加德·赫琳玛特	xi er de jia de he lin ma te
-赫尔曼	he er man
-伊萨科斯	yi sa ke si
-前代国主	qian dai guo zhu
-多利	duo li
-叶莉莎女大公	ye li sha nv da gong
-苦根	ku gen
-马特奥	ma te ao
-伍德洛·比安奇	wu de luo bi an qi
-海伦	hai lun
-阿维图斯	a wei tu si
-老修士	lao xiu shi
-老骑士	lao qi shi
-玛利图斯	ma li tu si
-布兰特·赖纳	bu lan te lai na
-艾尔希	ai er xi
-惟任刑警	wei ren xing jing
-弗里达·希曼	fu li da xi man
-阿克托斯	a ke tuo si
-长凳	zhang deng
-艾丽塔·瓦卢耶娃	ai li ta wa lu ye wa
-里昂·特雷门	li ang te lei men
-卡尔	ka er
-阿发	a fa
-阿布纳	a bu na
-贾斯汀·菲茨罗伊	jia si ting fei ci luo yi
-尤拉	you la
-佐恩	zuo en
-斐尔迪南·克鲁尼	fei er di nan ke lu ni
-萨尔瓦多雷·德克萨斯	sa er wa duo lei de ke sa si
-克罗绮·砖石	ke luo qi zhuan shi
-古米的父母	gu mi de fu mu
-伊蒂达	yi di da
-梵里妮	fan li ni
-麦尼尔	mai ni er
-挖山人	wa shan ren
-宝巫迦	bao wu jia
-埃里奥·法布里	ai li ao fa bu li
-血骑士	xue qi shi
-杰米	jie mi
-阿玛雅	a ma ya
-小马雷克	xiao ma lei ke
-杰里	jie li
-奥卢斯	ao lu si
-肖恩·高多汀	xiao en gao duo ting
-村长	cun zhang
-添头	tian tou
-杨格	yang ge
-喀利喀	ka li ka
-克伦妮	ke lun ni
-未知男性卡特斯	wei zhi nan xing ka te si
-道尔顿	dao er dun
-烟鬼	yan gui
-吉莉安·阿兰达	ji li an a lan da
-以勒什	yi lei shen
-吉拉	ji la
-尤吉兄弟	you ji xiong di
-塞伦	sai lun
-老姜	lao jiang
-大嘴莫布	da zui mo bu
-何塞	he sai
-瓦西里·戈尔奇科夫	wa xi li ge er qi ke fu
-甘比诺·里奇	gan bi nuo li qi
-王伯	wang bo
-露彼娜	lu bi na
-卡罗琳	ka luo lin
-歌唱家	ge chang jia
-欧厄尔	ou e er
-放逐王	fang zhu wang
-格林	ge lin
-老妇	lao fu
-艾丝塔拉	ai si ta la
-阿格尼尔	a ge ni er
-瓦古	wa gu
-阿米娅	a mi ya
-米兰妮·卢瑟福德	mi lan ni lu se fu de
-阿然	a ran
-瓦莱丝	wa lai si
-葆拉·梅明格	bao la mei ming ge
-圣卫铳骑	sheng wei chong qi
-雅拉·布克·威尔森	ya la bu ke wei er sen
-斯韦特兰纳·乌里扬诺娃·卜捷里娜	si wei te lan na wu li yang nuo wa bo jie li na
-菲隆	fei long
-沃奥	wo ao
-西尔维娅	xi er wei ya
-艾莉诺	ai li nuo
-希勒少尉	xi lei shao wei
-莫伊拉	mo yi la
-克洛伊	ke luo yi
-洛肯·威廉姆斯	luo ken wei lian mu si
-阿洛伊泽	a luo yi ze
-伊娜拉	yi na la
-锹子	qiao zi
-芙蕾达·韦斯特	fu lei da wei si te
-拂哀菈	fu ai la
-安玛	an ma
-铁腕骑士	tie wan qi shi
-希尔	xi er
-弥尔顿	mi er dun
-法布里齐奥·威尼斯	fa bu li qi ao wei ni si
-阿斯帕齐娅	a si pa qi ya
-幽灵	you ling
-格蕾塔·斯通	ge lei ta si tong
-格罗瓦兹尔	ge luo wa zi er
-扎罗	zha luo
 加西亚	jia xi ya
-佩特洛娃	pei te luo wa
-铅笔头	qian bi tou
-切斯特	qie si te
-猎户	lie hu
-太合	tai he
-宫司	gong si
-来自黄金之城的使者	lai zi huang jin zhi cheng de shi zhe
-酒神	jiu shen
-伊比利亚主教	yi bi li ya zhu jiao
-卡梅洛	ka mei luo
-汉密尔顿	han mi er dun
-加勒斯	jia lei si
-变形者集群	bian xing zhe ji qun
-皇帝的利刃	huang di de li ren
-勒内·莱托	lei nei lai tuo
-霍汀	huo ting
-帕蒂亚	pa di ya
-玄铁	xuan tie
-涅梅丝	nie mei si
-瓦莲汀·鲁斯兰诺芙娜·沃尔金娜	wa lian ting lu si lan nuo fu na wo er jin na
-黎	li
-佩利佩·布朗	pei li pei bu lang
-小白	xiao bai
-老天师	lao tian shi
-奎萨图什塔	kui sa tu shen ta
-尼卡	ni ka
-碎骨	sui gu
-塞弗林	sai fu lin
-格特鲁德	ge te lu de
-迪伦	di lun
-哈默妮	ha mo ni
-老伊辛	lao yi xin
-后	hou
-铁斋	tie zhai
-萨尔贡游客	sa er gong you ke
-博卓卡斯替	bo zhuo ka si ti
-活塞	huo sai
-弗莱蒙特	fu lai meng te
-梁	liang
-干员直尺	gan yuan zhi chi
-黛安·韦伯	dai an wei bo
-巨枭	ju xiao
-盾卫中的一员	dun wei zhong de yi yuan
-尚冢	shang zhong
-易	yi
-列维·克里奇科	lie wei ke li qi ke
-卡利托	ka li tuo
-昂斯特	ang si te
-普瑞赛斯	pu rui sai si
-凯勒	kai lei
-战士比尔	zhan shi bi er
-导演	dao yan
-尤塔	you ta
-佩特拉奶奶	pei te la nai nai
-梅里塔	mei li ta
-碧银	bi yin
-大审判官达里奥	da shen pan guan da li ao
-沉默的樵夫	chen mo de qiao fu
-卢比奥之女	lu bi ao zhi nv
-本尼	ben ni
-叶列梅	ye lie mei
-别格勒	bie ge lei
-锈铜骑士	xiu tong qi shi
-休露丝	xiu lu si
-阿尔贝托·萨卢佐	a er bei tuo sa lu zuo
-宝宝	bao bao
-薇薇安	wei wei an
-斯蒂芬·奎	si di fen kui
-梅团	mei tuan
-虞澄	yu cheng
-迪亚兹·冈萨雷斯	di ya zi gang sa lei si
-列尔	lie er
-黛柯绮·银币	dai ke qi yin bi
-卡谢娜	ka xie na
-叶甫根尼·库兹涅佐夫	ye fu gen ni ku zi nie zuo fu
-麦迪森	mai di sen
-圆规	yuan gui
-管家	guan jia
-可萝尔	ke luo er
-莫兰	mo lan
-阿勒黛·坎伯兰	a lei dai kan bo lan
-白锦	bai jin
-小个子	xiao ge zi
-丽芙	li fu
-考伯特	kao bo te
-马丁	ma ding
-特雷西斯	te lei xi si
-特蕾西娅	te lei xi ya
-亚娜	ya na
-宁辞秋	ning ci qiu
-谢尔戈	xie er ge
-厨子麦克马丁	chu zi mai ke ma ding
-菲勒加斯	fei lei jia si
-雷德	lei de
-薇尔丽芙	wei er li fu
-卡代杜	ka dai du
-郑清钺	zheng qing yue
-荣晚晴	rong wan qing
-萨卡兹护卫	sa ka zi hu wei
-墙灰	qiang hui
-薇卡	wei ka
-小敏	xiao min
-萨卢斯	sa lu si
-罗塞菈	luo sai la
-沙雷·拉多斯瓦夫	sha lei la duo si wa fu
-泷居应	long ju ying
-陈昭芊	chen zhao qian
-科鲁兹	ke lu zi
-卡珊卓拉	ka shan zhuo la
-最后的骑士	zui hou de qi shi
-休斯	xiu si
-老何塞	lao he sai
-纳斯塔霞	na si ta xia
-泽诺	ze nuo
-阿尔贝塔	a er bei ta
-爱国者	ai guo zhe
-骑摩托的	qi mo tuo de
-郑愁	zheng chou
-拉兹	la zi
-贝纳尔多·贝洛内	bei na er duo bei luo nei
-珂拉·洛文斯坦	ke la luo wen si tan
-托马索·埃斯波斯托	tuo ma suo ai si bo si tuo
-兰可	lan ke
-伊万杰利斯塔十一世	yi wan jie li si ta shi yi shi
-贝赫努	bei he nu
-谌彻	chen che
-校官	xiao guan
-维斯利·威灵顿	wei si li wei ling dun
-雷内尔·科瓦尔斯基	lei nei er ke wa er si ji
-椿	chun
-梅菲斯特	mei fei si te
-坎诺特·古德英纳夫	kan nuo te gu de ying na fu
-仲裁人	zhong cai ren
-茉莉	mo li
-万尼亚大公	wan ni ya da gong
-戈尔丁	ge er ding
-布雷奥甘	bu lei ao gan
-维恩	wei en
-屈光者	qu guang zhe
-保存者	bao cun zhe
-汉科	han ke
-拉娜	la na
-科斯达	ke si da
-阿方索	a fang suo
-里底娅·阿苏普欧洛	li di ya a su pu ou luo
-朱塞佩·德克萨斯	zhu sai pei de ke sa si
-汉克	han ke
-老汉	lao han
-腐败骑士	fu bai qi shi
-桑尼	sang ni
-巴列罗	ba lie luo
-索默尔	suo mo er
-阿什顿	a shen dun
-帕夫洛	pa fu luo
-伊斯拉姆·维特	yi si la mu wei te
-太傅	tai fu
-梁洵	liang xun
-左手骑士	zuo shou qi shi
-佩里安德洛斯	pei li an de luo si
-格哈德·霍夫曼	ge ha de huo fu man
-瓦尔顿子爵	wa er dun zi jue
-尤卡坦	you ka tan
-利藤裕	li teng yu
-娜迦	na jia
-柳千秋	liu qian qiu
-普拉多·卢宁	pu la duo lu ning
-宁述	ning shu
-影卫	ying wei
-槐天裴	huai tian pei
-菈塔托丝	la ta tuo si
-科西切	ke xi qie
-月见夜	yue jian ye
-厨子	chu zi
-老工匠	lao gong jiang
-神明	shen ming
 祖拜尔	zu bai er
-均	jun
-托希娅	tuo xi ya
-巴顿	ba dun
-琳兹	lin zi
-巴蒂	ba di
-蔓德拉	man de la
-卡铎尔	ka duo er
-克丽斯腾·莱特	ke li si teng lai te
-零五四	ling wu si
-卡莱莎	ka lai sha
-丹布朗·莱奥帕尔迪	dan bu lang lai ao pa er di
-迈克尔	mai ke er
-大祭司	da ji si
-泷居未来	long ju wei lai
-颉	jie
-卡彭	ka peng
-米沃什	mi wo shen
-乌尔苏拉	wu er su la
-杜遥夜	du yao ye
-方	fang
-无名剧作家	wu ming ju zuo jia
-小沅	xiao yuan
-米莎	mi sha
-须佐	xu zuo
-西妮斯卡	xi ni si ka
-乞丐	qi gai
-路特	lu te
-反町哲也	fan ting zhe ye
-佩塔	pei ta
-路易斯·凯利	lu yi si kai li
-爷爷	ye ye
-西西里夫人	xi xi li fu ren
-光头马丁	guang tou ma ding
-议员	yi yuan
-奥尔佳·达尼洛夫娜·特里波列娃	ao er jia da ni luo fu na te li bo lie wa
-马特维	ma te wei
-大帝	da di
-系统主机	xi tong zhu ji
-克莱门莎	ke lai men sha
-诺埃米	nuo ai mi
-太尉	tai wei
-鲁斯	lu si
-扬·许勒尔	yang xu lei er
-阿格妮	a ge ni
-罗辛南特	luo xin nan te
-鼠王	shu wang
-安德里安	an de li an
-万先生	wan xian sheng
-德尔菲娜	de er fei na
-三船光平	san chuan guang ping
-塞尔蒙	sai er meng
-文月	wen yue
-雅科夫·彼得洛夫	ya ke fu bi de luo fu
-尤利娅·许勒尔	you li ya xu lei er
-梅希亚·塞勒涅	mei xi ya sai lei nie
-沃里克伯爵	wo li ke bo jue
-达尼拉·特里波列夫	da ni la te li bo lie fu
-雅斯彭	ya si peng
-蒲先生	pu xian sheng
-塔季扬娜·叶甫盖尼耶夫娜·拉里娜	ta ji yang na ye fu gai ni ye fu na la li na
-沃尔纳·冯·霍赫贝格	wo er na feng huo he bei ge
-瓦尔瓦拉	wa er wa la
-米娅	mi ya
-乔万娜·罗塞蒂	qiao wan na luo sai di
-萨满	sa man
-赫曼	he man
-格瑞斯	ge rui si
-古罗	gu luo
-卡西娅	ka xi ya
-安妮塔	an ni ta
-联络员	lian luo yuan
-浮士德	fu shi de
+最后的骑士	zui hou de qi shi
 阿纳托利·斯维特拉诺夫·卜捷里宁	a na tuo li si wei te la nuo fu bo jie li ning
-斯特凡诺·托雷格罗萨	si te fan nuo tuo lei ge luo sa
-克雷格	ke lei ge
-瓦拉赫	wa la he
-方小石	fang xiao shi
-朱维尔	zhu wei er
-库林	ku lin
-摩诃萨埵权化	mo he sa duo quan hua
-莉莉娅	li li ya
-依娜姆	yi na mu
-莫希	mo xi
-大提琴	da ti qin
-山姆	shan mu
-西尔弗	xi er fu
-耶奇·地心	ye qi di xin
-尤里	you li
-吉安娜	ji an na
-列昂尼德·格拉什维利	lie ang ni de ge la shen wei li
-曼努埃尔	man nu ai er
-洛里斯·博尔丁	luo li si bo er ding
-尤莉叶	you li ye
 艾玛	ai ma
-奥罗拉	ao luo la
-法杰伊	fa jie yi
-艾伦戴尔	ai lun dai er
-尼克托	ni ke tuo
-左宣辽	zuo xuan liao
-玛蒂娜	ma di na
-西尔莎·凯利	xi er sha kai li
-景教授	jing jiao shou
-哈姆	ha mu
-蒂亚戈	di ya ge
-皮加尔	pi jia er
-威尔	wei er
-加尔森	jia er sen
-孟铁衣	meng tie yi
-黑印	hei yin
-孽茨雷	nie ci lei
-胡君	hu jun
-阿尔瓦	a er wa
-米奥	mi ao
-克莱芒·杜波瓦	ke lai mang du bo wa
-卡尔·开斯特	ka er kai si te
-斑弥罗	ban mi luo
-菲利帕	fei li pa
-塔露拉	ta lu la
-凯特·开斯特	kai te kai si te
-赫卡德墨	he ka de mo
-沁	qin
-迪伦马特	di lun ma te
-伊雷妮·拉瓦萨	yi lei ni la wa sa
-杰拉德	jie la de
-莫不服	mo bu fu
-柏生义冈	bai sheng yi gang
-格兰妮	ge lan ni
-梅斯	mei si
-查理	cha li
-瑙姆	nao mu
-大鲍勃	da bao bo
-卡恩	ka en
-曼弗雷德	man fu lei de
-瑞克	rui ke
-费莉亚·拉珀尔塔	fei li ya la po er ta
-魏彦吾	wei yan wu
-托兰·卡什	tuo lan ka shen
-圣徒卡门	sheng tu ka men
-阿雅吉	a ya ji
-艾尔瓦	ai er wa
-吕刻伊昂	lv ke yi ang
-贝蒂	bei di
-亚当斯·施怀雅	ya dang si shi huai ya
-安	an
-杜玛	du ma
-万勤城	wan qin cheng
-卡拉奇	ka la qi
-爱琳	ai lin
-潘格尼尼	pan ge ni ni
+逐魇骑士	zhu yan qi shi
+顾筌	gu quan
+埃芒加德	ai mang jia de
+挖山人	wa shan ren
+鲁斯	lu si
+谢尔戈	xie er ge
+大审判官达里奥	da shen pan guan da li ao
+放逐王	fang zhu wang
+慎楼	shen lou
+三船光平	san chuan guang ping
+萨尔贡游客	sa er gong you ke
+活塞	huo sai
 大长老	da zhang lao
-博士	bo shi
-翁贝托·德蒙塔诺	weng bei tuo de meng ta nuo
-树枝骑士	shu zhi qi shi
-阿德颂·布朗陶	a de song bu lang tao
+炎礼	yan li
+塞伦	sai lun
+格特鲁德	ge te lu de
+纳杰日达	na jie ri da
+塔季扬娜·叶甫盖尼耶夫娜·拉里娜	ta ji yang na ye fu gai ni ye fu na la li na
+马克维茨	ma ke wei ci
+柏生义冈	bai sheng yi gang
+本尼	ben ni
+文月	wen yue
+九	jiu
+多利	duo li
+莫佚	mo yi
+锦织更纱	jin zhi geng sha
+西妮斯卡	xi ni si ka
+查尔斯·林奇	cha er si lin qi
+大嘴莫布	da zui mo bu
+导演	dao yan
+卡恩	ka en
+卡梅洛	ka mei luo
+梅菲斯特	mei fei si te
+伊奥莱塔·罗素	yi ao lai ta luo su
+荆先生	jing xian sheng
+阿丽娜	a li na
+伊蒂达	yi di da
+太傅	tai fu
+易	yi
+太尉	tai wei
+伊万	yi wan
+特蕾西娅	te lei xi ya
+阿尔瓦	a er wa
+蒲先生	pu xian sheng
+玛丽昂	ma li ang
+赫卡德墨	he ka de mo
 贝尔德	bei er de
-斯凯·杰洛	si kai jie luo
-奥克里	ao ke li
-布兰都斯	bu lan dou si
+阿斯帕齐娅	a si pa qi ya
+索默尔	suo mo er
+老修士	lao xiu shi
+希尔达	xi er da
 托马索	tuo ma suo
+格兰妮	ge lan ni
+凯文	kai wen
+伊萨科斯	yi sa ke si
+魏彦吾	wei yan wu
+可萝尔	ke luo er
+阿然	a ran
+肖恩·高多汀	xiao en gao duo ting
+塞弗林	sai fu lin
+万勤城	wan qin cheng
+董阿伯	dong a bo
+康拉德·杰克逊	kang la de jie ke xun
+格哈德·霍夫曼	ge ha de huo fu man
+芙蕾达·韦斯特	fu lei da wei si te
+艾丽塔·瓦卢耶娃	ai li ta wa lu ye wa
+阿克托斯	a ke tuo si
+阿雅吉	a ya ji
+万先生	wan xian sheng
+法杰伊	fa jie yi
+亨特	heng te
+莫妮克	mo ni ke
+卡奇·叙光	ka qi xu guang
+维韦塔	wei wei ta
+杰米	jie mi
+迪亚兹·冈萨雷斯	di ya zi gang sa lei si
+皇帝的利刃	huang di de li ren
+卡莱莎	ka lai sha
+巨枭	ju xiao
+西尔维娅	xi er wei ya
+霍汀	huo ting
+铅笔头	qian bi tou
+澪	ling
+贝希曼伯爵	bei xi man bo jue
+山海众头目	shan hai zhong tou mu
+佩特拉奶奶	pei te la nai nai
+布兰特·赖纳	bu lan te lai na
+贝蒂	bei di
+米兰妮·卢瑟福德	mi lan ni lu se fu de
+木裂埃克提尔尼尔	mu lie ai ke ti er ni er
+阿尔贝塔	a er bei ta
+伯德	bo de
+玛利图斯	ma li tu si
+景教授	jing jiao shou
+尚冢	shang zhong
+佩塔	pei ta
+卡尔	ka er
+塞尔蒙	sai er meng
+戈尔丁	ge er ding
+惟任刑警	wei ren xing jing
+恰尔内	qia er nei
+朱塞佩·德克萨斯	zhu sai pei de ke sa si
+月见夜	yue jian ye
+沉默的樵夫	chen mo de qiao fu
+屠谕者	tu yu zhe
+瓦尔瓦拉	wa er wa la
+博卓卡斯替	bo zhuo ka si ti
+法布里齐奥·威尼斯	fa bu li qi ao wei ni si
+米奥	mi ao
+安妮塔	an ni ta
+铁斋	tie zhai
+克洛维希娅	ke luo wei xi ya
+格蕾塔·斯通	ge lei ta si tong
+克丽斯腾·莱特	ke li si teng lai te
+谌彻	chen che
+奎隆	kui long
+扬·许勒尔	yang xu lei er
+盖克斯基	gai ke si ji
+列维·克里奇科	lie wei ke li qi ke
+希尔	xi er
+长凳	zhang deng
+卡罗琳	ka luo lin
+哈维尔	ha wei er
+米沃什	mi wo shen
+塔佳娜	ta jia na
+勒内·莱托	lei nei lai tuo
+万尼亚大公	wan ni ya da gong
+浮士德	fu shi de
+贝纳尔多·贝洛内	bei na er duo bei luo nei
+迈尔斯	mai er si
+小教头	xiao jiao tou
+菲勒加斯	fei lei jia si
+来自黄金之城的使者	lai zi huang jin zhi cheng de shi zhe
+尤里	you li
+阿布纳	a bu na
+薇尔丽芙	wei er li fu
+厨子麦克马丁	chu zi mai ke ma ding
+梅团	mei tuan
+沁	qin
+加尔森	jia er sen
+塑料骑士	su liao qi shi
+里底娅·阿苏普欧洛	li di ya a su pu ou luo
+引火的死魂灵	yin huo de si hun ling
+路易斯·凯利	lu yi si kai li
+树枝骑士	shu zhi qi shi
+贾斯汀·菲茨罗伊	jia si ting fei ci luo yi
+剧团喉舌	ju tuan hou she
+马克·麦克斯	ma ke mai ke si
+尼科洛	ni ke luo
+蒂奇	di qi
+塔季娅娜	ta ji ya na
+裘里奥	qiu li ao
+艾尔希	ai er xi
+老何塞	lao he sai
+梁	liang
+小白	xiao bai
+霜星	shuang xing
+马特奥	ma te ao
+玛丽	ma li
+后	hou
+宫司	gong si
+珀拉	po la
+克莱门莎	ke lai men sha
+小马雷克	xiao ma lei ke
+睚	ya
+大祭司	da ji si
+罗塞菈	luo sai la
+克洛伊	ke luo yi
+费奥多尔·弗拉基米罗维奇	fei ao duo er fu la ji mi luo wei qi
+卡拉	ka la
+胡安娜	hu an na
+科斯达	ke si da
+未知男性卡特斯	wei zhi nan xing ka te si
+圆规	yuan gui
+赫拉提娅	he la ti ya
+古斯塔夫·博内	gu si ta fu bo nei
+杜遥夜	du yao ye
+莱姆	lai mu
+白锦	bai jin
+佩里安德洛斯	pei li an de luo si
+血魔大君	xue mo da jun
+露彼娜	lu bi na
+黎	li
+道尔顿	dao er dun
+薇薇安	wei wei an
+琳兹	lin zi
+拉娜	la na
+吉安娜	ji an na
+维恩	wei en
+菈塔托丝	la ta tuo si
+阿伦茨·帕尔维斯	a lun ci pa er wei si
+摩诃萨埵权化	mo he sa duo quan hua
+柳千秋	liu qian qiu
+格罗莫夫	ge luo mo fu
+雷尔金	lei er jin
+提奥	ti ao
+伊雷妮·拉瓦萨	yi lei ni la wa sa
+火哨	huo shao
+海伦	hai lun
+阿格妮	a ge ni
+杰斯顿	jie si dun
+老骑士	lao qi shi
+列昂尼德·格拉什维利	lie ang ni de ge la shen wei li
+杨格	yang ge
+屈光者	qu guang zhe
+帕尤卡卡	pa you ka ka
+仲裁人	zhong cai ren
+沃尔夫	wo er fu
+哈姆	ha mu
+依拉	yi la
+奎萨图什塔	kui sa tu shen ta
+萨卡兹锅炉工	sa ka zi guo lu gong
+贝林厄姆	bei lin e mu
+翁贝托·德蒙塔诺	weng bei tuo de meng ta nuo
+杰拉尔德	jie la er de
+菲利帕	fei li pa
+铁腕骑士	tie wan qi shi
+吉莉安·阿兰达	ji li an a lan da
+马特维	ma te wei
+古罗	gu luo
+克莱芒·杜波瓦	ke lai mang du bo wa
+阿玛雅	a ma ya
+太合	tai he
+劳拉	lao la
+曼努埃尔	man nu ai er
+萨尔瓦多雷·德克萨斯	sa er wa duo lei de ke sa si
+渡魂剑	du hun jian
+槐天裴	huai tian pei
+叶甫根尼·库兹涅佐夫	ye fu gen ni ku zi nie zuo fu
+行板	xing ban
+爱国者	ai guo zhe
+拉兹	la zi
+丹布朗·莱奥帕尔迪	dan bu lang lai ao pa er di
+桑尼	sang ni
+瓦莲汀·鲁斯兰诺芙娜·沃尔金娜	wa lian ting lu si lan nuo fu na wo er jin na
+厄尔苏拉	e er su la
+墨格斯	mo ge si
+珂拉·洛文斯坦	ke la luo wen si tan
+希勒少尉	xi lei shao wei
+大鲍勃	da bao bo
+瓦古	wa gu
+克雷格	ke lei ge
+卢比奥	lu bi ao
+考伯特	kao bo te
+神农	shen nong
+梵里妮	fan li ni
+伊娜拉	yi na la
+保存者	bao cun zhe
+尤塔	you ta
+希尔德加德·赫琳玛特	xi er de jia de he lin ma te
+扬尼	yang ni
+阿维图斯	a wei tu si
+泷居应	long ju ying
+尤莉叶	you li ye
+迪伦	di lun
+阿方索	a fang suo
+利亚姆·坎贝尔	li ya mu kan bei er
+荣晚晴	rong wan qing
+陈昭芊	chen zhao qian
+凯特·开斯特	kai te kai si te
+老妇	lao fu
+好运	hao yun
+梅希亚·塞勒涅	mei xi ya sai lei nie
+阿什顿	a shen dun
+马丁	ma ding
+查理	cha li
+奥克里	ao ke li
+影卫	ying wei
+乞丐	qi gai
+安玛	an ma
+克利姆	ke li mu
+奥克芬	ao ke fen
+卡利托	ka li tuo
+斯韦特兰纳·乌里扬诺娃·卜捷里娜	si wei te lan na wu li yang nuo wa bo jie li na
+玄铁	xuan tie
+斑弥罗	ban mi luo
+汉密尔顿	han mi er dun
+阿摩斯	a mo si
+疤眼	ba yan
+王伯	wang bo
+麦基	mai ji
+沃伦佐娃夫人	wo lun zuo wa fu ren
+朱维尔	zhu wei er
+颉	jie
+老约翰	lao yue han
+格林	ge lin
+茉莉	mo li
+潘格尼尼	pan ge ni ni
+吉阿达	ji a da
+涅梅丝	nie mei si
+丽芙	li fu
+烟鬼	yan gui
+巫王	wu wang
+白垩	bai e
+喀利喀	ka li ka
+斐尔迪南·克鲁尼	fei er di nan ke lu ni
+亚娜	ya na
+坎伯兰公爵	kan bo lan gong jue
+赫曼	he man
+郑愁	zheng chou
+杜克	du ke
+左宣辽	zuo xuan liao
+瓦拉赫	wa la he
+羊之主	yang zhi zhu
+瓦西里·戈尔奇科夫	wa xi li ge er qi ke fu
+萨卢斯	sa lu si
+吉拉	ji la
+科鲁兹	ke lu zi
+孽茨雷	nie ci lei
+诺埃米	nuo ai mi
+迪亚特	di ya te
+无名剧作家	wu ming ju zuo jia
+迪伦马特	di lun ma te
+西西里夫人	xi xi li fu ren
+瓦尔顿子爵	wa er dun zi jue
+系统主机	xi tong zhu ji
+郑清钺	zheng qing yue
+炉芯终曲	lu xin zhong qu
+达米安·巴里	da mi an ba li
+伊斯	yi si
+大帝	da di
+汉科	han ke
+尼克托	ni ke tuo
+德鲁奇	de lu qi
+恺撒	kai sa
+费莉亚·拉珀尔塔	fei li ya la po er ta
+碎骨	sui gu
+爱琳	ai lin
+大熊	da xiong
+伊万杰利斯塔十一世	yi wan jie li si ta shi yi shi
+弗朗西斯	fu lang xi si
+亚当斯·施怀雅	ya dang si shi huai ya
+解真	jie zhen
+爷爷	ye ye
+赫尔昏佐伦	he er hun zuo lun
 里斯本	li si ben
+柏生明	bai sheng ming
+老工匠	lao gong jiang
+斯凯·杰洛	si kai jie luo
+皮乌拉	pi wu la
+六十七	liu shi qi
+切斯特	qie si te
+耶奇·地心	ye qi di xin
+普瑞赛斯	pu rui sai si
+添头	tian tou
+艾丝塔拉	ai si ta la
+格瑞斯	ge rui si
+雷德	lei de
+切斯柏	qie si bai
+杜玛	du ma
+罗辛南特	luo xin nan te
+赫尔曼	he er man
+皮加尔	pi jia er
+弗里达·希曼	fu li da xi man
+潘乔·萨拉斯	pan qiao sa la si
+雷内尔·科瓦尔斯基	lei nei er ke wa er si ji
+路特	lu te
+霍克	huo ke
+拂哀菈	fu ai la
+加勒斯	jia lei si
+斯蒂芬·奎	si di fen kui
+安德涅特·马里亚姆	an de nie te ma li ya mu
+绩	ji
+宝巫迦	bao wu jia
+叶莉莎女大公	ye li sha nv da gong
+椿	chun
+图利娅	tu li ya
+曼弗雷德	man fu lei de
+奥罗拉	ao luo la
+德尔菲娜	de er fei na
+维斯利·威灵顿	wei si li wei ling dun
+娜汀	na ting
+橡杯	xiang bei
+校官	xiao guan
+左手骑士	zuo shou qi shi
+塞斯克	sai si ke
+莉莉娅	li li ya
+阿米娅	a mi ya
+查德	cha de
+乌尔苏拉	wu er su la
+朵拉	duo la
+盾卫中的一员	dun wei zhong de yi yuan
+雅科夫·彼得洛夫	ya ke fu bi de luo fu
+黛安·韦伯	dai an wei bo
+甘比诺·里奇	gan bi nuo li qi
+光头马丁	guang tou ma ding
+福尔图娜	fu er tu na
+汉克	han ke
+艾莉诺	ai li nuo
+黑印	hei yin
+沃奥	wo ao
+瑞恩	rui en
+孟铁衣	meng tie yi
+托希娅	tuo xi ya
+鼠王	shu wang
+娜迦	na jia
+丹顿兄弟	dan dun xiong di
+坎诺特·古德英纳夫	kan nuo te gu de ying na fu
+大提琴	da ti qin
+杰拉德	jie la de
+瑞克	rui ke
+西塞罗	xi sai luo
+梅斯	mei si
+安托沙	an tuo sha
+伊斯拉姆·维特	yi si la mu wei te
+巨兽	ju shou
+科西切	ke xi qie
+吕刻伊昂	lv ke yi ang
+扎罗	zha luo
+老天师	lao tian shi
+博士	bo shi
+西尔莎·凯利	xi er sha kai li
+布雷奥甘	bu lei ao gan
+宝宝	bao bao
+何塞	he sai
+克洛宁	ke luo ning
+玛蒂娜	ma di na
+阿雅妮	a ya ni
+叶列梅	ye lie mei
+帕蒂亚	pa di ya
+卡谢娜	ka xie na
+沃里克伯爵	wo li ke bo jue
+干员直尺	gan yuan zhi chi
+蔓德拉	man de la
+小沅	xiao yuan
+骑摩托的	qi mo tuo de
+瓦莱丝	wa lai si
+战士比尔	zhan shi bi er
+迈克尔	mai ke er
+老汉	lao han
+达尼拉·特里波列夫	da ni la te li bo lie fu
+以勒什	yi lei shen
+佩特洛娃	pei te luo wa
+奥伦·亚吉奥拉斯	ao lun ya ji ao la si
+布莱克	bu lai ke
+雅斯彭	ya si peng
+乌露露	wu lu lu
+阿尔贝托·萨卢佐	a er bei tuo sa lu zuo
+莉泽洛特·伊维格娜德	li ze luo te yi wei ge na de
+卡拉奇	ka la qi
+克罗绮·砖石	ke luo qi zhuan shi
+桥夹克里夫	qiao jia ke li fu
+菈玛莲	la ma lian
+泷居未来	long ju wei lai
+拉列亚	la lie ya
+依娜姆	yi na mu
+安德里安	an de li an
+塞拉	sai la
+阿勒黛·坎伯兰	a lei dai kan bo lan
+伍德洛·比安奇	wu de luo bi an qi
+萨卡兹护卫	sa ka zi hu wei
+卡西娅	ka xi ya
+方	fang
+巴普洛维奇	ba pu luo wei qi
+铁皮	tie pi
+酒神	jiu shen
+文森特伯爵	wen sen te bo jue
+弗莱蒙特	fu lai meng te
+艾伦戴尔	ai lun dai er
+薇卡	wei ka
+莱蒙德	lai meng de
+双簧管	shuang huang guan
+阿洛伊泽	a luo yi ze
+均	jun
+哈默妮	ha mo ni
+胡君	hu jun
+杰里	jie li
+尤吉兄弟	you ji xiong di
+女侠	nv xia
+血骑士	xue qi shi
+米亚罗	mi ya luo
+雅拉·布克·威尔森	ya la bu ke wei er sen
+佐恩	zuo en
+方小石	fang xiao shi
+零五四	ling wu si
+哈莉	ha li
+尼卡	ni ka
+安费丽丝·温德米尔	an fei li si wen de mi er
+洛里斯·博尔丁	luo li si bo er ding
+圣徒	sheng tu
+卡彭	ka peng
+安	an
+开斯特公爵	kai si te gong jue
+安多恩·雅迦坦哲罗思	an duo en ya jia tan zhe luo si
+克伦妮	ke lun ni
+圣卫铳骑	sheng wei chong qi
+麦尼尔	mai ni er
+圣徒卡门	sheng tu ka men
+尤卡坦	you ka tan
+腐败骑士	fu bai qi shi
+宁辞秋	ning ci qiu
+列尔	lie er
+休斯	xiu si
+莫伊拉	mo yi la
+伊比利亚主教	yi bi li ya zhu jiao
+莫希	mo xi
+马尔科	ma er ke
+奥卢斯	ao lu si
+西尔卡	xi er ka
+下个院士先生	xia ge yuan shi xian sheng
+梁洵	liang xun
+反町哲也	fan ting zhe ye
+泽诺	ze nuo
+阿格尼尔	a ge ni er
+别格勒	bie ge lei
+安东	an dong
+布兰都斯	bu lan dou si
+托兰·卡什	tuo lan ka shen
+普拉多·卢宁	pu la duo lu ning
+黛柯绮·银币	dai ke qi yin bi
+贝赫努	bei he nu
+卡铎尔	ka duo er
+凋零骑士	diao ling qi shi
+文	wen
+罗伊	luo yi
+三角铁	san jiao tie
+葆拉·梅明格	bao la mei ming ge
+巴顿	ba dun
+罗南	luo nan
+议员	yi yuan
+萨满	sa man
+莫兰	mo lan
+坎黛拉·桑切斯	kan dai la sang qie si
+托尔	tuo er
+阿德颂·布朗陶	a de song bu lang tao
+虞澄	yu cheng
+霍里	huo li
+米娅	mi ya
+西尔弗	xi er fu
+阿发	a fa
+猎户	lie hu
+洛肯·威廉姆斯	luo ken wei lian mu si
+沃尔纳·冯·霍赫贝格	wo er na feng huo he bei ge
+比丢	bi diu
+山姆	shan mu
+古米的父母	gu mi de fu mu
+凯勒	kai lei
+首言者	shou yan zhe
+幽灵	you ling
+瑙姆	nao mu
+安纳斯塔西奥	an na si ta xi ao
+梅里塔	mei li ta
+塔露拉	ta lu la
+欧厄尔	ou e er
+宁述	ning shu
+卡珊卓拉	ka shan zhuo la
+兰可	lan ke
+沙雷·拉多斯瓦夫	sha lei la duo si wa fu
+格罗瓦兹尔	ge luo wa zi er
+托马索·埃斯波斯托	tuo ma suo ai si bo si tuo
+阿利斯泰尔	a li si tai er
+拉赫曼	la he man
+莫不服	mo bu fu
+卡尔·开斯特	ka er kai si te
+安东尼奥·威尼斯	an dong ni ao wei ni si
+爱德华·雅特利亚斯	ai de hua ya te li ya si
+寻路者信使	xun lu zhe xin shi
+利藤裕	li teng yu
+昆图斯	kun tu si
+安东尼奥	an dong ni ao
+麦迪森	mai di sen
+菲隆	fei long
+小个子	xiao ge zi
+联络员	lian luo yuan
+丽塔	li ta
+乔万娜·罗塞蒂	qiao wan na luo sai di
+威尔	wei er
+纳斯塔霞	na si ta xia
+蒂亚戈	di ya ge
+库林	ku lin
+卡代杜	ka dai du
+汤姆	tang mu
+阿根	a gen
+里昂·特雷门	li ang te lei men
+佩利佩·布朗	pei li pei bu lang
+米纳	mi na
+特雷西斯	te lei xi si
+尤拉	you la
+苦根	ku gen
+歌唱家	ge chang jia
+管家	guan jia
+帕夫洛	pa fu luo
+伊凡·图林	yi fan tu lin
+说书人	shuo shu ren
+莫菲丝	mo fei si
+图利奥	tu li ao
+碧银	bi yin
+须佐	xu zuo
+前代国主	qian dai guo zhu
+米莎	mi sha
+尤利娅·许勒尔	you li ya xu lei er
+昂斯特	ang si te
+塞茜莉亚·拉珀尔塔	sai qian li ya la po er ta
+珀茜瓦尔	po qian wa er
+小聪明	xiao cong ming
+奥尔佳·达尼洛夫娜·特里波列娃	ao er jia da ni luo fu na te li bo lie wa
+锹子	qiao zi
+小敏	xiao min
+休露丝	xiu lu si
 谢莉	xie li
+巴列罗	ba lie luo
+弥尔顿	mi er dun
+达里奥	da li ao
+厨子	chu zi
+毕德曼	bi de man
+菲利切·高丢	fei li qie gao diu
+卢比奥之女	lu bi ao zhi nv
+巴蒂	ba di
+村长	cun zhang
+变形者集群	bian xing zhe ji qun
+西莫·威廉姆斯	xi mo wei lian mu si
+锈铜骑士	xiu tong qi shi
+艾尔瓦	ai er wa
+老姜	lao jiang
+神明	shen ming
+斯特凡诺·托雷格罗萨	si te fan nuo tuo lei ge luo sa
+墙灰	qiang hui
+埃里奥·法布里	ai li ao fa bu li
+老伊辛	lao yi xin

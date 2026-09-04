@@ -1,450 +1,545 @@
+# rime_dicts/an_abnormal.dict.yaml
+
+```diff
+--- v26.08.18.e956c4:data/rime_dicts/an_abnormal.dict.yaml
++++ data/rime_dicts/an_abnormal.dict.yaml
+@@ -2,60 +1,59 @@
+- 地缚	di fu
+- 地缚抗性	di fu kang xing
++ 缚地抗性	fu di kang xing
+```
+
+# titles/an_abnormal_titles.txt
+
+```diff
+--- v26.08.18.e956c4:data/titles/an_abnormal_titles.txt
++++ data/titles/an_abnormal_titles.txt
+@@ -1,58 +1,58 @@
+- GROUND_BOUND（地缚）
++ GROUND_BOUND（缚地）
+```
+
+# rime_dicts/an_activity_v2.dict.yaml
+
+```diff
+--- v26.08.18.e956c4:data/rime_dicts/an_activity_v2.dict.yaml
++++ data/rime_dicts/an_activity_v2.dict.yaml
+@@ -0,151 +1,152 @@
++ 月行水上	yue xing shui shang
+```
+
 # titles/an_activity_v2_titles.txt
 
 ```diff
---- v26.08.08.e92afc:data/titles/an_activity_v2_titles.txt
+--- v26.08.18.e956c4:data/titles/an_activity_v2_titles.txt
 +++ data/titles/an_activity_v2_titles.txt
-@@ -0,293 +1,294 @@
-+ 墟·复刻,支线故事复刻活动
+@@ -0,294 +2,296 @@
++ 月行水上,支线故事联动活动
++ 此夜同行,登录活动
 ```
 
 # rime_dicts/an_all.dict.yaml
 
 ```diff
---- v26.08.08.e92afc:data/rime_dicts/an_all.dict.yaml
+--- v26.08.18.e956c4:data/rime_dicts/an_all.dict.yaml
 +++ data/rime_dicts/an_all.dict.yaml
-@@ -0,12066 +90,12156 @@
-+ 不知足吞噬者	bu zhi zu tun shi zhe
-+ 主动脉	zhu dong mai
-+ 交通管理员	jiao tong guan li yuan
-+ 信使	xin shi
-+ 倒吊花	dao diao hua
-+ 充电桩	chong dian zhuang
-+ 凝流化石	ning liu hua shi
-+ 刺耳供礼	ci er gong li
-+ 勒柄嘘混	lei bing xu hun
-+ 卡特斯三个窝	ka te si san ge wo
-+ 原始	yuan shi
-+ 发光	fa guang
-+ 囊中枝	nang zhong zhi
-+ 困困荪茸	kun kun sun rong
-+ 地下捉迷藏	di xia zhuo mi cang
-+ 墙饰	qiang shi
-+ 处处是一撮毛	chu chu shi yi zuo mao
-+ 大个子绒绒	da ge zi rong rong
-+ 大嘴捕食草	da zui bu shi cao
-+ 大树干	da shu gan
-+ 大涌泉镇盛宴	da yong quan zhen sheng yan
-+ 太阳甩在身后家具收藏包	tai yang shuai zai shen hou jia ju shou cang bao
-+ 奇象拟合对战场	qi xiang ni he dui zhan chang
-+ 奇象收录时间	qi xiang shou lu shi jian
-+ 奇象时装回顾展	qi xiang shi zhuang hui gu zhan
-+ 奇象记录	qi xiang ji lu
-+ 奥术绒绒	ao shu rong rong
-+ 孤独的巨像	gu du de ju xiang
-+ 密林锋脊裂兽	mi lin feng ji lie shou
-+ 寒山大角驮兽	han shan da jiao tuo shou
-+ 属性	shu xing
-+ 崩塌通道	beng ta tong dao
-+ 巡展纪念章	xun zhan ji nian zhang
-+ 幽榴花香薰	you liu hua xiang xun
-+ 弧干座椅	hu gan zuo yi
-+ 战栗	zhan li
-+ 扭曲图腾	niu qu tu teng
-+ 抑制解除模组	yi zhi jie chu mo zu
-+ 支援系统	zhi yuan xi tong
-+ 星术绒绒	xing shu rong rong
-+ 有袋鼷兽奇遇	you dai xi shou qi yu
-+ 未定义石兽	wei ding yi shi shou
-+ 果冻清道夫	guo dong qing dao fu
-+ 果实	guo shi
-+ 枯槁者	ku gao zhe
-+ 枯焦锋脊裂兽	ku jiao feng ji lie shou
-+ 椰壳蟹	ye ke xie
-+ 橙冠羽镖客	cheng guan yu biao ke
-+ 残损木桩	can sun mu zhuang
-+ 活泼绒绒	huo po rong rong
-+ 浪花小壳蟹	lang hua xiao ke xie
-+ 深林伪形兽	shen lin wei xing shou
-+ 温和驮兽	wen he tuo shou
-+ 温暖漫步	wen nuan man bu
-+ 灼热跳跳蜥	zhuo re tiao tiao xi
-+ 熔火小壳蟹	rong huo xiao ke xie
-+ 爬行鬼伞	pa xing gui san
-+ 电影防沉迷	dian ying fang chen mi
-+ 盛放的年轮	sheng fang de nian lun
-+ 直立小雪怪	zhi li xiao xue guai
-+ 石榴弩手	shi liu nu shou
-+ 石背岩壳蟹	shi bei yan ke xie
-+ 红宝石投石虫	hong bao shi tou shi chong
-+ 红脉顶灯	hong mai ding deng
-+ 维奇科	wei qi ke
-+ 缚地	fu di
-+ 罪恶终局	zui e zhong ju
-+ 群叶地毯	qun ye di tan
-+ 羽兽	yu shou
-+ 花冠园丁	hua guan yuan ding
-+ 莎草的私人信件	suo cao de si ren xin jian
-+ 蓝冠羽镖客	lan guan yu biao ke
-+ 融合分裂	rong he fen lie
-+ 血浆活化模组	xue jiang huo hua mo zu
-+ 贴画	tie hua
-+ 赤黑伪形兽	chi hei wei xing shou
-+ 躁动阶梯	zao dong jie ti
-+ 通行新选择	tong xing xin xuan ze
-+ 邮包流水线	you bao liu shui xian
-+ 邮箱保卫战	you xiang bao wei zhan
-+ 铁锈闸口	tie xiu zha kou
-+ 锐爪巨翼兽	rui zhao ju yi shou
-+ 降生的故事	jiang sheng de gu shi
-+ 雕塑	diao su
-+ 黑毛花冠园丁	hei mao hua guan yuan ding
-+ 黑流博物	hei liu bo wu
-+ 黑流印象	hei liu yin xiang
-+ 黑流印象家具收藏包一	hei liu yin xiang jia ju shou cang bao yi
-+ 黑流树海壁纸	hei liu shu hai bi zhi
-+ 黑流途经之地	hei liu tu jing zhi di
+@@ -0,12156 +99,12255 @@
++ 一逢满月十连寻访凭证	yi feng man yue shi lian xun fang ping zheng
++ 一逢满月寻访凭证	yi feng man yue xun fang ping zheng
++ 不知道钟	bu zhi dao zhong
++ 丝绒地毯	si rong di tan
++ 人格的余音	ren ge de yu yin
++ 今日答案	jin ri da an
++ 休憩圣像	xiu qi sheng xiang
++ 传送免疫	chuan song mian yi
++ 伤眼路灯	shang yan lu deng
++ 倒吊人	dao diao ren
++ 光环吊灯	guang huan diao deng
++ 全场总攻击	quan chang zong gong ji
++ 典雅餐椅	dian ya can yi
++ 几点了钟	ji dian le zhong
++ 刺溜冰淇淋	ci liu bing qi lin
++ 可选性	ke xuan xing
++ 吓人路灯	xia ren lu deng
++ 吵闹收音机	chao nao shou yin ji
++ 咆哮铳	pao xiao chong
++ 商品陈列台	shang pin chen lie tai
++ 困惑车	kun huo che
++ 圣歌吟唱台	sheng ge yin chang tai
++ 圣芭菲拱门	sheng ba fei gong men
++ 圣芭菲收银台	sheng ba fei shou yin tai
++ 圣芭菲甜点店	sheng ba fei tian dian dian
++ 埃癸斯	ai gui si
++ 埃癸斯的信物	ai gui si de xin wu
++ 失恋花束	shi lian hua shu
++ 岳羽由加莉	yue yu you jia li
++ 岳羽由加莉的信物	yue yu you jia li de xin wu
++ 心灵与现实	xin ling yu xian shi
++ 思考者之椅	si kao zhe zhi yi
++ 思路碎片	si lu sui pian
++ 承重立柱	cheng zhong li zhu
++ 拉特兰家用甜品桌	la te lan jia yong tian pin zhuo
++ 择心圆桌	ze xin yuan zhuo
++ 挞展示柜	ta zhan shi gui
++ 挥铳圣像	hui chong sheng xiang
++ 教宗	jiao zong
++ 方糖结晶地板	fang tang jie jing di ban
++ 无法选择	wu fa xuan ze
++ 无聊车	wu liao che
++ 旧磁带	jiu ci dai
++ 星	xing
++ 晴朗启示壁纸	qing lang qi shi bi zhi
++ 暗蓝格纹地垫	an lan ge wen di dian
++ 月出	yue chu
++ 月影	yue ying
++ 月悬	yue xuan
++ 月斜	yue xie
++ 月晕	yue yun
++ 月涌	yue yong
++ 月满	yue man
++ 月移	yue yi
++ 月落	yue luo
++ 月蚀	yue shi
++ 月行水上	yue xing shui shang
++ 月行水上家具收藏包	yue xing shui shang jia ju shou cang bao
++ 树海	shu hai
++ 此夜同行	ci ye tong hang
++ 死志暗影	si zhi an ying
++ 死志的凝结	si zhi de ning jie
++ 沉默收音机	chen mo shou yin ji
++ 沉默者之椅	chen mo zhe zhi yi
++ 没办法车	mei ban fa che
++ 满月一生	man yue yi sheng
++ 满载甜点桌	man zai tian dian zhuo
++ 滴答冰淇淋	di da bing qi lin
++ 甜点陈列柜	tian dian chen lie gui
++ 生气车	sheng qi che
++ 电梯造型壁纸	dian ti zao xing bi zhi
++ 石白深蓝之夜	shi bai shen lan zhi ye
++ 离婚花束	li hun hua shu
++ 移动隔断石墙	yi dong ge duan shi qiang
++ 移动隔断石碑	yi dong ge duan shi bei
++ 移动隔断雕像	yi dong ge duan diao xiang
++ 结城理	jie cheng li
++ 结城理的信物	jie cheng li de xin wu
++ 结巴铳	jie ba chong
++ 莓果地毯	mei guo di tan
++ 蓝丝绒房间	lan si rong fang jian
++ 蓝丝绒沙发	lan si rong sha fa
++ 蔚蓝挂布	wei lan gua bu
++ 虎狼丸	hu lang wan
++ 虎狼丸的信物	hu lang wan de xin wu
++ 蛋筒地灯	dan tong di deng
++ 蛋糕展示柜	dan gao zhan shi gui
++ 被预定的餐桌	bei yu ding de can zhuo
++ 记录小台	ji lu xiao tai
++ 证书置物架	zheng shu zhi wu jia
++ 蹒跚羽兽	pan shan yu shou
++ 蹦跶羽兽	beng da yu shou
++ 选择的留言板	xuan ze de liu yan ban
++ 隐者	yin zhe
++ 难过车	nan guo che
++ 预知梦	yu zhi meng
++ 餐盘收纳台	can pan shou na tai
++ 饼干展示台	bing gan zhan shi tai
++ 魔术师	mo shu shi
 ```
 
 # titles/an_all_titles.txt
 
 ```diff
---- v26.08.08.e92afc:data/titles/an_all_titles.txt
+--- v26.08.18.e956c4:data/titles/an_all_titles.txt
 +++ data/titles/an_all_titles.txt
-@@ -1,25710 +200,25909 @@
-- 采集专员/spine
-+ Act1arkhub 01
-+ Act1arkhub 02
-+ Act1arkhub 03
-+ Act1arkhub 04
-+ Act1arkhub 05
-+ Act1arkhub 06
-+ Act1arkhub 07
-+ Act1arkhub 08
-+ Act1arkhub 09
-+ Act1arkhub 10
-+ Act1arkhub 11
-+ Act1arkhub 12
-+ Act1arkhub 13
-+ Act1arkhub 14
-+ Act1arkhub 15
-+ Act1arkhub 16
-+ Act1arkhub 17
-+ Act1arkhub 18
-+ Act53side ex01
-+ Act53side ex02
-+ Act53side ex03
-+ Act53side ex04
-+ Act53side ex05
-+ Act53side ex06
-+ Act53side ex07
-+ Act53side ex08
-+ Act53side mo01
-+ Act53side s01
-+ Act53side s02
-+ Act53side s03
-+ Act53side s04
-+ ECB-M01
-+ ECB-M01 奇象拟合对战场
-+ ECB-M02
-+ ECB-M02 奇象拟合对战场
-+ ECB-M03
-+ ECB-M03 奇象拟合对战场
-+ ECB-S01
-+ ECB-S01 奇象拟合对战场
-+ ECB-S02
-+ ECB-S02 奇象拟合对战场
-+ ECB-S03
-+ ECB-S03 奇象拟合对战场
-+ EE-01
-+ EE-01 奇象收录时间！
-+ EE-02
-+ EE-02 奇象收录时间！
-+ EE-03
-+ EE-03 奇象收录时间！
-+ EE-04
-+ EE-04 奇象收录时间！
-+ EE-05
-+ EE-05 奇象收录时间！
-+ LT-1 铁锈闸口
-+ LT-2 崩塌通道
-+ LT-3 躁动阶梯
-+ LT-4 扭曲图腾
-+ LT-5 刺耳供礼
-+ LT-6 罪恶终局
-+ Lt 21 01
-+ Lt 21 01 ex
-+ Lt 21 02
-+ Lt 21 02 ex
-+ Lt 21 03
-+ Lt 21 03 ex
-+ Lt 21 04
-+ Lt 21 04 ex
-+ Lt 21 05
-+ Lt 21 05 ex
-+ Lt 21 06
-+ Lt 21 06 ex
-+ Summer Calling
-+ TO-EX-1
-+ TO-EX-1 电影防沉迷
-+ TO-EX-1 电影防沉迷/敌方情报pro
-+ TO-EX-2
-+ TO-EX-2 邮包流水线
-+ TO-EX-3
-+ TO-EX-3 地下捉迷藏
-+ TO-EX-4
-+ TO-EX-4 处处是一撮毛
-+ TO-EX-5
-+ TO-EX-5 “勒柄嘘混”
-+ TO-EX-6
-+ TO-EX-6 信使？术师！
-+ TO-EX-7
-+ TO-EX-7 卡特斯三个窝
-+ TO-EX-8
-+ TO-EX-8 有袋鼷兽奇遇
-+ TO-MO-1
-+ TO-MO-1 大涌泉镇盛宴
-+ TO-S-1
-+ TO-S-1 邮箱保卫战
-+ TO-S-2
-+ TO-S-2 通行新选择
-+ TO-S-3
-+ TO-S-3 交通管理员
-+ TO-S-4
-+ TO-S-4 “家族聚会”
-+ “主动脉”支援系统
-+ “倒吊花”
-+ “囊中枝”
-+ “大树干”
-+ “枯槁者”维奇科
-+ “枯槁者”维奇科/spine
-+ “残损木桩”雕塑
-+ “温暖漫步”
-+ “盛放的年轮”
-+ “融合分裂”贴画
-+ “酩酊”(装置)
-+ “黑流博物”地毯
-+ “黑流途经之地”
-+ 不知足吞噬者
-+ 充电桩
-+ 凝流化石
-+ 原始“羽兽”墙饰
-+ 发光“果实”座椅
-+ 困困荪茸
-+ 困困荪茸(装置)
-+ 困困荪茸/spine
-+ 固海凿石者(装置)
-+ 墟2026
-+ 墟2026/活动公告
-+ 大个子绒绒
-+ 大嘴捕食草
-+ 大嘴捕食草(装置)
-+ 大嘴捕食草/spine
-+ 太阳甩在身后家具收藏包
-+ 奇象巡展/PRTS奇象记录
-+ 奇象巡展/道具
-+ 奇象巡展OST
-+ 奇象时装回顾展
-+ 奥术绒绒
-+ 孤独的巨像
-+ 密林锋脊裂兽
-+ 密林锋脊裂兽(装置)
-+ 密林锋脊裂兽/spine
-+ 寒山大角驮兽
-+ 寻访模拟/干员轮换卡池191
-+ 属性
-+ 巡展纪念章
-+ 幽榴花香薰
-+ 异常效果图鉴/恐惧
-+ 异常效果图鉴/战栗
-+ 异常效果图鉴/缚地
-+ 异常效果图鉴/诱导
-+ 弧干座椅
-+ 抑制解除模组
-+ 星术绒绒
-+ 未定义石兽
-+ 果冻清道夫
-+ 枯焦锋脊裂兽
-+ 枯焦锋脊裂兽(装置)
-+ 枯焦锋脊裂兽/spine
-+ 椰壳蟹
-+ 椰壳蟹(装置)
-+ 椰壳蟹/spine
-+ 橙冠羽镖客
-+ 橙冠羽镖客(装置)
-+ 橙冠羽镖客/spine
-+ 活泼绒绒
-+ 浪花小壳蟹
-+ 深林伪形兽
-+ 温和驮兽
-+ 灼热跳跳蜥
-+ 灼热跳跳蜥(装置)
-+ 灼热跳跳蜥/spine
-+ 熔火小壳蟹
-+ 爬行鬼伞
-+ 爬行鬼伞(装置)
-+ 爬行鬼伞/spine
-+ 直立小雪怪
-+ 石榴弩手
-+ 石榴弩手(装置)
-+ 石榴弩手/spine
-+ 石背岩壳蟹
-+ 红宝石投石虫
-+ 红宝石投石虫(装置)
-+ 红宝石投石虫/spine
-+ 红脉顶灯
-+ 群叶地毯
-+ 艺术的慈悲！
-+ 花冠园丁
-+ 莎草的私人信件
-+ 蓝冠羽镖客
-+ 蓝冠羽镖客(装置)
-+ 蓝冠羽镖客/spine
-+ 血浆活化模组
-+ 赤霞(装置)
-+ 赤黑伪形兽
-+ 钵海收割者(装置)
-+ 锐爪巨翼兽
-+ 阿咬(装置)
-+ 降生的故事
-+ 青花(装置)
-+ 高普尼克(装置)
-+ 黑毛花冠园丁
-+ 黑流印象
-+ 黑流印象家具收藏包一
-+ 黑流树海壁纸
+@@ -2,25909 +194,26101 @@
+- Level act2autochess h07 05
+- Level act2autochess h07 05 s
++ Act54side 01
++ Act54side 02
++ Act54side 03
++ Act54side 04
++ Act54side 05
++ Act54side 06
++ Act54side 07
++ Act54side 08
++ Act54side st01
++ Act54side st02
++ Act54side tr01
++ Aegis
++ ISW-DF 天数将易/敌方情报pro
++ ISW-NO 急不可耐/敌方情报pro
++ ISW-NO 枝头陷阱/敌方情报pro
++ ISW-NO 贪妄(今昔境)/敌方情报pro
++ ISW-NO 贪妄/敌方情报pro
++ ISW-SP 真相/敌方情报pro
++ Koromaru
++ Makoto Yuki
++ SR-1
++ SR-1 月出
++ SR-2
++ SR-2 月涌
++ SR-3
++ SR-3 月晕
++ SR-4
++ SR-4 月移
++ SR-5
++ SR-5 月斜
++ SR-6
++ SR-6 月蚀
++ SR-7
++ SR-7 月悬
++ SR-8
++ SR-8 月满
++ SR-ST-1
++ SR-ST-1 月落
++ SR-ST-2
++ SR-ST-2 满月一生
++ SR-TR-1
++ SR-TR-1 月影
++ TD-S-1 群山震颤，百龙夜行/敌方情报pro
++ TO-9 绘我们的黎明/敌方情报pro
++ Yukari Takeba
++ “死志的凝结”
++ “死志的凝结”/spine
++ “预知梦”置物架
++ 一逢满月十连寻访凭证
++ 一逢满月寻访凭证
++ 不知道钟
++ 不知道钟/spine
++ 丝绒地毯
++ 人格的余音
++ 休憩圣像
++ 传送免疫
++ 伤眼路灯
++ 伤眼路灯/spine
++ 倒吊人
++ 光环吊灯
++ 全场总攻击
++ 全景显示屏/家园
++ 典雅餐椅（右）
++ 典雅餐椅（左）
++ 几点了钟
++ 几点了钟/spine
++ 制作组通讯/68
++ 刺溜冰淇淋
++ 刺溜冰淇淋/spine
++ 剑架/攻击器官
++ 力量
++ 可选性
++ 吊灯/族群
++ 吓人路灯
++ 吓人路灯/spine
++ 吵闹收音机
++ 吵闹收音机/spine
++ 咆哮铳
++ 咆哮铳/spine
++ 商品陈列台
++ 困惑车
++ 困惑车/spine
++ 圣歌吟唱台
++ 圣芭菲拱门
++ 圣芭菲收银台
++ 圣芭菲甜点店
++ 地板/海底
++ 地毯/洋流
++ 埃癸斯
++ 埃癸斯/语音记录
++ 埃癸斯的信物
++ 壁灯/子嗣
++ 失恋花束
++ 失恋花束/spine
++ 客户端版本/2.7.71
++ 寻访模拟/中坚干员轮换卡池73
++ 寻访模拟/中坚甄选14
++ 寻访模拟/干员轮换卡池192
++ 寻访模拟/联合行动23
++ 岳羽由加莉
++ 岳羽由加莉/语音记录
++ 岳羽由加莉的信物
++ 座椅/巢穴
++ 心灵与现实
++ 思考者之椅
++ 思路碎片
++ 承重立柱
++ 拉特兰家用甜品桌
++ 择心圆桌
++ 挞展示柜
++ 挥铳圣像
++ 挥铳圣像/spine
++ 摆件/食物
++ 收藏/好奇心
++ 教宗
++ 方糖结晶地板
++ 无法选择
++ 无聊车
++ 无聊车/spine
++ 旧磁带
++ 星
++ 晴朗启示壁纸
++ 暗蓝格纹地垫
++ 月行水上
++ 月行水上/今日答案！
++ 月行水上/活动公告
++ 月行水上家具收藏包
++ 束缚
++ 树海
++ 桌子/进化
++ 此夜同行
++ 死志暗影
++ 沉沦者的黑流树海/关卡敌人数量速查
++ 沉默收音机
++ 沉默收音机/spine
++ 沉默者之椅
++ 没办法车
++ 没办法车/spine
++ 满载甜点桌
++ 滴答冰淇淋
++ 滴答冰淇淋/spine
++ 烛台/诱饵
++ 猎狗proto
++ 甜点陈列柜
++ 生气车
++ 生气车/spine
++ 电梯造型壁纸
++ 石台/材料
++ 石床/岩壁
++ 石白深蓝之夜
++ 离婚花束
++ 离婚花束/spine
++ 移动隔断石墙
++ 移动隔断石碑
++ 移动隔断雕像（右）
++ 移动隔断雕像（左）
++ 立柱/守卫
++ 竖琴/呼唤
++ 结城理
++ 结城理/语音记录
++ 结城理的信物
++ 结巴铳
++ 结巴铳/spine
++ 脚垫/尘土
++ 节制
++ 莓果地毯
++ 蓝丝绒房间
++ 蓝丝绒沙发
++ 蔚蓝挂布
++ 虎狼丸
++ 虎狼丸/语音记录
++ 虎狼丸的信物
++ 蛋筒地灯
++ 蛋糕展示柜
++ 被预定的餐桌
++ 装饰柱/残骸
++ 记录小台
++ 证书置物架
++ 蹒跚羽兽
++ 蹒跚羽兽/spine
++ 蹦跶羽兽
++ 蹦跶羽兽/spine
++ 选择的留言板
++ 隐者
++ 难过车
++ 难过车/spine
++ 餐盘收纳台
++ 饰灯/骨骸
++ 饼干展示台
++ 首页/亮点干员/sandbox
++ 首页/亮点干员/新增模组/数据/sandbox
++ 首页/亮点干员/新增皮肤/数据/sandbox
++ 首页/网页活动
++ 魔术师
 ```
 
 # rime_dicts/an_character.dict.yaml
 
 ```diff
---- v26.08.08.e92afc:data/rime_dicts/an_character.dict.yaml
+--- v26.08.18.e956c4:data/rime_dicts/an_character.dict.yaml
 +++ data/rime_dicts/an_character.dict.yaml
-@@ -0,619 +3,622 @@
-+ 利亚姆·坎贝尔	li ya mu kan bei er
-+ 米娅	mi ya
-+ 麦尼尔	mai ni er
+@@ -0,622 +6,628 @@
++ 卡拉	ka la
++ 吉阿达	ji a da
++ 珀拉	po la
++ 维韦塔	wei wei ta
++ 菲利切·高丢	fei li qie gao diu
++ 裘里奥	qiu li ao
 ```
 
 # titles/an_character_titles.txt
 
 ```diff
---- v26.08.08.e92afc:data/titles/an_character_titles.txt
+--- v26.08.18.e956c4:data/titles/an_character_titles.txt
 +++ data/titles/an_character_titles.txt
-@@ -0,629 +3,632 @@
-+ 利亚姆·坎贝尔
-+ 米娅
-+ 麦尼尔
-```
-
-# rime_dicts/an_clothes.dict.yaml
-
-```diff
---- v26.08.08.e92afc:data/rime_dicts/an_clothes.dict.yaml
-+++ data/rime_dicts/an_clothes.dict.yaml
-@@ -0,464 +2,466 @@
-+ 暮时宝光	mu shi bao guang
-+ 渡澄空	du cheng kong
-```
-
-# titles/an_clothes_titles.txt
-
-```diff
---- v26.08.08.e92afc:data/titles/an_clothes_titles.txt
-+++ data/titles/an_clothes_titles.txt
-@@ -0,510 +3,513 @@
-+ 悠然假日 HD91
-+ 暮时宝光
-+ 渡澄空
+@@ -0,632 +6,638 @@
++ 卡拉
++ 吉阿达
++ 珀拉
++ 维韦塔
++ 菲利切·高丢
++ 裘里奥
 ```
 
 # rime_dicts/an_enemy.dict.yaml
 
 ```diff
---- v26.08.08.e92afc:data/rime_dicts/an_enemy.dict.yaml
+--- v26.08.18.e956c4:data/rime_dicts/an_enemy.dict.yaml
 +++ data/rime_dicts/an_enemy.dict.yaml
-@@ -1,1764 +13,1776 @@
-- 采集专员	cai ji zhuan yuan
-+ 困困荪茸	kun kun sun rong
-+ 大嘴捕食草	da zui bu shi cao
-+ 密林锋脊裂兽	mi lin feng ji lie shou
-+ 枯槁者	ku gao zhe
-+ 枯焦锋脊裂兽	ku jiao feng ji lie shou
-+ 椰壳蟹	ye ke xie
-+ 橙冠羽镖客	cheng guan yu biao ke
-+ 灼热跳跳蜥	zhuo re tiao tiao xi
-+ 爬行鬼伞	pa xing gui san
-+ 石榴弩手	shi liu nu shou
-+ 红宝石投石虫	hong bao shi tou shi chong
-+ 维奇科	wei qi ke
-+ 蓝冠羽镖客	lan guan yu biao ke
+@@ -0,1776 +21,1797 @@
++ 不知道钟	bu zhi dao zhong
++ 伤眼路灯	shang yan lu deng
++ 几点了钟	ji dian le zhong
++ 刺溜冰淇淋	ci liu bing qi lin
++ 吓人路灯	xia ren lu deng
++ 吵闹收音机	chao nao shou yin ji
++ 咆哮铳	pao xiao chong
++ 困惑车	kun huo che
++ 失恋花束	shi lian hua shu
++ 挥铳圣像	hui chong sheng xiang
++ 无聊车	wu liao che
++ 死志的凝结	si zhi de ning jie
++ 沉默收音机	chen mo shou yin ji
++ 没办法车	mei ban fa che
++ 滴答冰淇淋	di da bing qi lin
++ 生气车	sheng qi che
++ 离婚花束	li hun hua shu
++ 结巴铳	jie ba chong
++ 蹒跚羽兽	pan shan yu shou
++ 蹦跶羽兽	beng da yu shou
++ 难过车	nan guo che
 ```
 
 # titles/an_enemy_titles.txt
 
 ```diff
---- v26.08.08.e92afc:data/titles/an_enemy_titles.txt
+--- v26.08.18.e956c4:data/titles/an_enemy_titles.txt
 +++ data/titles/an_enemy_titles.txt
-@@ -1,1772 +12,1783 @@
-- 采集专员
-+ “枯槁者”维奇科
-+ 困困荪茸
-+ 大嘴捕食草
-+ 密林锋脊裂兽
-+ 枯焦锋脊裂兽
-+ 椰壳蟹
-+ 橙冠羽镖客
-+ 灼热跳跳蜥
-+ 爬行鬼伞
-+ 石榴弩手
-+ 红宝石投石虫
-+ 蓝冠羽镖客
+@@ -0,1783 +21,1804 @@
++ “死志的凝结”
++ 不知道钟
++ 伤眼路灯
++ 几点了钟
++ 刺溜冰淇淋
++ 吓人路灯
++ 吵闹收音机
++ 咆哮铳
++ 困惑车
++ 失恋花束
++ 挥铳圣像
++ 无聊车
++ 沉默收音机
++ 没办法车
++ 滴答冰淇淋
++ 生气车
++ 离婚花束
++ 结巴铳
++ 蹒跚羽兽
++ 蹦跶羽兽
++ 难过车
 ```
 
 # rime_dicts/an_item.dict.yaml
 
 ```diff
---- v26.08.08.e92afc:data/rime_dicts/an_item.dict.yaml
+--- v26.08.18.e956c4:data/rime_dicts/an_item.dict.yaml
 +++ data/rime_dicts/an_item.dict.yaml
-@@ -0,1241 +5,1246 @@
-+ 太阳甩在身后家具收藏包	tai yang shuai zai shen hou jia ju shou cang bao
-+ 奇象时装回顾展	qi xiang shi zhuang hui gu zhan
-+ 巡展纪念章	xun zhan ji nian zhang
-+ 莎草的私人信件	suo cao de si ren xin jian
-+ 黑流印象家具收藏包一	hei liu yin xiang jia ju shou cang bao yi
+@@ -0,1246 +15,1261 @@
++ 一逢满月十连寻访凭证	yi feng man yue shi lian xun fang ping zheng
++ 一逢满月寻访凭证	yi feng man yue xun fang ping zheng
++ 倒吊人	dao diao ren
++ 力量	li liang
++ 埃癸斯的信物	ai gui si de xin wu
++ 岳羽由加莉的信物	yue yu you jia li de xin wu
++ 教宗	jiao zong
++ 旧磁带	jiu ci dai
++ 星	xing
++ 月行水上家具收藏包	yue xing shui shang jia ju shou cang bao
++ 结城理的信物	jie cheng li de xin wu
++ 节制	jie zhi
++ 虎狼丸的信物	hu lang wan de xin wu
++ 隐者	yin zhe
++ 魔术师	mo shu shi
 ```
 
 # titles/an_item_titles.txt
 
 ```diff
---- v26.08.08.e92afc:data/titles/an_item_titles.txt
+--- v26.08.18.e956c4:data/titles/an_item_titles.txt
 +++ data/titles/an_item_titles.txt
-@@ -0,1310 +5,1315 @@
-+ 太阳甩在身后家具收藏包
-+ 奇象时装回顾展
-+ 巡展纪念章
-+ 莎草的私人信件
-+ 黑流印象家具收藏包一
+@@ -0,1315 +15,1330 @@
++ 一逢满月十连寻访凭证
++ 一逢满月寻访凭证
++ 倒吊人
++ 力量
++ 埃癸斯的信物
++ 岳羽由加莉的信物
++ 教宗
++ 旧磁带
++ 星
++ 月行水上家具收藏包
++ 结城理的信物
++ 节制
++ 虎狼丸的信物
++ 隐者
++ 魔术师
+```
+
+# rime_dicts/an_operator.dict.yaml
+
+```diff
+--- v26.08.18.e956c4:data/rime_dicts/an_operator.dict.yaml
++++ data/rime_dicts/an_operator.dict.yaml
+@@ -0,416 +4,420 @@
++ 埃癸斯	ai gui si
++ 岳羽由加莉	yue yu you jia li
++ 结城理	jie cheng li
++ 虎狼丸	hu lang wan
+```
+
+# titles/an_operator_titles.txt
+
+```diff
+--- v26.08.18.e956c4:data/titles/an_operator_titles.txt
++++ data/titles/an_operator_titles.txt
+@@ -0,456 +4,460 @@
++ 埃癸斯
++ 岳羽由加莉
++ 结城理
++ 虎狼丸
 ```
 
 # rime_dicts/an_skill.dict.yaml
 
 ```diff
---- v26.08.08.e92afc:data/rime_dicts/an_skill.dict.yaml
+--- v26.08.18.e956c4:data/rime_dicts/an_skill.dict.yaml
 +++ data/rime_dicts/an_skill.dict.yaml
-@@ -0,1377 +3,1380 @@
-+ 抑制解除	yi zhi jie chu
-+ 汲能冲击	ji neng chong ji
-+ 血浆活化	xue jiang huo hua
+@@ -0,1380 +9,1389 @@
++ 俄耳甫斯的竖琴	e er fu si de shu qin
++ 全弹发射	quan dan fa she
++ 军营电话亭	jun ying dian hua ting
++ 启动狂宴模式	qi dong kuang yan mo shi
++ 塔纳托斯的囚锁	ta na tuo si de qiu suo
++ 开辟明日的剑刃	kai pi ming ri de jian ren
++ 明镜止水	ming jing zhi shui
++ 超时空电话亭	chao shi kong dian hua ting
++ 龙卷箭	long juan jian
 ```
 
 # titles/an_skill_titles.txt
 
 ```diff
---- v26.08.08.e92afc:data/titles/an_skill_titles.txt
+--- v26.08.18.e956c4:data/titles/an_skill_titles.txt
 +++ data/titles/an_skill_titles.txt
-@@ -0,1550 +3,1553 @@
-+ 文件:技能 抑制解除.png
-+ 文件:技能 汲能冲击.png
-+ 文件:技能 血浆活化.png
+@@ -4,1553 +9,1558 @@
+- 文件:技能 发射(勾爪).png
+- 文件:技能 叮铃铃！(军营电话亭).png
+- 文件:技能 叮铃铃！(街边电话亭).png
+- 文件:技能 叮铃铃！(超时空电话亭).png
++ 文件:技能 俄耳甫斯的竖琴.png
++ 文件:技能 全弹发射.png
++ 文件:技能 叮铃铃！ 军营电话亭.png
++ 文件:技能 叮铃铃！ 超时空电话亭.png
++ 文件:技能 启动狂宴模式.png
++ 文件:技能 塔纳托斯的囚锁.png
++ 文件:技能 开辟明日的剑刃.png
++ 文件:技能 明镜止水.png
++ 文件:技能 龙卷箭.png
 ```
 
