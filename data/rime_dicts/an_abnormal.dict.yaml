@@ -1,60 +1,60 @@
 ---
 name: an_abnormal
 sort: by_weight
-version: 26.09.04
+version: 26.09.11
 ...
-技力封闭	ji li feng bi
-缚地抗性	fu di kang xing
-塔不可选中	ta bu ke xuan zhong
-浮空强化	fu kong qiang hua
 不死	bu si
+缴械	jiao xie
+强制缴械	qiang zhi jiao xie
+恐惧	kong ju
+寒冷	han leng
+不可阻挡	bu ke zu dang
+禁疗	jin liao
+禁用近战	jin yong jin zhan
+诱导	you dao
+缚地抗性	fu di kang xing
+小睡	xiao shui
+晕眩抗性	yun xuan kang xing
+技能强启	ji neng qiang qi
+沉默	chen mo
 自缚	zi fu
 缚地	fu di
-晕眩	yun xuan
-缴械	jiao xie
+孤立	gu li
+麻痹	ma bi
+被传送	bei chuan song
+闭锁	bi suo
+冻结抗性	dong jie kang xing
+麻痹抗性	ma bi kang xing
+诱导抗性	you dao kang xing
 元素免疫	yuan su mian yi
 迷彩	mi cai
-自惧	zi ju
-浮空抗性	fu kong kang xing
-被传送抗性	bei chuan song kang xing
-无敌	wu di
-麻痹震颤	ma bi zhen chan
-不可阻挡	bu ke zu dang
-阻回	zu hui
-小睡	xiao shui
+浮空强化	fu kong qiang hua
 战栗	zhan li
-寒冷	han leng
+冻结	dong jie
+对地规避	dui di gui bi
+被传送抗性	bei chuan song kang xing
+离地	li di
+浮空	fu kong
+无法撤退	wu fa che tui
 隐藏	yin cang
-麻痹	ma bi
+隐匿	yin ni
+沉默抗性	chen mo kang xing
+麻痹震颤	ma bi zhen chan
+战栗抗性	zhan li kang xing
+禁锢	jin gu
+自惧	zi ju
+无法行动	wu fa xing dong
+无敌	wu di
 沉睡抗性	chen shui kang xing
 状态免疫	zhuang tai mian yi
-失衡免疫	shi heng mian yi
-战栗抗性	zhan li kang xing
-诱导抗性	you dao kang xing
-离地	li di
-不可选中	bu ke xuan zhong
-浮空	fu kong
-诱导	you dao
-冻结	dong jie
-禁疗	jin liao
-束缚	shu fu
-晕眩抗性	yun xuan kang xing
-无法行动	wu fa xing dong
-禁锢	jin gu
-无法撤退	wu fa che tui
-闭锁	bi suo
-沉睡	chen shui
-隐匿	yin ni
-技能强启	ji neng qiang qi
-被传送	bei chuan song
-恐惧	kong ju
+技力封闭	ji li feng bi
 恐惧抗性	kong ju kang xing
-冻结抗性	dong jie kang xing
-沉默	chen mo
+阻回	zu hui
+晕眩	yun xuan
+失衡免疫	shi heng mian yi
+沉睡	chen shui
+束缚	shu fu
+浮空抗性	fu kong kang xing
+塔不可选中	ta bu ke xuan zhong
+不可选中	bu ke xuan zhong
 静默	jing mo
-孤立	gu li
-对地规避	dui di gui bi
-沉默抗性	chen mo kang xing
-禁用近战	jin yong jin zhan
-强制缴械	qiang zhi jiao xie
-麻痹抗性	ma bi kang xing
