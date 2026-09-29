@@ -1,60 +1,60 @@
 ---
 name: an_abnormal
 sort: by_weight
-version: 26.09.20
+version: 26.09.29
 ...
-沉默	chen mo
-隐藏	yin cang
-离地	li di
-缚地	fu di
-麻痹抗性	ma bi kang xing
-对地规避	dui di gui bi
-恐惧抗性	kong ju kang xing
-禁用近战	jin yong jin zhan
-无法行动	wu fa xing dong
-孤立	gu li
 自惧	zi ju
-冻结抗性	dong jie kang xing
-浮空强化	fu kong qiang hua
-战栗抗性	zhan li kang xing
-麻痹震颤	ma bi zhen chan
-静默	jing mo
+冻结	dong jie
+恐惧抗性	kong ju kang xing
 自缚	zi fu
-无法撤退	wu fa che tui
+战栗抗性	zhan li kang xing
+恐惧	kong ju
+不死	bu si
+沉默抗性	chen mo kang xing
+孤立	gu li
+浮空强化	fu kong qiang hua
+缚地	fu di
+不可阻挡	bu ke zu dang
 晕眩	yun xuan
-战栗	zhan li
-闭锁	bi suo
+隐藏	yin cang
 诱导	you dao
 禁锢	jin gu
-诱导抗性	you dao kang xing
-失衡免疫	shi heng mian yi
-缚地抗性	fu di kang xing
-塔不可选中	ta bu ke xuan zhong
-技能强启	ji neng qiang qi
-寒冷	han leng
-不可选中	bu ke xuan zhong
-元素免疫	yuan su mian yi
-迷彩	mi cai
-缴械	jiao xie
-技力封闭	ji li feng bi
-状态免疫	zhuang tai mian yi
 沉睡	chen shui
-沉默抗性	chen mo kang xing
-晕眩抗性	yun xuan kang xing
-被传送	bei chuan song
-麻痹	ma bi
-小睡	xiao shui
-不死	bu si
-隐匿	yin ni
-沉睡抗性	chen shui kang xing
+阻回	zu hui
+诱导抗性	you dao kang xing
+不可选中	bu ke xuan zhong
 强制缴械	qiang zhi jiao xie
+对地规避	dui di gui bi
+闭锁	bi suo
+缴械	jiao xie
+元素免疫	yuan su mian yi
+静默	jing mo
+无法行动	wu fa xing dong
+被传送抗性	bei chuan song kang xing
+小睡	xiao shui
+失衡免疫	shi heng mian yi
+被传送	bei chuan song
 束缚	shu fu
 无敌	wu di
-不可阻挡	bu ke zu dang
+技能强启	ji neng qiang qi
+麻痹	ma bi
+麻痹震颤	ma bi zhen chan
+战栗	zhan li
+缚地抗性	fu di kang xing
+麻痹抗性	ma bi kang xing
+冻结抗性	dong jie kang xing
+状态免疫	zhuang tai mian yi
+晕眩抗性	yun xuan kang xing
 浮空	fu kong
-恐惧	kong ju
 禁疗	jin liao
-被传送抗性	bei chuan song kang xing
-冻结	dong jie
+无法撤退	wu fa che tui
+寒冷	han leng
+塔不可选中	ta bu ke xuan zhong
+沉默	chen mo
+隐匿	yin ni
+迷彩	mi cai
+沉睡抗性	chen shui kang xing
+技力封闭	ji li feng bi
 浮空抗性	fu kong kang xing
-阻回	zu hui
+离地	li di
+禁用近战	jin yong jin zhan

@@ -1,1798 +1,1806 @@
 ---
 name: an_enemy
 sort: by_weight
-version: 26.09.20
+version: 26.09.29
 ...
-汽水侠	qi shui xia
-持盾精锐骑士	chi dun jing rui qi shi
-彻底报废的胶卷	che di bao fei de jiao juan
-妖怪	yao guai
-战术防御者组长	zhan shu fang yu zhe zu zhang
-青铜镜	qing tong jing
-啄奔羽兽	zhuo ben yu shou
-霜劫·争	shuang jie zheng
-浆果虫	jiang guo chong
-谛兽	di shou
-绸缪	chou mou
-引浪兽	yin lang shou
-伊祖米克	yi zu mi ke
-思旧	si jiu
-采掘机	cai jue ji
-未熄	wei xi
-桶陈蜜酿	tong chen mi niang
-贪婪捕手	tan lan bu shou
-凝缩热力	ning suo re li
-残党乐团颂诗者	can dang yue tuan song shi zhe
-萨卡兹迷宫归乡者	sa ka zi mi gong gui xiang zhe
-强壮囚犯	qiang zhuang qiu fan
-传奇重犯	chuan qi chong fan
-机动卫兵	ji dong wei bing
-木制镇纸	mu zhi zhen zhi
-伊莎玛拉之泪	yi sha ma la zhi lei
-大型破碎器皿	da xing po sui qi min
-富营养的滑动者	fu ying yang de hua dong zhe
-反壳龟	fan ke gui
-泰特斯·白杨	tai te si bai yang
-宝箱寄居磐蟹	bao xiang ji ju pan xie
-停箸	ting zhu
-游击队突袭战士	you ji dui tu xi zhan shi
-不法分子	bu fa fen zi
-废金属爆裂者	fei jin shu bao lie zhe
-焦香螺旋桨	jiao xiang luo xuan jiang
-引火的死魂灵	yin huo de si hun ling
-萨卡兹狙击组长	sa ka zi ju ji zu zhang
-横冲直撞	heng chong zhi zhuang
-历险水手	li xian shui shou
-预见末日的贤人	yu jian mo ri de xian ren
-异光体饲育者	yi guang ti si yu zhe
-鸭爵	ya jue
-宿主流浪者	su zhu liu lang zhe
-斩胄之剑	zhan zhou zhi jian
-复仇者	fu chou zhe
-门神会守门员	men shen hui shou men yuan
-冠鸣龙王	guan ming long wang
-寒灾	han zai
-微核沉积者	wei he chen ji zhe
-挟潮·来	xie chao lai
-元核孽生者	yuan he nie sheng zhe
-酣睡飞行员	han shui fei xing yuan
-圣徒像	sheng tu xiang
-巫王乐团指挥家	wu wang yue tuan zhi hui jia
-寻路者供弹手	xun lu zhe gong dan shou
-巡游气球	xun you qi qiu
-织郁伯爵	zhi yu bo jue
-狂暴的猎狗	kuang bao de lie gou
-莱塔尼亚叛兵	lai ta ni ya pan bing
-放逐的黑棺	fang zhu de hei guan
-进化的本质	jin hua de ben zhi
-腐败之种	fu bai zhi zhong
-岗哨密探长	gang shao mi tan zhang
-粗圆岩	cu yuan yan
-残党正式萨克斯手	can dang zheng shi sa ke si shou
-破片	po pian
-流眼泪侦探	liu yan lei zhen tan
-伏翼兽	fu yi shou
-猎狗	lie gou
-老尖牙	lao jian ya
-狡兽	jiao shou
-弱化节点	ruo hua jie dian
-神射手	shen she shou
-巫术巨像	wu shu ju xiang
-匪帮斧手	fei bang fu shou
-枣大刀	zao da dao
-深池侦察队长	shen chi zhen cha dui zhang
-战术队精英守门员	zhan shu dui jing ying shou men yuan
-喀兰圣女	ka lan sheng nv
-不祥幻影	bu xiang huan ying
-假想敌：再生	jia xiang di zai sheng
-夕	xi
-棘兽	ji shou
-大君之赐	da jun zhi ci
-无阻冲锋官	wu zu chong feng guan
-大哥大个子	da ge da ge zi
-搭档	da dang
-狂暴宿主投掷手	kuang bao su zhu tou zhi shou
-血珀	xue po
-赏金猎人弩手队长	shang jin lie ren nu shou dui zhang
-家族士兵	jia zu shi bing
-妒	du
-冲击式施术单元	chong ji shi shi shu dan yuan
-寻路密探长	xun lu mi tan zhang
-锏	jian
-自动维护机器	zi dong wei hu ji qi
-歪曲施法者	wai qu shi fa zhe
-结构性原理	jie gou xing yuan li
-米兰	mi lan
-弩手	nu shou
-霜牡	shuang mu
-碎岩者	sui yan zhe
-漫游小屋	man you xiao wu
-假想敌：蚀裂	jia xiang di shi lie
-焕生雪伞	huan sheng xue san
-萨卡兹悖谬暴虐兵长	sa ka zi bei miu bao nve bing zhang
-俗心	su xin
-潜水队长	qian shui dui zhang
-家族精英术师	jia zu jing ying shu shi
-传奇战争幽灵	chuan qi zhan zheng you ling
-萨卡兹子裔集恨者	sa ka zi zi yi ji hen zhe
-控潮术师	kong chao shu shi
-古德因纳夫先生	gu de yin na fu xian sheng
-火种	huo zhong
-天桩-乙	tian zhuang yi
-球德联守门员	qiu de lian shou men yuan
-破烂拼凑者	po lan pin cou zhe
-游荡者	you dang zhe
-访问团持盾长	fang wen tuan chi dun zhang
-堂皇	tang huang
-冰原御法者	bing yuan yu fa zhe
-锤锤到肉	chui chui dao rou
-庞贝	pang bei
-血色三生花	xue se san sheng hua
-游砂兽	you sha shou
-寻路密探	xun lu mi tan
-腐败骑士	fu bai qi shi
-格罗莫夫	ge luo mo fu
-灰尾	hui wei
-斗士塔露拉	dou shi ta lu la
-残党阵地术师	can dang zhen di shu shi
-瘴	zhang
-托生莲座	tuo sheng lian zuo
-伊利昂的铁驮兽	yi li ang de tie tuo shou
-烛骑士薇薇安娜	zhu qi shi wei wei an na
-三生花	san sheng hua
-振翅源石虫	zhen chi yuan shi chong
-劲弩射手	jin nu she shou
-迷珍巧械	mi zhen qiao xie
-碎铳之簧	sui chong zhi huang
-徘徊者	pai huai zhe
-传奇矿车	chuan qi kuang che
-粹影魂灵法骸	cui ying hun ling fa hai
-狂徒	kuang tu
-与我无关	yu wo wu guan
-圆岩巨像	yuan yan ju xiang
-沙地兽补给员	sha di shou bu ji yuan
-喷泉	pen quan
-排球发球车	pai qiu fa qiu che
-弧光镜卫	hu guang jing wei
-萨科塔匍匐	sa ke ta pu fu
-步兵	bu bing
-大嘴捕食草	da zui bu shi cao
-寻路者知名甜品商	xun lu zhe zhi ming tian pin shang
-爱球会守门员	ai qiu hui shou men yuan
-无数的伊萨科斯	wu shu de yi sa ke si
-匪帮混混	fei bang hun hun
-护王余火	hu wang yu huo
-加戏群演	jia xi qun yan
-家族恫吓者	jia zu dong he zhe
-泄漏源	xie lou yuan
-烈酒金刚	lie jiu jin gang
-云中墨贼	yun zhong mo zei
-饮泣之刺	yin qi zhi ci
-灰烬艺术品	hui jin yi shu pin
 明鉴	ming jian
-冰原狂战士队长	bing yuan kuang zhan shi dui zhang
-喷射式冠冕	pen she shi guan mian
-凯尔希	kai er xi
-蜃景	shen jing
-骑士领蛰伏者	qi shi ling zhe fu zhe
-拳刃武士	quan ren wu shi
-无餍	wu yan
-新手祭司学徒	xin shou ji si xue tu
-深池重甲卫士	shen chi zhong jia wei shi
-皮书生	pi shu sheng
-魔球帮守门员	mo qiu bang shou men yuan
-怪葫芦	guai hu lu
-萨科塔昂首	sa ke ta ang shou
-冰镇饮料机	bing zhen yin liao ji
-无胄盟第三小队组长	wu zhou meng di san xiao dui zu zhang
-市井流窜猎手	shi jing liu cuan lie shou
-主角阵营角色	zhu jue zhen ying jue se
-团伙精锐佣兵	tuan huo jing rui yong bing
-封冻高山驮兽	feng dong gao shan tuo shou
-萨卡兹子裔轰击者	sa ka zi zi yi hong ji zhe
-羽化之梦	yu hua zhi meng
-无患	wu huan
-塑料	su liao
-招财	zhao cai
-雪怪术师	xue guai shu shi
-玻璃窗毁灭者	bo li chuang hui mie zhe
-玛利图斯	ma li tu si
-沙堡建筑者	sha bao jian zhu zhe
-增强型爆燃厨具巨人	zeng qiang xing bao ran chu ju ju ren
-阿咬	a yao
-欺凌者	qi ling zhe
-拔山	ba shan
-爱球会击人手	ai qiu hui ji ren shou
-残党小提琴家	can dang xiao ti qin jia
-力大如驮	li da ru tuo
-菈玛莲	la ma lian
-大地之鞭	da di zhi bian
-主音吉他	zhu yin ji ta
-提亚卡乌勇士	ti ya ka wu yong shi
-玉双剑	yu shuang jian
-聆风猎手	ling feng lie shou
-纤核漂游者	xian he piao you zhe
-寒灾回响	han zai hui xiang
-鸣啭	ming zhuan
-武装人员	wu zhuang ren yuan
-挽弓·鸣	wan gong ming
-悲观的大哥	bei guan de da ge
-乌萨斯着铠术师	wu sa si zhe kai shu shi
-信标	xin biao
-大角跳兽	da jiao tiao shou
-炎佑	yan you
-莱茵生命高级工程科成员	lai yin sheng ming gao ji gong cheng ke cheng yuan
-岁	sui
-罗德岛标志	luo de dao biao zhi
-萨卡兹悖谬谍报官	sa ka zi bei miu die bao guan
-专业竞演者	zhuan ye jing yan zhe
-年轻人	nian qing ren
-精干打手	jing gan da shou
-匪帮斧手头目	fei bang fu shou tou mu
-术师快艇	shu shi kuai ting
-披挂冰雪的少女	pi gua bing xue de shao nv
-田鼷飞贼	tian xi fei zei
-易	yi
-巫王乐团长笛手	wu wang yue tuan chang di shou
-重装防御组长	zhong zhuang fang yu zu zhang
-冰原术师	bing yuan shu shi
-特雷西斯	te lei xi si
-圣徒伊比利亚	sheng tu yi bi li ya
-特别行动队士兵	te bie xing dong dui shi bing
-耶拉冈德	ye la gang de
-静滞虚幻	jing zhi xu huan
-流泪小子	liu lei xiao zi
-巨声	ju sheng
-赞索斯	zan suo si
-猎食者的墓碑	lie shi zhe de mu bei
-青金	qing jin
-萨卡兹悖谬谍报长	sa ka zi bei miu die bao zhang
-弹跳独轮车	dan tiao du lun che
-肇事者	zhao shi zhe
-采集实习生	cai ji shi xi sheng
-咒鬼	zhou gui
-椰壳蟹	ye ke xie
-帕拉杜利斯	pa la du li si
-乌萨斯突击者	wu sa si tu ji zhe
-失控天桩-乙	shi kong tian zhuang yi
-无胄盟刺客组长	wu zhou meng ci ke zu zhang
-脚脚生风	jiao jiao sheng feng
-武装密探长	wu zhuang mi tan zhang
-无聊车	wu liao che
-好朋友	hao peng you
-渴求瞩目的道具师	ke qiu zhu mu di dao ju shi
-深溟裂礁者	shen ming lie jiao zhe
-萨卡兹枯朽辟路前锋	sa ka zi ku xiu pi lu qian feng
-恶尘源石虫	e chen yuan shi chong
-节日气球	jie ri qi qiu
-死志的凝结	si zhi de ning jie
-终曲合声	zhong qu he sheng
-球德联老牌守门员	qiu de lian lao pai shou men yuan
-去蚀	qu shi
-自由佣兵	zi you yong bing
-虚实之握	xu shi zhi wo
-精锐圣堂射手	jing rui sheng tang she shou
-满天飞空员	man tian fei kong yuan
-萨卡兹王庭军精锐战士	sa ka zi wang ting jun jing rui zhan shi
-重装侦察兵	zhong zhuang zhen cha bing
-深池弩炮手	shen chi nu pao shou
-狂化矿脉守卫	kuang hua kuang mai shou wei
-清明	qing ming
-风雪中的影子	feng xue zhong de ying zi
-堕天使福尔图娜	duo tian shi fu er tu na
-雪怪狙击手	xue guai ju ji shou
-执白者	zhi bai zhe
-小型共生体	xiao xing gong sheng ti
-迷珍飞械	mi zhen fei xie
-糖果车	tang guo che
-未装配刀片	wei zhuang pei dao pian
-桥夹	qiao jia
-桓君	huan jun
-隐形弩手组长	yin xing nu shou zu zhang
-游击队狙击手	you ji dui ju ji shou
-深池逐火战士	shen chi zhu huo zhan shi
-市井盗贼	shi jing dao zei
-残党乐团调律师	can dang yue tuan diao lv shi
-假想敌：骨刺	jia xiang di gu ci
-校官	xiao guan
-灰烬造物	hui jin zao wu
-加热饮料机	jia re yin liao ji
-铜矛头	tong mao tou
-荒神大喰怪	huang shen da can guai
-阿斯卡纶	a si ka lun
-富营养的喷溅者	fu ying yang de pen jian zhe
-特别行动队队长	te bie xing dong dui dui zhang
-深池逐火精锐战士	shen chi zhu huo jing rui zhan shi
-坚韧丰碑	jian ren feng bei
-感染者纠察官	gan ran zhe jiu cha guan
-战术队精英击人手	zhan shu dui jing ying ji ren shou
-灵幛	ling zhang
-无胄盟清扫小队	wu zhou meng qing sao xiao dui
-活性源石巨像	huo xing yuan shi ju xiang
-深池狙击手	shen chi ju ji shou
-速射劲弩手	su she jin nu shou
-魔球帮诡秘守门员	mo qiu bang gui mi shou men yuan
-慰朽灵幛	wei xiu ling zhang
-私人安全顾问	si ren an quan gu wen
-小角跳兽	xiao jiao tiao shou
-狂躁异质裂兽	kuang zao yi zhi lie shou
-阿利斯泰尔	a li si tai er
-血红阵地	xue hong zhen di
-残党乐团圆号手	can dang yue tuan yuan hao shou
-访问团突击老兵	fang wen tuan tu ji lao bing
-喷溅者的墓碑	pen jian zhe de mu bei
-寻路者狙击手	xun lu zhe ju ji shou
-卡德霍	ka de huo
-旷野流贼	kuang ye liu zei
-战术队击球手	zhan shu dui ji qiu shou
-霜劫	shuang jie
-喷口	pen kou
-注能魂灵法骸	zhu neng hun ling fa hai
-未名的荒原	wei ming de huang yuan
-萨卡兹骸骨卫士	sa ka zi hai gu wei shi
-酒神	jiu shen
-彩瓷茶器	cai ci cha qi
-歌者	ge zhe
-爆燃厨具巨人	bao ran chu ju ju ren
-寻路者阵地撕裂者	xun lu zhe zhen di si lie zhe
-绝望的大哥	jue wang de da ge
-访问团强攻手	fang wen tuan qiang gong shou
-深池侦察犬	shen chi zhen cha quan
-破城者	po cheng zhe
-手推小矿车	shou tui xiao kuang che
-棱镜魂灵残迹	leng jing hun ling can ji
-山谷雪灵	shan gu xue ling
-海嗣	hai si
-演出用右爪	yan chu yong you zhao
-游击队萨卡兹术师组长	you ji dui sa ka zi shu shi zu zhang
-末路狂徒	mo lu kuang tu
-探矿机	tan kuang ji
-美声水手长	mei sheng shui shou zhang
-裹骸死士	guo hai si shi
-重装防御者	zhong zhuang fang yu zhe
-迅猛锋羽兽	xun meng feng yu shou
-滴答冰淇淋	di da bing qi lin
-高阶术师组长	gao jie shu shi zu zhang
-言省	yan sheng
-深池伙友卫队精英	shen chi huo you wei dui jing ying
-山海众头目	shan hai zhong tou mu
-仅剩的创意	jin sheng de chuang yi
-巡游枯木	xun you ku mu
-冒失的小弟	mao shi de xiao di
-闪亮噗噜	shan liang pu lu
-木制瑞印	mu zhi rui yin
-演出用岁尾	yan chu yong sui wei
-萨卡兹悖谬裂变术师	sa ka zi bei miu lie bian shu shi
-转译基底	zhuan yi ji di
-炙烤螺旋桨	zhi kao luo xuan jiang
-小说卷轴	xiao shuo juan zhou
-掠海漂移体	lve hai piao yi ti
-酒类爱好者	jiu lei ai hao zhe
-操盘手	cao pan shou
-圣徒祈祷像	sheng tu qi dao xiang
-蚀	shi
-健美操盘手	jian mei cao pan shou
-猎犬	lie quan
-见习祭司学徒	jian xi ji si xue tu
-萨卡兹魔剑士组长	sa ka zi mo jian shi zu zhang
-巫术石球	wu shu shi qiu
-发条仆从	fa tiao pu cong
-沉眠高山驮兽	chen mian gao shan tuo shou
-隐形术师组长	yin xing shu shi zu zhang
-幽灵	you ling
-饱腹的子裔	bao fu de zi yi
-唤醒	huan xing
-妄躯	wang qu
-征服者	zheng fu zhe
-盐风主教昆图斯	yan feng zhu jiao kun tu si
-埃克提尔尼尔	ai ke ti er ni er
-萨卡兹祭坛看护者	sa ka zi ji tan kan hu zhe
-缠身恶焰	chan shen e yan
-方便快餐	fang bian kuai can
-布景大师	bu jing da shi
-隐形弩手	yin xing nu shou
-盗壳虫	dao ke chong
-巨大的丑东西	ju da de chou dong xi
-远眺	yuan tiao
-法术大师	fa shu da shi
-遮目	zhe mu
-历战高塔术师	li zhan gao ta shu shi
-萨卡兹枯朽宿卫	sa ka zi ku xiu su wei
-风行者	feng xing zhe
-硬甲爪兽	ying jia zhao shou
-食腐使徒	shi fu shi tu
-拳刃武士组长	quan ren wu shi zu zhang
-底海滑动者	di hai hua dong zhe
-染污战士	ran wu zhan shi
-卢西恩	lu xi en
-钢铁冲浪教练	gang tie chong lang jiao lian
-畸变赘生物	ji bian zhui sheng wu
-无人爆破重艇	wu ren bao po zhong ting
-领袖	ling xiu
-醉后狂欢	zui hou kuang huan
-深溟奠基者	shen ming dian ji zhe
-量产巨像	liang chan ju xiang
-神勇的帕拉杜利斯	shen yong de pa la du li si
-驮兽补给员	tuo shou bu ji yuan
-畸变体傀儡	ji bian ti kui lei
-宝箱恐鱼	bao xiang kong yu
-深池方阵战士	shen chi fang zhen zhan shi
-终点信标塔	zhong dian xin biao ta
-血色破石草	xue se po shi cao
-斯托斯贝塔	si tuo si bei ta
-沉睡的臼齿	chen shui de jiu chi
-圣堂保育员	sheng tang bao yu yuan
-某种天命	mou zhong tian ming
-骑士	qi shi
-集团军幽灵兵	ji tuan jun you ling bing
-沉眠伴随兽	chen mian ban sui shou
-畸变恶性瘤	ji bian e xing liu
-圣女雪衣	sheng nv xue yi
-术师组长	shu shi zu zhang
-注亡拟嗣	zhu wang ni si
-困惑车	kun huo che
-香草翼兽	xiang cao yi shou
-撬棍巡逻者	qiao gun xun luo zhe
-战术队击人手	zhan shu dui ji ren shou
-茧缚演出	jian fu yan chu
-双持剑士	shuang chi jian shi
-集团军轻型火炮	ji tuan jun qing xing huo pao
-黑水源石虫	hei shui yuan shi chong
-退行的喷溅者	tui xing de pen jian zhe
-隐形术师	yin xing shu shi
-血腥厨子	xue xing chu zi
-萨卡兹子裔补给车	sa ka zi zi yi bu ji che
-逆女	ni nv
-废金属破坏者	fei jin shu po huai zhe
-重犯	chong fan
-小惊喜	xiao jing xi
-狂噪鳞的泡泡	kuang zao lin de pao pao
-殉道者	xun dao zhe
-机械之心	ji xie zhi xin
-酒类协会会员	jiu lei xie hui hui yuan
-都可以砸	dou ke yi za
-萨卡兹枯朽吞噬者	sa ka zi ku xiu tun shi zhe
-铁头前锋	tie tou qian feng
-山雪鬼	shan xue gui
-孽罪奇美拉	nie zui qi mei la
-朔壳	shuo ke
-寻路者精锐战士	xun lu zhe jing rui zhan shi
-巨壳藤蔓	ju ke teng wan
-水遁忍者	shui dun ren zhe
-潜伏者	qian fu zhe
-落沙晶蹄兽	luo sha jing ti shou
-铣痕	xi hen
-温顺的武装驮兽	wen shun de wu zhuang tuo shou
-焦急的	jiao ji de
-高能瓦斯车	gao neng wa si che
-帝国炮火中枢先兆者	di guo pao huo zhong shu xian zhao zhe
-宿主士兵组长	su zhu shi bing zu zhang
-埃尔伯特	ai er bo te
-刚甲爪兽	gang jia zhao shou
-玻利瓦尔	bo li wa er
-德莱昂	de lai ang
-陷落雪祀	xian luo xue si
-泥岩小队践行者	ni yan xiao dui jian xing zhe
-魔球帮诡秘击人手	mo qiu bang gui mi ji ren shou
-刺棱壳兽	ci leng ke shou
-莱塔尼亚叛兵组长	lai ta ni ya pan bing zu zhang
-赏金猎人	shang jin lie ren
-鼷兽补给员	xi shou bu ji yuan
-梦魇追随者	meng yan zhui sui zhe
-灵绒兽	ling rong shou
-酸液源石虫	suan ye yuan shi chong
-大喰怪	da can guai
-石榴弩手	shi liu nu shou
-游击队迫击炮兵组长	you ji dui pai ji pao bing zu zhang
-神射手囚犯	shen she shou qiu fan
-炫目刀技厨师	xuan mu dao ji chu shi
-风情区小型车辇	feng qing qu xiao xing che nian
-怪异引雷装置	guai yi yin lei zhuang zhi
-鲁塞尔卡	lu sai er ka
-萨科塔之鳍	sa ke ta zhi qi
-吉兆飞鳞	ji zhao fei lin
-礼花经销商	li hua jing xiao shang
-寻路者精锐狙击手	xun lu zhe jing rui ju ji shou
-山海众游勇	shan hai zhong you yong
-浮袭者	fu xi zhe
-叛乱鼓动者	pan luan gu dong zhe
-萨卡兹骸骨拷打者	sa ka zi hai gu kao da zhe
-最后的怯薛	zui hou de qie xue
-饔	yong
-精英根除者	jing ying gen chu zhe
-岩冠兽	yan guan shou
-雇佣军萨卡兹战士	gu yong jun sa ka zi zhan shi
-被弃者	bei qi zhe
-固海凿石者	gu hai zao shi zhe
-军用猎狗	jun yong lie gou
-裂礁者的墓碑	lie jiao zhe de mu bei
-直球队坚定击人手	zhi qiu dui jian ding ji ren shou
-萨卡兹术师组长	sa ka zi shu shi zu zhang
-无忧货运帮手	wu you huo yun bang shou
-萨卡兹穿刺手组长	sa ka zi chuan ci shou zu zhang
-重装五十夫长	zhong zhuang wu shi fu zhang
-中点	zhong dian
-特别任性的生物	te bie ren xing de sheng wu
-阵地击人手	zhen di ji ren shou
-冰滚兽	bing gun shou
-稳定态萨卡兹术师结晶	wen ding tai sa ka zi shu shi jie jing
-胆小如鼷	dan xiao ru xi
-疲倦道具师	pi juan dao ju shi
-行脚艺徒	xing jiao yi tu
-资深圣堂布道员	zi shen sheng tang bu dao yuan
-树墙	shu qiang
-深溟引痕者	shen ming yin hen zhe
-坚冰翻身甲	jian bing fan shen jia
-英雄的呼唤	ying xiong de hu huan
-文档	wen dang
-阵地守门员	zhen di shou men yuan
-游击队战士	you ji dui zhan shi
-人间烟火	ren jian yan huo
-冰原猎人队长	bing yuan lie ren dui zhang
-武装密探	wu zhuang mi tan
-物欲拮抗者	wu yu jie kang zhe
-深池逐火精锐护卫	shen chi zhu huo jing rui hu wei
-失恋花束	shi lian hua shu
-祟	sui
-伊利昂的木驮兽	yi li ang de mu tuo shou
-被通缉的研究员	bei tong ji de yan jiu yuan
-炮手	pao shou
-恐怖厨子	kong bu chu zi
-乌萨斯裂兽族母	wu sa si lie shou zu mu
-萨卡兹子裔工匠组长	sa ka zi zi yi gong jiang zu zhang
-萨卡兹骸骨卫士长	sa ka zi hai gu wei shi zhang
-恶狡兽	e jiao shou
-训练用残暴钳兽	xun lian yong can bao qian shou
-怨骸	yuan hai
-万国信使	wan guo xin shi
-新手拾荒者	xin shou shi huang zhe
-逐腐兽	zhu fu shou
-友好生物	you hao sheng wu
-脊海喷吐者	ji hai pen tu zhe
-沉默收音机	chen mo shou yin ji
-烟雾弹	yan wu dan
-噩兆飞鳞	e zhao fei lin
-异光体集养者	yi guang ti ji yang zhe
-偏执泡影	pian zhi pao ying
-家族豪华轿车	jia zu hao hua jiao che
-膨胀甲虫球	peng zhang jia chong qiu
-吸气乱动机	xi qi luan dong ji
-迭代的怪物	die dai de guai wu
-泥岩巨像	ni yan ju xiang
-热烈的考验者	re lie de kao yan zhe
-澪	ling
-莫妮克	mo ni ke
-认真的	ren zhen de
-湖畔志愿者	hu pan zhi yuan zhe
-荒地鼷兽	huang di xi shou
-乌顶巨角卢鲁	wu ding ju jiao lu lu
-自走车	zi zou che
-戴面具的孩童	dai mian ju de hai tong
-巨型拟树虫	ju xing ni shu chong
-慷慨之赐	kang kai zhi ci
-采掘苦工	cai jue ku gong
-街头音乐家	jie tou yin yue jia
-头头是门	tou tou shi men
-提亚卡乌冠军	ti ya ka wu guan jun
-富营养的爬行者	fu ying yang de pa xing zhe
-优雅刀技厨师	you ya dao ji chu shi
-抗拒之火炎熔	kang ju zhi huo yan rong
-锋盔骑士团精锐	feng kui qi shi tuan jing rui
-机动卫兵组长	ji dong wei bing zu zhang
-榴弹炮	liu dan pao
-命定的反派	ming ding de fan pai
-残党萨克斯手	can dang sa ke si shou
-大骑士	da qi shi
-源代码	yuan dai ma
-发条巡逻机器	fa tiao xun luo ji qi
-爪兽	zhao shou
-充能飘浮球	chong neng piao fu qiu
-锈铜	xiu tong
-萨卡兹渴血术师	sa ka zi ke xue shu shi
-雷遁宗师	lei dun zong shi
-静默之刃	jing mo zhi ren
-成员	cheng yuan
-变异沙地兽	bian yi sha di shou
-狂奔丰碑	kuang ben feng bei
-球德联老牌击人手	qiu de lian lao pai ji ren shou
-黑流之源	hei liu zhi yuan
-身上的天标	shen shang de tian biao
-遗弃者	yi qi zhe
-流浪佣兵	liu lang yong bing
-退行的奠基者	tui xing de dian ji zhe
-修补工	xiu bu gong
-困困荪茸	kun kun sun rong
-赫尔昏佐伦	he er hun zuo lun
-愧悔魂灵圣杯	kui hui hun ling sheng bei
-诸思之解答	zhu si zhi jie da
-匪帮防御者头目	fei bang fang yu zhe tou mu
-饷事	xiang shi
-枯焦锋脊裂兽	ku jiao feng ji lie shou
-玩耍的卡尔顿	wan shua de ka er dun
-蓬松雪球	peng song xue qiu
-特蕾西娅	te lei xi ya
-残党资深阵地术师	can dang zi shen zhen di shu shi
-浆果磐蟹	jiang guo pan xie
-扰动之谬	rao dong zhi miu
-号展柜文物	hao zhan gui wen wu
-集团军中坚盾卫	ji tuan jun zhong jian dun wei
-自然的妥协	zi ran de tuo xie
-潘乔·萨拉斯	pan qiao sa la si
-湮灭者	yan mie zhe
-山海众司魅人	shan hai zhong si mei ren
-三船光平	san chuan guang ping
-凶爪兽	xiong zhao shou
-不朽之人	bu xiu zhi ren
-门神会忠诚击人手	men shen hui zhong cheng ji ren shou
-烈酒级醒酒助手	lie jiu ji xing jiu zhu shou
-勘察用自走车	kan cha yong zi zou che
-阿格尼尔神父	a ge ni er shen fu
-工蚁组长	gong yi zu zhang
-骇笑看客	hai xiao kan ke
-吵闹收音机	chao nao shou yin ji
-噪鳞	zao lin
-家族强暴恫吓者	jia zu qiang bao dong he zhe
-节日爵士乐手	jie ri jue shi yue shou
-马特奥的警卫	ma te ao de jing wei
-天桩-甲	tian zhuang jia
-阿米娅	a mi ya
-漏气甲虫球	lou qi jia chong qiu
-破茧之梦	po jian zhi meng
-爆裂源石虫	bao lie yuan shi chong
-演出	yan chu
-卷心草	juan xin cao
-血骑士狄开俄波利斯	xue qi shi di kai e bo li si
-莱茵生命工程科成员	lai yin sheng ming gong cheng ke cheng yuan
-新小帮手	xin xiao bang shou
-罗伊	luo yi
-米奥	mi ao
-昭烈君	zhao lie jun
-萨卡兹悖谬暴虐兵	sa ka zi bei miu bao nve bing
-飞腿毛贼	fei tui mao zei
-射手	she shou
-殿堂右侧雕像	dian tang you ce diao xiang
-萨卡兹大剑手	sa ka zi da jian shou
-狂暴凶豕兽	kuang bao xiong shi shou
-恶语	e yu
-遮天面包机	zhe tian mian bao ji
-精锐佣兵	jing rui yong bing
-霜锐	shuang rui
-操戈	cao ge
-梁	liang
-难过车	nan guo che
-挟潮	xie chao
-潘乔的爆破艇	pan qiao de bao po ting
-深池暗影术师队长	shen chi an ying shu shi dui zhang
-虚幻	xu huan
-凝血之刃	ning xue zhi ren
-三头犬	san tou quan
-暴走食虫花	bao zou shi chong hua
-安眠伴随兽	an mian ban sui shou
-狂暴宿主组长	kuang bao su zhu zu zhang
-症结之核	zheng jie zhi he
-睚	ya
-受符	shou fu
-编制术师	bian zhi shu shi
-好外号热衷者	hao wai hao re zhong zhe
-弧光锋卫	hu guang feng wei
-直球队坚定守门员	zhi qiu dui jian ding shou men yuan
-装甲侦察兵	zhuang jia zhen cha bing
-奥尔默·英格拉	ao er mo ying ge la
-风情区大型车辇	feng qing qu da xing che nian
-塑路者分形	su lu zhe fen xing
-演出阿米娅	yan chu a mi ya
-结晶	jie jing
-无胄盟第三小队	wu zhou meng di san xiao dui
-灰尾香主	hui wei xiang zhu
-变格银灰	bian ge yin hui
-磨砻	mo long
-部族巫术师	bu zu wu shu shi
-以板之名	yi ban zhi ming
-萨卡兹骸骨漂泊术师长	sa ka zi hai gu piao bo shu shi zhang
-粉碎攻坚手	fen sui gong jian shou
-蒸汽骑士	zheng qi qi shi
-反壳龟·缚	fan ke gui fu
-饮啄	yin zhuo
-访问团术师	fang wen tuan shu shi
-不法分子头目	bu fa fen zi tou mu
-平剑客	ping jian ke
-刺球	ci qiu
-巨汉囚犯	ju han qiu fan
-食腐者之王	shi fu zhe zhi wang
-黄铜镜	huang tong jing
-门神会全能守门员	men shen hui quan neng shou men yuan
-岁相	sui xiang
-炽焰源石虫	chi yan yuan shi chong
-伦蒂尼姆城防自行炮	lun di ni mu cheng fang zi xing pao
-战术队守门员	zhan shu dui shou men yuan
-接潮斥亡体	jie chao chi wang ti
-根除者	gen chu zhe
-萨卡兹征用尖端无人机	sa ka zi zheng yong jian duan wu ren ji
-鼠王	shu wang
-交通警察	jiao tong jing cha
-里子	li zi
-岁·左爪	sui zuo zhao
-编织者	bian zhi zhe
-接潮主教	jie chao zhu jiao
-老练囚犯	lao lian qiu fan
-水上明珠	shui shang ming zhu
-猩红血钻	xing hong xue zuan
-源石虫	yuan shi chong
-护目镜	hu mu jing
-赏金猎人扰乱者	shang jin lie ren rao luan zhe
-小型破损器皿	xiao xing po sun qi min
-圣愚	sheng yu
-漂泊颂偶	piao bo song ou
-富营养的收割者	fu ying yang de shou ge zhe
-无名独立骑士	wu ming du li qi shi
-神射丰碑	shen she feng bei
-法术近卫	fa shu jin wei
-萨卡兹刀兵	sa ka zi dao bing
-假想敌：镜膜	jia xiang di jing mo
-射手囚犯	she shou qiu fan
-果腹	guo fu
-架桥船工	jia qiao chuan gong
-匕现	bi xian
-临时收音师	lin shi shou yin shi
-风遁宗师	feng dun zong shi
-流浪驯兽师	liu lang xun shou shi
-陶醉的	tao zui de
-寒霜	han shuang
-女妖河谷的拂哀菈	nv yao he gu de fu ai la
-密林锋脊裂兽	mi lin feng ji lie shou
-水手重艇	shui shou zhong ting
-洞栖雪灵	dong qi xue ling
-北境意志球	bei jing yi zhi qiu
-残党乐团长笛手	can dang yue tuan chang di shou
-酣酣睡飞行员	han han shui fei xing yuan
-腐化之心	fu hua zhi xin
-强力热气球	qiang li re qi qiu
-拾荒者	shi huang zhe
-最后的骑士	zui hou de qi shi
-星术师	xing shu shi
-节日零食车	jie ri ling shi che
-指路芽	zhi lu ya
-召毁者	zhao hui zhe
-假想敌：黑云	jia xiang di hei yun
-逐日的树	zhu ri de shu
-荒原窃盗者精英	huang yuan qie dao zhe jing ying
-散华骑士团学徒	san hua qi shi tuan xue tu
-战术防御者	zhan shu fang yu zhe
-锈锤战士	xiu chui zhan shi
-横纲盗壳虫	heng gang dao ke chong
-从往昔来	cong wang xi lai
-萨卡兹术师	sa ka zi shu shi
-深池塑能术师队长	shen chi su neng shu shi dui zhang
-技术侦察兵	ji shu zhen cha bing
-渎罪奇美拉	du zui qi mei la
-山海众窥魅人	shan hai zhong kui mei ren
-货运轨道车	huo yun gui dao che
-屠夫	tu fu
-幽灵组长	you ling zu zhang
-迷迭香	mi die xiang
-冬灵血巫大师	dong ling xue wu da shi
-特里蒙城防军队长	te li meng cheng fang jun dui zhang
-复杂的	fu za de
-红标	hong biao
-源阶方	yuan jie fang
-寻路者战士	xun lu zhe zhan shi
-矿工游击队	kuang gong you ji dui
-喷射罐	pen she guan
-深溟巢涌者	shen ming chao yong zhe
-尘世遗骸	chen shi yi hai
-提亚卡乌好战者	ti ya ka wu hao zhan zhe
-威龙	wei long
-红宝石飞翼	hong bao shi fei yi
-雅气	ya qi
-格特鲁德女士	ge te lu de nv shi
-灵活假人	ling huo jia ren
-不死的黑蛇	bu si de hei she
-弹力球	tan li qiu
-马特奥的近卫	ma te ao de jin wei
-寻仇者	xun chou zhe
-翠梦祭司	cui meng ji si
-妄境	wang jing
-鼎沸	ding fei
-门神会击球手	men shen hui ji qiu shou
-深池伙友卫队	shen chi huo you wei dui
-编制术师组长	bian zhi shu shi zu zhang
-蹒跚羽兽	pan shan yu shou
-破石草	po shi cao
-强光监管者	qiang guang jian guan zhe
-散华骑士团精锐	san hua qi shi tuan jing rui
-寻路者阵地破坏者	xun lu zhe zhen di po huai zhe
-投矛的士兵	tou mao di shi bing
-萨卡兹子裔责罚者	sa ka zi zi yi ze fa zhe
-拳手囚犯	quan shou qiu fan
-重锤补给员	zhong chui bu ji yuan
-步兵组长	bu bing zu zhang
-巴普洛维奇	ba pu luo wei qi
-饱食	bao shi
-不歇的	bu xie de
-异光体孽生者	yi guang ti nie sheng zhe
-爱球会荣誉击球手	ai qiu hui rong yu ji qiu shou
-造化之口	zao hua zhi kou
-魔球帮诡秘击球手	mo qiu bang gui mi ji qiu shou
-克丽斯腾	ke li si teng
-烹泉	peng quan
-诗画卷轴	shi hua juan zhou
-影丝蛛	ying si zhu
-弧光锋卫长	hu guang feng wei zhang
-心烛	xin zhu
-心虚设计师	xin xu she ji shi
-余音	yu yin
-朗姆酒推荐者	lang mu jiu tui jian zhe
-勿玷	wu dian
-辐能源石虫	fu neng yuan shi chong
-匪帮防御者	fei bang fang yu zhe
-双持剑士组长	shuang chi jian shi zu zhang
-旺财	wang cai
-萨米的意志	sa mi de yi zhi
-枯槁者	ku gao zhe
-提亚卡乌破坏王	ti ya ka wu po huai wang
-无垠回荡克雷松	wu yin hui dang ke lei song
-塑路者	su lu zhe
-高阶术师	gao jie shu shi
-硬毫田鼷	ying hao tian xi
-深池狙击队长	shen chi ju ji dui zhang
-锋羽兽	feng yu shou
-压缩建材球	ya suo jian cai qiu
-冰晶射手	bing jing she shou
-异构体	yi gou ti
-碎壳螈	sui ke yuan
-咒鬼·真	zhou gui zhen
-圣徒	sheng tu
-盐水健身客	yan shui jian shen ke
-熔火蜗	rong huo wo
-活性源石风暴	huo xing yuan shi feng bao
-岁·尾	sui wei
-无胄盟弩手	wu zhou meng nu shou
-访问团新兵	fang wen tuan xin bing
-叶毯	ye tan
-退行的引痕者	tui xing de yin hen zhe
-荧壳源石虫	ying ke yuan shi chong
-土遁宗师	tu dun zong shi
-简饲源石虫	jian si yuan shi chong
-家族灭迹人	jia zu mie ji ren
-播种无人机	bo zhong wu ren ji
-杜卡雷	du ka lei
-拔山·盖	ba shan gai
-灼芯	zhuo xin
-蹦跶羽兽	beng da yu shou
-夜色雪球	ye se xue qiu
-实验样本	shi yan yang ben
-酗酒滋事者	xu jiu zi shi zhe
-开天汽水瓶	kai tian qi shui ping
-轻甲卫兵	qing jia wei bing
-提亚卡乌巫术师	ti ya ka wu wu shu shi
-冰原卫法者	bing yuan wei fa zhe
-内测版自助出餐终端	nei ce ban zi zhu chu can zhong duan
-玷	dian
-坎某人	kan mou ren
-潮风操控者	chao feng cao kong zhe
-萨卡兹穿刺手	sa ka zi chuan ci shou
-开天汽水瓶·酸辣味	kai tian qi shui ping suan la wei
-雪怪术师组长	xue guai shu shi zu zhang
-伊莎玛拉	yi sha ma la
-号复制体	hao fu zhi ti
-富营养的穿刺者	fu ying yang de chuan ci zhe
-洛伦茨	luo lun ci
-沏虹	qi hong
-巡游零食车	xun you ling shi che
-惘核	wang he
-防护背心	fang hu bei xin
-渴血的子裔	ke xue de zi yi
-西西里人	xi xi li ren
-蕴核饲育者	yun he si yu zhe
-惊喜赞助无人机	jing xi zan zhu wu ren ji
-昔日道标	xi ri dao biao
-赏金猎人扰乱者队长	shang jin lie ren rao luan zhe dui zhang
-霜牙	shuang ya
-鬣犄兽	lie ji shou
-巨锹虫	ju qiao chong
-萨卡兹子裔链术师组长	sa ka zi zi yi lian shu shi zu zhang
-焦竭之火	jiao jie zhi huo
-喷爆罐	pen bao guan
 假想敌：弦	jia xiang di xian
-碎壁	sui bi
-投嗣育母	tou si yu mu
-狙击步兵	ju ji bu bing
-极温蒸汽战车	ji wen zheng qi zhan che
-入戏太深的孩童	ru xi tai shen de hai tong
-游击队狙击手组长	you ji dui ju ji shou zu zhang
-同构碎片	tong gou sui pian
-遮天面包机·果酱款	zhe tian mian bao ji guo jiang kuan
-自助出餐终端原型机	zi zhu chu can zhong duan yuan xing ji
-落石	luo shi
-突击动力装甲	tu ji dong li zhuang jia
-大容量物资运输艇	da rong liang wu zi yun shu ting
-寻路者突击手	xun lu zhe tu ji shou
-富营养的巢涌者	fu ying yang de chao yong zhe
-寻路者术师	xun lu zhe shu shi
-集团军盾卫	ji tuan jun dun wei
-山海众散兵	shan hai zhong san bing
-魂灵涡流	hun ling wo liu
-高塔术师	gao ta shu shi
-超级钳	chao ji qian
-田鼷力士	tian xi li shi
-火盆浮标	huo pen fu biao
-雪顽童	xue wan tong
-坚冰	jian bing
-演出用左爪	yan chu yong zuo zhao
-全封闭沙滩车	quan feng bi sha tan che
-访问团突击新兵	fang wen tuan tu ji xin bing
-萨卡兹积怨者	sa ka zi ji yuan zhe
-家族精英士兵	jia zu jing ying shi bing
-艺术的慈悲	yi shu de ci bei
-节日零食商贩	jie ri ling shi shang fan
-反装甲步兵	fan zhuang jia bu bing
-殿堂左侧雕像	dian tang zuo ce diao xiang
-襁褓	qiang bao
-萨卡兹狙击手	sa ka zi ju ji shou
-滑翔的玩具	hua xiang de wan ju
-浮士德	fu shi de
-铁灯盘	tie deng pan
-至纯源石球	zhi chun yuan shi qiu
-身观	shen guan
-屠宰老手	tu zai lao shou
-无胄盟弩手组长	wu zhou meng nu shou zu zhang
-秽	hui
-巫王乐团圆号手	wu wang yue tuan yuan hao shou
-钳钳生风	qian qian sheng feng
-无根之怨	wu gen zhi yuan
-不满摄影师	bu man she ying shi
-荷谟伊勇士	he mo yi yong shi
-浮空信件	fu kong xin jian
-没办法车	mei ban fa che
-年代印痕	nian dai yin hen
-山海众冒矢者	shan hai zhong mao shi zhe
-暴食之果	bao shi zhi guo
-萨卡兹子裔链术师	sa ka zi zi yi lian shu shi
-扶桥老手	fu qiao lao shou
-起舞的	qi wu de
-灼热跳跳蜥	zhuo re tiao tiao xi
-自由的树	zi you de shu
-游击队传令兵	you ji dui chuan ling bing
-圣徒卡门	sheng tu ka men
-引线火焰	yin xian huo yan
-小跑的斐迪庇第斯	xiao pao de fei di bi di si
-荧羽兽	ying yu shou
-修补工头	xiu bu gong tou
-歌利亚	ge li ya
-萨科塔展翅	sa ke ta zhan chi
-特战士兵	te zhan shi bing
-圣堂射手	sheng tang she shou
-沸血骑士团学徒	fei xue qi shi tuan xue tu
-沃尔夫之影	wo er fu zhi ying
-土遁忍者	tu dun ren zhe
-战术队精英击球手	zhan shu dui jing ying ji qiu shou
-交通亭	jiao tong ting
-潜水员	qian shui yuan
-失望的雕像	shi wang de diao xiang
-晶玲兽	jing ling shou
-富营养的飘航者	fu ying yang de piao hang zhe
-的无人机	de wu ren ji
-圣堂布道员	sheng tang bu dao yuan
-咆哮铳	pao xiao chong
-莱塔尼亚吟唱者	lai ta ni ya yin chang zhe
-乌萨斯高级突袭弩手	wu sa si gao ji tu xi nu shou
-开怀畅饮	kai huai chang yin
-匪帮窃贼	fei bang qie zei
-奥伦	ao lun
-假想敌：淤困	jia xiang di yu kun
-克里夫	ke li fu
-编织泪水的术师	bian zhi lei shui de shu shi
-巨翼兽	ju yi shou
-老练拾荒者	lao lian shi huang zhe
-搁浅零件	ge qian ling jian
-排球重扣车	pai qiu zhong kou che
-大群意志	da qun yi zhi
-异光体漂游者	yi guang ti piao you zhe
-游击队突袭战士组长	you ji dui tu xi zhan shi zu zhang
-撬棍追捕者	qiao gun zhui bu zhe
-面子	mian zi
-物资运输艇	wu zi yun shu ting
-号改造体	hao gai zao ti
-士兵	shi bing
-萨科塔之眼	sa ke ta zhi yan
-碎骨	sui gu
-萨卡兹王庭军精锐术师	sa ka zi wang ting jun jing rui shu shi
-博卓卡斯替	bo zhuo ka si ti
-豪华赞助无人机	hao hua zan zhu wu ren ji
-万火归一	wan huo gui yi
-匪帮轰击者	fei bang hong ji zhe
-马特奥的亲卫	ma te ao de qin wei
-岁躯	sui qu
-愠怒	yun nu
-爆炸追寻者	bao zha zhui xun zhe
-屠谕者	tu yu zhe
-单核掠食者	dan he lve shi zhe
-哈洛德·克雷加文	ha luo de ke lei jia wen
-爆破攻坚手	bao po gong jian shou
-爱球会荣誉守门员	ai qiu hui rong yu shou men yuan
-矿脉守卫	kuang mai shou wei
-啸天吸尘器	xiao tian xi chen qi
-磷火	lin huo
-山海众传令手	shan hai zhong chuan ling shou
-欢快的卡尔顿	huan kuai de ka er dun
-不动的	bu dong de
-空值体	kong zhi ti
-炉芯终曲	lu xin zhong qu
-自在	zi zai
-萨卡兹子裔改装补给车	sa ka zi zi yi gai zhuang bu ji che
-伤心的大锁	shang xin de da suo
-假想敌：铳	jia xiang di chong
-利齿鬣犄兽	li chi lie ji shou
-新硎	xin xing
-游击队迫击炮兵	you ji dui pai ji pao bing
-沉水物资箱	chen shui wu zi xiang
-粉红绒气球	fen hong rong qi qiu
-战场观测炮手	zhan chang guan ce pao shou
-轻甲卫兵组长	qing jia wei bing zu zhang
-弑君者	shi jun zhe
-暴走食人花	bao zou shi ren hua
-梅菲斯特	mei fei si te
-叛乱煽动者	pan luan shan dong zhe
-玻璃窗粉碎者	bo li chuang fen sui zhe
-坍缩构造体	tan suo gou zao ti
-御	yu
-游击队传令兵组长	you ji dui chuan ling bing zu zhang
-离婚花束	li hun hua shu
-惊躁伏翼兽	jing zao fu yi shou
-囊海爬行者	nang hai pa xing zhe
-心涛	xin tao
-望	wang
-呼啸骑士团精锐	hu xiao qi shi tuan jing rui
-指路草	zhi lu cao
-雪怪小队破冰者	xue guai xiao dui po bing zhe
-灼热源石虫	zhuo re yuan shi chong
-延命塑路者	yan ming su lu zhe
-鼷兽补给箱	xi shou bu ji xiang
-迂回的	yu hui de
-空降兵	kong jiang bing
-宣泄暴力的摄影师	xuan xie bao li de she ying shi
-定点浮标	ding dian fu biao
-无胄盟清扫小队组长	wu zhou meng qing sao xiao dui zu zhang
-追猎者	zhui lie zhe
-泥岩小队践行者组长	ni yan xiao dui jian xing zhe zu zhang
-传唱喜剧的诗人	chuan chang xi ju de shi ren
-熔戈者	rong ge zhe
-泥岩	ni yan
-墓碑	mu bei
-萨卡兹子裔工匠	sa ka zi zi yi gong jiang
-护障	hu zhang
-冰原猎人	bing yuan lie ren
-粉碎攻坚组长	fen sui gong jian zu zhang
-撼地盐鳞	han di yan lin
-流浪者	liu lang zhe
-雷之主	lei zhi zhu
-街头卖艺者	jie tou mai yi zhe
-云中墨贼·蚀	yun zhong mo zei shi
-荒原劫掠者精英	huang yuan jie lve zhe jing ying
-聚焦魂灵残迹	ju jiao hun ling can ji
-家族精英弩手	jia zu jing ying nu shou
-不知道钟	bu zhi dao zhong
-火龙	huo long
-萨卡兹魔剑士	sa ka zi mo jian shi
-工蚁	gong yi
-炊事	chui shi
-奎隆	kui long
-萨卡兹宿主百夫长	sa ka zi su zhu bai fu zhang
-提亚卡乌神投手	ti ya ka wu shen tou shou
-矢量战术装备	shi liang zhan shu zhuang bei
-沼泽钳兽	zhao ze qian shou
-爱球会击球手	ai qiu hui ji qiu shou
-放归驮兽	fang gui tuo shou
-拓拉	tuo la
-提亚卡乌卫士	ti ya ka wu wei shi
-暴鸰	bao ling
-训练用钳兽	xun lian yong qian shou
-枯朽萃聚使徒	ku xiu cui ju shi tu
-领潮员	ling chao yuan
-源阶粒素	yuan jie li su
-积雪银凇	ji xue yin song
-市井猎手	shi jing lie shou
-染污躯壳	ran wu qu qiao
-门神会击人手	men shen hui ji ren shou
-源石畸变体	yuan shi ji bian ti
-测试用动力装甲	ce shi yong dong li zhuang jia
-后兽	hou shou
-箱形恐鱼	xiang xing kong yu
-深池焚毁者	shen chi fen hui zhe
-游击队战士组长	you ji dui zhan shi zu zhang
-试做型	shi zuo xing
-空	kong
-号失败品	hao shi bai pin
-危险术师囚犯	wei xian shu shi qiu fan
-赏金猎人弩手	shang jin lie ren nu shou
-深池塑能术师	shen chi su neng shu shi
-岁影	sui ying
-腐败萃聚使徒	fu bai cui ju shi tu
-城市	cheng shi
-敛傲	lian ao
-惊艳事热衷者	jing yan shi re zhong zhe
-爱布拉娜	ai bu la na
-桑德尔	sang de er
-生态泉源	sheng tai quan yuan
-富营养的猎食者	fu ying yang de lie shi zhe
-慵钝之印	yong dun zhi yin
-阵地击球手	zhen di ji qiu shou
-匪帮窃贼头目	fei bang qie zei tou mu
-超惊喜信件	chao jing xi xin jian
-帝国的甲胄	di guo de jia zhou
-冰原术师队长	bing yuan shu shi dui zhang
-剧团喉舌	ju tuan hou she
-巨力丰碑	ju li feng bei
-曼弗雷德	man fu lei de
-太公	tai gong
-圣卫自动机	sheng wei zi dong ji
-实验用动力装甲	shi yan yong dong li zhuang jia
-重弩猎杀者	zhong nu lie sha zhe
-树盾	shu dun
-越长尘	yue zhang chen
-残党乐团大提琴家	can dang yue tuan da ti qin jia
-家族专用轿车	jia zu zhuan yong jiao che
-家族弩手	jia zu nu shou
-反装甲步兵组长	fan zhuang jia bu bing zu zhang
-翻新投石机	fan xin tou shi ji
-萨卡兹枯朽吸纳者	sa ka zi ku xiu xi na zhe
-萨卡兹枯朽战车	sa ka zi ku xiu zhan che
-身上的天标二	shen shang de tian biao er
-萨卡兹刀术师	sa ka zi dao shu shi
-帮派窃贼	bang pai qie zei
-深水大力士	shen shui da li shi
-萨卡兹骸骨鞭笞者	sa ka zi hai gu bian chi zhe
-传唱悲剧的诗人	chuan chang bei ju de shi ren
-魔球帮击人手	mo qiu bang ji ren shou
-搏命享受者	bo ming xiang shou zhe
-机动盾组长	ji dong dun zu zhang
-变异岩蛛	bian yi yan zhu
-磐蟹	pan xie
-丑言	chou yan
-提亚卡乌破坏者	ti ya ka wu po huai zhe
-热烈舞团独舞者	re lie wu tuan du wu zhe
-巨角卢鲁	ju jiao lu lu
-贝斯	bei si
-庆典校车	qing dian xiao che
-温顺的武装大驮兽	wen shun de wu zhuang da tuo shou
-沼泽探照车	zhao ze tan zhao che
-富营养的喷吐者	fu ying yang de pen tu zhe
-飞檐客-叶无轻	fei yan ke ye wu qing
-异种菌	yi zhong jun
-冬灵血巫	dong ling xue wu
-深池逐火护卫	shen chi zhu huo hu wei
-门	men
-投矛的勇士	tou mao de yong shi
-殉亡魂灵圣杯	xun wang hun ling sheng bei
-双月共主	shuang yue gong zhu
-诺伯特暗探	nuo bo te an tan
-竞赛级沙滩车	jing sai ji sha tan che
-伊斯贝塔	yi si bei ta
-晨音	chen yin
-冰原狂战士	bing yuan kuang zhan shi
-大亚当	da ya dang
-假想敌：胄	jia xiang di zhou
-浪里玄条·锈	lang li xuan tiao xiu
-枯朽之种	ku xiu zhi zhong
-除秽	chu hui
-提亚卡乌撕裂者	ti ya ka wu si lie zhe
-萨卡兹枯朽术师	sa ka zi ku xiu shu shi
-硬核袭警者	ying he xi jing zhe
-霜星	shuang xing
-热烈舞团领舞者	re lie wu tuan ling wu zhe
-萨卡兹王庭军战士	sa ka zi wang ting jun zhan shi
-结巴铳	jie ba chong
-十字路口	shi zi lu kou
-普通囚犯	pu tong qiu fan
-蓝宝石飞翼	lan bao shi fei yi
-帝国炮火先兆者	di guo pao huo xian zhao zhe
-帝国余晖	di guo yu hui
-码头水手	ma tou shui shou
-田鼷	tian xi
-呼啸骑士团学徒	hu xiao qi shi tuan xue tu
-匪帮混混头目	fei bang hun hun tou mu
-伐木老手	fa mu lao shou
-翠梦使者	cui meng shi zhe
-魔球帮击球手	mo qiu bang ji qiu shou
-雪怪小队凿冰人	xue guai xiao dui zao bing ren
-安多恩	an duo en
-大个子	da ge zi
-伤眼路灯	shang yan lu deng
-大总统	da zong tong
-重弩突袭者	zhong nu tu xi zhe
-守门位	shou men wei
-彩瓷花瓶	cai ci hua ping
-温泉	wen quan
-大富翁	da fu weng
-炮击组长	pao ji zu zhang
-铜灯盘	tong deng pan
-冰爆源石虫	bing bao yuan shi chong
-巫王乐团大提琴家	wu wang yue tuan da ti qin jia
-狂欢之主	kuang huan zhi zhu
-萨卡兹征用工程无人机	sa ka zi zheng yong gong cheng wu ren ji
-巫王乐团鼓手	wu wang yue tuan gu shou
-茧缚	jian fu
-游击队萨卡兹战士	you ji dui sa ka zi zhan shi
-山雪鬼队长	shan xue gui dui zhang
-废食	fei shi
-拟态机械	ni tai ji xie
-弧光镜卫长	hu guang jing wei zhang
-乌萨斯高级着铠术师	wu sa si gao ji zhe kai shu shi
-龙卷风行者	long juan feng xing zhe
-骨海漂流体	gu hai piao liu ti
-家族角头	jia zu jiao tou
-首言者	shou yan zhe
-岩壳蟹	yan ke xie
-感染者高级纠察官	gan ran zhe gao ji jiu cha guan
-被关押的学生	bei guan ya de xue sheng
-枢密官	shu mi guan
-压力舒缓帮手	ya li shu huan bang shou
-坎诺特	kan nuo te
-街头醉汉	jie tou zui han
-残党首席小提琴家	can dang shou xi xiao ti qin jia
-雪怪狙击手组长	xue guai ju ji shou zu zhang
-搏命养家者	bo ming yang jia zhe
-寻路者甜品商	xun lu zhe tian pin shang
-飞鞋党	fei xie dang
-挥铳圣像	hui chong sheng xiang
-浅睡的臼齿	qian shui de jiu chi
-长臂投手	zhang bi tou shou
-苔生兽	tai sheng shou
-咸鳞汁推荐者	xian lin zhi tui jian zhe
-啸天吸尘器·大力版	xiao tian xi chen qi da li ban
-王酋巫术师	wang qiu wu shu shi
-钻石飞翼	zuan shi fei yi
-街头火舞艺人	jie tou huo wu yi ren
-饮露餐风	yin lu can feng
-特工	te gong
-绝对安保	jue dui an bao
-恩慈祷者	en ci dao zhe
-萨卡兹萃血行者	sa ka zi cui xue xing zhe
-王者友伴	wang zhe you ban
-提亚卡乌投矛手	ti ya ka wu tou mao shou
-折戟者	zhe ji zhe
-沙堡设计师	sha bao she ji shi
-叙拉古平民	xu la gu ping min
-晶珑兽	jing long shou
-萨卡兹枯朽术师组长	sa ka zi ku xiu shu shi zu zhang
-固化源石巨像	gu hua yuan shi ju xiang
-热心肠老板	re xin chang lao ban
-富营养的裂礁者	fu ying yang de lie jiao zhe
-萨卡兹大剑组长	sa ka zi da jian zu zhang
-大名碎壳螈	da ming sui ke yuan
-高准度伦蒂尼姆城防自行炮	gao zhun du lun di ni mu cheng fang zi xing pao
-异质裂兽	yi zhi lie shou
-联合政府军犬	lian he zheng fu jun quan
-无畏掷弹兵	wu wei zhi dan bing
-巡游零食商贩	xun you ling shi shang fan
-反巫术变位炸弹	fan wu shu bian wei zha dan
-直球队坚定击球手	zhi qiu dui jian ding ji qiu shou
-门神会忠诚击球手	men shen hui zhong cheng ji qiu shou
-沸血骑士团精锐	fei xue qi shi tuan jing rui
-特战术师组长	te zhan shu shi zu zhang
-萨卡兹子裔惩戒者	sa ka zi zi yi cheng jie zhe
-乌萨斯战争术师	wu sa si zhan zheng shu shi
-巫王乐团调律师	wu wang yue tuan diao lv shi
-飞空员	fei kong yuan
-刺胄之弹	ci zhou zhi dan
-梦游管家	meng you guan jia
-狂暴宿主士兵	kuang bao su zhu shi bing
-靳天师	jin tian shi
-礼花零售商	li hua ling shou shang
-木衣	mu yi
-毒瘤	du liu
-大奖赛运输艇	da jiang sai yun shu ting
-破阵者	po zhen zhe
-凶秽魔像	xiong hui mo xiang
-萨卡兹枯朽战士组长	sa ka zi ku xiu zhan shi zu zhang
-飘香	piao xiang
-终点	zhong dian
-乌萨斯裂兽	wu sa si lie shou
-果冻丁	guo dong ding
-渗透者	shen tou zhe
-狼之主	lang zhi zhu
-风情街	feng qing jie
-夕娥	xi e
-锋盔骑士团学徒	feng kui qi shi tuan xue tu
-街头闲汉	jie tou xian han
-披甲源石虫	pi jia yuan shi chong
-淘气包	tao qi bao
-压力归零帮手	ya li gui ling bang shou
-巫王乐团管乐家	wu wang yue tuan guan yue jia
-赎罪者	shu zui zhe
-萨卡兹王庭军术师	sa ka zi wang ting jun shu shi
-萨卡兹哨兵	sa ka zi shao bing
-勤奋劳工	qin fen lao gong
-念旧	nian jiu
-战线突破者	zhan xian tu po zhe
-破坚	po jian
-迷茫的修理小助手	mi mang de xiu li xiao zhu shou
-影丝蛛·怨	ying si zhu yuan
-帝国前锋百战精锐	di guo qian feng bai zhan jing rui
-诺伯特平民	nuo bo te ping min
-暴乱分子	bao luan fen zi
-梦魇效仿者	meng yan xiao fang zhe
-撼地遗众	han di yi zhong
-超甜微笑	chao tian wei xiao
-提亚卡乌战士	ti ya ka wu zhan shi
-喷气人	pen qi ren
-防爆货运帮手	fang bao huo yun bang shou
-里霍	li huo
-摩诃萨埵权化	mo he sa duo quan hua
-冠鸣龙	guan ming long
-剧作家	ju zuo jia
-蜜酿级醒酒助手	mi niang ji xing jiu zhu shou
-深池重甲卫士队长	shen chi zhong jia wei shi dui zhang
-遗落的岩石像	yi luo de yan shi xiang
-运输汽艇	yun shu qi ting
-宝藏神偷	bao zang shen tou
-染秽魔像	ran hui mo xiang
-愿板与你同在	yuan ban yu ni tong zai
-左手	zuo shou
-扶潮·归	fu chao gui
-萨卡兹恶咒者	sa ka zi e zhou zhe
-硬核扰民者	ying he rao min zhe
-游击队萨卡兹战士组长	you ji dui sa ka zi zhan shi zu zhang
-解构畸变体	jie gou ji bian ti
-雨露均沾	yu lu jun zhan
-家族暗影灭迹人	jia zu an ying mie ji ren
-流浪工匠	liu lang gong jiang
-沉沙	chen sha
-愤怒的守墓石像	fen nu de shou mu shi xiang
-奠基者的墓碑	dian ji zhe de mu bei
-精致糖果车	jing zhi tang guo che
-残党乐团管乐家	can dang yue tuan guan yue jia
-恍惚的	huang hu de
-破胄之锤	po zhou zhi chui
-泥岩小队掷能者组长	ni yan xiao dui zhi neng zhe zu zhang
-巢穴	chao xue
-厌肮	yan ang
-萨卡兹骸骨漂泊术师	sa ka zi hai gu piao bo shu shi
-多萝西	duo luo xi
-合金冲浪教练	he jin chong lang jiao lian
-集团军潜行兵	ji tuan jun qian xing bing
-萨卡兹枯朽前锋	sa ka zi ku xiu qian feng
-破阵者组长	po zhen zhe zu zhang
-深池方阵指挥官	shen chi fang zhen zhi hui guan
-队长	dui zhang
-术师囚犯	shu shi qiu fan
-红木镇纸	hong mu zhen zhi
-超新星术师	chao xin xing shu shi
-几点了钟	ji dian le zhong
-萨卡兹迷宫劝导者	sa ka zi mi gong quan dao zhe
-高能源石虫	gao neng yuan shi chong
-噪鳞的泡泡	zao lin de pao pao
-纠缠藤蔓	jiu chan teng wan
-躁怒谛兽	zao nu di shou
-战线推进者	zhan xian tui jin zhe
-最后的蒸汽骑士	zui hou de zheng qi qi shi
-牧首	mu shou
-举重王	ju zhong wang
-巫王乐团颂诗者	wu wang yue tuan song shi zhe
-拟树虫	ni shu chong
-便符	bian fu
-连续地愤怒蹬踏	lian xu di fen nu deng ta
-诡核集养者	gui he ji yang zhe
-深池暗影术师	shen chi an ying shu shi
-改造瓦斯车	gai zao wa si che
-高普尼克	gao pu ni ke
-暗潮钳兽	an chao qian shou
-眩光记录员	xuan guang ji lu yuan
-欢乐校车	huan le xiao che
-高级军用猎狗	gao ji jun yong lie gou
-匪帮射手头目	fei bang she shou tou mu
-残党乐团鼓手	can dang yue tuan gu shou
-无人爆破艇	wu ren bao po ting
-精准制导	jing zhun zhi dao
-爆鸣水手长	bao ming shui shou zhang
-秒表	miao biao
-身形	shen xing
-冬灵猎犬	dong ling lie quan
-寒意	han yi
-团伙佣兵	tuan huo yong bing
-巡游爵士乐手	xun you jue shi yue shou
-圆仔	yuan zai
-寻路者信使	xun lu zhe xin shi
-活性态萨卡兹术师结晶	huo xing tai sa ka zi shu shi jie jing
-重型动力装甲	zhong xing dong li zhuang jia
-沉浸艺术的群演	chen jin yi shu de qun yan
-反派阵营角色	fan pai zhen ying jue se
-大披风	da pi feng
-田鼷猛士	tian xi meng shi
-荷谟伊英雄	he mo yi ying xiong
-萨卡兹枯朽战士	sa ka zi ku xiu zhan shi
-家族术师	jia zu shu shi
-魔王	mo wang
-高级武装人员	gao ji wu zhuang ren yuan
-巫王	wu wang
-掀天汽水桶·家庭装	xian tian qi shui tong jia ting zhuang
-拥霜羽兽	yong shuang yu shou
-赤金条	chi jin tiao
-直球队守门员	zhi qiu dui shou men yuan
-岩甲兽	yan jia shou
-弩手组长	nu shou zu zhang
-弗莱蒙特	fu lai meng te
-浪里玄条	lang li xuan tiao
-乌萨斯突袭弩手	wu sa si tu xi nu shou
-投石机	tou shi ji
-刺溜冰淇淋	ci liu bing qi lin
-梦游大总管	meng you da zong guan
-游击队猎犬	you ji dui lie quan
-速射轻弩手	su she qing nu shou
-得意	de yi
-赞助无人机	zan zhu wu ren ji
-独轮车玩具	du lun che wan ju
-操戈·凌	cao ge ling
-重启锚点罗德岛新基地	chong qi mao dian luo de dao xin ji di
-球德联击球手	qiu de lian ji qiu shou
-白垩	bai e
-宿主拾荒者	su zhu shi huang zhe
-赤霞	chi xia
-灰礼帽	hui li mao
-无羁的	wu ji de
-破烂发明家	po lan fa ming jia
-遗落的巨型岩石像	yi luo de ju xing yan shi xiang
-木裂战士	mu lie zhan shi
-狙击步兵组长	ju ji bu bing zu zhang
-盛怒	sheng nu
-泥石流浪汉	ni shi liu lang han
-深溟猎食者	shen ming lie shi zhe
-游荡的	you dang de
-水遁宗师	shui dun zong shi
-入梦砖	ru meng zhuan
-萨卡兹子裔集怒者	sa ka zi zi yi ji nu zhe
-龙卷风	long juan feng
-风遁忍者	feng dun ren zhe
-寻路者奇兵	xun lu zhe qi bing
-量产型	liang chan xing
-青花	qing hua
-凋零骑士	diao ling qi shi
-岩甲兽·咒	yan jia shou zhou
-假想敌：管	jia xiang di guan
-宿主重装士兵	su zhu zhong zhuang shi bing
-恶笼草	e long cao
-战争幽灵	zhan zheng you ling
-游击队萨卡兹术师	you ji dui sa ka zi shu shi
-退行的巢涌者	tui xing de chao yong zhe
-萨卡兹子裔战士组长	sa ka zi zi yi zhan shi zu zhang
-英雄的理想	ying xiong de li xiang
-盐坨子炮靶心	yan tuo zi pao ba xin
-湖畔救生员	hu pan jiu sheng yuan
-富营养的引痕者	fu ying yang de yin hen zhe
-古老藤蔓	gu lao teng wan
-侵入式调用	qin ru shi diao yong
-锅盖头	guo gai tou
-游击队盾卫组长	you ji dui dun wei zu zhang
-深池引火者	shen chi yin huo zhe
-路加萨尔古斯	lu jia sa er gu si
-壳海狂奔者	ke hai kuang ben zhe
-机动盾兵	ji dong dun bing
-访问团术师长	fang wen tuan shu shi zhang
-萨卡兹祭坛奉养者	sa ka zi ji tan feng yang zhe
-天车散花	tian che san hua
-净浊之焰	jing zhuo zhi yan
-布景小丑	bu jing xiao chou
-莱茵生命防卫科成员	lai yin sheng ming fang wei ke cheng yuan
-老妈的	lao ma de
-暴徒	bao tu
-倾轧者	qing ya zhe
-爱国者	ai guo zhe
-家族铁腕角头	jia zu tie wan jiao tou
-历法之王	li fa zhi wang
-失控的	shi kong de
-狂暴沼泽钳兽	kuang bao zhao ze qian shou
-爆炸信奉者	bao zha xin feng zhe
-碎岩者组长	sui yan zhe zu zhang
-雪孩子	xue hai zi
-变形者集群	bian xing zhe ji qun
-残党乐团指挥家	can dang yue tuan zhi hui jia
-萨卡兹子裔战士	sa ka zi zi yi zhan shi
-浮海飘航者	fu hai piao hang zhe
-深池弩炮队长	shen chi nu pao dui zhang
-窗	chuang
-硕果磐蟹	shuo guo pan xie
-酗酒斗殴者	xu jiu dou ou zhe
-蒸汽战车	zheng qi zhan che
-深池护卫队成员	shen chi hu wei dui cheng yuan
-行星碎屑	xing xing sui xie
-炭长矛	tan chang mao
-冬痕	dong hen
-文衡君	wen heng jun
-护盾高阶术师	hu dun gao jie shu shi
-物资浮板	wu zi fu ban
-萨科塔之翼	sa ke ta zhi yi
-多利	duo li
-深池飞行大队队长	shen chi fei xing da dui dui zhang
-翻身甲	fan shen jia
-萨卡兹宿主卫巢百夫长	sa ka zi su zhu wei chao bai fu zhang
-愤怒的	fen nu de
-访问团持盾者	fang wen tuan chi dun zhe
-狂奔的斐迪庇第斯	kuang ben de fei di bi di si
-塔露拉	ta lu la
-二手廉价无人机	er shou lian jia wu ren ji
-山海众连阵者	shan hai zhong lian zhen zhe
-安纳斯塔西奥	an na si ta xi ao
-雪牝	xue pin
-深池侦察兵	shen chi zhen cha bing
-宿主重装组长	su zhu zhong zhuang zu zhang
-绯红歌伶	fei hong ge ling
-疑问的雕像	yi wen de diao xiang
-发条战斗机器	fa tiao zhan dou ji qi
-痛楚化身	tong chu hua shen
-狂噪鳞	kuang zao lin
-履平沙	lv ping sha
-亢角兽	kang jiao shou
-汉科	han ke
-师祖	shi zu
-偷闲	tou xian
-美食的诱惑	mei shi de you huo
-血色异种菌	xue se yi zhong jun
-集团军前线指挥员	ji tuan jun qian xian zhi hui yuan
-拳师囚犯	quan shi qiu fan
-狂暴宿主掷骨手	kuang bao su zhu zhi gu shou
-骑士领游荡者	qi shi ling you dang zhe
-硕果虫	shuo guo chong
-报废的胶卷	bao fei de jiao juan
-精锐西西里人	jing rui xi xi li ren
-改进型量产巨像	gai jin xing liang chan ju xiang
-富营养的狂奔者	fu ying yang de kuang ben zhe
-岗哨密探	gang shao mi tan
-球德联老牌击球手	qiu de lian lao pai ji qiu shou
-行脚艺人	xing jiao yi ren
-特战术师	te zhan shu shi
-孽茨雷	nie ci lei
-羊之主	yang zhi zhu
-伊祖米克的子代	yi zu mi ke de zi dai
-巢涌者的墓碑	chao yong zhe de mu bei
-雪怪小队	xue guai xiao dui
-接潮蔑死体	jie chao mie si ti
-茂密苔生兽	mao mi tai sheng shou
-萨卡兹枯朽不屈宿卫	sa ka zi ku xiu bu qu su wei
-伐木机	fa mu ji
-守墓石像	shou mu shi xiang
-型	xing
-集团军核心指挥官	ji tuan jun he xin zhi hui guan
-无胄盟刺客	wu zhou meng ci ke
-君主之红	jun zhu zhi hong
-斑斓虫	ban lan chong
-直球队击人手	zhi qiu dui ji ren shou
-巡游草叶	xun you cao ye
-强光恐吓者	qiang guang kong he zhe
-始海穿刺者	shi hai chuan ci zhe
-提亚卡乌大巫	ti ya ka wu da wu
-深溟喷溅者	shen ming pen jian zhe
-剪刀手	jian dao shou
-引痕者的墓碑	yin hen zhe de mu bei
-资深圣堂保育员	zi shen sheng tang bao yu yuan
-街头火舞明星	jie tou huo wu ming xing
-富营养的奠基者	fu ying yang de dian ji zhe
-尖端萨卡兹枯朽战车	jian duan sa ka zi ku xiu zhan che
-资深的小弟	zi shen de xiao di
-深池焚毁者队长	shen chi fen hui zhe dui zhang
-铁砧	tie zhen
-鲁莽掷弹兵	lu mang zhi dan bing
-莱茵生命防卫科高级成员	lai yin sheng ming fang wei ke gao ji cheng yuan
-底海滑动球	di hai hua dong qiu
-空洞雪祀	kong dong xue si
-哈兰杜汗	ha lan du han
-坚岩冠兽	jian yan guan shou
-宿主士兵	su zhu shi bing
-匪帮射手	fei bang she shou
-小帽子	xiao mao zi
-蔓德拉	man de la
-战术弩手	zhan shu nu shou
-美食速递	mei shi su di
-山海众秘使	shan hai zhong mi shi
-钵海收割者	bo hai shou ge zhe
-萨科塔见证	sa ke ta jian zheng
-大鲍勃	da bao bo
-橙冠羽镖客	cheng guan yu biao ke
-青瓷茶器	qing ci cha qi
-仁慈之触	ren ci zhi chu
-集团军机动弩手	ji tuan jun ji dong nu shou
-精饲源石虫	jing si yuan shi chong
-萨卡兹百夫长	sa ka zi bai fu zhang
-结晶岩壳蟹	jie jing yan ke xie
-艺术的绝杀	yi shu de jue sha
-直球队击球手	zhi qiu dui ji qiu shou
-船车	chuan che
-挽弓	wan gong
-蓝冠羽镖客	lan guan yu biao ke
-飧	sun
-高亢群歌	gao kang qun ge
-异端	yi duan
-荒原潜伏者	huang yuan qian fu zhe
-雇佣军萨卡兹术师	gu yong jun sa ka zi shu shi
-访问团强攻冠军	fang wen tuan qiang gong guan jun
-两栖号	liang qi hao
-特工组长	te gong zu zhang
-遗忘创伤的战士	yi wang chuang shang de zhan shi
-交通警长	jiao tong jing zhang
-市井流窜盗贼	shi jing liu cuan dao zei
-码头水手长	ma tou shui shou zhang
-退行的猎食者	tui xing de lie shi zhe
-术师	shu shi
-深池伙友影刃精英	shen chi huo you ying ren jing ying
-无名精锐骑士	wu ming jing rui qi shi
-似兽	shi shou
-高能源石球	gao neng yuan shi qiu
-战术弩手组长	zhan shu nu shou zu zhang
-皇帝的利刃	huang di de li ren
-法术近卫组长	fa shu jin wei zu zhang
-萨卡兹敛血行者	sa ka zi lian xue xing zhe
-惊喜信件	jing xi xin jian
-萨卡兹迷宫织咒者	sa ka zi mi gong zhi zhou zhe
-萨科塔之爪	sa ke ta zhi zhao
-斗志昂扬无人机	dou zhi ang yang wu ren ji
-荒原劫掠者	huang yuan jie lve zhe
-红木瑞印	hong mu rui yin
-萨卡兹子裔毁击者	sa ka zi zi yi hui ji zhe
-失控天桩-甲	shi kong tian zhuang jia
-凶豕兽	xiong shi shou
-弱弹	ruo dan
-小雪伞	xiao xue san
-染污勇士	ran wu yong shi
-灼藤	zhuo teng
-赛场补给车	sai chang bu ji che
-佣兵	yong bing
-宝箱海怪	bao xiang hai guai
-雷遁忍者	lei dun ren zhe
-扎罗	zha luo
-街区自治队	jie qu zi zhi dui
-萨卡兹悖谬裂变学徒	sa ka zi bei miu lie bian xue tu
-无念之冬	wu nian zhi dong
-乌萨斯突击者队长	wu sa si tu ji zhe dui zhang
-马特奥上尉	ma te ao shang wei
-黑冠尊主	hei guan zun zhu
-果冻小子	guo dong xiao zi
-甜蜜派送机	tian mi pai song ji
-异客	yi ke
-巫王乐团小号手	wu wang yue tuan xiao hao shou
-勇争第一的矿工	yong zheng di yi de kuang gong
-精英渗透者	jing ying shen tou zhe
-田鼷大盗	tian xi da dao
-疯狂的逐腐兽	feng kuang de zhu fu shou
-变格凯尔希	bian ge kai er xi
-热情丰碑	re qing feng bei
-集团军重型火炮	ji tuan jun zhong xing huo pao
-业余竞演者	ye yu jing yan zhe
-无谓	wu wei
-异兽	yi shou
-时光守卫	shi guang shou wei
-弧光突击队	hu guang tu ji dui
-墨浪	mo lang
-绒绒兽	rong rong shou
-都应该砸	dou ying gai za
-意识自由的假人	yi shi zi you de jia ren
-花匠	hua jiang
-啮齿兽	nie chi shou
-访问团老兵	fang wen tuan lao bing
-裁决者	cai jue zhe
-箭棘兽	jian ji shou
-燃烧瓶投掷者	ran shao ping tou zhi zhe
-冰原战士	bing yuan zhan shi
-行天救护车	xing tian jiu hu che
-游击队盾卫	you ji dui dun wei
-异质源石虫	yi zhi yuan shi chong
-颂水贤者	song shui xian zhe
-拟南兽	ni nan shou
-球德联击人手	qiu de lian ji ren shou
-格特鲁德的虚像	ge te lu de de xu xiang
-祖巴伊达姆	zu ba yi da mu
-酩酊	ming ding
-异光体掠食者	yi guang ti lve shi zhe
-自制投石机	zi zhi tou shi ji
-吓人路灯	xia ren lu deng
 小颚虫	xiao e chong
-寻险水手	xun xian shui shou
-饥饿啮齿兽	ji e nie chi shou
-维奇科	wei qi ke
-湮没之口	yan mo zhi kou
-鸡尾酒投掷者	ji wei jiu tou zhi zhe
-异光体洋流使者	yi guang ti yang liu shi zhe
-抱蛋羽兽	bao dan yu shou
-二手改装无人机	er shou gai zhuang wu ren ji
-弧光突击队队长	hu guang tu ji dui dui zhang
-沃尔夫幽影	wo er fu you ying
+深池狙击队长	shen chi ju ji dui zhang
+潮风操控者	chao feng cao kong zhe
 乌萨斯平民	wu sa si ping min
-指挥官厄尔苏拉	zhi hui guan e er su la
-深池护卫队精锐成员	shen chi hu wei dui jing rui cheng yuan
-移动电源	yi dong dian yuan
-莱塔尼亚轻语者	lai ta ni ya qing yu zhe
-冰原战士队长	bing yuan zhan shi dui zhang
-帮派打手	bang pai da shou
-终始	zhong shi
-冲锋源石虫	chong feng yuan shi chong
-萨卡兹哨兵组长	sa ka zi shao bing zu zhang
-迷路的巨像	mi lu de ju xiang
-杰斯顿·威廉姆斯	jie si dun wei lian mu si
-持盾独立骑士	chi dun du li qi shi
-特里蒙城防军	te li meng cheng fang jun
-剧场组装体	ju chang zu zhuang ti
-打手	da shou
-纵尘者	zong chen zhe
-技师囚犯	ji shi qiu fan
-角兽	jiao shou
-青瓷花瓶	qing ci hua ping
-信使安洁莉娜	xin shi an jie li na
-暗黑发条仆从	an hei fa tiao pu cong
-热气球	re qi qiu
-见习灰礼帽	jian xi hui li mao
-行天卫生间	xing tian wei sheng jian
-恐卡兹	kong ka zi
-英雄的气概	ying xiong de qi gai
-裂地盐鳞	lie di yan lin
-顺从内心的设计师	shun cong nei xin de she ji shi
-铁矛头	tie mao tou
-希希加	xi xi jia
-寻路者精锐术师	xun lu zhe jing rui shu shi
-泥岩小队掷能者	ni yan xiao dui zhi neng zhe
-红宝石投石虫	hong bao shi tou shi chong
-残党乐团小号手	can dang yue tuan xiao hao shou
-爆破攻坚手组长	bao po gong jian shou zu zhang
-集团军精锐弩手	ji tuan jun jing rui nu shou
-流浪汉	liu lang han
-莫菲丝	mo fei si
-流质透镜	liu zhi tou jing
-鄙瘴	bi zhang
-扶潮	fu chao
-小八界	xiao ba jie
-帝国前锋精锐	di guo qian feng jing rui
-爱球会荣誉击人手	ai qiu hui rong yu ji ren shou
-震风虫	zhen feng chong
-山海众掌令使	shan hai zhong zhang ling shi
-匪帮轰击者头目	fei bang hong ji zhe tou mu
-退行的裂礁者	tui xing de lie jiao zhe
-愤怒蹬踏	fen nu deng ta
-受诅者	shou zu zhe
-深池引火者队长	shen chi yin huo zhe dui zhang
-无垠回荡球	wu yin hui dang qiu
-精锐圣堂剑士	jing rui sheng tang jian shi
-风向标	feng xiang biao
-全息幻影	quan xi huan ying
-好心肠老板	hao xin chang lao ban
-变格博士	bian ge bo shi
-小躁	xiao zao
-执拗的收音师	zhi niu de shou yin shi
-修道院居民	xiu dao yuan ju min
+赏金猎人扰乱者队长	shang jin lie ren rao luan zhe dui zhang
+勿玷	wu dian
+赏金猎人扰乱者	shang jin lie ren rao luan zhe
+倾轧者	qing ya zhe
+游击队狙击手组长	you ji dui ju ji shou zu zhang
+愿板与你同在	yuan ban yu ni tong zai
+探矿机	tan kuang ji
+喷溅者的墓碑	pen jian zhe de mu bei
+头头是门	tou tou shi men
+赏金猎人	shang jin lie ren
+硬甲爪兽	ying jia zhao shou
+沙堡建筑者	sha bao jian zhu zhe
+交通警察	jiao tong jing cha
+斑斓虫	ban lan chong
+传奇战争幽灵	chuan qi zhan zheng you ling
+旷野流贼	kuang ye liu zei
+龙卷风行者	long juan feng xing zhe
+纠缠藤蔓	jiu chan teng wan
+云众演员	yun zhong yan yuan
+活性态萨卡兹术师结晶	huo xing tai sa ka zi shu shi jie jing
+钵海收割者	bo hai shou ge zhe
+勤奋劳工	qin fen lao gong
+速射劲弩手	su she jin nu shou
+失控天桩-甲	shi kong tian zhuang jia
+高级武装人员	gao ji wu zhuang ren yuan
+圣堂布道员	sheng tang bu dao yuan
+梦魇效仿者	meng yan xiao fang zhe
+深池飞行大队队长	shen chi fei xing da dui dui zhang
+阿格尼尔神父	a ge ni er shen fu
+采掘苦工	cai jue ku gong
+终点	zhong dian
+战线突破者	zhan xian tu po zhe
+步兵	bu bing
+萨卡兹枯朽战士	sa ka zi ku xiu zhan shi
+底海滑动者	di hai hua dong zhe
+锤锤到肉	chui chui dao rou
+惊喜信件	jing xi xin jian
+怪葫芦	guai hu lu
+破烂拼凑者	po lan pin cou zhe
+强力热气球	qiang li re qi qiu
+山海众传令手	shan hai zhong chuan ling shou
+拔山·盖	ba shan gai
+进化的本质	jin hua de ben zhi
+咆哮铳	pao xiao chong
+不歇的	bu xie de
+威龙	wei long
+萨卡兹哨兵	sa ka zi shao bing
+战术队击人手	zhan shu dui ji ren shou
+投石机	tou shi ji
+全封闭沙滩车	quan feng bi sha tan che
+萨卡兹祭坛奉养者	sa ka zi ji tan feng yang zhe
 复核洋流使者	fu he yang liu shi zhe
-失控的修理小助手	shi kong de xiu li xiao zhu shou
-战术猎犬	zhan shu lie quan
-深池飞行兵	shen chi fei xing bing
+浮空信件	fu kong xin jian
+护王余火	hu wang yu huo
+寻路者突击手	xun lu zhe tu ji shou
+萨卡兹刀术师	sa ka zi dao shu shi
+开天汽水瓶	kai tian qi shui ping
+泥岩小队掷能者	ni yan xiao dui zhi neng zhe
+内测版自助出餐终端	nei ce ban zi zhu chu can zhong duan
+畸变体傀儡	ji bian ti kui lei
+腐败骑士	fu bai qi shi
+梁	liang
+热情丰碑	re qing feng bei
+刚甲爪兽	gang jia zhao shou
+残党首席小提琴家	can dang shou xi xiao ti qin jia
+乌萨斯突击者	wu sa si tu ji zhe
+桶陈蜜酿	tong chen mi niang
+编织泪水的术师	bian zhi lei shui de shu shi
+欢快的卡尔顿	huan kuai de ka er dun
+热烈的考验者	re lie de kao yan zhe
+萨卡兹子裔轰击者	sa ka zi zi yi hong ji zhe
+恶尘源石虫	e chen yuan shi chong
+爆炸追寻者	bao zha zhui xun zhe
+变格凯尔希	bian ge kai er xi
+陷落雪祀	xian luo xue si
+玩耍的卡尔顿	wan shua de ka er dun
+萨卡兹枯朽术师	sa ka zi ku xiu shu shi
+爱布拉娜	ai bu la na
+都可以砸	dou ke yi za
+沉浸艺术的群演	chen jin yi shu de qun yan
+斩胄之剑	zhan zhou zhi jian
+寻险水手	xun xian shui shou
+太公	tai gong
+引痕者的墓碑	yin hen zhe de mu bei
+年代印痕	nian dai yin hen
+撼地遗众	han di yi zhong
+无患	wu huan
+果冻小子	guo dong xiao zi
+刺溜冰淇淋	ci liu bing qi lin
+直球队坚定击球手	zhi qiu dui jian ding ji qiu shou
+羊之主	yang zhi zhu
+护盾高阶术师	hu dun gao jie shu shi
+魔球帮击球手	mo qiu bang ji qiu shou
+投矛的士兵	tou mao di shi bing
+妖怪	yao guai
+锅盖头	guo gai tou
+追猎者	zhui lie zhe
+雪怪小队破冰者	xue guai xiao dui po bing zhe
+飞空员	fei kong yuan
+弑君者	shi jun zhe
+噩兆飞鳞	e zhao fei lin
+超新星术师	chao xin xing shu shi
+新硎	xin xing
+迷珍巧械	mi zhen qiao xie
+熔火蜗	rong huo wo
+钳钳生风	qian qian sheng feng
+洞栖雪灵	dong qi xue ling
+炉芯终曲	lu xin zhong qu
+巫王乐团圆号手	wu wang yue tuan yuan hao shou
 一往无前	yi wang wu qian
-干渴者	gan ke zhe
-岁·右爪	sui you zhao
-美食的奴隶	mei shi de nu li
-爬行鬼伞	pa xing gui san
-再铸扈从	zai zhu hu cong
-水手长重艇	shui shou zhang zhong ting
-乐淘淘气包	le tao tao qi bao
-荒原潜伏者精英	huang yuan qian fu zhe jing ying
-卷心籽	juan xin zi
-生气车	sheng qi che
-变异巨岩蛛	bian yi ju yan zhu
-空降组长	kong jiang zu zhang
-领潮员快艇	ling chao yuan kuai ting
-矩兽	ju shou
-邪魔的利刃	xie mo de li ren
-冰翼兽	bing yi shou
-凑热闹的矿工	cou re nao de kuang gong
-战场深视炮手	zhan chang shen shi pao shou
-椿	chun
-怨恨祭坛	yuan hen ji tan
-木裂	mu lie
-圣卫铳骑	sheng wei chong qi
-肮	ang
-新生血裔	xin sheng xue yi
-萨尔贡契约刺客	sa er gong qi yue ci ke
-圣堂剑士	sheng tang jian shi
-可汗片影	ke han pian ying
-演出用岁首	yan chu yong sui shou
-荒原窃盗者	huang yuan qie dao zhe
-掀天汽水桶	xian tian qi shui tong
-大君之触	da jun zhi chu
-命定的主角	ming ding de zhu jue
+殉亡魂灵圣杯	xun wang hun ling sheng bei
+编织者	bian zhi zhe
+田鼷大盗	tian xi da dao
+假想敌：胄	jia xiang di zhou
+灰烬造物	hui jin zao wu
+深池焚毁者队长	shen chi fen hui zhe dui zhang
+匪帮斧手头目	fei bang fu shou tou mu
+深溟喷溅者	shen ming pen jian zhe
+沉睡的臼齿	chen shui de jiu chi
+粗圆岩	cu yuan yan
+爆燃厨具巨人	bao ran chu ju ju ren
+领袖	ling xiu
+烈酒级醒酒助手	lie jiu ji xing jiu zhu shou
+诺伯特暗探	nuo bo te an tan
 决胜时刻球	jue sheng shi ke qiu
-重型沼泽探照车	zhong xing zhao ze tan zhao che
+猎食者的墓碑	lie shi zhe de mu bei
+萨卡兹子裔惩戒者	sa ka zi zi yi cheng jie zhe
+访问团术师	fang wen tuan shu shi
+叶毯	ye tan
+放逐的黑棺	fang zhu de hei guan
+屠谕者	tu yu zhe
+残党乐团长笛手	can dang yue tuan chang di shou
+山海众游勇	shan hai zhong you yong
+残党乐团鼓手	can dang yue tuan gu shou
+西西里人	xi xi li ren
+神射手囚犯	shen she shou qiu fan
+骨海漂流体	gu hai piao liu ti
+见习祭司学徒	jian xi ji si xue tu
+锈铜	xiu tong
+排球发球车	pai qiu fa qiu che
+阵地击球手	zhen di ji qiu shou
+侵入式调用	qin ru shi diao yong
+萨卡兹子裔工匠	sa ka zi zi yi gong jiang
+新绿	xin lv
+泥岩	ni yan
+蜜酿级醒酒助手	mi niang ji xing jiu zhu shou
+从往昔来	cong wang xi lai
+退行的引痕者	tui xing de yin hen zhe
+友好生物	you hao sheng wu
+云中墨贼·蚀	yun zhong mo zei shi
+家族暗影灭迹人	jia zu an ying mie ji ren
+仁慈之触	ren ci zhi chu
+流浪工匠	liu lang gong jiang
+帕拉杜利斯	pa la du li si
+行脚艺人	xing jiao yi ren
+岩甲兽	yan jia shou
+炙烤螺旋桨	zhi kao luo xuan jiang
+无念之冬	wu nian zhi dong
+慵钝之印	yong dun zhi yin
+拳师囚犯	quan shi qiu fan
+门神会忠诚击人手	men shen hui zhong cheng ji ren shou
+无数的伊萨科斯	wu shu de yi sa ke si
+雪牝	xue pin
+英雄的理想	ying xiong de li xiang
+无谓	wu wei
+号展柜文物	hao zhan gui wen wu
+不死的黑蛇	bu si de hei she
+困困荪茸	kun kun sun rong
+大型破碎器皿	da xing po sui qi min
+骇笑看客	hai xiao kan ke
+匪帮窃贼	fei bang qie zei
+冰原狂战士	bing yuan kuang zhan shi
+凑热闹的矿工	cou re nao de kuang gong
+无人爆破艇	wu ren bao po ting
+荒原潜伏者精英	huang yuan qian fu zhe jing ying
+深池暗影术师	shen chi an ying shu shi
+殉道者	xun dao zhe
+重装防御组长	zhong zhuang fang yu zu zhang
+赞索斯	zan suo si
+富营养的飘航者	fu ying yang de piao hang zhe
+寻路者精锐战士	xun lu zhe jing rui zhan shi
+水手长重艇	shui shou zhang zhong ting
+掠海漂移体	lve hai piao yi ti
+转译基底	zhuan yi ji di
+射手	she shou
+深池焚毁者	shen chi fen hui zhe
+流浪汉	liu lang han
+干渴者	gan ke zhe
+巴普洛维奇	ba pu luo wei qi
+灰礼帽	hui li mao
+帝国炮火中枢先兆者	di guo pao huo zhong shu xian zhao zhe
+昭烈君	zhao lie jun
+机动卫兵	ji dong wei bing
+扰动之谬	rao dong zhi miu
+失恋花束	shi lian hua shu
+湖畔救生员	hu pan jiu sheng yuan
+似兽	shi shou
+风雪中的影子	feng xue zhong de ying zi
+湮没之口	yan mo zhi kou
+劲弩射手	jin nu she shou
+深池弩炮手	shen chi nu pao shou
+晶珑兽	jing long shou
+诸思之解答	zhu si zhi jie da
+深池伙友影刃精英	shen chi huo you ying ren jing ying
+假想敌：镜膜	jia xiang di jing mo
+神射手	shen she shou
+码头水手	ma tou shui shou
+钻石飞翼	zuan shi fei yi
+富营养的滑动者	fu ying yang de hua dong zhe
+血色破石草	xue se po shi cao
+啸天吸尘器	xiao tian xi chen qi
+游击队盾卫组长	you ji dui dun wei zu zhang
+身上的天标二	shen shang de tian biao er
+某种天命	mou zhong tian ming
+翠梦使者	cui meng shi zhe
+空降兵	kong jiang bing
+坚韧丰碑	jian ren feng bei
+脊海喷吐者	ji hai pen tu zhe
+萨卡兹魔剑士	sa ka zi mo jian shi
+寒灾回响	han zai hui xiang
+大奖赛运输艇	da jiang sai yun shu ting
+直球队击人手	zhi qiu dui ji ren shou
+美食的诱惑	mei shi de you huo
+萨卡兹枯朽战士组长	sa ka zi ku xiu zhan shi zu zhang
+海嗣	hai si
+街头火舞明星	jie tou huo wu ming xing
+巨大的丑东西	ju da de chou dong xi
+搏命享受者	bo ming xiang shou zhe
+专业竞演者	zhuan ye jing yan zhe
+灼热跳跳蜥	zhuo re tiao tiao xi
+封冻高山驮兽	feng dong gao shan tuo shou
+持盾独立骑士	chi dun du li qi shi
+延命塑路者	yan ming su lu zhe
+型	xing
+火龙	huo long
+酸液源石虫	suan ye yuan shi chong
+萨卡兹子裔战士组长	sa ka zi zi yi zhan shi zu zhang
+蒸汽骑士	zheng qi qi shi
+源石虫	yuan shi chong
+萨卡兹宿主卫巢百夫长	sa ka zi su zhu wei chao bai fu zhang
+剧场组装体	ju chang zu zhuang ti
+退行的奠基者	tui xing de dian ji zhe
+好朋友	hao peng you
+伊利昂的木驮兽	yi li ang de mu tuo shou
+爱球会击球手	ai qiu hui ji qiu shou
+迅猛锋羽兽	xun meng feng yu shou
+拓拉	tuo la
+大名碎壳螈	da ming sui ke yuan
+退行的喷溅者	tui xing de pen jian zhe
+深池方阵战士	shen chi fang zhen zhan shi
+罗伊	luo yi
+荒神大喰怪	huang shen da can guai
+呼啸骑士团精锐	hu xiao qi shi tuan jing rui
+主音吉他	zhu yin ji ta
+深溟引痕者	shen ming yin hen zhe
+隐形术师	yin xing shu shi
+古老藤蔓	gu lao teng wan
+睚	ya
+吸气乱动机	xi qi luan dong ji
+遗落的巨型岩石像	yi luo de ju xing yan shi xiang
+圆仔	yuan zai
+富营养的引痕者	fu ying yang de yin hen zhe
+高亢群歌	gao kang qun ge
+桑德尔	sang de er
+挥铳圣像	hui chong sheng xiang
+箭棘兽	jian ji shou
+游击队突袭战士组长	you ji dui tu xi zhan shi zu zhang
+扶潮·归	fu chao gui
+掀天汽水桶	xian tian qi shui tong
+冰原战士	bing yuan zhan shi
+巫王乐团大提琴家	wu wang yue tuan da ti qin jia
+行天救护车	xing tian jiu hu che
+力大如驮	li da ru tuo
+翻新投石机	fan xin tou shi ji
+血色三生花	xue se san sheng hua
+惊喜赞助无人机	jing xi zan zhu wu ren ji
+高能源石球	gao neng yuan shi qiu
+弩手组长	nu shou zu zhang
+命定的反派	ming ding de fan pai
+枢密官	shu mi guan
+妄躯	wang qu
+青铜镜	qing tong jing
+难过车	nan guo che
+接潮斥亡体	jie chao chi wang ti
+热烈舞团领舞者	re lie wu tuan ling wu zhe
+灼芯	zhuo xin
+无根之怨	wu gen zhi yuan
+朗姆酒推荐者	lang mu jiu tui jian zhe
+孽茨雷	nie ci lei
+秽	hui
+影丝蛛·怨	ying si zhu yuan
+拾荒者	shi huang zhe
+无胄盟清扫小队	wu zhou meng qing sao xiao dui
+慰朽灵幛	wei xiu ling zhang
+富营养的猎食者	fu ying yang de lie shi zhe
+沉默收音机	chen mo shou yin ji
+挽弓·鸣	wan gong ming
+莱茵生命防卫科成员	lai yin sheng ming fang wei ke cheng yuan
+残党乐团指挥家	can dang yue tuan zhi hui jia
+源代码	yuan dai ma
+精锐西西里人	jing rui xi xi li ren
+失控天桩-乙	shi kong tian zhuang yi
+马特奥的亲卫	ma te ao de qin wei
+大总统	da zong tong
+密林锋脊裂兽	mi lin feng ji lie shou
+空	kong
+冰原猎人	bing yuan lie ren
+迂回的	yu hui de
+纵尘者	zong chen zhe
+深池护卫队成员	shen chi hu wei dui cheng yuan
+飞腿毛贼	fei tui mao zei
+夜色雪球	ye se xue qiu
+沼泽探照车	zhao ze tan zhao che
+梦游管家	meng you guan jia
+泥岩巨像	ni yan ju xiang
+漫游小屋	man you xiao wu
+萨卡兹王庭军战士	sa ka zi wang ting jun zhan shi
+凝缩热力	ning suo re li
+家族灭迹人	jia zu mie ji ren
+伊祖米克的子代	yi zu mi ke de zi dai
+运输汽艇	yun shu qi ting
+巫王乐团管乐家	wu wang yue tuan guan yue jia
+匕现	bi xian
+暴鸰	bao ling
+深池飞行兵	shen chi fei xing bing
+里霍	li huo
+萨卡兹迷宫劝导者	sa ka zi mi gong quan dao zhe
+礼花零售商	li hua ling shou shang
+锋盔骑士团学徒	feng kui qi shi tuan xue tu
+枯槁者	ku gao zhe
+拳手囚犯	quan shou qiu fan
+乌萨斯裂兽	wu sa si lie shou
+浪里玄条·锈	lang li xuan tiao xiu
+翻身甲	fan shen jia
+坍缩构造体	tan suo gou zao ti
+孽罪奇美拉	nie zui qi mei la
+身形	shen xing
+苔生兽	tai sheng shou
+岁	sui
+灵活假人	ling huo jia ren
+伤心的大锁	shang xin de da suo
+饱腹的子裔	bao fu de zi yi
+风情区小型车辇	feng qing qu xiao xing che nian
+美食速递	mei shi su di
+瘴	zhang
+卷心籽	juan xin zi
+鸣啭	ming zhuan
+战术队守门员	zhan shu dui shou men yuan
+蔓德拉	man de la
+巫王	wu wang
+失控的	shi kong de
+机械之心	ji xie zhi xin
+锋羽兽	feng yu shou
+魔球帮诡秘守门员	mo qiu bang gui mi shou men yuan
+重启锚点罗德岛新基地	chong qi mao dian luo de dao xin ji di
+至纯源石球	zhi chun yuan shi qiu
+雪孩子	xue hai zi
+猩红血钻	xing hong xue zuan
+萨卡兹骸骨拷打者	sa ka zi hai gu kao da zhe
+人间烟火	ren jian yan huo
+宝箱恐鱼	bao xiang kong yu
+诗画卷轴	shi hua juan zhou
+剧团喉舌	ju tuan hou she
+风向标	feng xiang biao
+积雪银凇	ji xue yin song
+球德联击球手	qiu de lian ji qiu shou
+炭长矛	tan chang mao
+岩甲兽·咒	yan jia shou zhou
+受诅者	shou zu zhe
+法术大师	fa shu da shi
+多萝西	duo luo xi
+恐卡兹	kong ka zi
+拳刃武士	quan ren wu shi
+大君之触	da jun zhi chu
+假想敌：淤困	jia xiang di yu kun
+执白者	zhi bai zhe
+潜伏者	qian fu zhe
+新手祭司学徒	xin shou ji si xue tu
+流眼泪侦探	liu yan lei zhen tan
+澪	ling
+弹力球	tan li qiu
+重锤补给员	zhong chui bu ji yuan
+提亚卡乌撕裂者	ti ya ka wu si lie zhe
+萨卡兹子裔改装补给车	sa ka zi zi yi gai zhuang bu ji che
+源阶粒素	yuan jie li su
+街头音乐家	jie tou yin yue jia
+城市	cheng shi
+操戈	cao ge
+提亚卡乌投矛手	ti ya ka wu tou mao shou
+喷射罐	pen she guan
+提亚卡乌好战者	ti ya ka wu hao zhan zhe
+寻路者精锐术师	xun lu zhe jing rui shu shi
+王酋巫术师	wang qiu wu shu shi
+多利	duo li
+街头火舞艺人	jie tou huo wu yi ren
+球德联老牌守门员	qiu de lian lao pai shou men yuan
+欢乐校车	huan le xiao che
+徘徊者	pai huai zhe
+挽弓	wan gong
+市井猎手	shi jing lie shou
+异质源石虫	yi zhi yuan shi chong
+直球队击球手	zhi qiu dui ji qiu shou
+撼地盐鳞	han di yan lin
+易	yi
+好外号热衷者	hao wai hao re zhong zhe
+失望的雕像	shi wang de diao xiang
+遗落的岩石像	yi luo de yan shi xiang
+喷泉	pen quan
+万国信使	wan guo xin shi
+演出	yan chu
+荧壳源石虫	ying ke yuan shi chong
+精干打手	jing gan da shou
+摩诃萨埵权化	mo he sa duo quan hua
+中点	zhong dian
+复杂的	fu za de
+埃尔伯特	ai er bo te
+乌萨斯战争术师	wu sa si zhan zheng shu shi
+不法分子头目	bu fa fen zi tou mu
+提亚卡乌勇士	ti ya ka wu yong shi
+鼷兽补给箱	xi shou bu ji xiang
+漂泊颂偶	piao bo song ou
+起舞的	qi wu de
+始海穿刺者	shi hai chuan ci zhe
+屠宰老手	tu zai lao shou
+演出用左爪	yan chu yong zuo zhao
+愤怒蹬踏	fen nu deng ta
+家族精英术师	jia zu jing ying shu shi
+造化之口	zao hua zhi kou
+游击队战士组长	you ji dui zhan shi zu zhang
+晨音	chen yin
+石榴弩手	shi liu nu shou
+巨型拟树虫	ju xing ni shu chong
+寻路密探	xun lu mi tan
+星术师	xing shu shi
+斯托斯贝塔	si tuo si bei ta
+沃尔夫之影	wo er fu zhi ying
+举重王	ju zhong wang
+游击队迫击炮兵	you ji dui pai ji pao bing
+榴弹炮	liu dan pao
+轻甲卫兵	qing jia wei bing
+无胄盟第三小队组长	wu zhou meng di san xiao dui zu zhang
+顺从内心的设计师	shun cong nei xin de she ji shi
+深池侦察队长	shen chi zhen cha dui zhang
+术师	shu shi
+冰爆源石虫	bing bao yuan shi chong
+无胄盟清扫小队组长	wu zhou meng qing sao xiao dui zu zhang
+硕果虫	shuo guo chong
+码头水手长	ma tou shui shou zhang
+坚冰翻身甲	jian bing fan shen jia
+鸡尾酒投掷者	ji wei jiu tou zhi zhe
+无名精锐骑士	wu ming jing rui qi shi
+怨骸	yuan hai
+梦魇追随者	meng yan zhui sui zhe
+操戈·凌	cao ge ling
+淘气包	tao qi bao
+莱茵生命高级工程科成员	lai yin sheng ming gao ji gong cheng ke cheng yuan
+焦急的	jiao ji de
+控潮术师	kong chao shu shi
+扎罗	zha luo
+复仇者	fu chou zhe
+粉碎攻坚组长	fen sui gong jian zu zhang
+纤核漂游者	xian he piao you zhe
+歪曲施法者	wai qu shi fa zhe
+异质裂兽	yi zhi lie shou
+黑冠尊主	hei guan zun zhu
+集团军重型火炮	ji tuan jun zhong xing huo pao
+萨卡兹百夫长	sa ka zi bai fu zhang
+大嘴捕食草	da zui bu shi cao
+巫王乐团小号手	wu wang yue tuan xiao hao shou
+虚实之握	xu shi zhi wo
+双月共主	shuang yue gong zhu
+遮目	zhe mu
+歌者	ge zhe
+特工组长	te gong zu zhang
+毒瘤	du liu
+漏气甲虫球	lou qi jia chong qiu
+圣堂剑士	sheng tang jian shi
+部族巫术师	bu zu wu shu shi
+号复制体	hao fu zhi ti
+破烂发明家	po lan fa ming jia
+食腐者之王	shi fu zhe zhi wang
+异光体集养者	yi guang ti ji yang zhe
+泥岩小队掷能者组长	ni yan xiao dui zhi neng zhe zu zhang
+可汗片影	ke han pian ying
+提亚卡乌破坏者	ti ya ka wu po huai zhe
+货运轨道车	huo yun gui dao che
+圆岩巨像	yuan yan ju xiang
+红宝石飞翼	hong bao shi fei yi
+破片	po pian
+无忧货运帮手	wu you huo yun bang shou
+雷遁宗师	lei dun zong shi
+寻路者知名甜品商	xun lu zhe zhi ming tian pin shang
+染污勇士	ran wu yong shi
+龙卷风	long juan feng
+不动的	bu dong de
+美食的奴隶	mei shi de nu li
+匪帮混混头目	fei bang hun hun tou mu
+深池逐火战士	shen chi zhu huo zhan shi
+乌萨斯突击者队长	wu sa si tu ji zhe dui zhang
+硬核扰民者	ying he rao min zhe
+大哥大个子	da ge da ge zi
+演出用岁尾	yan chu yong sui wei
+底海滑动球	di hai hua dong qiu
+歌利亚	ge li ya
+战线推进者	zhan xian tui jin zhe
+屠夫	tu fu
+固海凿石者	gu hai zao shi zhe
+木衣	mu yi
+炫目刀技厨师	xuan mu dao ji chu shi
+门神会击球手	men shen hui ji qiu shou
+耶拉冈德	ye la gang de
+浮海飘航者	fu hai piao hang zhe
+萨卡兹悖谬谍报长	sa ka zi bei miu die bao zhang
+帮派打手	bang pai da shou
+幽灵组长	you ling zu zhang
+阿米娅	a mi ya
+喷气人	pen qi ren
+战术猎犬	zhan shu lie quan
+普通囚犯	pu tong qiu fan
+遮天面包机·果酱款	zhe tian mian bao ji guo jiang kuan
+无聊车	wu liao che
+阵地守门员	zhen di shou men yuan
+症结之核	zheng jie zhi he
+游击队战士	you ji dui zhan shi
+血色异种菌	xue se yi zhong jun
+试做型	shi zuo xing
+球德联守门员	qiu de lian shou men yuan
+受符	shou fu
+狙击步兵	ju ji bu bing
+烹泉	peng quan
+富营养的喷吐者	fu ying yang de pen tu zhe
+老妈的	lao ma de
+山海众掌令使	shan hai zhong zhang ling shi
+弧光突击队	hu guang tu ji dui
+身上的天标	shen shang de tian biao
+坎某人	kan mou ren
+匪帮防御者头目	fei bang fang yu zhe tou mu
+深池侦察犬	shen chi zhen cha quan
+指路草	zhi lu cao
+桥夹	qiao jia
+门神会忠诚击球手	men shen hui zhong cheng ji qiu shou
+方便快餐	fang bian kuai can
+霜牡	shuang mu
+狂欢之主	kuang huan zhi zhu
+巨声	ju sheng
+雪怪狙击手	xue guai ju ji shou
+心涛	xin tao
+开天汽水瓶·酸辣味	kai tian qi shui ping suan la wei
+巫王乐团调律师	wu wang yue tuan diao lv shi
+灰尾	hui wei
+彩瓷茶器	cai ci cha qi
+直球队守门员	zhi qiu dui shou men yuan
+大喰怪	da can guai
+萨卡兹悖谬暴虐兵	sa ka zi bei miu bao nve bing
+隐形弩手	yin xing nu shou
+乌萨斯裂兽族母	wu sa si lie shou zu mu
+白垩	bai e
+疑问的雕像	yi wen de diao xiang
+特别行动队士兵	te bie xing dong dui shi bing
+根除者	gen chu zhe
+健美操盘手	jian mei cao pan shou
+鲁塞尔卡	lu sai er ka
+堂皇	tang huang
+树墙	shu qiang
+直球队坚定击人手	zhi qiu dui jian ding ji ren shou
+结晶岩壳蟹	jie jing yan ke xie
+伊斯贝塔	yi si bei ta
+甜蜜派送机	tian mi pai song ji
+残党正式萨克斯手	can dang zheng shi sa ke si shou
+深池引火者队长	shen chi yin huo zhe dui zhang
+接潮主教	jie chao zhu jiao
+好心肠老板	hao xin chang lao ban
+隐形术师组长	yin xing shu shi zu zhang
+荒地鼷兽	huang di xi shou
+遗忘创伤的战士	yi wang chuang shang de zhan shi
+恩慈祷者	en ci dao zhe
+寻路者术师	xun lu zhe shu shi
+访问团强攻冠军	fang wen tuan qiang gong guan jun
+伊莎玛拉之泪	yi sha ma la zhi lei
+自助出餐终端原型机	zi zhu chu can zhong duan yuan xing ji
+物欲拮抗者	wu yu jie kang zhe
+狙击步兵组长	ju ji bu bing zu zhang
+武装密探	wu zhuang mi tan
+节日零食车	jie ri ling shi che
+荒原潜伏者	huang yuan qian fu zhe
+萨卡兹枯朽术师组长	sa ka zi ku xiu shu shi zu zhang
+风遁忍者	feng dun ren zhe
+技师囚犯	ji shi qiu fan
+集团军盾卫	ji tuan jun dun wei
+巨翼兽	ju yi shou
+拔山	ba shan
+破阵者组长	po zhen zhe zu zhang
+萨卡兹骸骨漂泊术师	sa ka zi hai gu piao bo shu shi
+拳刃武士组长	quan ren wu shi zu zhang
+暴徒	bao tu
+采集实习生	cai ji shi xi sheng
+萨卡兹骸骨卫士长	sa ka zi hai gu wei shi zhang
+游砂兽	you sha shou
+残党乐团调律师	can dang yue tuan diao lv shi
+渴血的子裔	ke xue de zi yi
+量产型	liang chan xing
+交通亭	jiao tong ting
+暴食之果	bao shi zhi guo
+塔露拉	ta lu la
+不法分子	bu fa fen zi
+投嗣育母	tou si yu mu
+异客	yi ke
+超惊喜信件	chao jing xi xin jian
+女妖河谷的拂哀菈	nv yao he gu de fu ai la
+邪魔的利刃	xie mo de li ren
+掀天汽水桶·家庭装	xian tian qi shui tong jia ting zhuang
+巢涌者的墓碑	chao yong zhe de mu bei
+腐败萃聚使徒	fu bai cui ju shi tu
+畸变恶性瘤	ji bian e xing liu
+飘游客	piao you ke
+萨卡兹悖谬暴虐兵长	sa ka zi bei miu bao nve bing zhang
+手推小矿车	shou tui xiao kuang che
+小角跳兽	xiao jiao tiao shou
+木制瑞印	mu zhi rui yin
+家族角头	jia zu jiao tou
+异光体饲育者	yi guang ti si yu zhe
+碎铳之簧	sui chong zhi huang
+宣泄暴力的摄影师	xuan xie bao li de she ying shi
+蹒跚羽兽	pan shan yu shou
+宝藏神偷	bao zang shen tou
+寒灾	han zai
+终始	zhong shi
+飞鞋党	fei xie dang
+变异岩蛛	bian yi yan zhu
+流质透镜	liu zhi tou jing
+米兰	mi lan
+风行者	feng xing zhe
+岗哨密探长	gang shao mi tan zhang
+大鲍勃	da bao bo
+假想敌：铳	jia xiang di chong
+假想敌：再生	jia xiang di zai sheng
+战术队精英守门员	zhan shu dui jing ying shou men yuan
+门神会守门员	men shen hui shou men yuan
+演出用岁首	yan chu yong sui shou
+萨卡兹骸骨漂泊术师长	sa ka zi hai gu piao bo shu shi zhang
+米奥	mi ao
+祟	sui
+静默之刃	jing mo zhi ren
+碎壁	sui bi
+宿主重装组长	su zhu zhong zhuang zu zhang
+提亚卡乌大巫	ti ya ka wu da wu
+不祥幻影	bu xiang huan ying
+无胄盟第三小队	wu zhou meng di san xiao dui
+血红阵地	xue hong zhen di
+大地之鞭	da di zhi bian
+弗莱蒙特	fu lai meng te
+集团军轻型火炮	ji tuan jun qing xing huo pao
+测试用动力装甲	ce shi yong dong li zhuang jia
+破阵者	po zhen zhe
+增强型爆燃厨具巨人	zeng qiang xing bao ran chu ju ju ren
+诡核集养者	gui he ji yang zhe
+二手改装无人机	er shou gai zhuang wu ren ji
+疯狂的逐腐兽	feng kuang de zhu fu shou
+萨卡兹子裔集怒者	sa ka zi zi yi ji nu zhe
+小雪伞	xiao xue san
+梅菲斯特	mei fei si te
+锋盔骑士团精锐	feng kui qi shi tuan jing rui
+酗酒滋事者	xu jiu zi shi zhe
+见习灰礼帽	jian xi hui li mao
+热情导游	re qing dao you
+青瓷花瓶	qing ci hua ping
+卢西恩	lu xi en
+无名独立骑士	wu ming du li qi shi
+帝国前锋百战精锐	di guo qian feng bai zhan jing rui
+退行的巢涌者	tui xing de chao yong zhe
+维奇科	wei qi ke
+团伙佣兵	tuan huo yong bing
+雪顽童	xue wan tong
 瑟奇亚克	se qi ya ke
+暴走食虫花	bao zou shi chong hua
+愤怒的	fen nu de
+夕娥	xi e
+桓君	huan jun
+硬毫田鼷	ying hao tian xi
+里子	li zi
+畸变赘生物	ji bian zhui sheng wu
+玛利图斯	ma li tu si
+硕果磐蟹	shuo guo pan xie
+马特奥上尉	ma te ao shang wei
+静滞虚幻	jing zhi xu huan
+玻利瓦尔	bo li wa er
+美声水手长	mei sheng shui shou zhang
+热心肠老板	re xin chang lao ban
+战术队精英击球手	zhan shu dui jing ying ji qiu shou
+异光体掠食者	yi guang ti lve shi zhe
+自由佣兵	zi you yong bing
+萨卡兹刀兵	sa ka zi dao bing
+盛怒	sheng nu
+指挥官厄尔苏拉	zhi hui guan e er su la
+乌萨斯高级突袭弩手	wu sa si gao ji tu xi nu shou
+滑翔的玩具	hua xiang de wan ju
+家族恫吓者	jia zu dong he zhe
+护目镜	hu mu jing
+身观	shen guan
+格罗莫夫	ge luo mo fu
+暴走食人花	bao zou shi ren hua
+弹跳独轮车	dan tiao du lun che
+骑士领游荡者	qi shi ling you dang zhe
+飧	sun
+预见末日的贤人	yu jian mo ri de xian ren
+墨浪	mo lang
+深池重甲卫士队长	shen chi zhong jia wei shi dui zhang
+脚脚生风	jiao jiao sheng feng
+匪帮斧手	fei bang fu shou
+扶桥老手	fu qiao lao shou
+特里蒙城防军队长	te li meng cheng fang jun dui zhang
+异光体洋流使者	yi guang ti yang liu shi zhe
+三头犬	san tou quan
+自动维护机器	zi dong wei hu ji qi
+残党小提琴家	can dang xiao ti qin jia
+异兽	yi shou
+汽水侠	qi shui xia
+单核掠食者	dan he lve shi zhe
+困惑车	kun huo che
+深水大力士	shen shui da li shi
+山雪鬼队长	shan xue gui dui zhang
+元核孽生者	yuan he nie sheng zhe
+极温蒸汽战车	ji wen zheng qi zhan che
+炽焰源石虫	chi yan yuan shi chong
+寻路者信使	xun lu zhe xin shi
+魔王	mo wang
+冬灵血巫大师	dong ling xue wu da shi
+匪帮混混	fei bang hun hun
+高阶术师组长	gao jie shu shi zu zhang
+魂灵涡流	hun ling wo liu
+弱化节点	ruo hua jie dian
+胆小如鼷	dan xiao ru xi
+深溟裂礁者	shen ming lie jiao zhe
+萨卡兹骸骨卫士	sa ka zi hai gu wei shi
+暗潮钳兽	an chao qian shou
+夕	xi
+结巴铳	jie ba chong
+潜水队长	qian shui dui zhang
+修补工	xiu bu gong
+啸天吸尘器·大力版	xiao tian xi chen qi da li ban
+莱塔尼亚叛兵组长	lai ta ni ya pan bing zu zhang
+实验用动力装甲	shi yan yong dong li zhuang jia
+队长	dui zhang
+净浊之焰	jing zhuo zhi yan
+深溟奠基者	shen ming dian ji zhe
+灼热源石虫	zhuo re yuan shi chong
+萨卡兹祭坛看护者	sa ka zi ji tan kan hu zhe
+再灌注	zai guan zhu
+狂暴宿主组长	kuang bao su zhu zu zhang
+生态泉源	sheng tai quan yuan
+霜星	shuang xing
+磨砻	mo long
+萨卡兹王庭军术师	sa ka zi wang ting jun shu shi
+岩壳蟹	yan ke xie
+裁决者	cai jue zhe
+山海众窥魅人	shan hai zhong kui mei ren
+狂暴宿主掷骨手	kuang bao su zhu zhi gu shou
+寻路者奇兵	xun lu zhe qi bing
+异种菌	yi zhong jun
+蚀	shi
+黄铜镜	huang tong jing
+巫王乐团长笛手	wu wang yue tuan chang di shou
+街头卖艺者	jie tou mai yi zhe
+门	men
+乌顶巨角卢鲁	wu ding ju jiao lu lu
+斗士塔露拉	dou shi ta lu la
+土遁忍者	tu dun ren zhe
+弧光突击队队长	hu guang tu ji dui dui zhang
+格特鲁德女士	ge te lu de nv shi
+节日零食商贩	jie ri ling shi shang fan
+富营养的奠基者	fu ying yang de dian ji zhe
+废食	fei shi
+伦蒂尼姆城防自行炮	lun di ni mu cheng fang zi xing pao
+履平沙	lv ping sha
+俗心	su xin
+最后的怯薛	zui hou de qie xue
+全息幻影	quan xi huan ying
+寒霜	han shuang
+扶潮	fu chao
+蓝宝石飞翼	lan bao shi fei yi
+叛乱鼓动者	pan luan gu dong zhe
+猎狗	lie gou
+惘核	wang he
+喷射式冠冕	pen she shi guan mian
+鄙瘴	bi zhang
+岁躯	sui qu
+喷爆罐	pen bao guan
+流泪小子	liu lei xiao zi
+术师组长	shu shi zu zhang
+小躁	xiao zao
+爆破攻坚手	bao po gong jian shou
+被关押的学生	bei guan ya de xue sheng
+魔球帮守门员	mo qiu bang shou men yuan
+远眺	yuan tiao
+访问团术师长	fang wen tuan shu shi zhang
+历战高塔术师	li zhan gao ta shu shi
+血骑士狄开俄波利斯	xue qi shi di kai e bo li si
+莫妮克	mo ni ke
+结晶	jie jing
+热气球	re qi qiu
+圣愚	sheng yu
+岁·左爪	sui zuo zhao
+奠基者的墓碑	dian ji zhe de mu bei
+剪刀手	jian dao shou
+青金	qing jin
+号失败品	hao shi bai pin
+盐风主教昆图斯	yan feng zhu jiao kun tu si
+深池伙友卫队	shen chi huo you wei dui
+战术防御者组长	zhan shu fang yu zhe zu zhang
+弧光镜卫长	hu guang jing wei zhang
+行星碎屑	xing xing sui xie
+酒神	jiu shen
+注亡拟嗣	zhu wang ni si
+集团军中坚盾卫	ji tuan jun zhong jian dun wei
+萨卡兹宿主百夫长	sa ka zi su zhu bai fu zhang
+墓碑	mu bei
+荷谟伊勇士	he mo yi yong shi
+未装配刀片	wei zhuang pei dao pian
+粹影魂灵法骸	cui ying hun ling fa hai
+碎壳螈	sui ke yuan
+注能魂灵法骸	zhu neng hun ling fa hai
+阵地击人手	zhen di ji ren shou
+折戟者	zhe ji zhe
+灵幛	ling zhang
+噪鳞	zao lin
+解构畸变体	jie gou ji bian ti
+访问团持盾者	fang wen tuan chi dun zhe
+秒表	miao biao
+圣卫铳骑	sheng wei chong qi
+特别行动队队长	te bie xing dong dui dui zhang
+成员	cheng yuan
+青瓷茶器	qing ci cha qi
+挟潮·来	xie chao lai
+便符	bian fu
+君主之红	jun zhu zhi hong
+假想敌：骨刺	jia xiang di gu ci
+聆风猎手	ling feng lie shou
+仅剩的创意	jin sheng de chuang yi
+简饲源石虫	jian si yuan shi chong
+自制投石机	zi zhi tou shi ji
+拥霜羽兽	yong shuang yu shou
+门神会击人手	men shen hui ji ren shou
+北境意志球	bei jing yi zhi qiu
+温泉	wen quan
+奥尔默·英格拉	ao er mo ying ge la
+贝斯	bei si
+特战士兵	te zhan shi bing
+遗弃者	yi qi zhe
+萨卡兹穿刺手	sa ka zi chuan ci shou
+演出阿米娅	yan chu a mi ya
+富营养的狂奔者	fu ying yang de kuang ben zhe
+蕴核饲育者	yun he si yu zhe
+无垠回荡球	wu yin hui dang qiu
+大富翁	da fu weng
+终曲合声	zhong qu he sheng
+霜劫·争	shuang jie zheng
+沼泽钳兽	zhao ze qian shou
+传奇矿车	chuan qi kuang che
+号改造体	hao gai zao ti
+花匠	hua jiang
+反派阵营角色	fan pai zhen ying jue se
+躁怒谛兽	zao nu di shou
+牧首	mu shou
+萨卡兹子裔责罚者	sa ka zi zi yi ze fa zhe
+咒鬼·真	zhou gui zhen
+大骑士	da qi shi
+搭档	da dang
+铁头前锋	tie tou qian feng
+富营养的收割者	fu ying yang de shou ge zhe
+礼花经销商	li hua jing xiao shang
+乌萨斯突袭弩手	wu sa si tu xi nu shou
+停箸	ting zhu
+怪异引雷装置	guai yi yin lei zhuang zhi
+叙拉古平民	xu la gu ping min
+御	yu
+游击队突袭战士	you ji dui tu xi zhan shi
+防爆货运帮手	fang bao huo yun bang shou
+法术近卫组长	fa shu jin wei zu zhang
+节日爵士乐手	jie ri jue shi yue shou
+粉红绒气球	fen hong rong qi qiu
+萨卡兹子裔集恨者	sa ka zi zi yi ji hen zhe
+稳定态萨卡兹术师结晶	wen ding tai sa ka zi shu shi jie jing
+莫菲丝	mo fei si
+逐日的树	zhu ri de shu
+庆典校车	qing dian xiao che
+血珀	xue po
+重弩突袭者	zhong nu tu xi zhe
+都应该砸	dou ying gai za
+厌肮	yan ang
+残党阵地术师	can dang zhen di shu shi
+圣堂射手	sheng tang she shou
+信标	xin biao
+虚幻	xu huan
+家族术师	jia zu shu shi
+醉后狂欢	zui hou kuang huan
+家族豪华轿车	jia zu hao hua jiao che
+血腥厨子	xue xing chu zi
+街头醉汉	jie tou zui han
+深池塑能术师队长	shen chi su neng shu shi dui zhang
+辐能源石虫	fu neng yuan shi chong
+无胄盟刺客	wu zhou meng ci ke
+格特鲁德的虚像	ge te lu de de xu xiang
+萨卡兹悖谬裂变术师	sa ka zi bei miu lie bian shu shi
+匪帮轰击者头目	fei bang hong ji zhe tou mu
+弧光锋卫	hu guang feng wei
+武装密探长	wu zhuang mi tan zhang
+披挂冰雪的少女	pi gua bing xue de shao nv
+勇争第一的矿工	yong zheng di yi de kuang gong
+腐化之心	fu hua zhi xin
+雇佣军萨卡兹术师	gu yong jun sa ka zi shu shi
+圣堂保育员	sheng tang bao yu yuan
+雷之主	lei zhi zhu
+提亚卡乌冠军	ti ya ka wu guan jun
+魔球帮诡秘击球手	mo qiu bang gui mi ji qiu shou
+闪亮噗噜	shan liang pu lu
+平剑客	ping jian ke
+豪华赞助无人机	hao hua zan zhu wu ren ji
+剧作家	ju zuo jia
+萨卡兹狙击手	sa ka zi ju ji shou
+铜灯盘	tong deng pan
+帝国炮火先兆者	di guo pao huo xian zhao zhe
+无胄盟弩手	wu zhou meng nu shou
+游击队萨卡兹术师	you ji dui sa ka zi shu shi
+阿斯卡纶	a si ka lun
+异构体	yi gou ti
+铁灯盘	tie deng pan
+命定的主角	ming ding de zhu jue
+古德因纳夫先生	gu de yin na fu xian sheng
+岗哨密探	gang shao mi tan
+废金属破坏者	fei jin shu po huai zhe
+雪怪术师组长	xue guai shu shi zu zhang
+乐淘淘气包	le tao tao qi bao
+过灌注	guo guan zhu
+萨卡兹征用尖端无人机	sa ka zi zheng yong jian duan wu ren ji
+持盾精锐骑士	chi dun jing rui qi shi
+深池重甲卫士	shen chi zhong jia wei shi
+刺球	ci qiu
+萨科塔昂首	sa ke ta ang shou
+棱镜魂灵残迹	leng jing hun ling can ji
+窗	chuang
+富营养的喷溅者	fu ying yang de pen jian zhe
+危险术师囚犯	wei xian shu shi qiu fan
+伊祖米克	yi zu mi ke
+菈玛莲	la ma lian
+高塔术师	gao ta shu shi
+伊莎玛拉	yi sha ma la
+战术防御者	zhan shu fang yu zhe
+巡游零食商贩	xun you ling shi shang fan
+云中墨贼	yun zhong mo zei
+蹦跶羽兽	beng da yu shou
+神射丰碑	shen she feng bei
+游击队萨卡兹术师组长	you ji dui sa ka zi shu shi zu zhang
+飞檐客-叶无轻	fei yan ke ye wu qing
+圣徒祈祷像	sheng tu qi dao xiang
+逆女	ni nv
+托生莲座	tuo sheng lian zuo
+安多恩	an duo en
+圣徒像	sheng tu xiang
+变形者集群	bian xing zhe ji qun
+强光监管者	qiang guang jian guan zhe
+重型动力装甲	zhong xing dong li zhuang jia
+木裂	mu lie
+巫王乐团指挥家	wu wang yue tuan zhi hui jia
+惊艳事热衷者	jing yan shi re zhong zhe
+拟南兽	ni nan shou
+怨恨祭坛	yuan hen ji tan
+冰原术师	bing yuan shu shi
+狂徒	kuang tu
+破茧之梦	po jian zhi meng
+杜卡雷	du ka lei
+盐水健身客	yan shui jian shen ke
+传唱悲剧的诗人	chuan chang bei ju de shi ren
+发条巡逻机器	fa tiao xun luo ji qi
+特战术师组长	te zhan shu shi zu zhang
+萨卡兹穿刺手组长	sa ka zi chuan ci shou zu zhang
+沸血骑士团学徒	fei xue qi shi tuan xue tu
+残党资深阵地术师	can dang zi shen zhen di shu shi
+霜锐	shuang rui
+雷遁忍者	lei dun ren zhe
+传唱喜剧的诗人	chuan chang xi ju de shi ren
+锏	jian
+无羁的	wu ji de
+特战术师	te zhan shu shi
+异光体漂游者	yi guang ti piao you zhe
+天车散花	tian che san hua
+愠怒	yun nu
+赞助无人机	zan zhu wu ren ji
+布景大师	bu jing da shi
+灰烬艺术品	hui jin yi shu pin
+反壳龟	fan ke gui
+破城者	po cheng zhe
+抗拒之火炎熔	kang ju zhi huo yan rong
+咸鳞汁推荐者	xian lin zhi tui jian zhe
+埃克提尔尼尔	ai ke ti er ni er
+祖巴伊达姆	zu ba yi da mu
+战术队精英击人手	zhan shu dui jing ying ji ren shou
+谛兽	di shou
+爱球会守门员	ai qiu hui shou men yuan
+寻路者甜品商	xun lu zhe tian pin shang
+膨胀甲虫球	peng zhang jia chong qiu
+狂躁异质裂兽	kuang zao yi zhi lie shou
+球德联击人手	qiu de lian ji ren shou
+执拗的收音师	zhi niu de shou yin shi
+特里蒙城防军	te li meng cheng fang jun
+萨卡兹敛血行者	sa ka zi lian xue xing zhe
+伐木老手	fa mu lao shou
+迷迭香	mi die xiang
+深池引火者	shen chi yin huo zhe
+强壮囚犯	qiang zhuang qiu fan
+愧悔魂灵圣杯	kui hui hun ling sheng bei
+退行的裂礁者	tui xing de lie jiao zhe
+冰原猎人队长	bing yuan lie ren dui zhang
+强光恐吓者	qiang guang kong he zhe
+赤霞	chi xia
+特蕾西娅	te lei xi ya
+疲倦道具师	pi juan dao ju shi
+无阻冲锋官	wu zu chong feng guan
+颂水贤者	song shui xian zhe
+塑路者	su lu zhe
+岁·右爪	sui you zhao
+巡游气球	xun you qi qiu
+精饲源石虫	jing si yuan shi chong
+萨卡兹狙击组长	sa ka zi ju ji zu zhang
+空洞雪祀	kong dong xue si
+弩手	nu shou
+小惊喜	xiao jing xi
+去蚀	qu shi
+自在	zi zai
+寻路者阵地破坏者	xun lu zhe zhen di po huai zhe
+十字路口	shi zi lu kou
+三生花	san sheng hua
+余音	yu yin
+山谷雪灵	shan gu xue ling
+罗德岛标志	luo de dao biao zhi
+土遁宗师	tu dun zong shi
+球德联老牌击人手	qiu de lian lao pai ji ren shou
+惊躁伏翼兽	jing zao fu yi shou
+大群意志	da qun yi zhi
+家族精英弩手	jia zu jing ying nu shou
+重弩猎杀者	zhong nu lie sha zhe
+敛傲	lian ao
+离婚花束	li hun hua shu
+红木瑞印	hong mu rui yin
+昔日道标	xi ri dao biao
+访问团强攻手	fang wen tuan qiang gong shou
+热烈舞团独舞者	re lie wu tuan du wu zhe
+入梦砖	ru meng zhuan
+羽化之梦	yu hua zhi meng
+沉沙	chen sha
+天桩-乙	tian zhuang yi
+冰原卫法者	bing yuan wei fa zhe
+萨卡兹枯朽辟路前锋	sa ka zi ku xiu pi lu qian feng
+磷火	lin huo
+莱塔尼亚轻语者	lai ta ni ya qing yu zhe
+荒原窃盗者精英	huang yuan qie dao zhe jing ying
+后兽	hou shou
+冰翼兽	bing yi shou
+横纲盗壳虫	heng gang dao ke chong
+蓬松雪球	peng song xue qiu
+生气车	sheng qi che
+喷口	pen kou
+田鼷力士	tian xi li shi
+萨科塔展翅	sa ke ta zhan chi
+小跑的斐迪庇第斯	xiao pao de fei di bi di si
+恶笼草	e long cao
+鼠王	shu wang
+霜劫	shuang jie
+接潮蔑死体	jie chao mie si ti
+博卓卡斯替	bo zhuo ka si ti
+船车	chuan che
+贪婪捕手	tan lan bu shou
+重装五十夫长	zhong zhuang wu shi fu zhang
+超级钳	chao ji qian
+源石畸变体	yuan shi ji bian ti
+匪帮射手头目	fei bang she shou tou mu
+肮	ang
+眩光记录员	xuan guang ji lu yuan
+巡游草叶	xun you cao ye
+历险水手	li xian shui shou
+狂噪鳞	kuang zao lin
+爬行鬼伞	pa xing gui san
+引浪兽	yin lang shou
+阿利斯泰尔	a li si tai er
+伏翼兽	fu yi shou
+撬棍巡逻者	qiao gun xun luo zhe
+赫尔昏佐伦	he er hun zuo lun
+结构性原理	jie gou xing yuan li
+特工	te gong
+巨角卢鲁	ju jiao lu lu
+沉水物资箱	chen shui wu zi xiang
+散华骑士团精锐	san hua qi shi tuan jing rui
+爆炸信奉者	bao zha xin feng zhe
+访问团突击新兵	fang wen tuan tu ji xin bing
+烟雾弹	yan wu dan
+飘香	piao xiang
+蜃景	shen jing
+高能源石虫	gao neng yuan shi chong
+伊利昂的铁驮兽	yi li ang de tie tuo shou
+沃尔夫幽影	wo er fu you ying
+不朽之人	bu xiu zhi ren
+焦香螺旋桨	jiao xiang luo xuan jiang
+蓝冠羽镖客	lan guan yu biao ke
+椰壳蟹	ye ke xie
+帝国余晖	di guo yu hui
+汉科	han ke
+卷心草	juan xin cao
+湖畔志愿者	hu pan zhi yuan zhe
+狂暴沼泽钳兽	kuang bao zhao ze qian shou
+缠身恶焰	chan shen e yan
+重型沼泽探照车	zhong xing zhao ze tan zhao che
+坚岩冠兽	jian yan guan shou
+深池逐火精锐护卫	shen chi zhu huo jing rui hu wei
+壳海狂奔者	ke hai kuang ben zhe
+绯红歌伶	fei hong ge ling
+市井盗贼	shi jing dao zei
+堕天使福尔图娜	duo tian shi fu er tu na
+寻仇者	xun chou zhe
+量产巨像	liang chan ju xiang
+满天飞空员	man tian fei kong yuan
+无人爆破重艇	wu ren bao po zhong ting
+沙地兽补给员	sha di shou bu ji yuan
+幽灵	you ling
+喀兰圣女	ka lan sheng nv
+提亚卡乌巫术师	ti ya ka wu wu shu shi
+召毁者	zhao hui zhe
+深池伙友卫队精英	shen chi huo you wei dui jing ying
+逐腐兽	zhu fu shou
+萨卡兹积怨者	sa ka zi ji yuan zhe
+轻甲卫兵组长	qing jia wei bing zu zhang
+私人安全顾问	si ren an quan gu wen
+特雷西斯	te lei xi si
+宿主流浪者	su zhu liu lang zhe
+游击队猎犬	you ji dui lie quan
+访问团持盾长	fang wen tuan chi dun zhang
+入戏太深的孩童	ru xi tai shen de hai tong
+放归驮兽	fang gui tuo shou
+流浪驯兽师	liu lang xun shou shi
+变格银灰	bian ge yin hui
+萨米的意志	sa mi de yi zhi
+自由的树	zi you de shu
+精英根除者	jing ying gen chu zhe
+殿堂右侧雕像	dian tang you ce diao xiang
+山海众冒矢者	shan hai zhong mao shi zhe
+蒸汽战车	zheng qi zhan che
+领潮员	ling chao yuan
+饮啄	yin zhuo
+荧羽兽	ying yu shou
+市井流窜猎手	shi jing liu cuan lie shou
+压力舒缓帮手	ya li shu huan bang shou
+萨科塔之眼	sa ke ta zhi yan
+安眠伴随兽	an mian ban sui shou
+田鼷飞贼	tian xi fei zei
+寒意	han yi
+街区自治队	jie qu zi zhi dui
+游击队狙击手	you ji dui ju ji shou
+弧光锋卫长	hu guang feng wei zhang
+勘察用自走车	kan cha yong zi zou che
+打手	da shou
+联合政府军犬	lian he zheng fu jun quan
+囊海爬行者	nang hai pa xing zhe
+破石草	po shi cao
+织郁伯爵	zhi yu bo jue
+凋零骑士	diao ling qi shi
+独轮车玩具	du lun che wan ju
+骑士	qi shi
+灵绒兽	ling rong shou
+酣酣睡飞行员	han han shui fei xing yuan
+撬棍追捕者	qiao gun zhui bu zhe
+黑水源石虫	hei shui yuan shi chong
+三船光平	san chuan guang ping
+椿	chun
+游荡的	you dang de
+潜水员	qian shui yuan
+荒原窃盗者	huang yuan qie dao zhe
+物资运输艇	wu zi yun shu ting
+潘乔·萨拉斯	pan qiao sa la si
+痛楚化身	tong chu hua shen
+没办法车	mei ban fa che
+深池塑能术师	shen chi su neng shu shi
+碎岩者	sui yan zhe
+布景小丑	bu jing xiao chou
+凶爪兽	xiong zhao shou
+红宝石投石虫	hong bao shi tou shi chong
+提亚卡乌破坏王	ti ya ka wu po huai wang
+马特奥的警卫	ma te ao de jing wei
+鼷兽补给员	xi shou bu ji yuan
+莱茵生命防卫科高级成员	lai yin sheng ming fang wei ke gao ji cheng yuan
+萨卡兹渴血术师	sa ka zi ke xue shu shi
+假想敌：黑云	jia xiang di hei yun
+几点了钟	ji dian le zhong
+伐木机	fa mu ji
+钢铁冲浪教练	gang tie chong lang jiao lian
+废金属爆裂者	fei jin shu bao lie zhe
+萨卡兹萃血行者	sa ka zi cui xue xing zhe
+师祖	shi zu
+烛骑士薇薇安娜	zhu qi shi wei wei an na
+防护背心	fang hu bei xin
+不知道钟	bu zhi dao zhong
+两栖号	liang qi hao
+诺伯特平民	nuo bo te ping min
+左手	zuo shou
+再铸扈从	zai zhu hu cong
+寻路者阵地撕裂者	xun lu zhe zhen di si lie zhe
+冰原术师队长	bing yuan shu shi dui zhang
+爱国者	ai guo zhe
+尘世遗骸	chen shi yi hai
+棘兽	ji shou
+燃烧瓶投掷者	ran shao ping tou zhi zhe
+反壳龟·缚	fan ke gui fu
+襁褓	qiang bao
+酒类爱好者	jiu lei ai hao zhe
+训练用钳兽	xun lian yong qian shou
+访问团新兵	fang wen tuan xin bing
+残党萨克斯手	can dang sa ke si shou
+大容量物资运输艇	da rong liang wu zi yun shu ting
+饮露餐风	yin lu can feng
+彻底报废的胶卷	che di bao fei de jiao juan
+富营养的爬行者	fu ying yang de pa xing zhe
+绝对安保	jue dui an bao
+烈酒金刚	lie jiu jin gang
+枣大刀	zao da dao
+编制术师组长	bian zhi shu shi zu zhang
+震风虫	zhen feng chong
+高级军用猎狗	gao ji jun yong lie gou
+天桩-甲	tian zhuang jia
+机动盾组长	ji dong dun zu zhang
+宝箱寄居磐蟹	bao xiang ji ju pan xie
+终点信标塔	zhong dian xin biao ta
+残党乐团大提琴家	can dang yue tuan da ti qin jia
+山海众秘使	shan hai zhong mi shi
+反装甲步兵	fan zhuang jia bu bing
+深池逐火精锐战士	shen chi zhu huo jing rui zhan shi
+新生血裔	xin sheng xue yi
+假想敌：管	jia xiang di guan
+温顺的武装大驮兽	wen shun de wu zhuang da tuo shou
+深溟巢涌者	shen ming chao yong zhe
+宿主拾荒者	su zhu shi huang zhe
+炎佑	yan you
+雪怪小队	xue guai xiao dui
+杰斯顿·威廉姆斯	jie si dun wei lian mu si
+巫术巨像	wu shu ju xiang
+靳天师	jin tian shi
+压缩建材球	ya suo jian cai qiu
+游击队传令兵组长	you ji dui chuan ling bing zu zhang
+浮袭者	fu xi zhe
+染污躯壳	ran wu qu qiao
+心烛	xin zhu
+节日气球	jie ri qi qiu
+茧缚	jian fu
+炊事	chui shi
+玻璃窗粉碎者	bo li chuang fen sui zhe
+玻璃窗毁灭者	bo li chuang hui mie zhe
+术师囚犯	shu shi qiu fan
+集团军潜行兵	ji tuan jun qian xing bing
+沸血骑士团精锐	fei xue qi shi tuan jing rui
+萨卡兹哨兵组长	sa ka zi shao bing zu zhang
+战争幽灵	zhan zheng you ling
+泥石流浪汉	ni shi liu lang han
+彩瓷花瓶	cai ci hua ping
+克丽斯腾	ke li si teng
+临时收音师	lin shi shou yin shi
+赎罪者	shu zui zhe
+振翅源石虫	zhen chi yuan shi chong
+酩酊	ming ding
+高准度伦蒂尼姆城防自行炮	gao zhun du lun di ni mu cheng fang zi xing pao
+爆破攻坚手组长	bao po gong jian shou zu zhang
+巡游零食车	xun you ling shi che
+寻路者供弹手	xun lu zhe gong dan shou
+老练拾荒者	lao lian shi huang zhe
+尖端萨卡兹枯朽战车	jian duan sa ka zi ku xiu zhan che
+反装甲步兵组长	fan zhuang jia bu bing zu zhang
+巢穴	chao xue
+球德联老牌击球手	qiu de lian lao pai ji qiu shou
+残党乐团圆号手	can dang yue tuan yuan hao shou
+奎隆	kui long
+水上明珠	shui shang ming zhu
+变格博士	bian ge bo shi
+活性源石风暴	huo xing yuan shi feng bao
+山海众连阵者	shan hai zhong lian zhen zhe
+呼啸骑士团学徒	hu xiao qi shi tuan xue tu
+残党乐团管乐家	can dang yue tuan guan yue jia
+啮齿兽	nie chi shou
+领潮员快艇	ling chao yuan kuai ting
+圣徒	sheng tu
 深池伙友影刃	shen chi huo you ying ren
+编制术师	bian zhi shu shi
+集团军核心指挥官	ji tuan jun he xin zhi hui guan
+越长尘	yue zhang chen
+路加萨尔古斯	lu jia sa er gu si
+冲锋源石虫	chong feng yuan shi chong
+浮士德	fu shi de
+寻路密探长	xun lu mi tan zhang
+富营养的穿刺者	fu ying yang de chuan ci zhe
+炮手	pao shou
+圣徒伊比利亚	sheng tu yi bi li ya
+二手廉价无人机	er shou lian jia wu ren ji
+巨汉囚犯	ju han qiu fan
+首言者	shou yan zhe
+无胄盟刺客组长	wu zhou meng ci ke zu zhang
+访问团突击老兵	fang wen tuan tu ji lao bing
+乌萨斯高级着铠术师	wu sa si gao ji zhe kai shu shi
+反巫术变位炸弹	fan wu shu bian wei zha dan
+游击队萨卡兹战士组长	you ji dui sa ka zi zhan shi zu zhang
+田鼷猛士	tian xi meng shi
+宝箱海怪	bao xiang hai guai
+刺胄之弹	ci zhou zhi dan
+冠鸣龙	guan ming long
+长臂投手	zhang bi tou shou
+岁·尾	sui wei
+匪帮射手	fei bang she shou
+食腐使徒	shi fu shi tu
+冬灵猎犬	dong ling lie quan
+得意	de yi
+岩冠兽	yan guan shou
+小八界	xiao ba jie
+排球重扣车	pai qiu zhong kou che
+冰原战士队长	bing yuan zhan shi dui zhang
+操盘手	cao pan shou
+街头闲汉	jie tou xian han
+狂暴的猎狗	kuang bao de lie gou
+萨卡兹子裔工匠组长	sa ka zi zi yi gong jiang zu zhang
+萨卡兹王庭军精锐战士	sa ka zi wang ting jun jing rui zhan shi
+殿堂左侧雕像	dian tang zuo ce diao xiang
+浅睡的臼齿	qian shui de jiu chi
+集团军机动弩手	ji tuan jun ji dong nu shou
+风遁宗师	feng dun zong shi
+宿主士兵	su zhu shi bing
+异光体孽生者	yi guang ti nie sheng zhe
+业余竞演者	ye yu jing yan zhe
+吉兆飞鳞	ji zhao fei lin
+法术近卫	fa shu jin wei
+火盆浮标	huo pen fu biao
+萨卡兹大剑组长	sa ka zi da jian zu zhang
+直球队坚定守门员	zhi qiu dui jian ding shou men yuan
+叛乱煽动者	pan luan shan dong zhe
+小型共生体	xiao xing gong sheng ti
+萨卡兹悖谬谍报官	sa ka zi bei miu die bao guan
+斗志昂扬无人机	dou zhi ang yang wu ren ji
+落石	luo shi
+染污战士	ran wu zhan shi
+工蚁组长	gong yi zu zhang
+传奇重犯	chuan qi chong fan
+偷闲	tou xian
+狂暴凶豕兽	kuang bao xiong shi shou
+荒原劫掠者精英	huang yuan jie lve zhe jing ying
+护障	hu zhang
+流浪者	liu lang zhe
+水遁忍者	shui dun ren zhe
+艺术的慈悲	yi shu de ci bei
+压力归零帮手	ya li gui ling bang shou
+潘乔的爆破艇	pan qiao de bao po ting
+武装人员	wu zhuang ren yuan
+酗酒斗殴者	xu jiu dou ou zhe
+精锐圣堂剑士	jing rui sheng tang jian shi
+坚冰	jian bing
+训练用残暴钳兽	xun lian yong can bao qian shou
+除秽	chu hui
+风情街	feng qing jie
+刺棱壳兽	ci leng ke shou
+岁影	sui ying
+丑言	chou yan
+冰原狂战士队长	bing yuan kuang zhan shi dui zhang
+吵闹收音机	chao nao shou yin ji
+迷珍飞械	mi zhen fei xie
+梦游大总管	meng you da zong guan
+滴答冰淇淋	di da bing qi lin
+霜牙	shuang ya
+冬痕	dong hen
+爆裂源石虫	bao lie yuan shi chong
+思旧	si jiu
+意识自由的假人	yi shi zi you de jia ren
+爪兽	zhao shou
+魔球帮击人手	mo qiu bang ji ren shou
+游击队萨卡兹战士	you ji dui sa ka zi zhan shi
+王者友伴	wang zhe you ban
+爱球会荣誉守门员	ai qiu hui rong yu shou men yuan
+巨壳藤蔓	ju ke teng wan
+偏执泡影	pian zhi pao ying
+泰特斯·白杨	tai te si bai yang
+感染者高级纠察官	gan ran zhe gao ji jiu cha guan
+守门位	shou men wei
+圣卫自动机	sheng wei zi dong ji
+沉眠伴随兽	chen mian ban sui shou
+历法之王	li fa zhi wang
+雪怪术师	xue guai shu shi
+再生之流	zai sheng zhi liu
+与我无关	yu wo wu guan
+战场观测炮手	zhan chang guan ce pao shou
+角兽	jiao shou
+无畏掷弹兵	wu wei zhi dan bing
+奥伦	ao lun
+隐形弩手组长	yin xing nu shou zu zhang
+树盾	shu dun
+卡德霍	ka de huo
+阿咬	a yao
+饮泣之刺	yin qi zhi ci
+散华骑士团学徒	san hua qi shi tuan xue tu
+末路狂徒	mo lu kuang tu
+冠鸣龙王	guan ming long wang
+冰原御法者	bing yuan yu fa zhe
+圣徒卡门	sheng tu ka men
+暴乱分子	bao luan fen zi
+巨力丰碑	ju li feng bei
+玷	dian
+心虚设计师	xin xu she ji shi
+裂礁者的墓碑	lie jiao zhe de mu bei
+爆鸣水手长	bao ming shui shou zhang
+感染者纠察官	gan ran zhe jiu cha guan
+亢角兽	kang jiao shou
+深池暗影术师队长	shen chi an ying shu shi dui zhang
+游击队传令兵	you ji dui chuan ling bing
+自然的妥协	zi ran de tuo xie
+双持剑士	shuang chi jian shi
+充能飘浮球	chong neng piao fu qiu
+超甜微笑	chao tian wei xiao
+念旧	nian jiu
+猎犬	lie quan
+清明	qing ming
+绒绒兽	rong rong shou
+残党乐团小号手	can dang yue tuan xiao hao shou
+源阶方	yuan jie fang
+团伙精锐佣兵	tuan huo jing rui yong bing
+认真的	ren zhen de
+市井流窜盗贼	shi jing liu cuan dao zei
+发条仆从	fa tiao pu cong
+游击队盾卫	you ji dui dun wei
+文衡君	wen heng jun
+饱食	bao shi
+熔戈者	rong ge zhe
+水遁宗师	shui dun zong shi
+老练囚犯	lao lian qiu fan
+机动盾兵	ji dong dun bing
+矿脉守卫	kuang mai shou wei
+无胄盟弩手组长	wu zhou meng nu shou zu zhang
+冰滚兽	bing gun shou
+雅气	ya qi
+哈洛德·克雷加文	ha luo de ke lei jia wen
+萨卡兹王庭军精锐术师	sa ka zi wang ting jun jing rui shu shi
+富营养的裂礁者	fu ying yang de lie jiao zhe
+驮兽补给员	tuo shou bu ji yuan
+自走车	zi zou che
+渗透者	shen tou zhe
+同构碎片	tong gou sui pian
+小帽子	xiao mao zi
+狂噪鳞的泡泡	kuang zao lin de pao pao
+特别任性的生物	te bie ren xing de sheng wu
+家族士兵	jia zu shi bing
+饷事	xiang shi
+行天卫生间	xing tian wei sheng jian
+富营养的巢涌者	fu ying yang de chao yong zhe
+狂奔的斐迪庇第斯	kuang ben de fei di bi di si
+失控的修理小助手	shi kong de xiu li xiao zhu shou
+萨卡兹枯朽吸纳者	sa ka zi ku xiu xi na zhe
+萨卡兹子裔链术师组长	sa ka zi zi yi lian shu shi zu zhang
+深池弩炮队长	shen chi nu pao dui zhang
+巨锹虫	ju qiao chong
+深池方阵指挥官	shen chi fang zhen zhi hui guan
+未名的荒原	wei ming de huang yuan
+枯焦锋脊裂兽	ku jiao feng ji lie shou
+被弃者	bei qi zhe
+萨卡兹恶咒者	sa ka zi e zhou zhe
+魔球帮诡秘击人手	mo qiu bang gui mi ji ren shou
+赤金条	chi jin tiao
+工蚁	gong yi
+哈兰杜汗	ha lan du han
+狼之主	lang zhi zhu
+引火的死魂灵	yin huo de si hun ling
+红标	hong biao
+渴求瞩目的道具师	ke qiu zhu mu di dao ju shi
+老尖牙	lao jian ya
+迭代的怪物	die dai de guai wu
+双持剑士组长	shuang chi jian shi zu zhang
+无垠回荡克雷松	wu yin hui dang ke lei song
+鬣犄兽	lie ji shou
+泄漏源	xie lou yuan
+移动电源	yi dong dian yuan
+饔	yong
+冬灵血巫	dong ling xue wu
+浆果磐蟹	jiang guo pan xie
+狡兽	jiao shou
+陶醉的	tao zui de
+木制镇纸	mu zhi zhen zhi
+横冲直撞	heng chong zhi zhuang
+塑路者分形	su lu zhe fen xing
+定点浮标	ding dian fu biao
+征服者	zheng fu zhe
+军用猎狗	jun yong lie gou
+家族铁腕角头	jia zu tie wan jiao tou
+沉眠高山驮兽	chen mian gao shan tuo shou
+落沙晶蹄兽	luo sha jing ti shou
+游击队迫击炮兵组长	you ji dui pai ji pao bing zu zhang
+恶狡兽	e jiao shou
+萨卡兹术师	sa ka zi shu shi
+神勇的帕拉杜利斯	shen yong de pa la du li si
+焕生雪伞	huan sheng xue san
+改进型量产巨像	gai jin xing liang chan ju xiang
+碎岩者组长	sui yan zhe zu zhang
+雨露均沾	yu lu jun zhan
+盗壳虫	dao ke chong
+玉双剑	yu shuang jian
+狂暴宿主投掷手	kuang bao su zhu tou zhi shou
+不满摄影师	bu man she ying shi
+大披风	da pi feng
+希希加	xi xi jia
+望	wang
+大角跳兽	da jiao tiao shou
+塑料	su liao
+赏金猎人弩手	shang jin lie ren nu shou
+岁相	sui xiang
+报废的胶卷	bao fei de jiao juan
+破坚	po jian
+萨卡兹术师组长	sa ka zi shu shi zu zhang
+萨卡兹枯朽宿卫	sa ka zi ku xiu su wei
+香草翼兽	xiang cao yi shou
+巡游爵士乐手	xun you jue shi yue shou
+愤怒的守墓石像	fen nu de shou mu shi xiang
+家族弩手	jia zu nu shou
+鲁莽掷弹兵	lu mang zhi dan bing
+萨卡兹枯朽战车	sa ka zi ku xiu zhan che
+萨卡兹子裔链术师	sa ka zi zi yi lian shu shi
+果腹	guo fu
+家族专用轿车	jia zu zhuan yong jiao che
+狂暴宿主士兵	kuang bao su zhu shi bing
+实验样本	shi yan yang ben
+冒失的小弟	mao shi de xiao di
+皮书生	pi shu sheng
+爱球会荣誉击球手	ai qiu hui rong yu ji qiu shou
+枯朽之种	ku xiu zhi zhong
+残党乐团颂诗者	can dang yue tuan song shi zhe
+狂化矿脉守卫	kuang hua kuang mai shou wei
+木裂战士	mu lie zhan shi
+糖果车	tang guo che
+凯尔希	kai er xi
+挟潮	xie chao
+绝望的大哥	jue wang de da ge
+恐怖厨子	kong bu chu zi
+马特奥的近卫	ma te ao de jin wei
+萨科塔匍匐	sa ke ta pu fu
+技术侦察兵	ji shu zhen cha bing
+雇佣军萨卡兹战士	gu yong jun sa ka zi zhan shi
+深池逐火护卫	shen chi zhu huo hu wei
+铣痕	xi hen
+萨卡兹骸骨鞭笞者	sa ka zi hai gu bian chi zhe
+装甲侦察兵	zhuang jia zhen cha bing
+萨科塔之翼	sa ke ta zhi yi
+碎骨	sui gu
+搁浅零件	ge qian ling jian
+空降组长	kong jiang zu zhang
+矿工游击队	kuang gong you ji dui
+帮派窃贼	bang pai qie zei
+精英渗透者	jing ying shen tou zhe
+朔壳	shuo ke
+莱塔尼亚吟唱者	lai ta ni ya yin chang zhe
+访问团老兵	fang wen tuan lao bing
+大亚当	da ya dang
+泥岩小队践行者	ni yan xiao dui jian xing zhe
+萨卡兹子裔补给车	sa ka zi zi yi bu ji che
+英雄的呼唤	ying xiong de hu huan
+冲击式施术单元	chong ji shi shi shu dan yuan
+物资浮板	wu zi fu ban
+校官	xiao guan
+裂地盐鳞	lie di yan lin
+水手重艇	shui shou zhong ting
+寻路者战士	xun lu zhe zhan shi
+假想敌：蚀裂	jia xiang di shi lie
+山雪鬼	shan xue gui
+深池侦察兵	shen chi zhen cha bing
+重犯	chong fan
+渎罪奇美拉	du zui qi mei la
+艺术的绝杀	yi shu de jue sha
+利齿鬣犄兽	li chi lie ji shou
+戴面具的孩童	dai mian ju de hai tong
+悲观的大哥	bei guan de da ge
+年轻人	nian qing ren
+坎诺特	kan nuo te
+战术队击球手	zhan shu dui ji qiu shou
+新小帮手	xin xiao bang shou
+集团军幽灵兵	ji tuan jun you ling bing
+引线火焰	yin xian huo yan
+恶语	e yu
+红木镇纸	hong mu zhen zhi
+加热饮料机	jia re yin liao ji
+英雄的气概	ying xiong de qi gai
+重装侦察兵	zhong zhuang zhen cha bing
+萨卡兹子裔毁击者	sa ka zi zi yi hui ji zhe
+佣兵	yong bing
+以板之名	yi ban zhi ming
+翠梦祭司	cui meng ji si
+提亚卡乌神投手	ti ya ka wu shen tou shou
+守墓石像	shou mu shi xiang
+行脚艺徒	xing jiao yi tu
+骑士领蛰伏者	qi shi ling zhe fu zhe
+橙冠羽镖客	cheng guan yu biao ke
+拟态机械	ni tai ji xie
+弧光镜卫	hu guang jing wei
+萨卡兹枯朽前锋	sa ka zi ku xiu qian feng
+凶秽魔像	xiong hui mo xiang
+赛场补给车	sai chang bu ji che
+萨尔贡契约刺客	sa er gong qi yue ci ke
+射手囚犯	she shou qiu fan
+抱蛋羽兽	bao dan yu shou
+最后的骑士	zui hou de qi shi
+皇帝的利刃	huang di de li ren
+固化源石巨像	gu hua yuan shi ju xiang
+欺凌者	qi ling zhe
+最后的蒸汽骑士	zui hou de zheng qi qi shi
+小说卷轴	xiao shuo juan zhou
+流浪佣兵	liu lang yong bing
+开怀畅饮	kai huai chang yin
+巫王乐团颂诗者	wu wang yue tuan song shi zhe
+噪鳞的泡泡	zao lin de pao pao
+退行的猎食者	tui xing de lie shi zhe
+未熄	wei xi
+空值体	kong zhi ti
+变异沙地兽	bian yi sha di shou
+萨科塔之鳍	sa ke ta zhi qi
+改造瓦斯车	gai zao wa si che
+架桥船工	jia qiao chuan gong
+弱弹	ruo dan
+寻路者精锐狙击手	xun lu zhe jing rui ju ji shou
+活性源石巨像	huo xing yuan shi ju xiang
+信使安洁莉娜	xin shi an jie li na
+灼藤	zhuo teng
+萨卡兹迷宫归乡者	sa ka zi mi gong gui xiang zhe
+拟树虫	ni shu chong
+萨卡兹子裔战士	sa ka zi zi yi zhan shi
+恍惚的	huang hu de
+曼弗雷德	man fu lei de
+铁矛头	tie mao tou
+死志的凝结	si zhi de ning jie
+铁砧	tie zhen
+指路芽	zhi lu ya
+步兵组长	bu bing zu zhang
+投矛的勇士	tou mao de yong shi
+文档	wen dang
+提亚卡乌战士	ti ya ka wu zhan shi
+啄奔羽兽	zhuo ben yu shou
+矩兽	ju shou
+铜矛头	tong mao tou
+咒鬼	zhou gui
+慷慨之赐	kang kai zhi ci
+发条战斗机器	fa tiao zhan dou ji qi
+焦竭之火	jiao jie zhi huo
+家族强暴恫吓者	jia zu qiang bao dong he zhe
+山海众散兵	shan hai zhong san bing
+荒原劫掠者	huang yuan jie lve zhe
+士兵	shi bing
+枯朽萃聚使徒	ku xiu cui ju shi tu
+影丝蛛	ying si zhu
+灰尾香主	hui wei xiang zhu
+战术弩手组长	zhan shu nu shou zu zhang
+演出用右爪	yan chu yong you zhao
+晶玲兽	jing ling shou
+修补工头	xiu bu gong tou
+重装防御者	zhong zhuang fang yu zhe
+妒	du
+矢量战术装备	shi liang zhan shu zhuang bei
+无餍	wu yan
+暗黑发条仆从	an hei fa tiao pu cong
+鼎沸	ding fei
+深池护卫队精锐成员	shen chi hu wei dui jing rui cheng yuan
+凝血之刃	ning xue zhi ren
+的无人机	de wu ren ji
+冰晶射手	bing jing she shou
+交通警长	jiao tong jing zhang
+速射轻弩手	su she qing nu shou
+遮天面包机	zhe tian mian bao ji
+果冻丁	guo dong ding
+浆果虫	jiang guo chong
+盐坨子炮靶心	yan tuo zi pao ba xin
+萨卡兹悖谬裂变学徒	sa ka zi bei miu lie bian xue tu
+泥岩小队践行者组长	ni yan xiao dui jian xing zhe zu zhang
+萨卡兹迷宫织咒者	sa ka zi mi gong zhi zhou zhe
+深池狙击手	shen chi ju ji shou
+新手拾荒者	xin shou shi huang zhe
+湮灭者	yan mie zhe
+萨卡兹枯朽不屈宿卫	sa ka zi ku xiu bu qu su wei
+炮击组长	pao ji zu zhang
+凶豕兽	xiong shi shou
+锈锤战士	xiu chui zhan shi
+德莱昂	de lai ang
+克里夫	ke li fu
+箱形恐鱼	xiang xing kong yu
+萨科塔之爪	sa ke ta zhi zhao
+集团军前线指挥员	ji tuan jun qian xian zhi hui yuan
+修道院居民	xiu dao yuan ju min
+聚焦魂灵残迹	ju jiao hun ling can ji
+机动卫兵组长	ji dong wei bing zu zhang
+破胄之锤	po zhou zhi chui
+田鼷	tian xi
+妄境	wang jing
+匪帮防御者	fei bang fang yu zhe
+雪怪狙击手组长	xue guai ju ji shou zu zhang
+茂密苔生兽	mao mi tai sheng shou
+竞赛级沙滩车	jing sai ji sha tan che
+萨卡兹枯朽吞噬者	sa ka zi ku xiu tun shi zhe
+匪帮轰击者	fei bang hong ji zhe
+微核沉积者	wei he chen ji zhe
+荷谟伊英雄	he mo yi ying xiong
+深溟猎食者	shen ming lie shi zhe
+精锐佣兵	jing rui yong bing
+播种无人机	bo zhong wu ren ji
+染秽魔像	ran hui mo xiang
+圣女雪衣	sheng nv xue yi
+突击动力装甲	tu ji dong li zhuang jia
+粉碎攻坚手	fen sui gong jian shou
+山海众司魅人	shan hai zhong si mei ren
+莱塔尼亚叛兵	lai ta ni ya pan bing
+火种	huo zhong
+搏命养家者	bo ming yang jia zhe
+青花	qing hua
+高能瓦斯车	gao neng wa si che
+资深圣堂保育员	zi shen sheng tang bao yu yuan
+乌萨斯着铠术师	wu sa si zhe kai shu shi
+战场深视炮手	zhan chang shen shi pao shou
+磐蟹	pan xie
+硬核袭警者	ying he xi jing zhe
+沙堡设计师	sha bao she ji shi
+资深的小弟	zi shen de xiao di
+风情区大型车辇	feng qing qu da xing che nian
+洛伦茨	luo lun ci
+宿主士兵组长	su zhu shi bing zu zhang
+大君之赐	da jun zhi ci
+茧缚演出	jian fu yan chu
+爱球会击人手	ai qiu hui ji ren shou
+小型破损器皿	xiao xing po sun qi min
+腐败之种	fu bai zhi zhong
+迷茫的修理小助手	mi mang de xiu li xiao zhu shou
+酣睡飞行员	han shui fei xing yuan
+伤眼路灯	shang yan lu deng
+雪怪小队凿冰人	xue guai xiao dui zao bing ren
+萨卡兹征用工程无人机	sa ka zi zheng yong gong cheng wu ren ji
+精锐圣堂射手	jing rui sheng tang she shou
+安纳斯塔西奥	an na si ta xi ao
+言省	yan sheng
+精准制导	jing zhun zhi dao
+时光守卫	shi guang shou wei
+加戏群演	jia xi qun yan
+异端	yi duan
+帝国的甲胄	di guo de jia zhou
+裹骸死士	guo hai si shi
+匪帮窃贼头目	fei bang qie zei tou mu
+鸭爵	ya jue
+莱茵生命工程科成员	lai yin sheng ming gong cheng ke cheng yuan
+浪里玄条	lang li xuan tiao
+变异巨岩蛛	bian yi ju yan zhu
+战术弩手	zhan shu nu shou
+庞贝	pang bei
+宿主重装士兵	su zhu zhong zhuang shi bing
+合金冲浪教练	he jin chong lang jiao lian
+高阶术师	gao jie shu shi
+管钳	guan qian
+黑流之源	hei liu zhi yuan
+肇事者	zhao shi zhe
+披甲源石虫	pi jia yuan shi chong
+饥饿啮齿兽	ji e nie chi shou
+吓人路灯	xia ren lu deng
+寻路者狙击手	xun lu zhe ju ji shou
+大个子	da ge zi
+巡游枯木	xun you ku mu
+家族精英士兵	jia zu jing ying shi bing
+主角阵营角色	zhu jue zhen ying jue se
+精致糖果车	jing zhi tang guo che
+唤醒	huan xing
+山海众头目	shan hai zhong tou mu
+采掘机	cai jue ji
+提亚卡乌卫士	ti ya ka wu wei shi
+优雅刀技厨师	you ya dao ji chu shi
+资深圣堂布道员	zi shen sheng tang bu dao yuan
+帝国前锋精锐	di guo qian feng jing rui
+温顺的武装驮兽	wen shun de wu zhuang tuo shou
+萨科塔见证	sa ke ta jian zheng
+狂奔丰碑	kuang ben feng bei
+连续地愤怒蹬踏	lian xu di fen nu deng ta
+绸缪	chou mou
+巫术石球	wu shu shi qiu
+面子	mian zi
+万火归一	wan huo gui yi
+萨卡兹魔剑士组长	sa ka zi mo jian shi zu zhang
+萨卡兹大剑手	sa ka zi da jian shou
+冰镇饮料机	bing zhen yin liao ji
+爱球会荣誉击人手	ai qiu hui rong yu ji ren shou
+沏虹	qi hong
+术师快艇	shu shi kuai ting
+游荡者	you dang zhe
+赏金猎人弩手队长	shang jin lie ren nu shou dui zhang
+被通缉的研究员	bei tong ji de yan jiu yuan
+门神会全能守门员	men shen hui quan neng shou men yuan
+酒类协会会员	jiu lei xie hui hui yuan
+巫王乐团鼓手	wu wang yue tuan gu shou
+旺财	wang cai
+高普尼克	gao pu ni ke
+招财	zhao cai
+迷路的巨像	mi lu de ju xiang
+集团军精锐弩手	ji tuan jun jing rui nu shou
