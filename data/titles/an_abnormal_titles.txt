@@ -8,11 +8,9 @@
 禁疗
 失衡免疫
 隐匿
-×
 缴械
 沉默
 束缚
-×
 孤立
 冻结
 迷彩
@@ -46,6 +44,7 @@ BUFF抵挡
 缚地
 沉睡
 闭锁
+放逐
 STUNNED（晕眩）
 SILENCED（沉默）
 SLEEPING（沉睡）
@@ -57,3 +56,10 @@ PALSY（麻痹）
 ATTRACTED（诱导）
 TELEPORTED（被传送）
 GROUND_BOUND（缚地）
+无敌
+浮空
+强制缴械
+浮空
+小睡
+冻结
+无敌
