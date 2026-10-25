@@ -1,1403 +1,1407 @@
 ---
 name: an_skill
 sort: by_weight
-version: 26.10.16
+version: 26.10.25
 ...
-无畏招架	wu wei zhao jia
-盗猎食材	dao lie shi cai
-协防术式	xie fang shu shi
-乌萨斯战吼	wu sa si zhan hou
-战争的恭顺	zhan zheng de gong shun
-太阳渴望鲜血	tai yang ke wang xian xue
-快速射击	kuai su she ji
-独影归途	du ying gui tu
-法术传输协议	fa shu chuan shu xie yi
-音律联觉	yin lv lian jue
-暴风号令	bao feng hao ling
-信号增幅	xin hao zeng fu
-急速拳	ji su quan
-祈祷	qi dao
-研究成功	yan jiu cheng gong
-苦修破誓	ku xiu po shi
-焰淬匕首	yan cui bi shou
-抽水	chou shui
-天坠之火	tian zhui zhi huo
-沥血王座	li xue wang zuo
-封喉	feng hou
-干扰波长	gan rao bo chang
-回首断舍	hui shou duan she
-创生	chuang sheng
-空剧场	kong ju chang
-编织重构现世	bian zhi zhong gou xian shi
-铜印	tong yin
-血色乐章	xue se yue zhang
-束缚链	shu fu lian
-高能源石爆桶	gao neng yuan shi bao tong
-挠伤	nao shang
-孢子扩散	bao zi kuo san
-链锯强袭	lian ju qiang xi
-寒潮	han chao
-以假乱真	yi jia luan zhen
-鞘击	qiao ji
-笑鸣瑟	xiao ming se
-生存决心	sheng cun jue xin
-野火	ye huo
-浅层非熵适应	qian ceng fei shang shi ying
-骑枪刺击	qi qiang ci ji
-紧急点燃	jin ji dian ran
-耶拉冈德之泪	ye la gang de zhi lei
-我无	wo wu
-浮游刃启动	fu you ren qi dong
-灿焰长刃	can yan zhang ren
-连星	lian xing
-流沙区域生成	liu sha qu yu sheng cheng
-喷气散热	pen qi san re
-环境伪装	huan jing wei zhuang
-森廻	sen hui
-狼群	lang qun
-蓄锐	xu rui
-高效制冷模块	gao xiao zhi leng mo kuai
-法术：同行	fa shu tong hang
-天马之枪	tian ma zhi qiang
-饱和复仇	bao he fu chou
-焰心	yan xin
-快速修剪	kuai su xiu jian
-天然隐蔽	tian ran yin bi
-笞心击	chi xin ji
-战场废墟	zhan chang fei xu
-留羽	liu yu
-链锯延伸模块	lian ju yan shen mo kuai
-加工	jia gong
-人工降雪	ren gong jiang xue
-同胞的意志	tong bao de yi zhi
-看烟花	kan yan hua
-病入膏肓	bing ru gao huang
-沙之碑召唤	sha zhi bei zhao huan
-同归殊途之吟	tong gui shu tu zhi yin
-基质合成台	ji zhi he cheng tai
-启动	qi dong
-沙缚镣锁	sha fu liao suo
-浮动搭载	fu dong da zai
-八臂电锯侠	ba bi dian ju xia
-全力相搏	quan li xiang bo
-一击即退	yi ji ji tui
-污染传播	wu ran chuan bo
-断螯	duan ao
-塔纳托斯的囚锁	ta na tuo si de qiu suo
-哀恸共情	ai tong gong qing
-信仰传承	xin yang chuan cheng
-扶风起	fu feng qi
-残月的余响	can yue de yu xiang
-权知轻重	quan zhi qing zhong
-酸橙的心事	suan cheng de xin shi
-如麦般生长	ru mai ban sheng zhang
-信标	xin biao
-劣质闪光弹	lie zhi shan guang dan
-近身铳斗	jin shen chong dou
-水产村落	shui chan cun luo
-雷达定位	lei da ding wei
-帮个小忙	bang ge xiao mang
-眩光手雷	xuan guang shou lei
-护身尖刺	hu shen jian ci
-灵魂激荡	ling hun ji dang
-指挥调度	zhi hui diao du
-暗夜回声	an ye hui sheng
-体能强化	ti neng qiang hua
-御龙：影丝蛛	yu long ying si zhu
-高压冲击	gao ya chong ji
-缺水的碎漩狂舞	que shui de sui xuan kuang wu
-人间降吉	ren jian jiang ji
-扳机时刻	ban ji shi ke
-灯火不灭	deng huo bu mie
-抑扬格	yi yang ge
-不可部署	bu ke bu shu
-上紧发条	shang jin fa tiao
-战术装备整理	zhan shu zhuang bei zheng li
-实体程式	shi ti cheng shi
-安防巡逻	an fang xun luo
-雪崩触发	xue beng chu fa
-卫戍协议	wei shu xie yi
-轻型挂斧	qing xing gua fu
-誓不低头	shi bu di tou
-路过	lu guo
-街头好手	jie tou hao shou
-引诱	yin you
-发射缚网	fa she fu wang
-反制医疗模式	fan zhi yi liao mo shi
-火山	huo shan
-上佳的应急药呀	shang jia de ying ji yao ya
-心随意动	xin sui yi dong
-食噬之印	shi shi zhi yin
-幽影门扉	you ying men fei
-深化阵线	shen hua zhen xian
-万斤顶	wan jin ding
-终幕·浩劫	zhong mu hao jie
-治愈之翼	zhi yu zhi yi
-阻拦	zu lan
-一呼百应	yi hu bai ying
-红松林	hong song lin
-失温症	shi wen zheng
-炸毛	zha mao
-必须维系的界限	bi xu wei xi de jie xian
-救命啊	jiu ming a
-中枢核心	zhong shu he xin
-二连射·自动	er lian she zi dong
-圣徒之手·巡回模式	sheng tu zhi shou xun hui mo shi
-铸造	zhu zao
-回收利用	hui shou li yong
-护盾无人机	hu dun wu ren ji
-巨大岩石	ju da yan shi
-覆盖式休整	fu gai shi xiu zheng
-阻止部署	zu zhi bu shu
-追猎发射台	zhui lie fa she tai
-咔嚓	ka cha
-本能的召唤	ben neng de zhao huan
-生灵的回响	sheng ling de hui xiang
-竹笛飞声	zhu di fei sheng
-充能防御	chong neng fang yu
-法术：传动	fa shu chuan dong
-澄亮采集站	cheng liang cai ji zhan
-多向拼接	duo xiang pin jie
-纯粹的武力	chun cui de wu li
-突破防线	tu po fang xian
-狂热	kuang re
-精神护理	jing shen hu li
-精准痛击	jing zhun tong ji
-炸弹载荷点	zha dan zai he dian
-风语	feng yu
-信号跃动	xin hao yue dong
-生态耦合	sheng tai ou he
-佑序有炎	you xu you yan
-阻断波长	zu duan bo chang
-加力推进	jia li tui jin
-水汽汽水瓶	shui qi qi shui ping
-先贤化身	xian xian hua shen
-守卫尖碑	shou wei jian bei
-新遣	xin qian
-蜂鸣器	feng ming qi
-流沙化	liu sha hua
-真银斩	zhen yin zhan
-缺水的掌握怒海	que shui de zhang wo nu hai
-源石溶剂	yuan shi rong ji
-喀兰贸易模型	ka lan mao yi mo xing
-磁吸信标	ci xi xin biao
-建设	jian she
-破膛弥撒	po tang mi sa
-明镜止水	ming jing zhi shui
-水流环	shui liu huan
-慵怠者悲鸣	yong dai zhe bei ming
-重进酒	zhong jin jiu
-畜养	xu yang
-淬影突袭	cui ying tu xi
-阻滞性显色剂	zu zhi xing xian se ji
-滔滔热流	tao tao re liu
-圣徒之手	sheng tu zhi shou
-吃盐坨子吧	chi yan tuo zi ba
-花式回旋	hua shi hui xuan
-有限加速器	you xian jia su qi
-阿戈尔重刃	a ge er zhong ren
-火山回响	huo shan hui xiang
-临场铳械改装	lin chang chong xie gai zhuang
-俱以我之名	ju yi wo zhi ming
-坠雪	zhui xue
-射箭	she jian
-还不走	hai bu zou
-延时震荡零件	yan shi zhen dang ling jian
-维生监测	wei sheng jian ce
-取势	qu shi
-闪断更新	shan duan geng xin
-水蒸气泵	shui zheng qi beng
-众恶的焚场	zhong e de fen chang
-产蟹	chan xie
-最大剂量输注	zui da ji liang shu zhu
-跃浪击	yue lang ji
-博萨克风暴	bo sa ke feng bao
-宛如天启	wan ru tian qi
-工程学十字星	gong cheng xue shi zi xing
-招无虚发	zhao wu xu fa
-凝冰枪刃	ning bing qiang ren
-星座守护	xing zuo shou hu
-胆小剑助	dan xiao jian zhu
-刺身拼盘	ci shen pin pan
-黄昏	huang hun
-我见枯朽之后	wo jian ku xiu zhi hou
-迅捷作战粮	xun jie zuo zhan liang
-科技与传统仪式	ke ji yu chuan tong yi shi
-大型兽栏	da xing shou lan
-崩拳式	beng quan shi
-款到出货	kuan dao chu huo
-泡影流大冲击	pao ying liu da chong ji
-定向诊断	ding xiang zhen duan
-巧思乍现	qiao si zha xian
-深度治疗	shen du zhi liao
-塌落	ta luo
-槌音	chui yin
-信念的长鞭	xin nian de zhang bian
-栖脚地	qi jiao di
-乡心无改	xiang xin wu gai
-全景过载摄像	quan jing guo zai she xiang
-山中的喜悦	shan zhong de xi yue
-狼眼	lang yan
-光芒涌动	guang mang yong dong
-便携破城矢	bian xie po cheng shi
-永恒狩猎	yong heng shou lie
-未声张的怒火	wei sheng zhang de nu huo
-超重绝缘	chao zhong jue yuan
-祭台	ji tai
-咪嗷嗷嗷嗷	mi ao ao ao ao
-旋臂	xuan bi
-碎甲击·扩散	sui jia ji kuo san
-乡音沉沉	xiang yin chen chen
-应力倒置	ying li dao zhi
-法术：满足	fa shu man zu
-纠纷起诉	jiu fen qi su
-双弦开弓	shuang xian kai gong
-种植	zhong zhi
-军师的手段	jun shi de shou duan
-信影流·十文字胜	xin ying liu shi wen zi sheng
-星辉剑	xing hui jian
-玲珑	ling long
-冰爆	bing bao
-律动线	lv dong xian
-浩气长存	hao qi chang cun
-玫影觅迹	mei ying mi ji
-天工夜行	tian gong ye xing
-冲锋号令·援军	chong feng hao ling yuan jun
-标记射击	biao ji she ji
-无声的嘲笑	wu sheng de chao xiao
-嘉禾盈仓	jia he ying cang
-全都是虚像	quan dou shi xu xiang
-高压电流	gao ya dian liu
-镀膜	du mo
-紧急升空	jin ji sheng kong
-飞羽	fei yu
-便携弹射器	bian xie tan she qi
-示踪信标	shi zong xin biao
-无人机干扰	wu ren ji gan rao
-列阵	lie zhen
-逐夜烁光	zhu ye shuo guang
-我的海疆	wo de hai jiang
-画卷	hua juan
-高爆弹头	gao bao dan tou
-释放迷香	shi fang mi xiang
-切木	qie mu
-炎炎火焰	yan yan huo yan
-幻影诡雷	huan ying gui lei
-维护员	wei hu yuan
-勾爪	gou zhao
-灶火灭	zao huo mie
-叮铃铃	ding ling ling
-处决模式	chu jue mo shi
-积雪固定	ji xue gu ding
-反击电弧	fan ji dian hu
-战栗维式重锤	zhan li wei shi zhong chui
-军工厂生产	jun gong chang sheng chan
-恶魇	e yan
-脉冲束流	mai chong shu liu
-未宽解的悲哀	wei kuan jie de bei ai
-叙拉古式上妆	xu la gu shi shang zhuang
-沙暴扩散	sha bao kuo san
-拂尘	fu chen
-阻遏混乱锤	zu e hun luan chui
-天师古鼎	tian shi gu ding
-专注力超载	zhuan zhu li chao zai
-高速思考	gao su si kao
-仗义疏财	zhang yi shu cai
-迂回攻击策略	yu hui gong ji ce lve
-家主的余裕	jia zhu de yu yu
-繁衍	fan yan
-俄耳甫斯的竖琴	e er fu si de shu qin
-岩崩锤	yan beng chui
-非和平劝说	fei he ping quan shuo
-嘉维尔保护方案	jia wei er bao hu fang an
-海沟实验体	hai gou shi yan ti
-制式重装盾	zhi shi zhong zhuang dun
-技能	ji neng
-英雄赞歌	ying xiong zan ge
-细雨无声	xi yu wu sheng
-极致火力	ji zhi huo li
-记分	ji fen
-蜜酿万岁	mi niang wan sui
-颤栗之弦	zhan li zhi xian
-结晶消除桩	jie jing xiao chu zhuang
-布雷	bu lei
-异刃斩	yi ren zhan
-急救模式	ji jiu mo shi
-反制治疗	fan zhi zhi liao
-斩	zhan
-承影	cheng ying
-澄净闪耀	cheng jing shan yao
-良弓难张	liang gong nan zhang
-协同指令	xie tong zhi ling
-歃血	sha xue
-秘杖·速充模式	mi zhang su chong mo shi
-同葬无光之愿	tong zang wu guang zhi yuan
-居合拔刀气刃斩	ju he ba dao qi ren zhan
-生成	sheng cheng
-口袋法阵	kou dai fa zhen
-睡眠之歌	shui mian zhi ge
-采集	cai ji
-防暴盾	fang bao dun
-药物配置	yao wu pei zhi
-落雪防护	luo xue fang hu
-突击战术	tu ji zhan shu
-无畏者协议	wu wei zhe xie yi
-箭矢·散逸	jian shi san yi
-喷射	pen she
-圣约决裁	sheng yue jue cai
-蒸汽之心	zheng qi zhi xin
-遗迹残骸	yi ji can hai
-共享发现	gong xiang fa xian
-枯荣共息	ku rong gong xi
-修复步道	xiu fu bu dao
-奇异矿脉	qi yi kuang mai
-神殿的余烬	shen dian de yu jin
-碎金为刃	sui jin wei ren
-迅捷打击	xun jie da ji
-最终旅程	zui zhong lv cheng
-支柱坍塌	zhi zhu tan ta
-复式勾爪	fu shi gou zhao
-湮灭	yan mie
-法术：全力	fa shu quan li
-分裂射击	fen lie she ji
-铁葫芦	tie hu lu
-夜魇魔影	ye yan mo ying
-应东风	ying dong feng
-策略：超负荷	ce lve chao fu he
-爆裂一大清早	bao lie yi da qing zao
-罗德岛式协作	luo de dao shi xie zuo
-取字	qu zi
-虚构故事·锈城	xu gou gu shi xiu cheng
-麻痹弹	ma bi dan
-递归策略	di gui ce lve
-震撼弹	zhen han dan
-同伴意识	tong ban yi shi
-迷惑性洋流图	mi huo xing yang liu tu
-木材采集站·采购	mu cai cai ji zhan cai gou
-自走车定向	zi zou che ding xiang
-突袭指令	tu xi zhi ling
-高效补给	gao xiao bu ji
-生命回复	sheng ming hui fu
-风雪连弩	feng xue lian nu
-今日做东	jin ri zuo dong
-供奉	gong feng
-逐猎狂飙	zhu lie kuang biao
-法术：熟人	fa shu shu ren
-赤霄·绝影	chi xiao jue ying
-崩解	beng jie
-以鲜血洗去	yi xian xue xi qu
-伪装服	wei zhuang fu
-集束疗法	ji shu liao fa
-自我销毁	zi wo xiao hui
-生灵火花	sheng ling huo hua
-防御支撑	fang yu zhi cheng
-都给我喝	dou gei wo he
-抗寒体质	kang han ti zhi
+炙手之援	zhi shou zhi yuan
+胜利的连击	sheng li de lian ji
+生存的重压	sheng cun de zhong ya
+女巫之泪	nv wu zhi lei
+空域控制	kong yu kong zhi
+变革已至	bian ge yi zhi
 随身身份牌	sui shen shen fen pai
 飞翔瞪射	fei xiang deng she
-信条	xin tiao
-见钱眼开玩偶	jian qian yan kai wan ou
-脉冲波	mai chong bo
-雪境生存法则	xue jing sheng cun fa ze
-炫耀	xuan yao
-御龙：岩甲兽	yu long yan jia shou
-精准捕杀	jing zhun bu sha
-坚守阵线	jian shou zhen xian
-污染处理	wu ran chu li
-领袖的馈赠	ling xiu de kui zeng
-作战规划	zuo zhan gui hua
-千金一掷	qian jin yi zhi
-源岩匕首	yuan yan bi shou
-交替撤离	jiao ti che li
-怪葫芦	guai hu lu
-小施惩戒	xiao shi cheng jie
-赤霄·奔夜	chi xiao ben ye
-断罪模式	duan zui mo shi
-商业包装方案	shang ye bao zhuang fang an
-末梢阻断	mo shao zu duan
-深海猎人文档	shen hai lie ren wen dang
-盖戳	gai chuo
-雪崩击	xue beng ji
-血之遗赠	xue zhi yi zeng
-派遣空援	pai qian kong yuan
-抚业之触	fu ye zhi chu
-自由用餐礼仪	zi you yong can li yi
-御龙：雷狼龙	yu long lei lang long
-竞技记录分析	jing ji ji lu fen xi
-激素手枪	ji su shou qiang
-石材采集站	shi cai cai ji zhan
-我思念的	wo si nian de
-倒刺钩爪	dao ci gou zhao
-回召	hui zhao
-序时之匙	xu shi zhi shi
-照明榴弹	zhao ming liu dan
-往昔萦绕身旁	wang xi ying rao shen pang
-触礁	chu jiao
-威吓战法	wei he zhan fa
-束缚电击	shu fu dian ji
-灵河护佑	ling he hu you
-岩锤	yan chui
-强化验收	qiang hua yan shou
-新月的苏醒	xin yue de su xing
-进取之心	jin qu zhi xin
-得见光芒	de jian guang mang
-绯红刺刀	fei hong ci dao
-钙质化	gai zhi hua
-弹射夹子	tan she jia zi
-倾泻弹药	qing xie dan yao
-高效冲击	gao xiao chong ji
-加固	jia gu
-碎甲击	sui jia ji
-强力击	qiang li ji
-烛燃影息	zhu ran ying xi
-充分摇匀	chong fen yao yun
-刃鬼	ren gui
-眩目阻滞	xuan mu zu zhi
-钻心	zuan xin
-生产线	sheng chan xian
-殁亡	mo wang
-高速共振排障	gao su gong zhen pai zhang
-群体性谵妄	qun ti xing zhan wang
-工匠锤	gong jiang chui
-应急治疗协议	ying ji zhi liao xie yi
-日晷	ri gui
-纷飞十指	fen fei shi zhi
-生命不息	sheng ming bu xi
-山地村落	shan di cun luo
-痛觉抑制	tong jue yi zhi
-剑角之锋	jian jiao zhi feng
-卡西米尔模型	ka xi mi er mo xing
-保护色隐蔽	bao hu se yin bi
-磁爆锤	ci bao chui
-毒液散射	du ye san she
-很冰的斧	hen bing de fu
-自由的探戈	zi you de tan ge
-石材采集站·采购	shi cai cai ji zhan cai gou
-爆裂黎明	bao lie li ming
-精英重装套组	jing ying zhong zhuang tao zu
-龙之箭	long zhi jian
-晨曦信标	chen xi xin biao
-奋力修剪	fen li xiu jian
-进赴故土	jin fu gu tu
-夜灯	ye deng
-固守模式	gu shou mo shi
-磁力抓取	ci li zhua qu
-堇青之夜	jin qing zhi ye
-清理	qing li
-协同作战	xie tong zuo zhan
-修理	xiu li
-捉迷藏	zhuo mi cang
-无始无明	wu shi wu ming
-慑敌辉光	she di hui guang
-我悲悯的	wo bei min de
-追袭	zhui xi
-召唤使魔	zhao huan shi mo
-降临	jiang lin
-为我所为	wei wo suo wei
-终结连射	zhong jie lian she
-如焰般热烈	ru yan ban re lie
-单人份料理	dan ren fen liao li
-破梏重生	po gu chong sheng
-高效处理	gao xiao chu li
-勾爪发射	gou zhao fa she
-启航	qi hang
-微差爆破	wei cha bao po
-阻挡	zu dang
-简易通讯机	jian yi tong xun ji
-共鸣溃缩	gong ming kui suo
-家族徽章	jia zu hui zhang
-反拍重音	fan pai zhong yin
-解构涌潮	jie gou yong chao
-结构加固	jie gou jia gu
-掠光尾影	lve guang wei ying
-结构稳定	jie gou wen ding
-恳切福音	ken qie fu yin
-必须促成的接触	bi xu cu cheng de jie chu
-破坏与滋养	po huai yu zi yang
-灵魂汲取	ling hun ji qu
-激光发射器	ji guang fa she qi
-尘烟蔽目	chen yan bi mu
-电能过载	dian neng guo zai
-星束引力	xing shu yin li
-铳口收束	chong kou shou shu
-激光开采模块	ji guang kai cai mo kuai
-读书会	du shu hui
-食不厌精	shi bu yan jing
-轻巧舞步	qing qiao wu bu
-摇摆	yao bai
-火花四溅	huo hua si jian
-三形	san xing
-光辉旗帜	guang hui qi zhi
-液压式高台	ye ya shi gao tai
-破空	po kong
-剑雨	jian yu
-宝箱	bao xiang
-术师无人机	shu shi wu ren ji
-裂潮	lie chao
-左勾扫拳	zuo gou sao quan
-废品战车	fei pin zhan che
-环形鳞地	huan xing lin di
-安全区域	an quan qu yu
-喀兰贸易文档	ka lan mao yi wen dang
-命运	ming yun
-执守阵线	zhi shou zhen xian
-混凝土路障	hun ning tu lu zhang
-新月	xin yue
-发车	fa che
-锡灼	xi zhuo
-广域警觉	guang yu jing jue
-震地碎岩击	zhen di sui yan ji
-很重的枪	hen zhong de qiang
-全神贯注	quan shen guan zhu
-汲能冲击	ji neng chong ji
-明灭	ming mie
-贯注	guan zhu
-涌潮悲歌	yong chao bei ge
-闪回	shan hui
-瞭望	liao wang
-文件	wen jian
-快刀	kuai dao
-极速送达	ji su song da
-固守家园	gu shou jia yuan
-水炮模式	shui pao mo shi
-承压功率	cheng ya gong lv
-丰收	feng shou
-写意胜形	xie yi sheng xing
-聆听	ling ting
-血浆活化	xue jiang huo hua
-模块维护	mo kuai wei hu
-书我所书	shu wo suo shu
-剑走偏锋	jian zou pian feng
-绯红壁合	fei hong bi he
-拉特兰式冰淇淋	la te lan shi bing qi lin
-征服者传说	zheng fu zhe chuan shuo
-一锤定音	yi chui ding yin
-建立通讯	jian li tong xun
-战火淬炼	zhan huo cui lian
-震慑劈砍	zhen she pi kan
-掩护	yan hu
-沛霖	pei lin
-医用护盾	yi yong hu dun
-精神爆发	jing shen bao fa
-骑士储蓄罐	qi shi chu xu guan
-猎户村落	lie hu cun luo
-吉星高照	ji xing gao zhao
-俯瞰视界	fu kan shi jie
-采集主任站	cai ji zhu ren zhan
-锁链勾爪	suo lian gou zhao
-浮光	fu guang
-补给留存	bu ji liu cun
-矗立	chu li
-执法模式	zhi fa mo shi
-苍翠屏障	cang cui ping zhang
-强力牵引	qiang li qian yin
-半醒	ban xing
-强化	qiang hua
-知难而退	zhi nan er tui
-英勇的祝福	ying yong de zhu fu
-刚射	gang she
-专心致志	zhuan xin zhi zhi
-爆发剂	bao fa ji
-跳动	tiao dong
-法术：迟缓	fa shu chi huan
-雕伥	diao chang
-木材采集站	mu cai cai ji zhan
-极致锋度	ji zhi feng du
-天空大扫除	tian kong da sao chu
-焦土	jiao tu
-发射弩箭	fa she nu jian
-破虏	po lu
-暗夜魅影	an ye mei ying
-强效清洁	qiang xiao qing jie
-秽壤的血脉	hui rang de xue mai
-天马之盔	tian ma zhi kui
-恶业苦果	e ye ku guo
-维式重锤	wei shi zhong chui
-数据分析	shu ju fen xi
-开辟明日的剑刃	kai pi ming ri de jian ren
-紧急调度券	jin ji diao du quan
-法术：恢复	fa shu hui fu
-掩护烟幕	yan hu yan mu
-电流翻涌	dian liu fan yong
-暮眼锐瞳	mu yan rui tong
-关键线索	guan jian xian suo
-我见崩毁之前	wo jian beng hui zhi qian
-开锁工具	kai suo gong ju
-泼墨淋漓	po mo lin li
-夜幕突袭	ye mu tu xi
-聚能涡旋	ju neng wo xuan
-升格	sheng ge
-醉刃乱舞	zui ren luan wu
-满月	man yue
-灶里乾坤	zao li qian kun
-谐波破坏	xie bo po huai
-天马视域	tian ma shi yu
-小角跳兽	xiao jiao tiao shou
-战术咏唱	zhan shu yong chang
-全能机械臂	quan neng ji xie bi
-法术：榜样	fa shu bang yang
-冥河诅咒	ming he zu zhou
-自呼号生发	zi hu hao sheng fa
-战术的终结	zhan shu de zhong jie
-引擎核心	yin qing he xin
-大拉里	da la li
-自动防御	zi dong fang yu
-催泪瓦斯	cui lei wa si
-小惩大诫	xiao cheng da jie
-爆炸	bao zha
-乐趣加倍	le qu jia bei
-水灵庇护	shui ling bi hu
-加速维式重锤	jia su wei shi zhong chui
-冲锋	chong feng
-小玩笑	xiao wan xiao
-此身为源	ci shen wei yuan
-燃烧榴弹	ran shao liu dan
-风暴潮	feng bao chao
-破茧倒计时	po jian dao ji shi
-无存之所	wu cun zhi suo
-抑制生长	yi zhi sheng zhang
-万手成局	wan shou cheng ju
-双刃毒藤	shuang ren du teng
-点燃	dian ran
-便携健身架	bian xie jian shen jia
-能量调和	neng liang tiao he
-铁钳号·原型机	tie qian hao yuan xing ji
-法术：贪婪	fa shu tan lan
-影霄·奔夜	ying xiao ben ye
-扩散电流	kuo san dian liu
-新版	xin ban
-摄食	she shi
-延异视阈	yan yi shi yu
-协助隐藏	xie zhu yin cang
-定点指令	ding dian zhi ling
-铁矿采集站·采购	tie kuang cai ji zhan cai gou
-混沌的本质	hun dun de ben zhi
-虔修对决	qian xiu dui jue
-我的了	wo de le
-火焰剥离	huo yan bo li
-阻断道路	zu duan dao lu
-传音回响	chuan yin hui xiang
-强化加固	qiang hua jia gu
-光影之触	guang ying zhi chu
-群星逶迤	qun xing wei yi
-开饭	kai fan
-女巫之泪	nv wu zhi lei
-怪异魔方	guai yi mo fang
-爆破	bao po
-苏醒	su xing
-次级治疗模式	ci ji zhi liao mo shi
-但为求索	dan wei qiu suo
-周旋的谋略	zhou xuan de mou lve
-精英狙击套组	jing ying ju ji tao zu
-御龙：反壳龟	yu long fan ke gui
-采摘	cai zhai
-卡西米尔竞技旗	ka xi mi er jing ji qi
-箭矢·追猎	jian shi zhui lie
-安魂的弥撒	an hun de mi sa
-临时照明	lin shi zhao ming
-补给签收	bu ji qian shou
-还有一次机会	hai you yi ci ji hui
-冰原秩序	bing yuan zhi xu
-空间跳跃	kong jian tiao yue
-拟态物质	ni tai wu zhi
-模型扩展	mo xing kuo zhan
-永不后退	yong bu hou tui
-聚宝斋	ju bao zhai
-聚焦指令	ju jiao zhi ling
-仙山去远	xian shan qu yuan
-小心地滑	xiao xin di hua
-泄漏	xie lou
-超高输出属性解放斩	chao gao shu chu shu xing jie fang zhan
-沸血燎原	fei xue liao yuan
-缺水的大洋裂断	que shui de da yang lie duan
-爆破魔法	bao po mo fa
-魂灵之影	hun ling zhi ying
-炎爆	yan bao
-狱火之环	yu huo zhi huan
-雪崩	xue beng
-荆藤庇荫	jing teng bi yin
-见面礼	jian mian li
-放置平台	fang zhi ping tai
-食梦	shi meng
-搭建高台	da jian gao tai
-治愈云雾	zhi yu yun wu
-触发对话	chu fa dui hua
-狂欢时刻	kuang huan shi ke
-双眼皮	shuang yan pi
-强磁防卫	qiang ci fang wei
-召唤物	zhao huan wu
-不变性原理	bu bian xing yuan li
-度算浪波	du suan lang bo
-坠刃拷问	zhui ren kao wen
-沙暴守卫	sha bao shou wei
-泡影殆尽	pao ying dai jin
-起盾回击	qi dun hui ji
-专业喷绘技巧	zhuan ye pen hui ji qiao
-甜蜜狂搅	tian mi kuang jiao
-鞭刃	bian ren
-重铸晖光	zhong zhu hui guang
-指令：熔毁	zhi ling rong hui
-策略：熔毁	ce lve rong hui
-圣域	sheng yu
-星图闪烁	xing tu shan shuo
-绝妙的长效药呀	jue miao de zhang xiao yao ya
-何处着	he chu zhe
-能量结晶	neng liang jie jing
-狐火渺然	hu huo miao ran
-能量扰动	neng liang rao dong
-射击台	she ji tai
-荒芜回响	huang wu hui xiang
-奔流	ben liu
-量衣尺	liang yi chi
-无痕	wu hen
-纸艺·迅击	zhi yi xun ji
-旧日绽放	jiu ri zhan fang
-慨赠	kai zeng
-战术装备召唤	zhan shu zhuang bei zhao huan
-更诱人珍宝	geng you ren zhen bao
-开炮	kai pao
-小盾	xiao dun
-连续映射	lian xu ying she
-调谐	tiao xie
-防御力强化	fang yu li qiang hua
-判决	pan jue
-合奏起拍	he zou qi pai
-法术：力量	fa shu li liang
-才女的实力	cai nv de shi li
-随机应变	sui ji ying bian
-积微成著	ji wei cheng zhu
-敌方人员运送	di fang ren yuan yun song
-炎国短刀	yan guo duan dao
-天下劫	tian xia jie
-遥控解体	yao kong jie ti
-龙卷箭	long juan jian
-门风云	men feng yun
-弱化	ruo hua
-宝葫芦	bao hu lu
-阻滞射击战术	zu zhi she ji zhan shu
-掩护作战	yan hu zuo zhan
-掷旧尘	zhi jiu chen
-横扫架势	heng sao jia shi
-生存的渴望	sheng cun de ke wang
-意志震荡	yi zhi zhen dang
-液氮大炮	ye dan da pao
-部族技艺	bu zu ji yi
-景观喷泉	jing guan pen quan
-冲盈	chong ying
-慈悲愿景	ci bei yuan jing
-沸腾爆裂	fei teng bao lie
-慢慢走	man man zou
-不准走	bu zhun zou
-重锋不熄	zhong feng bu xi
-披荆斩棘	pi jing zhan ji
-法术：提升	fa shu ti sheng
-防水蚀镀膜装置	fang shui shi du mo zhuang zhi
-同步索敌攻击	tong bu suo di gong ji
-全自动划账	quan zi dong hua zhang
-同盟支援	tong meng zhi yuan
-灼地	zhuo di
-夏末游鳞	xia mo you lin
-顽石专用	wan shi zhuan yong
-气动增压	qi dong zeng ya
-儿时的舞乐	er shi de wu le
-大家一起上	da jia yi qi shang
-无可置疑的罪证	wu ke zhi yi de zui zheng
-稻谷种植	dao gu zhong zhi
-荒野村落	huang ye cun luo
-汲营枯枝	ji ying ku zhi
-补给调配	bu ji diao pei
-高压喷射	gao ya pen she
-召唤信标	zhao huan xin biao
-骑士的荣耀	qi shi de rong yao
-一点关窍	yi dian guan qiao
-赘生甲壳	zhui sheng jia qiao
-冲锋模式	chong feng mo shi
-扫射模式	sao she mo shi
-竞技投币机	jing ji tou bi ji
-攻坚榴弹	gong jian liu dan
-谢拉格不融冰	xie la ge bu rong bing
-制式狙击镜	zhi shi ju ji jing
-绝境抵抗	jue jing di kang
-灵活伪装	ling huo wei zhuang
-危险目标清除	wei xian mu biao qing chu
-群山俯首	qun shan fu shou
-狼魂	lang hun
-预备进阶许可	yu bei jin jie xu ke
-强弩	qiang nu
-肉斩骨断	rou zhan gu duan
-开箱	kai xiang
-精打细算玩偶	jing da xi suan wan ou
-沉音宁神	chen yin ning shen
-陷阱部署	xian jing bu shu
-阴晴圆缺	yin qing yuan que
-道路阻塞	dao lu zu se
-长途运输	chang tu yun shu
-流光乍裂	liu guang zha lie
-工程钻具	gong cheng zuan ju
-寻呼模块	xun hu mo kuai
-霜涛覆岭	shuang tao fu ling
-拱卫	gong wei
-无言为真	wu yan wei zhen
-短剑	duan jian
-压缩饼干	ya suo bing gan
-与海为敌	yu hai wei di
-灼燃维式重锤	zhuo ran wei shi zhong chui
-炙手之援	zhi shou zhi yuan
-灌木丛	guan mu cong
-七武掠阵踢	qi wu lve zhen ti
-高压脉冲诡雷	gao ya mai chong gui lei
-二重咏唱	er chong yong chang
-关闭阀门	guan bi fa men
-大地的慈悲	da di de ci bei
-酣醉之夜	han zui zhi ye
-气刃兜割	qi ren dou ge
-使命必达	shi ming bi da
-探矿	tan kuang
-耀阳	yao yang
-多首野兽	duo shou ye shou
-法术：破袭	fa shu po xi
-饱和迸射	bao he beng she
-灌录	guan lu
-长钉	zhang ding
-阿戈尔示波器	a ge er shi bo qi
-座浅	zuo qian
-步青云	bu qing yun
-虚构故事·怒士	xu gou gu shi nu shi
-装置	zhuang zhi
-宝刺伤人	bao ci shang ren
-博览者的狂语	bo lan zhe de kuang yu
-急救包	ji jiu bao
-治疗强化	zhi liao qiang hua
-多导向散射弹丸	duo dao xiang san she dan wan
-假日风暴	jia ri feng bao
-神秘顾客	shen mi gu ke
-沉溺之灾	chen ni zhi zai
-地狱变相	di yu bian xiang
-打人树	da ren shu
-无	wu
-可靠电池	ke kao dian chi
-生存的重压	sheng cun de zhong ya
-寒霜枪刃	han shuang qiang ren
-扩散疗法	kuo san liao fa
-挨打	ai da
-冲锋号令·防御	chong feng hao ling fang yu
-布方	bu fang
-见机行事	jian ji xing shi
-铃音吹雪	ling yin chui xue
-护甲	hu jia
-障碍物	zhang ai wu
-钢铁意志	gang tie yi zhi
-刺人植物	ci ren zhi wu
-箭矢·暴风	jian shi bao feng
-阻挡弹	zu dang dan
-专注轰击	zhuan zhu hong ji
-并流连锁	bing liu lian suo
-渐进性润化	jian jin xing run hua
-浓缩嗅盐	nong suo xiu yan
-跃空锤	yue kong chui
-扭动机关	niu dong ji guan
-荆棘	jing ji
-闭膛连发	bi tang lian fa
-刺人珍宝	ci ren zhen bao
-力之锯	li zhi ju
-影袭	ying xi
-精准射击	jing zhun she ji
-双模机械臂	shuang mo ji xie bi
-古雕伥	gu diao chang
-撼动现实	han dong xian shi
-探前路	tan qian lu
-支援射击	zhi yuan she ji
-土石的恒心	tu shi de heng xin
-噩愿	e yuan
-护盾提供	hu dun ti gong
-不完全充能反击	bu wan quan chong neng fan ji
-击倒猎物	ji dao lie wu
-铳骑之威	chong qi zhi wei
-团体魔物大餐	tuan ti mo wu da can
-极诱人珍宝	ji you ren zhen bao
-收割	shou ge
-解构与爆破	jie gou yu bao po
-如你所愿	ru ni suo yuan
-阻挡路线	zu dang lu xian
-力战不竭	li zhan bu jie
-阻流	zu liu
-治疗范围强化	zhi liao fan wei qiang hua
-建筑工具间	jian zhu gong ju jian
-临界瞬爆	lin jie shun bao
-歌利亚头盔	ge li ya tou kui
-赤霄·拔刀	chi xiao ba dao
-除恶	chu e
-掠空飞翎	lve kong fei ling
-精英术师套组	jing ying shu shi tao zu
-迅瞬	xun shun
-光影迷宫	guang ying mi gong
-坚守模式	jian shou mo shi
-循理归因	xun li gui yin
-广域调谐	guang yu tiao xie
-锐笔速写	rui bi su xie
-此路不通	ci lu bu tong
-爆破范围提升	bao po fan wei ti sheng
-喷涌	pen yong
-高压水炮	gao ya shui pao
-洞悉	dong xi
-剧目宣告	ju mu xuan gao
-很热的刀	hen re de dao
-热处理变色	re chu li bian se
-胜利的连击	sheng li de lian ji
-光羽箭	guang yu jian
-满月的舞会	man yue de wu hui
-贯日	guan ri
-变革已至	bian ge yi zhi
-请穿上护具	qing chuan shang hu ju
-浓茶	nong cha
-影钉	ying ding
-纯净结晶	chun jing jie jing
-恩赐	en ci
-观火	guan huo
-反隐	fan yin
-唤血祭坛	huan xue ji tan
-蝎毒	xie du
-卡西米尔文档	ka xi mi er wen dang
-人员状态改善	ren yuan zhuang tai gai shan
-应急摧毁协议	ying ji cui hui xie yi
-荒时之锁	huang shi zhi suo
-狩猎时刻	shou lie shi ke
-超时空电话亭	chao shi kong dian hua ting
-指令：战术协同	zhi ling zhan shu xie tong
-亮剑	liang jian
-锋芒毕露	feng mang bi lu
-锚击	mao ji
-天命来袭	tian ming lai xi
-震撼型指路	zhen han xing zhi lu
-良翼难乘	liang yi nan cheng
-分析	fen xi
-重型动力装甲	zhong xing dong li zhuang jia
-信标激活	xin biao ji huo
-战地鼓舞	zhan di gu wu
-危言耸听	wei yan song ting
-烈焰魔剑	lie yan mo jian
-采集专员站	cai ji zhuan yuan zhan
-铳骑主考官	chong qi zhu kao guan
-锻锤之力	duan chui zhi li
-双端导流	shuang duan dao liu
-灯塔守卫者	deng ta shou wei zhe
-疑点追踪	yi dian zhui zong
-双线装填	shuang xian zhuang tian
-夜啼彩羽	ye ti cai yu
-反制装甲	fan zhi zhuang jia
-工笔入化	gong bi ru hua
-指令：结构加固	zhi ling jie gou jia gu
-释放猎获	shi fang lie huo
-敌飙	di biao
-无声润物	wu sheng run wu
-便携式医疗设备	bian xie shi yi liao she bei
-所熟知的	suo shu zhi de
-溃决	kui jue
-点题	dian ti
-归乡邀约	gui xiang yao yue
-寂静之声	ji jing zhi sheng
-秘杖·微粒模式	mi zhang wei li mo shi
-应急肃正防线	ying ji su zheng fang xian
-稀有·草香粉	xi you cao xiang fen
-黄沙罗盘	huang sha luo pan
-传导蚀滞弹	chuan dao shi zhi dan
-停滞巧械	ting zhi qiao xie
-伸缩式电捕网	shen suo shi dian bu wang
-熔核巨影	rong he ju ying
-神工意匠	shen gong yi jiang
-领袖的尊严	ling xiu de zun yan
-驰	chi
-手牵手	shou qian shou
-断罪	duan zui
-活力再生·广域	huo li zai sheng guang yu
-归于宁静	gui yu ning jing
-至高之术	zhi gao zhi shu
-辉煌裂片	hui huang lie pian
-晶化	jing hua
-花香疗法	hua xiang liao fa
-灶火起	zao huo qi
-怵然震爆	chu ran zhen bao
-老科利	lao ke li
-利爪	li zhua
-火力侦察	huo li zhen cha
-激励艺术	ji li yi shu
-精调	jing diao
-自然震慑	zi ran zhen she
-战术咏唱·双型	zhan shu yong chang shuang xing
-双声	shuang sheng
-燃命狂欢	ran ming kuang huan
-影霄·绝影	ying xiao jue ying
-抑制解除	yi zhi jie chu
-岁月锻打	sui yue duan da
-触类旁通	chu lei pang tong
-怨火缠身	yuan huo chan shen
-行险	xing xian
-飞针剑羽	fei zhen jian yu
-复合型药物弹片	fu he xing yao wu dan pian
-重力自定义	zhong li zi ding yi
-活力再生	huo li zai sheng
-红移	hong yi
-壳状防御	ke zhuang fang yu
-重逢问候	chong feng wen hou
-镜花水月	jing hua shui yue
-恣意挥洒	zi yi hui sa
-荫庇	yin bi
-束缚夹子	shu fu jia zi
-触爆	chu bao
-回流	hui liu
-沐雨	mu yu
-霰射炸药	xian she zha yao
-突击动力装甲	tu ji dong li zhuang jia
-驱凶辟邪	qu xiong bi xie
-文学风暴	wen xue feng bao
-鞭策	bian ce
-盈帙满笥	ying zhi man si
-离离枯荣	li li ku rong
-碎颅击	sui lu ji
-可被击破	ke bei ji po
-骑士戒律	qi shi jie lv
-萨尔贡浓茶	sa er gong nong cha
-以攻为守	yi gong wei shou
-礼炮·强制追思	li pao qiang zhi zhui si
-全自动造型仪	quan zi dong zao xing yi
-初雷	chu lei
-自动掩护	zi dong yan hu
-稀有·拟南盏	xi you ni nan zhan
-生存的技巧	sheng cun de ji qiao
-恶鬼之力	e gui zhi li
-凝武	ning wu
-驱兽专用	qu shou zhuan yong
-休眠子裔	xiu mian zi yi
-二重治疗	er chong zhi liao
-鼠群	shu qun
-信号矢	xin hao shi
-号令	hao ling
-无可抵挡	wu ke di dang
-冷控处理	leng kong chu li
-誓死	shi si
-供给	gong ji
-脱身矢	tuo shen shi
-挥砍	hui kan
-空中回旋乱舞	kong zhong hui xuan luan wu
-缓蚀	huan shi
-宁作吾	ning zuo wu
-通电	tong dian
-曲惊四座	qu jing si zuo
-泵水	beng shui
-贵客盈门	gui ke ying men
-明日渺远不及	ming ri miao yuan bu ji
-必须开辟的通路	bi xu kai pi de tong lu
-生命火种	sheng ming huo zhong
-执行	zhi xing
-自适应补给	zi shi ying bu ji
-速效制冷	su xiao zhi leng
-溢能回收	yi neng hui shou
-时光震荡	shi guang zhen dang
-碎甲拳	sui jia quan
-剑雨滂沱	jian yu pang tuo
-星束交汇	xing shu jiao hui
-来客	lai ke
-旋刃	xuan ren
-解决麻烦	jie jue ma fan
-静域回声	jing yu hui sheng
-思维膨大	si wei peng da
-启动狂宴模式	qi dong kuang yan mo shi
-零度爆发	ling du bao fa
-再生	zai sheng
-舍身突击	she shen tu ji
-欢迎您来	huan ying nin lai
-沙地战术改良	sha di zhan shu gai liang
-冰块	bing kuai
-供能	gong neng
-风沙掩体	feng sha yan ti
-伞下乘荫	san xia sheng yin
-奇美拉	qi mei la
-捕获	bu huo
-战术电台	zhan shu dian tai
-法术：护盾	fa shu hu dun
-驭我所驭	yu wo suo yu
-冠死以冕	guan si yi mian
-军营电话亭	jun ying dian hua ting
-战地援护	zhan di yuan hu
-砰	peng
-不惹麻烦	bu re ma fan
-攻击力强化	gong ji li qiang hua
-铁御	tie yu
-冲蚀	chong shi
-火花溅射	huo hua jian she
-武装打击模块	wu zhuang da ji mo kuai
-死境硝烟	si jing xiao yan
-不稳定血浆	bu wen ding xue jiang
-震爆调谐	zhen bao tiao xie
-清债程序	qing zhai cheng xu
-气体爆喷	qi ti bao pen
-提喻	ti yu
-掩蔽护卫	yan bi hu wei
-援护	yuan hu
-铁意六合	tie yi liu he
-抢攻	qiang gong
-圣徒之手·清理模式	sheng tu zhi shou qing li mo shi
-紧急包扎	jin ji bao za
-涌泉	yong quan
-飘扬	piao yang
-冲锋号令·攻击	chong feng hao ling gong ji
-未照耀的荣光	wei zhao yao de rong guang
-明烛台通用	ming zhu tai tong yong
-十字悬挂	shi zi xuan gua
-束缚铁虫丝	shu fu tie chong si
-拉特兰桥夹	la te lan qiao jia
-晋升调配特许	jin sheng diao pei te xu
-超负荷运转	chao fu he yun zhuan
-花式点射	hua shi dian she
-集中式水疗	ji zhong shi shui liao
-丛林之魂	cong lin zhi hun
-制式术师杖	zhi shi shu shi zhang
-突变细胞	tu bian xi bao
-固废切割	gu fei qie ge
-灵与欲的惜别	ling yu yu de xi bie
-你须直面	ni xu zhi mian
-伏击之影	fu ji zhi ying
-群体迷彩	qun ti mi cai
-巫术村落	wu shu cun luo
-博士投影	bo shi tou ying
-保护性拒止	bao hu xing ju zhi
-视觉陷阱	shi jue xian jing
-空域控制	kong yu kong zhi
-童话守卫者	tong hua shou wei zhe
-硝烟震爆	xiao yan zhen bao
-突袭手雷	tu xi shou lei
-侵蚀	qin shi
-退休前布道	tui xiu qian bu dao
-救援绳索	jiu yuan sheng suo
-牧场村落	mu chang cun luo
-备用军粮	bei yong jun liang
-支援号令	zhi yuan hao ling
-只余芬芳	zhi yu fen fang
-怒目	nu mu
-赤色之瞳	chi se zhi tong
-杀戮嗅觉	sha lu xiu jue
-速战速决	su zhan su jue
-你须愧悔	ni xu kui hui
-自走车出击	zi zou che chu ji
-梦乡摇篮	meng xiang yao lan
-厚土迸发	hou tu beng fa
-耀阳颔首	yao yang han shou
-全力以赴	quan li yi fu
-冻风	dong feng
-幸运硬币	xing yun ying bi
-幽隙栖萤	you xi qi ying
-共鸣	gong ming
-给你一拳	gei ni yi quan
-战场分析仪	zhan chang fen xi yi
-意识联协	yi shi lian xie
-翔虫闪击	xiang chong shan ji
-诱人珍宝	you ren zhen bao
-振奋	zhen fen
-食粮烹制	shi liang peng zhi
-法术护盾	fa shu hu dun
-文明的光芒	wen ming de guang mang
-气流	qi liu
-锁钥	suo yue
-高压回填斩	gao ya hui tian zhan
-教条力场	jiao tiao li chang
-不屈弹射器	bu qu tan she qi
-御敌的锋锐	yu di de feng rui
-坚守盾牌	jian shou dun pai
-神经再生	shen jing zai sheng
-迹无	ji wu
-掘石	jue shi
-爆破回收	bao po hui shou
-工程者之愿	gong cheng zhe zhi yuan
-巫术弩炮	wu shu nu pao
-重新发球	chong xin fa qiu
-临调	lin diao
-物理的服从	wu li de fu cong
-发射	fa she
-开打	kai da
-生息演算通用	sheng xi yan suan tong yong
-遗嘱执行	yi zhu zhi xing
-清算	qing suan
-火电模式	huo dian mo shi
-云霭荫佑	yun ai yin you
-坏脾气	huai pi qi
-心手合一	xin shou he yi
-危朽	wei xiu
-海猫的选择	hai mao de xuan ze
-赠礼	zeng li
-开火成瘾症	kai huo cheng yin zheng
+博萨克风暴	bo sa ke feng bao
 箱型恶笼草	xiang xing e long cao
-安眠	an mian
-开启阀门	kai qi fa men
-黄金的狂喜	huang jin de kuang xi
-武器附魔	wu qi fu mo
-电磁脉冲恩宠	dian ci mai chong en chong
-医疗无人机	yi liao wu ren ji
-接	jie
-血溃	xue kui
-法术：屏障	fa shu ping zhang
-高速切割	gao su qie ge
-乱舞	luan wu
-探寻	tan xun
-渐快急板	jian kuai ji ban
-致命恶作剧	zhi ming e zuo ju
-法术：血税	fa shu xue shui
-炮管敲击	pao guan qiao ji
-恶笼草	e long cao
+童话守卫者	tong hua shou wei zhe
 夹枪冲锋	jia qiang chong feng
-高机动	gao ji dong
-强心剂	qiang xin ji
-滞空牵引无人机	zhi kong qian yin wu ren ji
-蓄力毒尾击	xu li du wei ji
-策略：超压链接	ce lve chao ya lian jie
-问雪	wen xue
-狂饮之宴	kuang yin zhi yan
-阿勒黛的卫护	a lei dai de wei hu
+传音回响	chuan yin hui xiang
+意识联协	yi shi lian xie
+重症优先	zhong zheng you xian
+人工降雪	ren gong jiang xue
+涌潮悲歌	yong chao bei ge
+坚不可摧	jian bu ke cui
 破浪回神	po lang hui shen
-饱和脉冲	bao he mai chong
-器械维护	qi xie wei hu
-迅敏直觉	xun min zhi jue
-开颅挽歌	kai lu wan ge
-采铁	cai tie
-源石火药驾临	yuan shi huo yao jia lin
-起爆	qi bao
-以暴制暴	yi bao zhi bao
-全域信息失真	quan yu xin xi shi zhen
-二重射击·自动	er chong she ji zi dong
-可驯服的	ke xun fu de
-涤净	di jing
-能源设备	neng yuan she bei
-迷惑装置	mi huo zhuang zhi
-吞日	tun ri
-铁矿采集站	tie kuang cai ji zhan
-贯敌刺枪	guan di ci qiang
-破虹	po hong
-隐狐之艺	yin hu zhi yi
-安眠旋律	an mian xuan lv
-纸艺·双影	zhi yi shuang ying
-反制电磁脉冲	fan zhi dian ci mai chong
-消杀程序	xiao sha cheng xu
-资源规划	zi yuan gui hua
-惊爆射击	jing bao she ji
-部署	bu shu
-领袖的呼唤	ling xiu de hu huan
-弦月	xian yue
-坚心苦修	jian xin ku xiu
-沉默的爆发	chen mo de bao fa
-囚徒困境	qiu tu kun jing
-加油哦	jia you o
-反制技巧	fan zhi ji qiao
-紧急赶场通知	jin ji gan chang tong zhi
-阻隔工事	zu ge gong shi
-补给升级	bu ji sheng ji
-治愈水波	zhi yu shui bo
-闪光护盾	shan guang hu dun
-信影流·雷刀之势	xin ying liu lei dao zhi shi
+终结连射	zhong jie lian she
+俱以我之名	ju yi wo zhi ming
+专注轰击	zhuan zhu hong ji
+临时休息舱	lin shi xiu xi cang
+恣意挥洒	zi yi hui sa
+燃烧榴弹	ran shao liu dan
+千金一掷	qian jin yi zhi
+召唤使魔	zhao huan shi mo
+焰淬匕首	yan cui bi shou
+应东风	ying dong feng
+花式点射	hua shi dian she
+装置	zhuang zhi
+武装打击模块	wu zhuang da ji mo kuai
+快速修剪	kuai su xiu jian
+沙暴守卫	sha bao shou wei
+血之遗赠	xue zhi yi zeng
+死境硝烟	si jing xiao yan
+但为求索	dan wei qiu suo
+红移	hong yi
+绝妙的长效药呀	jue miao de zhang xiao yao ya
 可供开采	ke gong kai cai
+阻隔工事	zu ge gong shi
+倾泻弹药	qing xie dan yao
+顽石专用	wan shi zhuan yong
+覆盖式休整	fu gai shi xiu zheng
+不可部署	bu ke bu shu
+恶鬼之力	e gui zhi li
+光羽箭	guang yu jian
+生命不息	sheng ming bu xi
+才女的实力	cai nv de shi li
+结构加固	jie gou jia gu
+天坠之火	tian zhui zhi huo
+噩愿	e yuan
+霰射弹头	xian she dan tou
+霰射炸药	xian she zha yao
+压缩饼干	ya suo bing gan
+塔纳托斯的囚锁	ta na tuo si de qiu suo
+黄昏	huang hun
+无声的嘲笑	wu sheng de chao xiao
+哀恸共情	ai tong gong qing
+掠光尾影	lve guang wei ying
+超重绝缘	chao zhong jue yuan
+随机应变	sui ji ying bian
+赘生甲壳	zhui sheng jia qiao
+同步索敌攻击	tong bu suo di gong ji
+我的了	wo de le
+缺水的大洋裂断	que shui de da yang lie duan
+战术咏唱·双型	zhan shu yong chang shuang xing
+示踪信标	shi zong xin biao
+混凝土路障	hun ning tu lu zhang
+催泪瓦斯	cui lei wa si
+我见崩毁之前	wo jian beng hui zhi qian
+震爆调谐	zhen bao tiao xie
+宝刺伤人	bao ci shang ren
+堇青之夜	jin qing zhi ye
+全域信息失真	quan yu xin xi shi zhen
+飘扬	piao yang
+单人份料理	dan ren fen liao li
+近身铳斗	jin shen chong dou
+锚点捕捉	mao dian bu zhuo
+阻隔道路	zu ge dao lu
+入场安排	ru chang an pai
+书我所书	shu wo suo shu
+滔滔热流	tao tao re liu
+此路不通	ci lu bu tong
+本能的召唤	ben neng de zhao huan
+灯火不灭	deng huo bu mie
+坚守模式	jian shou mo shi
+流沙区域生成	liu sha qu yu sheng cheng
+生产线	sheng chan xian
+必须促成的接触	bi xu cu cheng de jie chu
+护盾无人机	hu dun wu ren ji
+进赴故土	jin fu gu tu
+回收利用	hui shou li yong
+自然震慑	zi ran zhen she
+冰爆	bing bao
+佑序有炎	you xu you yan
+泼墨淋漓	po mo lin li
+抚业之触	fu ye zhi chu
+誓不低头	shi bu di tou
+舍身突击	she shen tu ji
+御敌的锋锐	yu di de feng rui
+切木	qie mu
+碎甲击	sui jia ji
+临界爆发	lin jie bao fa
+岩锤	yan chui
+掷旧尘	zhi jiu chen
+信影流·十文字胜	xin ying liu shi wen zi sheng
+强心剂	qiang xin ji
+极速送达	ji su song da
+临界瞬爆	lin jie shun bao
+铃音吹雪	ling yin chui xue
+湮灭	yan mie
+维式重锤	wei shi zhong chui
+多向拼接	duo xiang pin jie
+结构稳定	jie gou wen ding
+领袖的呼唤	ling xiu de hu huan
+建筑工具间	jian zhu gong ju jian
+跃空锤	yue kong chui
+爆发剂·榴莲味	bao fa ji liu lian wei
+反隐	fan yin
+破茧倒计时	po jian dao ji shi
+晶化	jing hua
+叮铃铃	ding ling ling
+执行	zhi xing
+急救包	ji jiu bao
+后勤维护	hou qin wei hu
+意志震荡	yi zhi zhen dang
+文学风暴	wen xue feng bao
+链锯强袭	lian ju qiang xi
+狂热	kuang re
+武器附魔	wu qi fu mo
+叙拉古正装	xu la gu zheng zhuang
+天马视域	tian ma shi yu
+我无	wo wu
+暗夜魅影	an ye mei ying
+木材采集站·采购	mu cai cai ji zhan cai gou
+霜涛覆岭	shuang tao fu ling
+广域警觉	guang yu jing jue
+制式狙击镜	zhi shi ju ji jing
+亮剑	liang jian
+临场铳械改装	lin chang chong xie gai zhuang
+护身射击	hu shen she ji
+嘉维尔保护方案	jia wei er bao hu fang an
+挥砍	hui kan
+伏击之影	fu ji zhi ying
+七武掠阵踢	qi wu lve zhen ti
+儿时的舞乐	er shi de wu le
+慵怠者悲鸣	yong dai zhe bei ming
+致胜立论	zhi sheng li lun
+实体程式	shi ti cheng shi
+饱和脉冲	bao he mai chong
+开火成瘾症	kai huo cheng yin zheng
+战争的恭顺	zhan zheng de gong shun
+开打	kai da
+良翼难乘	liang yi nan cheng
+清算	qing suan
+能量调和	neng liang tiao he
+采铁	cai tie
+最大剂量输注	zui da ji liang shu zhu
+至高之术	zhi gao zhi shu
+秘杖·反重力模式	mi zhang fan zhong li mo shi
+归乡邀约	gui xiang yao yue
+苦修破誓	ku xiu po shi
+全景过载摄影	quan jing guo zai she ying
+战场废墟	zhan chang fei xu
+发车	fa che
+直到终曲	zhi dao zhong qu
+剑雨滂沱	jian yu pang tuo
+冲锋号令·援军	chong feng hao ling yuan jun
+火花四溅	huo hua si jian
+初雷	chu lei
+食粮烹制	shi liang peng zhi
+取字	qu zi
+力战不竭	li zhan bu jie
+铁钳号·原型机	tie qian hao yuan xing ji
+法术：榜样	fa shu bang yang
+信仰传承	xin yang chuan cheng
+高机动	gao ji dong
+火电模式	huo dian mo shi
+支援号令	zhi yuan hao ling
+无言为真	wu yan wei zhen
+沐雨	mu yu
+半醒	ban xing
+利爪	li zhua
+新遣	xin qian
+信标	xin biao
+法术：恢复	fa shu hui fu
+供能	gong neng
+连星	lian xing
+探前路	tan qian lu
+荆藤庇荫	jing teng bi yin
+步青云	bu qing yun
+沙地战术改良	sha di zhan shu gai liang
+烛燃影息	zhu ran ying xi
+夏末游鳞	xia mo you lin
+抑制解除	yi zhi jie chu
+惊吓盒子	jing xia he zi
+断罪模式	duan zui mo shi
+卫戍协议	wei shu xie yi
+龙卷箭	long juan jian
+锻锤之力	duan chui zhi li
+涌泉	yong quan
+稀有·拟南盏	xi you ni nan zhan
+剑角之锋	jian jiao zhi feng
+寂静之声	ji jing zhi sheng
+天工夜行	tian gong ye xing
+爆破	bao po
+迷惑性洋流图	mi huo xing yang liu tu
+无畏招架	wu wei zhao jia
+极诱人珍宝	ji you ren zhen bao
+生命回复	sheng ming hui fu
+以假乱真	yi jia luan zhen
+抑制生长	yi zhi sheng zhang
+天地通明	tian di tong ming
+掩护作战	yan hu zuo zhan
+诡异剪刀	gui yi jian dao
+锁钥	suo yue
+浮游刃启动	fu you ren qi dong
+口袋法阵	kou dai fa zhen
+你须偿还	ni xu chang huan
+迅敏直觉	xun min zhi jue
+星束交汇	xing shu jiao hui
+毒液散射	du ye san she
+挨打	ai da
+便携破城矢	bian xie po cheng shi
+勾爪发射	gou zhao fa she
+雪境生存法则	xue jing sheng cun fa ze
+扩散电流	kuo san dian liu
+钢铁意志	gang tie yi zhi
+红桃	hong tao
+液氮大炮	ye dan da pao
+同伴意识	tong ban yi shi
+所熟知的	suo shu zhi de
+承影	cheng ying
+遥控解体	yao kong jie ti
+安眠旋律	an mian xuan lv
+招无虚发	zhao wu xu fa
+贯注	guan zhu
+今日做东	jin ri zuo dong
+供给	gong ji
+迅捷打击	xun jie da ji
+防暴盾	fang bao dun
+熔核巨影	rong he ju ying
+双刃毒藤	shuang ren du teng
+技能	ji neng
+征服者传说	zheng fu zhe chuan shuo
+炸毛	zha mao
+采集主任站	cai ji zhu ren zhan
+阻滞射击战术	zu zhi she ji zhan shu
+饼学金字塔	bing xue jin zi ta
+丛林之魂	cong lin zhi hun
+快速射击	kuai su she ji
+唤血祭坛	huan xue ji tan
+水炮模式	shui pao mo shi
+如麦般生长	ru mai ban sheng zhang
+工程钻具	gong cheng zuan ju
+集束疗法	ji shu liao fa
+寸劲	cun jin
+迅瞬	xun shun
+俯瞰视界	fu kan shi jie
+临调	lin diao
+坚心苦修	jian xin ku xiu
+激光开采模块	ji guang kai cai mo kuai
+建立通讯	jian li tong xun
+精神护理	jing shen hu li
+同盟支援	tong meng zhi yuan
+器械维护	qi xie wei hu
+画卷	hua juan
+突破矿层	tu po kuang ceng
+创生	chuang sheng
+看烟花	kan yan hua
+积微成著	ji wei cheng zhu
+危朽	wei xiu
+延异视阈	yan yi shi yu
+能量扰动	neng liang rao dong
+照明榴弹	zhao ming liu dan
+处决模式	chu jue mo shi
+信念的长鞭	xin nian de zhang bian
+破空	po kong
+脉冲束流	mai chong shu liu
+锚击	mao ji
+战栗维式重锤	zhan li wei shi zhong chui
+溢能回收	yi neng hui shou
+策略：超负荷	ce lve chao fu he
+三形	san xing
+聚宝斋	ju bao zhai
+笞心击	chi xin ji
+诱人珍宝	you ren zhen bao
+广域调谐	guang yu tiao xie
+缺水的碎漩狂舞	que shui de sui xuan kuang wu
+阻流	zu liu
+发射缚网	fa she fu wang
+固守模式	gu shou mo shi
+双弦开弓	shuang xian kai gong
+专业喷绘技巧	zhuan ye pen hui ji qiao
+卡西米尔竞技旗	ka xi mi er jing ji qi
+蟹蟹抽水泵·采购	xie xie chou shui beng cai gou
+纸艺·双影	zhi yi shuang ying
+脉冲波	mai chong bo
+坠雪	zhui xue
+开启阀门	kai qi fa men
+鞭刃	bian ren
+守卫尖碑	shou wei jian bei
+补给签收	bu ji qian shou
+发射弩箭	fa she nu jian
+御龙：影丝蛛	yu long ying si zhu
+遗嘱执行	yi zhu zhi xing
+赤霄·天喟	chi xiao tian kui
+沉默的爆发	chen mo de bao fa
+激素手枪	ji su shou qiang
+高速思考	gao su si kao
+破梏重生	po gu chong sheng
+纯净结晶	chun jing jie jing
+安魂的弥撒	an hun de mi sa
+加速维式重锤	jia su wei shi zhong chui
+信条	xin tiao
+强化验收	qiang hua yan shou
+战术电台	zhan shu dian tai
+供奉	gong feng
+吉星高照	ji xing gao zhao
+生存的技巧	sheng cun de ji qiao
+弱化	ruo hua
+火力侦察	huo li zhen cha
+治愈云雾	zhi yu yun wu
+碎甲击·扩散	sui jia ji kuo san
+全神贯注	quan shen guan zhu
+读书会	du shu hui
+高压水炮	gao ya shui pao
+影袭	ying xi
+致命恶作剧	zhi ming e zuo ju
+碎石	sui shi
+嘉禾盈仓	jia he ying cang
+气流	qi liu
+缓蚀	huan shi
+乌萨斯战吼	wu sa si zhan hou
+重锋不熄	zhong feng bu xi
+掘石	jue shi
+交替撤离	jiao ti che li
+行险	xing xian
+保护色隐蔽	bao hu se yin bi
+御龙：反壳龟	yu long fan ke gui
+一击即退	yi ji ji tui
+拂尘	fu chen
+宝箱	bao xiang
+碎金为刃	sui jin wei ren
+短剑	duan jian
+专心致志	zhuan xin zhi zhi
+诅咒娃娃	zu zhou wa wa
+废品战车	fei pin zhan che
+断罪	duan zui
+医疗无人机	yi liao wu ren ji
+活力再生·广域	huo li zai sheng guang yu
+残月的余响	can yue de yu xiang
+谐波破坏	xie bo po huai
+进取之心	jin qu zhi xin
+炎炎火焰	yan yan huo yan
+渐进性润化	jian jin xing run hua
+夜魇魔影	ye yan mo ying
+关节锁定	guan jie suo ding
+茧甲	jian jia
+大地的慈悲	da di de ci bei
+良弓难张	liang gong nan zhang
+必须开辟的通路	bi xu kai pi de tong lu
+聚焦指令	ju jiao zhi ling
+共鸣溃缩	gong ming kui suo
+长途运输	chang tu yun shu
+锁链勾爪	suo lian gou zhao
+阻挡路线	zu dang lu xian
+关键线索	guan jian xian suo
+突变细胞	tu bian xi bao
+倒刺钩爪	dao ci gou zhao
+领袖的馈赠	ling xiu de kui zeng
+急救	ji jiu
+怒目	nu mu
+明镜止水	ming jing zhi shui
+加油哦	jia you o
+炎国短刀	yan guo duan dao
+高效冲击	gao xiao chong ji
+无畏者协议	wu wei zhe xie yi
+瞭望	liao wang
+光辉旗帜	guang hui qi zhi
+爆破魔法	bao po mo fa
+铁葫芦	tie hu lu
+沉溺之灾	chen ni zhi zai
+信影流·雷刀之势	xin ying liu lei dao zhi shi
+末梢阻断	mo shao zu duan
+山地村落	shan di cun luo
+沙缚镣锁	sha fu liao suo
+烽烟行刑场	feng yan xing xing chang
+定点清算	ding dian qing suan
+一点关窍	yi dian guan qiao
+明烛台通用	ming zhu tai tong yong
+双声	shuang sheng
+抑扬格	yi yang ge
+派遣空援	pai qian kong yuan
+升格	sheng ge
+工笔入化	gong bi ru hua
+喷气散热	pen qi san re
+阻止部署	zu zhi bu shu
+泡影流大冲击	pao ying liu da chong ji
+御龙：雷狼龙	yu long lei lang long
+安眠	an mian
+我见枯朽之后	wo jian ku xiu zhi hou
+护盾提供	hu dun ti gong
+见机行事	jian ji xing shi
+双线装填	shuang xian zhuang tian
+幸运币	xing yun bi
+蝎毒	xie du
+紧急调度券	jin ji diao du quan
+接	jie
+采集	cai ji
+敌方人员运送	di fang ren yuan yun song
+谢拉格不融冰	xie la ge bu rong bing
+火山回响	huo shan hui xiang
+明日渺远不及	ming ri miao yuan bu ji
+战术装备整理	zhan shu zhuang bei zheng li
+高效补给	gao xiao bu ji
+模型扩展	mo xing kuo zhan
+建设	jian she
+强力牵引	qiang li qian yin
+铁矿采集站	tie kuang cai ji zhan
+门风云	men feng yun
+蜂鸣器	feng ming qi
+恶魇	e yan
+涤净	di jing
+精英狙击套组	jing ying ju ji tao zu
+加固	jia gu
+当机立断	dang ji li duan
+箭矢·散逸	jian shi san yi
+障碍物	zhang ai wu
+誓死	shi si
+脑啡肽	nao fei tai
+爆破回收	bao po hui shou
+起爆	qi bao
+摄食	she shi
+支柱坍塌	zhi zhu tan ta
+度算浪波	du suan lang bo
+圣徒之手·巡回模式	sheng tu zhi shou xun hui mo shi
+塌落	ta luo
+垂死羽兽	chui si yu shou
+幻影诡雷	huan ying gui lei
+长钉	zhang ding
+治疗范围强化	zhi liao fan wei qiang hua
+列阵	lie zhen
+迂回攻击策略	yu hui gong ji ce lve
+迹无	ji wu
+生态耦合	sheng tai ou he
+部族技艺	bu zu ji yi
+狼眼	lang yan
+必须维系的界限	bi xu wei xi de jie xian
+手牵手	shou qian shou
+指令：熔毁	zhi ling rong hui
+蓄锐	xu rui
+微型尖刺	wei xing jian ci
+探寻	tan xun
+破坏与滋养	po huai yu zi yang
+刺人植物	ci ren zhi wu
+全自动造型仪	quan zi dong zao xing yi
+野火	ye huo
+阿戈尔重刃	a ge er zhong ren
+自呼号生发	zi hu hao sheng fa
+酣醉之夜	han zui zhi ye
+战术的终结	zhan shu de zhong jie
+教条力场	jiao tiao li chang
+风暴潮	feng bao chao
+维护员	wei hu yuan
+狂欢时刻	kuang huan shi ke
+多导向散射弹丸	duo dao xiang san she dan wan
+起风	qi feng
+解构涌潮	jie gou yong chao
+正霆摄威	zheng ting she wei
+救援绳索	jiu yuan sheng suo
+激励艺术	ji li yi shu
+威吓战法	wei he zhan fa
+释放猎获	shi fang lie huo
+星图闪烁	xing tu shan shuo
+荒芜回响	huang wu hui xiang
+虚构故事·怒士	xu gou gu shi nu shi
+新版	xin ban
+判决	pan jue
+怪葫芦	guai hu lu
+秘杖·微粒模式	mi zhang wei li mo shi
+沸腾爆裂	fei teng bao lie
+歌利亚头盔	ge li ya tou kui
+镭射穿凿	lei she chuan zao
+律动线	lv dong xian
+飞羽	fei yu
+阵雨连绵	zhen yu lian mian
+日晷	ri gui
+电磁脉冲恩宠	dian ci mai chong en chong
+观火	guan huo
+爆破范围提升	bao po fan wei ti sheng
+灌木丛	guan mu cong
+红松林	hong song lin
+协同作战	xie tong zuo zhan
+捉迷藏	zhuo mi cang
+弹射夹子	tan she jia zi
+加工	jia gong
+奔流	ben liu
+焰心	yan xin
+路过	lu guo
+晨曦信标	chen xi xin biao
+栖脚地	qi jiao di
+步履不停	bu lv bu ting
+速战速决	su zhan su jue
+消杀程序	xiao sha cheng xu
+紧急包扎	jin ji bao za
+神经再生	shen jing zai sheng
+部署	bu shu
+寒霜枪刃	han shuang qiang ren
+全能机械臂	quan neng ji xie bi
+狼魂	lang hun
+竞技记录分析	jing ji ji lu fen xi
+风语	feng yu
+源石火药驾临	yuan shi huo yao jia lin
+余烬重荷	yu jin zhong he
+箭矢·暴风	jian shi bao feng
+高压冲击	gao ya chong ji
+水蒸气泵	shui zheng qi beng
+人间降吉	ren jian jiang ji
+轻巧舞步	qing qiao wu bu
+阻遏混乱锤	zu e hun luan chui
+蒸汽之心	zheng qi zhi xin
+指令：结构加固	zhi ling jie gou jia gu
+知难而退	zhi nan er tui
+液压式高台	ye ya shi gao tai
+英雄赞歌	ying xiong zan ge
+稀有·岩锤	xi you yan chui
+定点指令	ding dian zhi ling
+归于宁静	gui yu ning jing
+次级治疗模式	ci ji zhi liao mo shi
+颤栗之弦	zhan li zhi xian
+高压喷射	gao ya pen she
+权知轻重	quan zhi qing zhong
+汲能冲击	ji neng chong ji
+精英重装套组	jing ying zhong zhuang tao zu
+生灵的回响	sheng ling de hui xiang
+八臂电锯侠	ba bi dian ju xia
+天命来袭	tian ming lai xi
+饱和复仇	bao he fu chou
+更诱人珍宝	geng you ren zhen bao
+玲珑	ling long
+紧急点燃	jin ji dian ran
+拟态物质	ni tai wu zhi
+治疗强化	zhi liao qiang hua
+有限加速器	you xian jia su qi
+驭我所驭	yu wo suo yu
+深度治疗	shen du zhi liao
+反制技巧	fan zhi ji qiao
+应急迷彩	ying ji mi cai
+召唤信标	zhao huan xin biao
+梦乡摇篮	meng xiang yao lan
+不准走	bu zhun zou
+战意	zhan yi
+承压功率	cheng ya gong lv
+激励	ji li
+礼炮·强制追思	li pao qiang zhi zhui si
+高效处理	gao xiao chu li
+分神	fen shen
+引燃	yin ran
+自动掩护	zi dong yan hu
+启动狂宴模式	qi dong kuang yan mo shi
+天然隐蔽	tian ran yin bi
+武力模式	wu li mo shi
+赤色之瞳	chi se zhi tong
+奋力修剪	fen li xiu jian
+孢子扩散	bao zi kuo san
+物理的服从	wu li de fu cong
+失温症	shi wen zheng
+崩拳式	beng quan shi
+汲营枯枝	ji ying ku zhi
+淬影突袭	cui ying tu xi
+人事部文档	ren shi bu wen dang
+家族徽章	jia zu hui zhang
+协防术式	xie fang shu shi
+迷惑装置	mi huo zhuang zhi
+众恶的焚场	zhong e de fen chang
+回收	hui shou
+万手成局	wan shou cheng ju
+以暴制暴	yi bao zhi bao
+补给留存	bu ji liu cun
+花香疗法	hua xiang liao fa
+苏醒	su xing
+集中式水疗	ji zhong shi shui liao
+乐趣加倍	le qu jia bei
+同胞的意志	tong bao de yi zhi
+开辟明日的剑刃	kai pi ming ri de jian ren
+麻痹弹	ma bi dan
+苍翠屏障	cang cui ping zhang
+干扰波长	gan rao bo chang
+战地鼓舞	zhan di gu wu
+固废切割	gu fei qie ge
+显示	xian shi
+炎爆	yan bao
+应力倒置	ying li dao zhi
+炸弹载荷点	zha dan zai he dian
+反制治疗	fan zhi zhi liao
+灵魂汲取	ling hun ji qu
+阻断道路	zu duan dao lu
+刺身拼盘	ci shen pin pan
+扶风起	fu feng qi
+影霄·奔夜	ying xiao ben ye
+法术：屏障	fa shu ping zhang
+开锁工具	kai suo gong ju
+充能防御	chong neng fang yu
+提喻	ti yu
+灵魂激荡	ling hun ji dang
+破虹	po hong
+精准痛击	jing zhun tong ji
+防御支撑	fang yu zhi cheng
+海沟实验体	hai gou shi yan ti
+碎颅击	sui lu ji
+叙拉古式上妆	xu la gu shi shang zhuang
+镀膜	du mo
+恶笼草	e long cao
+雪崩触发	xue beng chu fa
+快刀	kuai dao
+夜灯	ye deng
+能源设备	neng yuan she bei
+束缚铁虫丝	shu fu tie chong si
+澄亮采集站	cheng liang cai ji zhan
+得见光芒	de jian guang mang
+触礁	chu jiao
+枯荣共息	ku rong gong xi
+分裂射击	fen lie she ji
+街头好手	jie tou hao shou
+玫影觅迹	mei ying mi ji
+射箭	she jian
+铁意六合	tie yi liu he
 战斗之歌	zhan dou zhi ge
 潮涌潮枯	chao yong chao ku
-空间的归依	kong jian de gui yi
-突破矿层	tu po kuang ceng
-正霆摄威	zheng ting she wei
-微型尖刺	wei xing jian ci
-脑啡肽	nao fei tai
-纪念	ji nian
-聚类分析	ju lei fen xi
-分神	fen shen
-寸劲	cun jin
-心防溃决	xin fang kui jue
-饼学金字塔	bing xue jin zi ta
-创世纪	chuang shi ji
-用赤铁铭记	yong chi tie ming ji
-后勤维护	hou qin wei hu
-扫描	sao miao
-灌溉	guan gai
-监控	jian kong
-护身射击	hu shen she ji
-蟹蟹抽水泵·采购	xie xie chou shui beng cai gou
-深海猎人模型	shen hai lie ren mo xing
-幸运币	xing yun bi
-天地通明	tian di tong ming
-武力模式	wu li mo shi
-绝不罢休	jue bu ba xiu
-临考发挥	lin kao fa hui
-显示	xian shi
-变形同构体	bian xing tong gou ti
-镭射穿凿	lei she chuan zao
-诡异剪刀	gui yi jian dao
-垂死羽兽	chui si yu shou
-入场安排	ru chang an pai
-精准狙击镜	jing zhun ju ji jing
-不息	bu xi
-裂魂	lie hun
-激励	ji li
-你须偿还	ni xu chang huan
-引燃	yin ran
-定点清算	ding dian qing suan
-火钳秘咒	huo qian mi zhou
-应急迷彩	ying ji mi cai
-霰射弹头	xian she dan tou
-重症优先	zhong zheng you xian
-唤醒	huan xing
-余烬重荷	yu jin zhong he
-过载模式	guo zai mo shi
-冶铸	ye zhu
-碎石	sui shi
-矿石杀手通用图标	kuang shi sha shou tong yong tu biao
-茧甲	jian jia
-烽烟行刑场	feng yan xing xing chang
-起风	qi feng
-电能之触	dian neng zhi chu
-回收	hui shou
-稀有·岩锤	xi you yan chui
-流形	liu xing
-红桃	hong tao
-阵雨连绵	zhen yu lian mian
-医疗力场	yi liao li chang
-暗夜无明	an ye wu ming
-启动禁锢	qi dong jin gu
-直到终曲	zhi dao zhong qu
-折朽	zhe xiu
-演算	yan suan
-采水	cai shui
-爆发剂·榴莲味	bao fa ji liu lian wei
-叙拉古正装	xu la gu zheng zhuang
-黏黏的赠品	nian nian de zeng pin
-临时休息舱	lin shi xiu xi cang
-厚礼上宾	hou li shang bin
-步履不停	bu lv bu ting
-侵袭破坏应对	qin xi po huai ying dui
-借阅登记	jie yue deng ji
-阻隔道路	zu ge dao lu
-化被草木	hua bei cao mu
-封护	feng hu
-战意	zhan yi
-此身为筑	ci shen wei zhu
-释放秘药	shi fang mi yao
-人事部文档	ren shi bu wen dang
-赤霄·天喟	chi xiao tian kui
+稻谷种植	dao gu zhong zhi
+触爆	chu bao
+并流连锁	bing liu lian suo
 鬼人化	gui ren hua
-急救	ji jiu
-全景过载摄影	quan jing guo zai she ying
-临界爆发	lin jie bao fa
-秘杖·反重力模式	mi zhang fan zhong li mo shi
-诅咒娃娃	zu zhou wa wa
-全知者的战术	quan zhi zhe de zhan shu
-自负此轭	zi fu ci e
-行动能力剥夺	xing dong neng li bo duo
-坚固维式重锤	jian gu wei shi zhong chui
-落地斩·破门	luo di zhan po men
-终极防线	zhong ji fang xian
-震荡坚守	zhen dang jian shou
-冲锋号令	chong feng hao ling
-全弹发射	quan dan fa she
-重整导能	zhong zheng dao neng
-锚点捕捉	mao dian bu zhuo
-静电释放	jing dian shi fang
-教鞭	jiao bian
-受害者启动模式	shou hai zhe qi dong mo shi
-关节锁定	guan jie suo ding
-惊吓盒子	jing xia he zi
-致胜立论	zhi sheng li lun
+景观喷泉	jing guan pen quan
+砰	peng
+炫耀	xuan yao
+博览者的狂语	bo lan zhe de kuang yu
+数据分析	shu ju fen xi
+骑枪刺击	qi qiang ci ji
+全力相搏	quan li xiang bo
+绯红壁合	fei hong bi he
+绯红刺刀	fei hong ci dao
+都给我喝	dou gei wo he
+黏黏的赠品	nian nian de zeng pin
+无可抵挡	wu ke di dang
+星座守护	xing zuo shou hu
+火花溅射	huo hua jian she
+伞下乘荫	san xia sheng yin
+沛霖	pei lin
+摇摆	yao bai
+坚守阵线	jian shou zhen xian
+触类旁通	chu lei pang tong
+十字悬挂	shi zi xuan gua
+强化加固	qiang hua jia gu
+海猫的选择	hai mao de xuan ze
+酸橙的心事	suan cheng de xin shi
+速效制冷	su xiao zhi leng
+问雪	wen xue
+飞针剑羽	fei zhen jian yu
+石材采集站·采购	shi cai cai ji zhan cai gou
+土石的恒心	tu shi de heng xin
+沸血燎原	fei xue liao yuan
+资源规划	zi yuan gui hua
+扫描	sao miao
+虔修对决	qian xiu dui jue
+无	wu
+先贤化身	xian xian hua shen
+火山	huo shan
+假日风暴	jia ri feng bao
+源石溶剂	yuan shi rong ji
+披荆斩棘	pi jing zhan ji
+军营电话亭	jun ying dian hua ting
+骑士储蓄罐	qi shi chu xu guan
+浮光	fu guang
+高压脉冲诡雷	gao ya mai chong gui lei
+阻挡弹	zu dang dan
+抽水	chou shui
+新月	xin yue
+紧急升空	jin ji sheng kong
+歃血	sha xue
+雷达定位	lei da ding wei
+强力击	qiang li ji
+断螯	duan ao
+群体迷彩	qun ti mi cai
+泡影殆尽	pao ying dai jin
+可被击破	ke bei ji po
+逐猎狂飙	zhu lie kuang biao
+二重射击·自动	er chong she ji zi dong
+演算	yan suan
+休眠子裔	xiu mian zi yi
+策略：超压链接	ce lve chao ya lian jie
+极致火力	ji zhi huo li
+荫庇	yin bi
+乡心无改	xiang xin wu gai
+法术：破袭	fa shu po xi
+骑士的荣耀	qi shi de rong yao
+预备进阶许可	yu bei jin jie xu ke
+爆炸	bao zha
+稀有·草香粉	xi you cao xiang fen
+标记射击	biao ji she ji
+恩赐	en ci
+便携健身架	bian xie jian shen jia
+御龙：岩甲兽	yu long yan jia shou
+震地碎岩击	zhen di sui yan ji
+暴风号令	bao feng hao ling
+化被草木	hua bei cao mu
+挠伤	nao shang
+杀戮嗅觉	sha lu xiu jue
+离离枯荣	li li ku rong
+微差爆破	wei cha bao po
+军工厂生产	jun gong chang sheng chan
+点题	dian ti
+开颅挽歌	kai lu wan ge
+通电	tong dian
+思维膨大	si wei peng da
+污染处理	wu ran chu li
+风雪连弩	feng xue lian nu
+我的海疆	wo de hai jiang
+不完全充能反击	bu wan quan chong neng fan ji
+抗寒体质	kang han ti zhi
+疑点追踪	yi dian zhui zong
+自适应补给	zi shi ying bu ji
+澄净闪耀	cheng jing shan yao
+攻坚榴弹	gong jian liu dan
+食噬之印	shi shi zhi yin
+布方	bu fang
+气体爆喷	qi ti bao pen
+狐火渺然	hu huo miao ran
+聆听	ling ting
+研究成功	yan jiu cheng gong
+序时之匙	xu shi zhi shi
+磁力抓取	ci li zhua qu
+医疗力场	yi liao li chang
+停滞巧械	ting zhi qiao xie
+协助隐藏	xie zhu yin cang
+斩	zhan
+灶火灭	zao huo mie
+拉特兰桥夹	la te lan qiao jia
+醉刃乱舞	zui ren luan wu
+小角跳兽	xiao jiao tiao shou
+重型动力装甲	zhong xing dong li zhuang jia
+大拉里	da la li
+开饭	kai fan
 缝线缠身	feng xian chan shen
-当机立断	dang ji li duan
+落雪防护	luo xue fang hu
+一呼百应	yi hu bai ying
+岁月锻打	sui yue duan da
+惊爆射击	jing bao she ji
+喀兰贸易文档	ka lan mao yi wen dang
+黄沙罗盘	huang sha luo pan
+热处理变色	re chu li bian se
+清债程序	qing zhai cheng xu
+剑雨	jian yu
+肉斩骨断	rou zhan gu duan
+蓄力毒尾击	xu li du wei ji
+独影归途	du ying gui tu
+掩护	yan hu
+震荡坚守	zhen dang jian shou
+灌录	guan lu
+精英术师套组	jing ying shu shi tao zu
+多首野兽	duo shou ye shou
+法术：全力	fa shu quan li
+沙暴扩散	sha bao kuo san
+不变性原理	bu bian xing yuan li
+血色乐章	xue se yue zhang
+天空大扫除	tian kong da sao chu
+裂魂	lie hun
+变形同构体	bian xing tong gou ti
+很重的枪	hen zhong de qiang
+战场分析仪	zhan chang fen xi yi
+上紧发条	shang jin fa tiao
+盖戳	gai chuo
+此身为筑	ci shen wei zhu
+裂潮	lie chao
+定向诊断	ding xiang zhen duan
+铁御	tie yu
+水产村落	shui chan cun luo
+破膛弥撒	po tang mi sa
+风沙掩体	feng sha yan ti
+复式勾爪	fu shi gou zhao
+水流环	shui liu huan
+浩气长存	hao qi chang cun
+咪嗷嗷嗷嗷	mi ao ao ao ao
+源岩匕首	yuan yan bi shou
+硝烟震爆	xiao yan zhen bao
+宝葫芦	bao hu lu
+灼燃维式重锤	zhuo ran wei shi zhong chui
+反拍重音	fan pai zhong yin
+启动	qi dong
+怵然震爆	chu ran zhen bao
+阻断波长	zu duan bo chang
+回召	hui zhao
+活力再生	huo li zai sheng
+浓茶	nong cha
+你须愧悔	ni xu kui hui
+折朽	zhe xiu
+灵与欲的惜别	ling yu yu de xi bie
+紧急赶场通知	jin ji gan chang tong zhi
+双眼皮	shuang yan pi
+医用护盾	yi yong hu dun
+零度爆发	ling du bao fa
+赠礼	zeng li
+狂饮之宴	kuang yin zhi yan
+生存的渴望	sheng cun de ke wang
+自由的探戈	zi you de tan ge
+无声润物	wu sheng run wu
+慢慢走	man man zou
+视觉陷阱	shi jue xian jing
+铳骑主考官	chong qi zhu kao guan
+只余芬芳	zhi yu fen fang
+超时空电话亭	chao shi kong dian hua ting
+泄漏	xie lou
+法术：传动	fa shu chuan dong
+环形鳞地	huan xing lin di
+取势	qu shi
+束缚夹子	shu fu jia zi
+笑鸣瑟	xiao ming se
+慑敌辉光	she di hui guang
+烈焰魔剑	lie yan mo jian
+同葬无光之愿	tong zang wu guang zhi yuan
+贵客盈门	gui ke ying men
+震撼弹	zhen han dan
+耶拉冈德之泪	ye la gang de zhi lei
+未宽解的悲哀	wei kuan jie de bei ai
+槌音	chui yin
+森廻	sen hui
+黄金的狂喜	huang jin de kuang xi
+铸造	zhu zao
+能量结晶	neng liang jie jing
+强弩	qiang nu
+极致锋度	ji zhi feng du
+气动增压	qi dong zeng ya
+备用军粮	bei yong jun liang
+闪断更新	shan duan geng xin
+畜养	xu yang
+喷射	pen she
+寻呼模块	xun hu mo kuai
+冲锋号令·攻击	chong feng hao ling gong ji
+未声张的怒火	wei sheng zhang de nu huo
+无痕	wu hen
+英勇的祝福	ying yong de zhu fu
+量衣尺	liang yi chi
+制式重装盾	zhi shi zhong zhuang dun
+心手合一	xin shou he yi
+救命啊	jiu ming a
+防御力强化	fang yu li qiang hua
+病入膏肓	bing ru gao huang
+用赤铁铭记	yong chi tie ming ji
+洞悉	dong xi
+竹笛飞声	zhu di fei sheng
+胆小剑助	dan xiao jian zhu
+光影迷宫	guang ying mi gong
+深海猎人文档	shen hai lie ren wen dang
+心防溃决	xin fang kui jue
+聚类分析	ju lei fen xi
+破虏	po lu
+危险目标清除	wei xian mu biao qing chu
+超高输出属性解放斩	chao gao shu chu shu xing jie fang zhan
+高速共振排障	gao su gong zhen pai zhang
+自由用餐礼仪	zi you yong can li yi
+神秘顾客	shen mi gu ke
+释放迷香	shi fang mi xiang
+阻滞性显色剂	zu zhi xing xian se ji
+旋臂	xuan bi
+水灵庇护	shui ling bi hu
+往昔萦绕身旁	wang xi ying rao shen pang
+应急肃正防线	ying ji su zheng fang xian
+生命火种	sheng ming huo zhong
+帮个小忙	bang ge xiao mang
+耀阳颔首	yao yang han shou
+小盾	xiao dun
+冶铸	ye zhu
+脱身矢	tuo shen shi
+环境伪装	huan jing wei zhuang
+追猎发射台	zhui lie fa she tai
+绝不罢休	jue bu ba xiu
+缺水的掌握怒海	que shui de zhang wo nu hai
+天马之枪	tian ma zhi qiang
+暗夜无明	an ye wu ming
+回首断舍	hui shou duan she
+二重治疗	er chong zhi liao
+繁衍	fan yan
+吞日	tun ri
+信号跃动	xin hao yue dong
+翔虫闪击	xiang chong shan ji
+大型兽栏	da xing shou lan
+巨大岩石	ju da yan shi
+文明的光芒	wen ming de guang mang
+突袭指令	tu xi zhi ling
+巫术弩炮	wu shu nu pao
+见钱眼开玩偶	jian qian yan kai wan ou
+再生	zai sheng
+追袭	zhui xi
+家主的余裕	jia zhu de yu yu
+静域回声	jing yu hui sheng
+欢迎您来	huan ying nin lai
+铜印	tong yin
+精准射击	jing zhun she ji
+食梦	shi meng
+击倒猎物	ji dao lie wu
+岩崩锤	yan beng chui
+震慑劈砍	zhen she pi kan
+阿戈尔示波器	a ge er shi bo qi
+吃盐坨子吧	chi yan tuo zi ba
+祈祷	qi dao
+生灵火花	sheng ling huo hua
+回流	hui liu
+尘烟蔽目	chen yan bi mu
+封护	feng hu
+灌溉	guan gai
+空剧场	kong ju chang
+工程者之愿	gong cheng zhe zhi yuan
+逐夜烁光	zhu ye shuo guang
+上佳的应急药呀	shang jia de ying ji yao ya
+咔嚓	ka cha
+开炮	kai pao
+火焰剥离	huo yan bo li
+无可置疑的罪证	wu ke zhi yi de zui zheng
+迅捷作战粮	xun jie zuo zhan liang
+加力推进	jia li tui jin
+闪光护盾	shan guang hu dun
+法术：提升	fa shu ti sheng
+全知者的战术	quan zhi zhe de zhan shu
+盗猎食材	dao lie shi cai
+磁爆锤	ci bao chui
+冲蚀	chong shi
+唤醒	huan xing
+突击战术	tu ji zhan shu
+沉音宁神	chen yin ning shen
+精准捕杀	jing zhun bu sha
+双端导流	shuang duan dao liu
+搭建高台	da jian gao tai
+协同指令	xie tong zhi ling
+聚能涡旋	ju neng wo xuan
+恳切福音	ken qie fu yin
+细雨无声	xi yu wu sheng
+驱兽专用	qu shou zhuan yong
+很热的刀	hen re de dao
+创世纪	chuang shi ji
+炮管敲击	pao guan qiao ji
+冷控处理	leng kong chu li
+闭膛连发	bi tang lian fa
+掩蔽护卫	yan bi hu wei
+山中的喜悦	shan zhong de xi yue
+维生监测	wei sheng jian ce
+与海为敌	yu hai wei di
+拉特兰式冰淇淋	la te lan shi bing qi lin
+最终旅程	zui zhong lv cheng
+开箱	kai xiang
+法术：贪婪	fa shu tan lan
+延时震荡零件	yan shi zhen dang ling jian
+灯塔守卫者	deng ta shou wei zhe
+链锯延伸模块	lian ju yan shen mo kuai
+分析	fen xi
+反击电弧	fan ji dian hu
+记分	ji fen
+灵河护佑	ling he hu you
+种植	zhong zhi
+复合型药物弹片	fu he xing yao wu dan pian
+高效制冷模块	gao xiao zhi leng mo kuai
+盈帙满笥	ying zhi man si
+绝境抵抗	jue jing di kang
+水汽汽水瓶	shui qi qi shui ping
+战术装备召唤	zhan shu zhuang bei zhao huan
+攻击力强化	gong ji li qiang hua
+重铸晖光	zhong zhu hui guang
+补给升级	bu ji sheng ji
+自走车出击	zi zou che chu ji
+幽影门扉	you ying men fei
+厚土迸发	hou tu beng fa
+侵蚀	qin shi
+痛觉抑制	tong jue yi zhi
+溃决	kui jue
+监控	jian kong
+法术传输协议	fa shu chuan shu xie yi
+调谐	tiao xie
+群山俯首	qun shan fu shou
+号令	hao ling
+命运	ming yun
+清理	qing li
+竞技投币机	jing ji tou bi ji
+工程学十字星	gong cheng xue shi zi xing
+军师的手段	jun shi de shou duan
+强磁防卫	qiang ci fang wei
+引擎核心	yin qing he xin
+此身为源	ci shen wei yuan
+关闭阀门	guan bi fa men
+永恒狩猎	yong heng shou lie
+巫术村落	wu shu cun luo
+血溃	xue kui
+卡西米尔文档	ka xi mi er wen dang
+喀兰贸易模型	ka lan mao yi mo xing
+留羽	liu yu
+燃命狂欢	ran ming kuang huan
+启动禁锢	qi dong jin gu
+安防巡逻	an fang xun luo
+遗迹残骸	yi ji can hai
+电能过载	dian neng guo zai
+给你一拳	gei ni yi quan
+龙之箭	long zhi jian
+拱卫	gong wei
+纸艺·迅击	zhi yi xun ji
+冰块	bing kuai
+纪念	ji nian
+时光震荡	shi guang zhen dang
+法术：力量	fa shu li liang
+铳骑之威	chong qi zhi wei
+电能之触	dian neng zhi chu
+厚礼上宾	hou li shang bin
+纷飞十指	fen fei shi zhi
+为我所为	wei wo suo wei
+冥河诅咒	ming he zu zhou
+发射	fa she
+点燃	dian ran
+生成	sheng cheng
+见面礼	jian mian li
+法术：迟缓	fa shu chi huan
+鞘击	qiao ji
+伸缩式电捕网	shen suo shi dian bu wang
+闪回	shan hui
+临考发挥	lin kao fa hui
+流沙化	liu sha hua
+眩目阻滞	xuan mu zu zhi
+星束引力	xing shu yin li
+来客	lai ke
+幽隙栖萤	you xi qi ying
+乱舞	luan wu
+使命必达	shi ming bi da
+铳口收束	chong kou shou shu
+法术：血税	fa shu xue shui
+防水蚀镀膜装置	fang shui shi du mo zhuang zhi
+重进酒	zhong jin jiu
+教鞭	jiao bian
+精准狙击镜	jing zhun ju ji jing
+支援射击	zhi yuan she ji
+冲锋	chong feng
+明灭	ming mie
+矿石杀手通用图标	kuang shi sha shou tong yong tu biao
+中枢核心	zhong shu he xin
+自动防御	zi dong fang yu
+花式回旋	hua shi hui xuan
+灼地	zhuo di
+扩散疗法	kuo san liao fa
+全都是虚像	quan dou shi xu xiang
+云霭荫佑	yun ai yin you
+浓缩嗅盐	nong suo xiu yan
+全景过载摄像	quan jing guo zai she xiang
+打人树	da ren shu
+写意胜形	xie yi sheng xing
+二重咏唱	er chong yong chang
+殁亡	mo wang
+木材采集站	mu cai cai ji zhan
+牧场村落	mu chang cun luo
+二连射·自动	er lian she zi dong
+暮眼锐瞳	mu yan rui tong
+雕伥	diao chang
+碎甲拳	sui jia quan
+治愈水波	zhi yu shui bo
+以鲜血洗去	yi xian xue xi qu
+血浆活化	xue jiang huo hua
+爆裂黎明	bao lie li ming
+坠刃拷问	zhui ren kao wen
+高速切割	gao su qie ge
+高爆弹头	gao bao dan tou
+石材采集站	shi cai cai ji zhan
+未照耀的荣光	wei zhao yao de rong guang
+专注力超载	zhuan zhu li chao zai
+商业包装方案	shang ye bao zhuang fang an
+探矿	tan kuang
+还有一次机会	hai you yi ci ji hui
+布雷	bu lei
+力之锯	li zhi ju
+反制装甲	fan zhi zhuang jia
+震撼型指路	zhen han xing zhi lu
+流光乍裂	liu guang zha lie
+侵袭破坏应对	qin xi po huai ying dui
+锋芒毕露	feng mang bi lu
+高压回填斩	gao ya hui tian zhan
+镜花水月	jing hua shui yue
+修复步道	xiu fu bu dao
+重新发球	chong xin fa qiu
+终极防线	zhong ji fang xian
+释放秘药	shi fang mi yao
+刺人珍宝	ci ren zhen bao
+采水	cai shui
+护甲	hu jia
+慨赠	kai zeng
+冻风	dong feng
+天师古鼎	tian shi gu ding
+赤霄·奔夜	chi xiao ben ye
+灶里乾坤	zao li qian kun
+夜啼彩羽	ye ti cai yu
+巧思乍现	qiao si zha xian
+晋升调配特许	jin sheng diao pei te xu
+纠纷起诉	jiu fen qi su
+俄耳甫斯的竖琴	e er fu si de shu qin
+结晶消除桩	jie jing xiao chu zhuang
+危言耸听	wei yan song ting
+夜幕突袭	ye mu tu xi
+火钳秘咒	huo qian mi zhou
+沙之碑召唤	sha zhi bei zhao huan
+荆棘	jing ji
+心随意动	xin sui yi dong
+递归策略	di gui ce lve
+卡西米尔模型	ka xi mi er mo xing
+重力自定义	zhong li zi ding yi
+重逢问候	chong feng wen hou
+扫射模式	sao she mo shi
+编织重构现世	bian zhi zhong gou xian shi
+丰收	feng shou
+虚构故事·锈城	xu gou gu shi xiu cheng
+旋刃	xuan ren
+连续映射	lian xu ying she
+污染传播	wu ran chuan bo
+自走车定向	zi zou che ding xiang
+不稳定血浆	bu wen ding xue jiang
+矗立	chu li
+掠空飞翎	lve kong fei ling
+冲锋模式	chong feng mo shi
+法术：熟人	fa shu shu ren
+剑走偏锋	jian zou pian feng
+不息	bu xi
+崩解	beng jie
+光影之触	guang ying zhi chu
+款到出货	kuan dao chu huo
+扳机时刻	ban ji shi ke
+积雪固定	ji xue gu ding
+大家一起上	da jia yi qi shang
+合奏起拍	he zou qi pai
+小玩笑	xiao wan xiao
+安全区域	an quan qu yu
+可驯服的	ke xun fu de
+坏脾气	huai pi qi
+生存决心	sheng cun jue xin
+蜜酿万岁	mi niang wan sui
+冲盈	chong ying
+我悲悯的	wo bei min de
+解决麻烦	jie jue ma fan
+雪崩	xue beng
+暗夜回声	an ye hui sheng
+喷涌	pen yong
+护身尖刺	hu shen jian ci
+无始无明	wu shi wu ming
+文件	wen jian
+触发对话	chu fa dui hua
+强效清洁	qiang xiao qing jie
+束缚电击	shu fu dian ji
+人员状态改善	ren yuan zhuang tai gai shan
+阿勒黛的卫护	a lei dai de wei hu
+圣徒之手	sheng tu zhi shou
+应急治疗协议	ying ji zhi liao xie yi
+博士投影	bo shi tou ying
+突击动力装甲	tu ji dong li zhuang jia
+全弹发射	quan dan fa she
+临时照明	lin shi zhao ming
+冰原秩序	bing yuan zhi xu
+工匠锤	gong jiang chui
+精打细算玩偶	jing da xi suan wan ou
+锡灼	xi zhuo
+空间的归依	kong jian de gui yi
+共鸣	gong ming
+冠死以冕	guan si yi mian
+狼群	lang qun
+刃鬼	ren gui
+作战规划	zuo zhan gui hua
+渐快急板	jian kuai ji ban
+解构与爆破	jie gou yu bao po
+爆发剂	bao fa ji
+群星逶迤	qun xing wei yi
+睡眠之歌	shui mian zhi ge
+法术护盾	fa shu hu dun
+万斤顶	wan jin ding
+以攻为守	yi gong wei shou
+恶业苦果	e ye ku guo
+星辉剑	xing hui jian
+横冲直撞	heng chong zhi zhuang
+重整导能	zhong zheng dao neng
+老科利	lao ke li
+贯敌刺枪	guan di ci qiang
+封喉	feng hou
+秘杖·速充模式	mi zhang su chong mo shi
+驱凶辟邪	qu xiong bi xie
+团体魔物大餐	tuan ti mo wu da can
+执守阵线	zhi shou zhen xian
+铁矿采集站·采购	tie kuang cai ji zhan cai gou
+阻挡	zu dang
+勾爪	gou zhao
+你须直面	ni xu zhi mian
+新月的苏醒	xin yue de su xing
+坚固维式重锤	jian gu wei shi zhong chui
+光芒涌动	guang mang yong dong
 光影迅捷剑	guang ying xun jie jian
+反制电磁脉冲	fan zhi dian ci mai chong
+法术：护盾	fa shu hu dun
+自负此轭	zi fu ci e
+赤霄·绝影	chi xiao jue ying
+饱和迸射	bao he beng she
+幸运硬币	xing yun ying bi
+产蟹	chan xie
+劣质闪光弹	lie zhi shan guang dan
+罗德岛式协作	luo de dao shi xie zuo
+信号增幅	xin hao zeng fu
+焦土	jiao tu
+圣域	sheng yu
+一锤定音	yi chui ding yin
+魂灵之影	hun ling zhi ying
+坚守盾牌	jian shou dun pai
+还不走	hai bu zou
+秽壤的血脉	hui rang de xue mai
+激光发射器	ji guang fa she qi
+信标激活	xin biao ji huo
+影霄·绝影	ying xiao jue ying
+雪崩击	xue beng ji
+伪装服	wei zhuang fu
+壳状防御	ke zhuang fang yu
+术师无人机	shu shi wu ren ji
+过载模式	guo zai mo shi
+固守家园	gu shou jia yuan
+电流翻涌	dian liu fan yong
+战火淬炼	zhan huo cui lian
+耀阳	yao yang
+急速拳	ji su quan
+无存之所	wu cun zhi suo
+凝武	ning wu
+刚射	gang she
+同归殊途之吟	tong gui shu tu zhi yin
+领袖的尊严	ling xiu de zun yan
+落地斩·破门	luo di zhan po men
+基质合成台	ji zhi he cheng tai
+捕获	bu huo
+全力以赴	quan li yi fu
+流形	liu xing
+爆裂一大清早	bao lie yi da qing zao
+执法模式	zhi fa mo shi
+不惹麻烦	bu re ma fan
+扭动机关	niu dong ji guan
+梦想的第一步	meng xiang de di yi bu
+束缚链	shu fu lian
+浮动搭载	fu dong da zai
+宛如天启	wan ru tian qi
+灵活伪装	ling huo wei zhuang
+指令：战术协同	zhi ling zhan shu xie tong
+灶火起	zao huo qi
+神工意匠	shen gong yi jiang
+影钉	ying ding
+请穿上护具	qing chuan shang hu ju
+空间跳跃	kong jian tiao yue
+泵水	beng shui
+神殿的余烬	shen dian de yu jin
+荒时之锁	huang shi zhi suo
+补给调配	bu ji diao pei
+奇美拉	qi mei la
+修理	xiu li
+全自动划账	quan zi dong hua zhang
+精神爆发	jing shen bao fa
+再来一杯	zai lai yi bei
+信号矢	xin hao shi
+体能强化	ti neng qiang hua
+强化	qiang hua
+太阳渴望鲜血	tai yang ke wang xian xue
+如你所愿	ru ni suo yuan
+满月	man yue
+生息演算通用	sheng xi yan suan tong yong
+滞空牵引无人机	zhi kong qian yin wu ren ji
+终幕·浩劫	zhong mu hao jie
+居合拔刀气刃斩	ju he ba dao qi ren zhan
+怨火缠身	yuan huo chan shen
+鼠群	shu qun
+收割	shou ge
+跳动	tiao dong
+降临	jiang lin
+静电释放	jing dian shi fang
+真银斩	zhen yin zhan
+座浅	zuo qian
+剧目宣告	ju mu xuan gao
+荒野村落	huang ye cun luo
+反制医疗模式	fan zhi yi liao mo shi
+受害者启动模式	shou hai zhe qi dong mo shi
+深化阵线	shen hua zhen xian
+战地援护	zhan di yuan hu
+磁吸信标	ci xi xin biao
+我思念的	wo si nian de
+辉煌裂片	hui huang lie pian
+曲惊四座	qu jing si zuo
+弦月	xian yue
+抢攻	qiang gong
+不屈弹射器	bu qu tan she qi
+仙山去远	xian shan qu yuan
+慈悲愿景	ci bei yuan jing
+循理归因	xun li gui yin
+音律联觉	yin lv lian jue
+祭台	ji tai
+行动能力剥夺	xing dong neng li bo duo
+狩猎时刻	shou lie shi ke
+退休前布道	tui xiu qian bu dao
+保护性拒止	bao hu xing ju zhi
+自我销毁	zi wo xiao hui
+狱火之环	yu huo zhi huan
+跃浪击	yue lang ji
+陷阱部署	xian jing bu shu
+圣徒之手·清理模式	sheng tu zhi shou qing li mo shi
+轻型挂斧	qing xing gua fu
+采摘	cai zhai
+群体性谵妄	qun ti xing zhan wang
+沥血王座	li xue wang zuo
+地狱变相	di yu bian xiang
+法术：满足	fa shu man zu
+策略：熔毁	ce lve rong hui
+箭矢·追猎	jian shi zhui lie
+萨尔贡浓茶	sa er gong nong cha
+传导蚀滞弹	chuan dao shi zhi dan
+指挥调度	zhi hui diao du
+小施惩戒	xiao shi cheng jie
+药物配置	yao wu pei zhi
+突袭手雷	tu xi shou lei
+何处着	he chu zhe
+永不后退	yong bu hou tui
+混沌的本质	hun dun de ben zhi
+满月的舞会	man yue de wu hui
+高压电流	gao ya dian liu
+借阅登记	jie yue deng ji
+制式术师杖	zhi shi shu shi zhang
+甜蜜狂搅	tian mi kuang jiao
+采集专员站	cai ji zhuan yuan zhan
+囚徒困境	qiu tu kun jing
+急救模式	ji jiu mo shi
+充分摇匀	chong fen yao yun
+引诱	yin you
+超负荷运转	chao fu he yun zhuan
+天马之盔	tian ma zhi kui
+便携弹射器	bian xie tan she qi
+凝冰枪刃	ning bing qiang ren
+可靠电池	ke kao dian chi
+仗义疏财	zhang yi shu cai
+援护	yuan hu
+法术：同行	fa shu tong hang
+应急摧毁协议	ying ji cui hui xie yi
+阻拦	zu lan
+天下劫	tian xia jie
+鞭策	bian ce
+启航	qi hang
+驰	chi
+异刃斩	yi ren zhan
+乡音沉沉	xiang yin chen chen
+食不厌精	shi bu yan jing
+旧日绽放	jiu ri zhan fang
+周旋的谋略	zhou xuan de mou lve
+灿焰长刃	can yan zhang ren
+浅层非熵适应	qian ceng fei shang shi ying
+很冰的斧	hen bing de fu
+纯粹的武力	chun cui de wu li
+召唤物	zhao huan wu
+高能源石爆桶	gao neng yuan shi bao tong
+撼动现实	han dong xian shi
+模块维护	mo kuai wei hu
+道路阻塞	dao lu zu se
+宁作吾	ning zuo wu
+锐笔速写	rui bi su xie
+治愈之翼	zhi yu zhi yi
+除恶	chu e
+射击台	she ji tai
+怪异魔方	guai yi mo fang
+冲锋号令·防御	chong feng hao ling fang yu
+钻心	zuan xin
+眩光手雷	xuan guang shou lei
+起盾回击	qi dun hui ji
+猎户村落	lie hu cun luo
+奇异矿脉	qi yi kuang mai
+赤霄·拔刀	chi xiao ba dao
+阴晴圆缺	yin qing yuan que
+放置平台	fang zhi ping tai
+横扫架势	heng sao jia shi
+空中回旋乱舞	kong zhong hui xuan luan wu
+无人机干扰	wu ren ji gan rao
+振奋	zhen fen
+便携式医疗设备	bian xie shi yi liao she bei
+掩护烟幕	yan hu yan mu
+隐狐之艺	yin hu zhi yi
+科技与传统仪式	ke ji yu chuan tong yi shi
+深海猎人模型	shen hai lie ren mo xing
+精调	jing diao
+小惩大诫	xiao cheng da jie
+左勾扫拳	zuo gou sao quan
+钙质化	gai zhi hua
+冲锋号令	chong feng hao ling
+骑士戒律	qi shi jie lv
+简易通讯机	jian yi tong xun ji
+非和平劝说	fei he ping quan shuo
+古雕伥	gu diao chang
+气刃兜割	qi ren dou ge
+敌飙	di biao
+共享发现	gong xiang fa xian
+寒潮	han chao
+突破防线	tu po fang xian
+双模机械臂	shuang mo ji xie bi
+圣约决裁	sheng yue jue cai
+战术咏唱	zhan shu yong chang
+贯日	guan ri
+如焰般热烈	ru yan ban re lie
+小心地滑	xiao xin di hua
