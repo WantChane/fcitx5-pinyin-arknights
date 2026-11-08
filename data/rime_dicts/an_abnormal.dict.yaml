@@ -1,61 +1,61 @@
 ---
 name: an_abnormal
 sort: by_weight
-version: 26.11.01
+version: 26.11.08
 ...
-战栗	zhan li
-浮空抗性	fu kong kang xing
-沉默抗性	chen mo kang xing
-不可阻挡	bu ke zu dang
-阻挡失能	zu dang shi neng
-无法撤退	wu fa che tui
-沉睡	chen shui
-恐惧抗性	kong ju kang xing
+冻结	dong jie
 麻痹震颤	ma bi zhen chan
+晕眩抗性	yun xuan kang xing
+缚地	fu di
+沉睡	chen shui
+自惧	zi ju
+浮空	fu kong
+塔不可选中	ta bu ke xuan zhong
+无敌	wu di
+隐匿	yin ni
+被传送抗性	bei chuan song kang xing
+小睡	xiao shui
+不可阻挡	bu ke zu dang
+自缚	zi fu
+沉默抗性	chen mo kang xing
+沉睡抗性	chen shui kang xing
+强制缴械	qiang zhi jiao xie
+恐惧抗性	kong ju kang xing
+冻结抗性	dong jie kang xing
+寒冷	han leng
+无法行动	wu fa xing dong
+失衡免疫	shi heng mian yi
+元素免疫	yuan su mian yi
+技能强启	ji neng qiang qi
+不可选中	bu ke xuan zhong
+离地	li di
+沉默	chen mo
+无法撤退	wu fa che tui
+放逐	fang zhu
+诱导	you dao
+麻痹抗性	ma bi kang xing
+恐惧	kong ju
+对地规避	dui di gui bi
+浮空强化	fu kong qiang hua
+隐藏	yin cang
+浮空抗性	fu kong kang xing
+晕眩	yun xuan
+技力封闭	ji li feng bi
+静默	jing mo
+麻痹	ma bi
+强制状态抵抗	qiang zhi zhuang tai di kang
+阻挡失能	zu dang shi neng
+禁疗	jin liao
+闭锁	bi suo
+缚地抗性	fu di kang xing
+不死	bu si
+阻回	zu hui
+迷彩	mi cai
+战栗抗性	zhan li kang xing
+缴械	jiao xie
+禁锢	jin gu
+战栗	zhan li
+束缚	shu fu
 被传送	bei chuan song
 诱导抗性	you dao kang xing
-浮空强化	fu kong qiang hua
-沉睡抗性	chen shui kang xing
-晕眩	yun xuan
-束缚	shu fu
-状态免疫	zhuang tai mian yi
-技能强启	ji neng qiang qi
-闭锁	bi suo
-塔不可选中	ta bu ke xuan zhong
-禁疗	jin liao
 孤立	gu li
-隐藏	yin cang
-缴械	jiao xie
-强制缴械	qiang zhi jiao xie
-对地规避	dui di gui bi
-恐惧	kong ju
-失衡免疫	shi heng mian yi
-冻结	dong jie
-阻回	zu hui
-自缚	zi fu
-无法行动	wu fa xing dong
-冻结抗性	dong jie kang xing
-浮空	fu kong
-元素免疫	yuan su mian yi
-被传送抗性	bei chuan song kang xing
-不可选中	bu ke xuan zhong
-寒冷	han leng
-战栗抗性	zhan li kang xing
-离地	li di
-静默	jing mo
-技力封闭	ji li feng bi
-缚地	fu di
-晕眩抗性	yun xuan kang xing
-不死	bu si
-隐匿	yin ni
-小睡	xiao shui
-无敌	wu di
-沉默	chen mo
-放逐	fang zhu
-迷彩	mi cai
-麻痹抗性	ma bi kang xing
-禁锢	jin gu
-麻痹	ma bi
-诱导	you dao
-缚地抗性	fu di kang xing
-自惧	zi ju
