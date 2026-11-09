@@ -38,13 +38,13 @@
 scoop bucket add doge https://github.com/WantChane/doge_bucket.git
 ```
 
-1. 安装 fcitx5-pinyin-arknights_rime_dicts
+2. 安装 fcitx5-pinyin-arknights_rime_dicts
 
 ```shell
 scoop install fcitx5-pinyin-arknights_rime_dicts
 ```
 
-1. 按需修改您的词库设置，以 rime-ice 为例。
+3. 按需修改您的词库设置，以 rime-ice 为例。
 
 ```yaml
 # rime_ice.dict.yaml
@@ -67,7 +67,7 @@ import_tables:
 ...
 ```
 
-1. 更新
+4. 更新
 
 ```shell
 scoop update fcitx5-pinyin-arknights_rime_dicts
@@ -89,13 +89,13 @@ sudo apt install -y libime-bin
 sudo pacman -S libime
 ```
 
-1. 安装项目依赖。
+2. 安装项目依赖。
 
 ```shell
 uv sync
 ```
 
-1. 执行 build
+3. 执行 build
 
 ```shell
 # 生成指定词库，以an_operator为例
